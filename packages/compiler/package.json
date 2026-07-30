@@ -1,6 +1,6 @@
 {
   "name": "@mingcute/compiler",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Framework-neutral SVG compiler for Mingcute icon definitions.",
   "license": "Apache-2.0",
   "author": "MingCute Design",

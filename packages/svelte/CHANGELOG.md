@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.0.1] - 2026-07-30
+
+### Documentation
+
+- Expanded Svelte installation, imports, props, accessibility, SSR,
+  tree-shaking, and troubleshooting guidance.
+
+### Changed
+
+- Added `svg-icons`, `vector-icons`, and `icon-library` package keywords.
+
 ## [3.0.0] - 2026-07-29
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "name": "@mingcute/core",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Internal icon, style, and adapter contracts for Mingcute builds.",
   "license": "Apache-2.0",
   "author": "MingCute Design",

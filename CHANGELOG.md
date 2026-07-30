@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.0.1] - 2026-07-30
+
+### Documentation
+
+- Expanded the repository and package guides with package-specific installation,
+  imports, accessibility, compatibility, security, and troubleshooting details.
+
+### Changed
+
+- Added consistent `svg-icons`, `vector-icons`, and `icon-library` discovery
+  metadata across the workspace.
+
 ## [3.0.0] - 2026-07-29
 
 ### Added
