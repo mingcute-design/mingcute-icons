@@ -1,6 +1,6 @@
 {
   "name": "@mingcute/vanilla",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Mingcute SVG strings and DOM helpers for vanilla JavaScript.",
   "keywords": [
     "icons",
