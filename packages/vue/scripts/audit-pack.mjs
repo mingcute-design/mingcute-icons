@@ -23,7 +23,7 @@ try {
   const sourceMaps = files.filter((filePath) => filePath.endsWith('.map'));
   const failures = [];
 
-  if (iconModules.length !== 3_326) failures.push(`expected 3326 icon modules, found ${iconModules.length}`);
+  if (iconModules.length !== 4_526) failures.push(`expected 4526 icon modules, found ${iconModules.length}`);
   if (styleIndexes.length !== 2) failures.push(`expected 2 style indexes, found ${styleIndexes.length}`);
   if (sourceFiles.length) failures.push(`source/tooling files present: ${sourceFiles.join(', ')}`);
   if (sourceMaps.length) failures.push(`source maps present: ${sourceMaps.join(', ')}`);

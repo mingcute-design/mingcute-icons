@@ -1,17 +1,17 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/svg</h1>
 
-<h3 align="center">Optimized standalone Mingcute SVG assets</h3>
+<h3 align="center">Optimized standalone MingCute SVG assets</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/svg"><img src="https://img.shields.io/npm/v/@mingcute/svg?color=007AFF&label=version" alt="@mingcute/svg npm version" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/svg"><img src="https://img.shields.io/npm/unpacked-size/%40mingcute%2Fsvg?color=007AFF&label=size" alt="@mingcute/svg unpacked package size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/svg"><img src="https://img.shields.io/npm/dm/@mingcute/svg?color=23AF5F&label=downloads" alt="@mingcute/svg monthly npm downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
@@ -20,11 +20,11 @@
 
 `@mingcute/svg` provides optimized standalone SVG files for Core Regular and Core Filled.
 
-Every asset is compiled from canonical Mingcute artwork, normalized, validated, and packaged without framework runtime code.
+Every asset is compiled from canonical MingCute artwork, normalized, validated, and packaged without framework runtime code.
 
 ## Highlights
 
-- **3,326 SVG assets:** 1,663 icons in Core Regular and Core Filled.
+- **4,526 SVG assets:** 2,263 icons in Core Regular and Core Filled.
 - **Explicit file imports:** stable style and icon subpaths.
 - **No JavaScript runtime:** package files are consumed as build assets.
 - **High rendering fidelity:** gradients, masks, clip paths, patterns, and authored colors are preserved.
@@ -32,7 +32,7 @@ Every asset is compiled from canonical Mingcute artwork, normalized, validated, 
 - **Concise filenames:** styles are represented by package subpaths rather than repeated in every filename.
 
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="Mingcute icons used in product interfaces" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="MingCute icons used in product interfaces" width="100%" />
 </a>
 
 ## Installation
@@ -181,7 +181,7 @@ For icon-only controls, place the accessible name on the control:
 
 ## Rendering Fidelity
 
-SVG is the recommended Mingcute format for:
+SVG is the recommended MingCute format for:
 
 - gradients;
 - masks;
@@ -198,9 +198,9 @@ Themeable icons use `currentColor` where appropriate. Original-color artwork int
 
 | Import subpath | Style | Icons |
 |---|---|---:|
-| `core-regular` | Core Regular | 1,663 |
-| `core-filled` | Core Filled | 1,663 |
-| **Total** | **All public styles** | **3,326** |
+| `core-regular` | Core Regular | 2,263 |
+| `core-filled` | Core Filled | 2,263 |
+| **Total** | **All public styles** | **4,526** |
 
 ## Production Guidance
 
@@ -261,7 +261,7 @@ This package is generated from canonical SVG sources. Do not edit generated outp
 pnpm --filter @mingcute/svg check
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -269,7 +269,9 @@ Licensed under the [Apache License 2.0](../../LICENSE).
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
-- [Mingcute Icons packages](../../README.md#packages)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
+- [MingCute Icons packages](../../README.md#packages)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

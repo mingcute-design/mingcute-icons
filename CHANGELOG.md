@@ -1,4 +1,4 @@
-# Changelog - Mingcute Icons
+# Changelog - MingCute Icons
 
 All notable changes to this repository are documented in this file.
 
@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+
+## [3.1.0] - 2026-10-29
+
+### Added
+
+- Expanded Core Regular and Core Filled from 1,663 to 2,263 icons per style.
+- Added 607 icons in each style, for 4,526 styled definitions across the public packages.
+
+### Changed
+
+- Renamed `barcode-sca` to `barcode-scan`, `computer-camer` to `computer-camera`,
+  `currency-rubel` to `currency-ruble`, `currency-rubel-2` to `currency-ruble-2`,
+  `docment` to `document`, and `rada` to `radar`.
+- Removed `dots-vertical` without a direct replacement.
 
 ## [3.0.2] - 2026-07-31
 
@@ -29,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Dedicated public monorepo for ten coordinated Mingcute packages.
+- Dedicated public monorepo for ten coordinated MingCute packages.
 - Core Regular and Core Filled distributions with 1,663 icons per style.
 - Framework packages for React, Vue, React Native, Svelte, SolidJS, Vanilla JavaScript, and Web Components.
 - Framework-neutral definitions, optimized SVG assets, and WOFF2 font distributions.

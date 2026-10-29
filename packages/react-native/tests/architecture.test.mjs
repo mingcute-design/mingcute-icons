@@ -24,7 +24,7 @@ test('root exports utilities only and style modules remain isolated', async () =
 
 test('generated icons are independent pure modules', async () => {
   const directory = path.join(packageRoot, 'dist/styles/core-regular');
-  assert.equal((await readdir(directory)).filter((name) => name.endsWith('.js')).length, 1663);
+  assert.equal((await readdir(directory)).filter((name) => name.endsWith('.js')).length, 2263);
   const home = await readFile(path.join(directory, 'home-1.js'), 'utf8');
   assert.match(home, /\/\* @__PURE__ \*\/ createIcon/);
   assert.doesNotMatch(home, /User1Regular|\.\/regular\.js/);

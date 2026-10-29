@@ -14,7 +14,7 @@ test('Solid adapter derives architecture declarations from core', async () => {
 test('package root exports utilities only and generated modules are independent', async () => {
   assert.equal(await readFile(path.join(packageRoot, 'dist/index.js'), 'utf8'), "export { Icon } from './runtime/Icon.js';\n");
   const files = (await readdir(path.join(packageRoot, 'dist/styles/core-regular'))).filter((name) => name.endsWith('.js'));
-  assert.equal(files.length, 1663);
+  assert.equal(files.length, 2263);
   const home = await readFile(path.join(packageRoot, 'dist/styles/core-regular/home-1.js'), 'utf8');
   assert.match(home, /\/\* @__PURE__ \*\/ createIcon/); assert.doesNotMatch(home, /User1Regular|regular\.js/);
 });
@@ -25,7 +25,7 @@ test('manifest has only Solid as peer and public subpaths resolve', async () => 
   assert.equal(manifest.exports['./*'], undefined);
   assert.deepEqual(Object.keys(manifest.exports), expectedFrameworkExportKeys());
   const root = await import('@mingcute/solid'); const style = await import('@mingcute/solid/core-regular'); const direct = await import('@mingcute/solid/core-regular/home-1');
-  assert.deepEqual(Object.keys(root), ['Icon']); assert.equal(Object.keys(style).length, 1663);
+  assert.deepEqual(Object.keys(root), ['Icon']); assert.equal(Object.keys(style).length, 2263);
   assert.equal(typeof style.Home1Regular, 'function'); assert.deepEqual(Object.keys(direct), ['Home1Regular', 'default']);
 });
 

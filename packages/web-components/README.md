@@ -1,24 +1,24 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/web-components</h1>
 
-<h3 align="center">Tree-shakeable Mingcute custom elements with explicit registration</h3>
+<h3 align="center">Tree-shakeable MingCute custom elements with explicit registration</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/web-components"><img src="https://img.shields.io/npm/v/@mingcute/web-components?color=007AFF&label=version" alt="@mingcute/web-components npm version" /></a>&nbsp;
   <a href="https://bundlephobia.com/package/@mingcute/web-components"><img src="https://img.shields.io/bundlephobia/minzip/@mingcute/web-components?color=007AFF&label=gzip" alt="@mingcute/web-components minified and gzipped size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/web-components"><img src="https://img.shields.io/npm/dm/@mingcute/web-components?color=23AF5F&label=downloads" alt="@mingcute/web-components monthly npm downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
 
 ## Overview
 
-`@mingcute/web-components` provides one custom-element class and one registration function for every public Mingcute icon.
+`@mingcute/web-components` provides one custom-element class and one registration function for every public MingCute icon.
 
 Importing an icon module does not modify the global custom-element registry. Registration is explicit, idempotent, and controlled by the application.
 
@@ -32,7 +32,7 @@ Importing an icon module does not modify the global custom-element registry. Reg
 - **Shared icon geometry:** generated elements consume `@mingcute/icons`.
 
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="Mingcute icons used in product interfaces" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="MingCute icons used in product interfaces" width="100%" />
 </a>
 
 ## Installation
@@ -227,9 +227,9 @@ if (typeof customElements !== 'undefined') {
 
 | Import subpath | Style | Icons |
 |---|---|---:|
-| `core-regular` | Core Regular | 1,663 |
-| `core-filled` | Core Filled | 1,663 |
-| **Total** | **All public styles** | **3,326** |
+| `core-regular` | Core Regular | 2,263 |
+| `core-filled` | Core Filled | 2,263 |
+| **Total** | **All public styles** | **4,526** |
 
 ## Production Guidance
 
@@ -296,7 +296,7 @@ This package is generated from canonical SVG sources. Do not edit generated outp
 pnpm --filter @mingcute/web-components check
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -304,7 +304,9 @@ Licensed under the [Apache License 2.0](../../LICENSE).
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
-- [Mingcute Icons packages](../../README.md#packages)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
+- [MingCute Icons packages](../../README.md#packages)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

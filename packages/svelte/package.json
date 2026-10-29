@@ -1,6 +1,6 @@
 {
   "name": "@mingcute/svelte",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "Mingcute SVG icon components for Svelte.",
   "keywords": [
     "icons",

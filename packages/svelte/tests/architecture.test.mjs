@@ -23,7 +23,7 @@ test('root exports only the shared Icon utility and types', async () => {
 
 test('generated components are isolated and package subpaths resolve', async () => {
   const directory = path.join(packageRoot, 'dist/styles/core-regular');
-  assert.equal((await readdir(directory)).filter((name) => name.endsWith('.svelte')).length, 1663);
+  assert.equal((await readdir(directory)).filter((name) => name.endsWith('.svelte')).length, 2263);
   const home = await readFile(path.join(directory, 'home-1.svelte'), 'utf8');
   assert.match(home, /<Icon \{source\} \{viewBox\}/);
   assert.doesNotMatch(home, /User1Regular|@mingcute\/core/);

@@ -1,26 +1,26 @@
 <a href="https://www.mingcute.com/">
-  <img src="./images/banner1.png" alt="Mingcute Icons in Core Regular and Core Filled styles" width="100%" />
+  <img src="./images/banner1.png" alt="MingCute Icons in Core Regular and Core Filled styles" width="100%" />
 </a>
 
-<h1 align="center">Mingcute Icons</h1>
+<h1 align="center">MingCute Icons</h1>
 
 <h3 align="center">Carefully Designed Icon Library</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/icons"><img src="https://img.shields.io/npm/v/@mingcute/icons?color=007AFF&label=version" alt="@mingcute/icons npm version" /></a>&nbsp;
   <a href="https://bundlephobia.com/package/@mingcute/icons"><img src="https://img.shields.io/bundlephobia/minzip/@mingcute/icons?color=007AFF&label=gzip" alt="@mingcute/icons minified and gzipped package size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/icons"><img src="https://img.shields.io/npm/dm/@mingcute/icons?color=23AF5F&label=downloads" alt="Monthly @mingcute/icons downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute Icons GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute Icons GitHub stars" /></a>
 </p>
 
 ---
 
 ## Overview
 
-Mingcute Icons is the public, open-source distribution of the Mingcute Icon System.
+MingCute Icons is the public, open-source distribution of the MingCute Icon System.
 
-It provides **1,663 icons** in both Core Regular and Core Filled, for a total of **3,326 styled icon definitions**, distributed across 10 production packages for:
+It provides **2,263 icons** in both Core Regular and Core Filled, for a total of **4,526 styled icon definitions**, distributed across 10 production packages for:
 
 * React
 * Vue
@@ -37,7 +37,7 @@ Every renderer uses the same generated `@mingcute/icons` definitions. Icon geome
 
 ## Highlights
 
-* **3,326 styled definitions:** 1,663 icons in Core Regular and Core Filled.
+* **4,526 styled definitions:** 2,263 icons in Core Regular and Core Filled.
 * **10 production packages:** framework components, SVG, fonts, and framework-neutral definitions.
 * **Consistent rendering:** every package is generated from the same canonical artwork.
 * **Tree-shakeable imports:** use style entry points for convenience or direct icon paths for smaller module graphs.
@@ -47,12 +47,12 @@ Every renderer uses the same generated `@mingcute/icons` definitions. Icon geome
 * **No duplicated geometry:** framework adapters consume `@mingcute/icons`.
 
 <a href="https://www.mingcute.com/">
-  <img src="./images/banner2.png" alt="Mingcute icons used in production interfaces" width="100%" />
+  <img src="./images/banner2.png" alt="MingCute icons used in production interfaces" width="100%" />
 </a>
 
 ## Design Foundation
 
-Every Mingcute icon is drawn on a 24 × 24 grid with consistent visual proportions.
+Every MingCute icon is drawn on a 24 × 24 grid with consistent visual proportions.
 
 The public catalogue includes:
 
@@ -61,7 +61,7 @@ The public catalogue includes:
 
 Core Regular is designed around a consistent 2 px stroke. Canonical vector artwork remains editable in the source files and scales through SVG without losing its intended proportions.
 
-Use the [Mingcute website](https://www.mingcute.com/) to:
+Use the [MingCute website](https://www.mingcute.com/) to:
 
 * search the icon catalogue;
 * preview icons;
@@ -70,7 +70,7 @@ Use the [Mingcute website](https://www.mingcute.com/) to:
 
 Use the packages in this repository when icons need to be installed, versioned, tree-shaken, and rendered consistently in an application.
 
-<img src="./images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="./images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## Quick Start
 
@@ -136,26 +136,26 @@ bun add @mingcute/react
 
 ## Available Styles
 
-The public release contains **3,326 styled icon definitions** across two importable styles.
+The public release contains **4,526 styled icon definitions** across two importable styles.
 
 | Import subpath | Style                 |     Icons |
 | -------------- | --------------------- | --------: |
-| `core-regular` | Core Regular          |     1,663 |
-| `core-filled`  | Core Filled           |     1,663 |
-| **Total**      | **All public styles** | **3,326** |
+| `core-regular` | Core Regular          |     2,263 |
+| `core-filled`  | Core Filled           |     2,263 |
+| **Total**      | **All public styles** | **4,526** |
 
-Additional Core, Cute, and Sharp styles are available in [Mingcute Pro](https://www.mingcute.com/).
+Additional Core, Cute, and Sharp styles are available in [MingCute Pro](https://mgc.mingcute.com/).
 
 ## Free and Pro
 
-| Capability          | Mingcute Icons               | Mingcute Pro                                 |
+| Capability          | MingCute Icons               | MingCute Pro                                 |
 | ------------------- | ---------------------------- | -------------------------------------------- |
 | Families and styles | Core Regular and Core Filled | 12 Core, Cute, and Sharp style combinations  |
-| Styled definitions  | 3,326                        | 20,152                                       |
+| Styled definitions  | 4,526                        | 27,360                                       |
 | Package names       | `@mingcute/*`                | `@mingcute/*-pro`                            |
-| Distribution        | Public npm registry          | Private Mingcute registry                    |
+| Distribution        | Public npm registry          | Private MingCute registry                    |
 | Access              | No account or CLI required   | Active Pro entitlement and CLI configuration |
-| License             | Apache-2.0                   | Mingcute Pro Commercial License              |
+| License             | Apache-2.0                   | MingCute Pro Commercial License              |
 
 The public and Pro packages use the same framework conventions and import structure. This makes migration straightforward while keeping the source repositories and licensing boundaries separate.
 
@@ -325,7 +325,7 @@ Package roots expose shared utilities and types rather than the complete icon ca
 
 ## Performance and Module Format
 
-Mingcute JavaScript packages:
+MingCute JavaScript packages:
 
 * are ESM-only;
 * publish explicit export maps;
@@ -598,25 +598,25 @@ Avoid documenting a fixed release version in this README. The current version sh
 ## Figma Plugin and Resources
 
 <a href="https://www.figma.com/community/plugin/1306884809438005528/mingcute-icon">
-  <img src="./images/figma.png" alt="Mingcute Icon Figma plugin" width="100%" />
+  <img src="./images/figma.png" alt="MingCute Icon Figma plugin" width="100%" />
 </a>
 
-Install the [Mingcute Icon Figma plugin](https://www.figma.com/community/plugin/1306884809438005528/mingcute-icon) to search and place icons directly in Figma.
+Install the [MingCute Icon Figma plugin](https://www.figma.com/community/plugin/1306884809438005528/mingcute-icon) to search and place icons directly in Figma.
 
 Related resources:
 
-* [Mingcute Website](https://www.mingcute.com/)
+* [MingCute Website](https://www.mingcute.com/)
 * [MGC Icon System](https://mgc.mingcute.com/)
 * [MGC UI Kit](https://mgcui.framer.website/)
 * [MGC Weather Icons](https://mgcweather.framer.website/)
 * [MGC Animation Icons](https://www.mingcute.com/animation)
-* [Mingcute MCP Server](https://www.npmjs.com/package/@mingcute/mcp-server)
+* [MingCute MCP Server](https://www.npmjs.com/package/@mingcute/mcp-server)
 
 ## Security and Support
 
 Do not report suspected vulnerabilities in a public issue.
 
-Contact the Mingcute team privately through the [Mingcute website](https://www.mingcute.com/) and include the affected versions and reproduction details.
+Contact the MingCute team privately through the [MingCute website](https://www.mingcute.com/) and include the affected versions and reproduction details.
 
 For package usage or rendering defects, include:
 
@@ -627,23 +627,25 @@ For package usage or rendering defects, include:
 * the actual result; and
 * a minimal reproduction in the [GitHub issue tracker](https://github.com/mingcute-design/mingcute-icons/issues).
 
-Never include private Mingcute Pro artwork, commercial license material, registry credentials, license keys, or private infrastructure code in a public issue.
+Never include private MingCute Pro artwork, commercial license material, registry credentials, license keys, or private infrastructure code in a public issue.
 
 ## License
 
-Mingcute Icons is licensed under the [Apache License 2.0](./LICENSE).
+MingCute Icons is licensed under the [Apache License 2.0](./LICENSE).
 
 ## Links
 
-* [Mingcute Website](https://www.mingcute.com/)
+* [MingCute Website](https://www.mingcute.com/)
 * [Changelog](./CHANGELOG.md)
+* [Icon keywords](./doc/Keywords.md)
+* [Icon mapping](./doc/Mapping.md)
 * [Repository](https://github.com/mingcute-design/mingcute-icons)
 * [Issue Tracker](https://github.com/mingcute-design/mingcute-icons/issues)
 * [Figma Plugin](https://www.figma.com/community/plugin/1306884809438005528/mingcute-icon)
-* [Mingcute MCP Server](https://www.npmjs.com/package/@mingcute/mcp-server)
-* [Mingcute GitHub](https://github.com/mingcute-design)
-* [Mingcute on X](https://x.com/MingCute_icon)
+* [MingCute MCP Server](https://www.npmjs.com/package/@mingcute/mcp-server)
+* [MingCute GitHub](https://github.com/mingcute-design)
+* [MingCute on X](https://x.com/MingCute_icon)
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-docs/main/images/MingCute_icon.png" alt="Preview of Mingcute icons" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-docs/main/images/MingCute_icon.png" alt="Preview of MingCute icons" width="100%" />

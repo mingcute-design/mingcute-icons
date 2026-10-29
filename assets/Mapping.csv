@@ -1,0 +1,1708 @@
+﻿No.,Lucide name,Mingcute name,Status,Name relation
+1,a-arrow-down,a-arrow-down,Mapped,Same name
+2,a-arrow-up,a-arrow-up,Mapped,Same name
+3,a-large-small,a-large-small,Mapped,Same name
+4,accessibility,disabled-2,Mapped,Different name
+5,activity,heartbeat,Mapped,Different name
+6,air-vent,air-condition-open,Mapped,Different name
+7,airplay,airplay,Mapped,Same name
+8,alarm-clock-check,alarm-clock-check,Mapped,Same name
+9,alarm-clock-minus,alarm-clock-minus,Mapped,Same name
+10,alarm-clock-off,alarm-clock-off,Mapped,Same name
+11,alarm-clock-plus,alarm-clock-plus,Mapped,Same name
+12,alarm-clock,alarm-1,Mapped,Different name
+13,alarm-smoke,alarm-smoke,Mapped,Same name
+14,album,notebook-2,Mapped,Different name
+15,align-center-horizontal,align-center-horizontal,Mapped,Same name
+16,align-center-vertical,align-center-vertical,Mapped,Same name
+17,align-end-horizontal,align-end-horizontal,Mapped,Same name
+18,align-end-vertical,align-end-vertical,Mapped,Same name
+19,align-horizontal-distribute-center,align-horizontal-distribute-center,Mapped,Same name
+20,align-horizontal-distribute-end,align-horizontal-distribute-end,Mapped,Same name
+21,align-horizontal-distribute-start,align-horizontal-distribute-start,Mapped,Same name
+22,align-horizontal-justify-center,align-horizontal-justify-center,Mapped,Same name
+23,align-horizontal-justify-end,align-horizontal-justify-end,Mapped,Same name
+24,align-horizontal-justify-start,align-horizontal-justify-start,Mapped,Same name
+25,align-horizontal-space-around,distribute-spacing-horizontal,Mapped,Different name
+26,align-horizontal-space-between,align-horizontal-space-between,Mapped,Same name
+27,align-start-horizontal,align-start-horizontal,Mapped,Same name
+28,align-start-vertical,align-start-vertical,Mapped,Same name
+29,align-vertical-distribute-center,align-vertical-distribute-center,Mapped,Same name
+30,align-vertical-distribute-end,align-vertical-distribute-end,Mapped,Same name
+31,align-vertical-distribute-start,align-vertical-distribute-start,Mapped,Same name
+32,align-vertical-justify-center,align-vertical-justify-center,Mapped,Same name
+33,align-vertical-justify-end,align-vertical-justify-end,Mapped,Same name
+34,align-vertical-justify-start,align-vertical-justify-start,Mapped,Same name
+35,align-vertical-space-around,distribute-spacing-vertical,Mapped,Different name
+36,align-vertical-space-between,align-vertical-space-between,Mapped,Same name
+37,ambulance,ambulance,Mapped,Same name
+38,ampersand,and,Mapped,Different name
+39,ampersands,ampersands,Mapped,Same name
+40,amphora,amphora,Mapped,Same name
+41,anchor,anchor,Mapped,Same name
+42,angry,angry,Mapped,Same name
+43,annoyed,annoyed,Mapped,Same name
+44,antenna,antenna,Mapped,Same name
+45,anvil,anvil,Mapped,Same name
+46,aperture,moment,Mapped,Different name
+47,app-window-mac,web,Mapped,Different name
+48,app-window,app-window,Mapped,Same name
+49,apple,apple-fruit,Mapped,Different name
+50,archive-restore,archive-restore,Mapped,Same name
+51,archive-x,archive-x,Mapped,Same name
+52,archive,box-2,Mapped,Different name
+53,armchair,sofa,Mapped,Different name
+54,arrow-big-down-dash,arrow-big-down-dash,Mapped,Same name
+55,arrow-big-down,large-arrow-down,Mapped,Different name
+56,arrow-big-left-dash,arrow-big-left-dash,Mapped,Same name
+57,arrow-big-left,large-arrow-left,Mapped,Different name
+58,arrow-big-right-dash,arrow-big-right-dash,Mapped,Same name
+59,arrow-big-right,large-arrow-right,Mapped,Different name
+60,arrow-big-up-dash,arrow-big-up-dash,Mapped,Same name
+61,arrow-big-up,large-arrow-up,Mapped,Different name
+62,arrow-down-0-1,numbers-09-sort-ascending,Mapped,Different name
+63,arrow-down-1-0,numbers-90-sort-descending,Mapped,Different name
+64,arrow-down-a-z,AZ-sort-ascending-letters,Mapped,Different name
+65,arrow-down-from-line,align-arrow-down,Mapped,Different name
+66,arrow-down-left,arrow-left-down,Mapped,Different name
+67,arrow-down-narrow-wide,arrow-down-narrow-wide,Mapped,Same name
+68,arrow-down-right,arrow-right-down,Mapped,Different name
+69,arrow-down-to-dot,arrow-down-to-dot,Mapped,Same name
+70,arrow-down-to-line,arrow-to-down,Mapped,Different name
+71,arrow-down-up,transfer-4,Mapped,Different name
+72,arrow-down-wide-narrow,arrow-down-wide-narrow,Mapped,Same name
+73,arrow-down-z-a,ZA-sort-descending-letters,Mapped,Different name
+74,arrow-down,arrow-down,Mapped,Same name
+75,arrow-left-from-line,align-arrow-left,Mapped,Different name
+76,arrow-left-right,transfer-3,Mapped,Different name
+77,arrow-left-to-line,arrow-to-left,Mapped,Different name
+78,arrow-left,arrow-left,Mapped,Same name
+79,arrow-right-from-line,align-arrow-right,Mapped,Different name
+80,arrow-right-left,transfer-3,Mapped,Different name
+81,arrow-right-to-line,arrow-to-right,Mapped,Different name
+82,arrow-right,arrow-right,Mapped,Same name
+83,arrow-up-0-1,numbers-09-sort-descending,Mapped,Different name
+84,arrow-up-1-0,numbers-90-sort-ascending,Mapped,Different name
+85,arrow-up-a-z,AZ-sort-descending-letters,Mapped,Different name
+86,arrow-up-down,transfer-4,Mapped,Different name
+87,arrow-up-from-dot,arrow-up-from-dot,Mapped,Same name
+88,arrow-up-from-line,align-arrow-up,Mapped,Different name
+89,arrow-up-left,arrow-left-up,Mapped,Different name
+90,arrow-up-narrow-wide,arrow-up-narrow-wide,Mapped,Same name
+91,arrow-up-right,arrow-right-up,Mapped,Different name
+92,arrow-up-to-line,arrow-to-up,Mapped,Different name
+93,arrow-up-wide-narrow,arrow-up-wide-narrow,Mapped,Same name
+94,arrow-up-z-a,ZA-sort-ascending-letters,Mapped,Different name
+95,arrow-up,arrow-up,Mapped,Same name
+96,arrows-up-from-line,arrows-up-from-line,Mapped,Same name
+97,asterisk,asterisk,Mapped,Same name
+98,at-sign,at,Mapped,Different name
+99,atom,science,Mapped,Different name
+100,audio-lines,voice,Mapped,Different name
+101,audio-waveform,audio-waveform,Mapped,Same name
+102,award,award,Mapped,Same name
+103,axe,axe,Mapped,Same name
+104,axis-3d,axis-3d,Mapped,Same name
+105,baby,baby,Mapped,Same name
+106,backpack,backpack,Mapped,Same name
+107,badge-alert,badge-alert,Mapped,Same name
+108,badge-cent,badge-cent,Mapped,Same name
+109,badge-check,certificate,Mapped,Different name
+110,badge-dollar-sign,badge-dollar-sign,Mapped,Same name
+111,badge-euro,badge-euro,Mapped,Same name
+112,badge-indian-rupee,badge-indian-rupee,Mapped,Same name
+113,badge-info,badge-info,Mapped,Same name
+114,badge-japanese-yen,badge-cny,Mapped,Different name
+115,badge-minus,badge-minus,Mapped,Same name
+116,badge-percent,sale,Mapped,Different name
+117,badge-plus,badge-plus,Mapped,Same name
+118,badge-pound-sterling,badge-pound-sterling,Mapped,Same name
+119,badge-question-mark,badge-question-mark,Mapped,Same name
+120,badge-russian-ruble,badge-russian-ruble,Mapped,Same name
+121,badge-swiss-franc,badge-swiss-franc,Mapped,Same name
+122,badge-turkish-lira,badge-turkish-lira,Mapped,Same name
+123,badge-x,badge-x,Mapped,Same name
+124,badge,badge-octagram,Mapped,Different name
+125,baggage-claim,baggage-claim,Mapped,Same name
+126,balloon,balloon-2,Mapped,Different name
+127,ban,ban,Mapped,Same name
+128,banana,banana,Mapped,Same name
+129,bandage,bandage,Mapped,Same name
+130,banknote-arrow-down,banknote-arrow-down,Mapped,Same name
+131,banknote-arrow-up,banknote-arrow-up,Mapped,Same name
+132,banknote-x,banknote-x,Mapped,Same name
+133,banknote,cash-2,Mapped,Different name
+134,barcode,barcode,Mapped,Same name
+135,barrel,barrel-2,Mapped,Different name
+136,baseline,text-color,Mapped,Different name
+137,bath,bath,Mapped,Same name
+138,battery-charging,battery-charging,Mapped,Same name
+139,battery-full,battery-4,Mapped,Different name
+140,battery-low,battery-1,Mapped,Different name
+141,battery-medium,battery-2,Mapped,Different name
+142,battery-plus,battery-plus,Mapped,Same name
+143,battery-warning,battery-warning,Mapped,Same name
+144,battery,battery,Mapped,Same name
+145,beaker,flask-2,Mapped,Different name
+146,bean-off,bean-off,Mapped,Same name
+147,bean,bean,Mapped,Same name
+148,bed-double,bed-2,Mapped,Different name
+149,bed-single,bed-single,Mapped,Same name
+150,bed,bed,Mapped,Same name
+151,beef-off,beef-off,Mapped,Same name
+152,beef,beef,Mapped,Same name
+153,beer-off,beer-off,Mapped,Same name
+154,beer,beer,Mapped,Same name
+155,bell-dot,notification-newdot,Mapped,Different name
+156,bell-electric,bell-electric,Mapped,Same name
+157,bell-minus,bell-minus,Mapped,Same name
+158,bell-off,notification-off,Mapped,Different name
+159,bell-plus,bell-plus,Mapped,Same name
+160,bell-ring,bell-ringing,Mapped,Different name
+161,bell,notificatio,Mapped,Different name
+162,between-horizontal-end,between-horizontal-end,Mapped,Same name
+163,between-horizontal-start,between-horizontal-start,Mapped,Same name
+164,between-vertical-end,between-vertical-end,Mapped,Same name
+165,between-vertical-start,between-vertical-start,Mapped,Same name
+166,biceps-flexed,fitness,Mapped,Different name
+167,bike,bike,Mapped,Same name
+168,binary,binary,Mapped,Same name
+169,binoculars,telescope-2,Mapped,Different name
+170,biohazard,biohazard,Mapped,Same name
+171,bird,bird,Mapped,Same name
+172,birdhouse,home-5,Mapped,Different name
+173,bitcoin,currency-bitcoin-2,Mapped,Different name
+174,blend,combine,Mapped,Different name
+175,blender,blender,Mapped,Same name
+176,blinds,projector-screen,Mapped,Different name
+177,blocks,process,Mapped,Different name
+178,bluetooth-connected,bluetooth-connected,Mapped,Same name
+179,bluetooth-off,bluetooth-off,Mapped,Same name
+180,bluetooth-searching,bluetooth-searching,Mapped,Same name
+181,bluetooth,bluetooth,Mapped,Same name
+182,bold,bold,Mapped,Same name
+183,bolt,settings-1,Mapped,Different name
+184,bomb,bomb,Mapped,Same name
+185,bone,bone,Mapped,Same name
+186,book-a,book-2,Mapped,Different name
+187,book-alert,book-alert,Mapped,Same name
+188,book-audio,book-audio,Mapped,Same name
+189,book-check,book-check,Mapped,Same name
+190,book-copy,book-copy,Mapped,Same name
+191,book-dashed,book-dashed,Mapped,Same name
+192,book-down,book-down,Mapped,Same name
+193,book-headphones,book-headphones,Mapped,Same name
+194,book-image,book-image,Mapped,Same name
+195,book-key,book-key,Mapped,Same name
+196,book-lock,book-lock,Mapped,Same name
+197,book-marked,book-marked,Mapped,Same name
+198,book-minus,book-minus,Mapped,Same name
+199,book-open-check,book-open-check,Mapped,Same name
+200,book-open-text,book-open-text,Mapped,Same name
+201,book-open,book-6,Mapped,Different name
+202,book-plus,book-plus,Mapped,Same name
+203,book-search,book-search,Mapped,Same name
+204,book-text,book-text,Mapped,Same name
+205,book-type,book-type,Mapped,Same name
+206,book-up-2,book-up-2,Mapped,Same name
+207,book-up,book-up,Mapped,Same name
+208,book-user,book-user,Mapped,Same name
+209,book-x,book-x,Mapped,Same name
+210,book,book-2,Mapped,Different name
+211,bookmark-check,bookmark-check,Mapped,Same name
+212,bookmark-minus,bookmark-remove,Mapped,Different name
+213,bookmark-off,bookmark-off,Mapped,Same name
+214,bookmark-plus,bookmark-add,Mapped,Different name
+215,bookmark-x,bookmark-x,Mapped,Same name
+216,bookmark,bookmark,Mapped,Same name
+217,boom-box,boom-box,Mapped,Same name
+218,bot-message-square,bot-message-square,Mapped,Same name
+219,bot-off,bot-off,Mapped,Same name
+220,bot,robot,Mapped,Different name
+221,bottle-wine,wine,Mapped,Different name
+222,bow-arrow,toxophily,Mapped,Different name
+223,box,box-3,Mapped,Different name
+224,boxes,cube,Mapped,Different name
+225,braces,braces,Mapped,Same name
+226,brackets,brackets,Mapped,Same name
+227,brain-circuit,brain-circuit,Mapped,Same name
+228,brain-cog,brain-cog,Mapped,Same name
+229,brain,brain,Mapped,Same name
+230,brick-wall-fire,brick-wall-fire,Mapped,Same name
+231,brick-wall-shield,brick-wall-shield,Mapped,Same name
+232,brick-wall,greatwall,Mapped,Different name
+233,briefcase-business,briefcase,Mapped,Different name
+234,briefcase-conveyor-belt,briefcase-conveyor-belt,Mapped,Same name
+235,briefcase-medical,first-aid-kit,Mapped,Different name
+236,briefcase,suitcase,Mapped,Different name
+237,bring-to-front,bring-to-front,Mapped,Same name
+238,broccoli,broccoli,Mapped,Same name
+239,brush-cleaning,brush,Mapped,Different name
+240,brush,paint-brush,Mapped,Different name
+241,bubbles,bubble,Mapped,Different name
+242,bug-off,bug-off,Mapped,Same name
+243,bug-play,bug-play,Mapped,Same name
+244,bug,bug,Mapped,Same name
+245,building-2,building-5,Mapped,Different name
+246,building,hotel,Mapped,Different name
+247,bus-front,bus,Mapped,Different name
+248,bus,bus-2,Mapped,Different name
+249,cable-car,aerial-lift,Mapped,Different name
+250,cable,cable,Mapped,Same name
+251,cake-slice,cake-slice,Mapped,Same name
+252,cake,birthday-2,Mapped,Different name
+253,calculator,counter-2,Mapped,Different name
+254,calendar-1,calendar-1,Mapped,Same name
+255,calendar-arrow-down,calendar-arrow-down,Mapped,Same name
+256,calendar-arrow-up,calendar-arrow-up,Mapped,Same name
+257,calendar-check-2,calendar-check-2,Mapped,Same name
+258,calendar-check,schedule,Mapped,Different name
+259,calendar-clock,calendar-time-add,Mapped,Different name
+260,calendar-cog,calendar-cog,Mapped,Same name
+261,calendar-days,calendar-2,Mapped,Different name
+262,calendar-fold,calendar-fold,Mapped,Same name
+263,calendar-heart,calendar-heart,Mapped,Same name
+264,calendar-minus-2,calendar-minus-2,Mapped,Same name
+265,calendar-minus,calendar-minus,Mapped,Same name
+266,calendar-off,calendar-off,Mapped,Same name
+267,calendar-plus-2,calendar-plus-2,Mapped,Same name
+268,calendar-plus,calendar-add,Mapped,Different name
+269,calendar-range,calendar-range,Mapped,Same name
+270,calendar-search,calendar-search,Mapped,Same name
+271,calendar-sync,calendar-sync,Mapped,Same name
+272,calendar-x-2,calendar-x,Mapped,Different name
+273,calendar-x,calendar-x-2,Mapped,Different name
+274,calendar,calendar,Mapped,Same name
+275,calendars,calendars,Mapped,Same name
+276,camera-off,camera-2-off,Mapped,Different name
+277,camera,camera-2,Mapped,Different name
+278,candy-cane,crutch,Mapped,Different name
+279,candy-off,candy-off,Mapped,Same name
+280,candy,candy,Mapped,Same name
+281,cannabis-off,cannabis-off,Mapped,Same name
+282,cannabis,maple-leaf,Mapped,Different name
+283,captions-off,captions-off,Mapped,Same name
+284,captions,captions,Mapped,Same name
+285,car-front,car-3,Mapped,Different name
+286,car-taxi-front,car,Mapped,Different name
+287,car,jeep,Mapped,Different name
+288,caravan,caravan,Mapped,Same name
+289,card-sim,card-sim,Mapped,Same name
+290,carrot,carrot,Mapped,Same name
+291,case-lower,case-lower,Mapped,Same name
+292,case-sensitive,font-size,Mapped,Different name
+293,case-upper,case-upper,Mapped,Same name
+294,cassette-tape,audio-tape,Mapped,Different name
+295,cast,cast,Mapped,Same name
+296,castle,castle,Mapped,Same name
+297,cat,cat,Mapped,Same name
+298,cctv-off,cctv-off,Mapped,Same name
+299,cctv,camcorder-2,Mapped,Different name
+300,chart-area,chart-area,Mapped,Same name
+301,chart-bar-big,chart-bar-big,Mapped,Same name
+302,chart-bar-decreasing,chart-bar-decreasing,Mapped,Same name
+303,chart-bar-increasing,chart-bar-increasing,Mapped,Same name
+304,chart-bar-stacked,chart-bar-stacked,Mapped,Same name
+305,chart-bar,chart-horizontal,Mapped,Different name
+306,chart-candlestick,chart-candlestick,Mapped,Same name
+307,chart-column-big,chart-column-big,Mapped,Same name
+308,chart-column-decreasing,chart-column-decreasing,Mapped,Same name
+309,chart-column-increasing,chart-column-increasing,Mapped,Same name
+310,chart-column-stacked,chart-column-stacked,Mapped,Same name
+311,chart-column,chart-vertical,Mapped,Different name
+312,chart-gantt,chart-gantt,Mapped,Same name
+313,chart-line,chart-line,Mapped,Same name
+314,chart-network,chart-network,Mapped,Same name
+315,chart-no-axes-column-decreasing,chart-no-axes-column-decreasing,Mapped,Same name
+316,chart-no-axes-column-increasing,chart-no-axes-column-increasing,Mapped,Same name
+317,chart-no-axes-column,voice-2,Mapped,Different name
+318,chart-no-axes-combined,chart-no-axes-combined,Mapped,Same name
+319,chart-no-axes-gantt,chart-no-axes-gantt,Mapped,Same name
+320,chart-pie,chart-pie,Mapped,Same name
+321,chart-scatter,chart-scatter,Mapped,Same name
+322,chart-spline,chart-spline,Mapped,Same name
+323,check-check,checks,Mapped,Different name
+324,check-line,check-line,Mapped,Same name
+325,check,check,Mapped,Same name
+326,chef-hat,chef-hat,Mapped,Same name
+327,cherry,cherry,Mapped,Same name
+328,chess-bishop,chess-bishop,Mapped,Same name
+329,chess-king,chess-king,Mapped,Same name
+330,chess-knight,chess,Mapped,Different name
+331,chess-pawn,chess-pawn,Mapped,Same name
+332,chess-queen,chess-queen,Mapped,Same name
+333,chess-rook,chess-rook,Mapped,Same name
+334,chevron-down,down,Mapped,Different name
+335,chevron-first,chevron-first,Mapped,Same name
+336,chevron-last,chevron-last,Mapped,Same name
+337,chevron-left,left,Mapped,Different name
+338,chevron-right,right,Mapped,Different name
+339,chevron-up,up,Mapped,Different name
+340,chevrons-down-up,chevrons-down-up,Mapped,Same name
+341,chevrons-down,arrows-down,Mapped,Different name
+342,chevrons-left-right-ellipsis,chevrons-left-right-ellipsis,Mapped,Same name
+343,chevrons-left-right,chevrons-left-right,Mapped,Same name
+344,chevrons-left,arrows-left,Mapped,Different name
+345,chevrons-right-left,chevrons-right-left,Mapped,Same name
+346,chevrons-right,arrows-right,Mapped,Different name
+347,chevrons-up-down,chevrons-up-down,Mapped,Same name
+348,chevrons-up,arrows-up,Mapped,Different name
+349,church,church,Mapped,Same name
+350,cigarette-off,cigarette-off,Mapped,Same name
+351,cigarette,cigarette,Mapped,Same name
+352,circle-alert,warning,Mapped,Different name
+353,circle-arrow-down,arrow-down-circle,Mapped,Different name
+354,circle-arrow-left,arrow-left-circle,Mapped,Different name
+355,circle-arrow-out-down-left,circle-arrow-out-down-left,Mapped,Same name
+356,circle-arrow-out-down-right,circle-arrow-out-down-right,Mapped,Same name
+357,circle-arrow-out-up-left,circle-arrow-out-up-left,Mapped,Same name
+358,circle-arrow-out-up-right,circle-arrow-out-up-right,Mapped,Same name
+359,circle-arrow-right,arrow-right-circle,Mapped,Different name
+360,circle-arrow-up,arrow-up-circle,Mapped,Different name
+361,circle-check-big,circle-check-big,Mapped,Same name
+362,circle-check,check-circle,Mapped,Different name
+363,circle-chevron-down,circle-chevron-down,Mapped,Same name
+364,circle-chevron-left,circle-chevron-left,Mapped,Same name
+365,circle-chevron-right,circle-chevron-right,Mapped,Same name
+366,circle-chevron-up,circle-chevron-up,Mapped,Same name
+367,circle-dashed,circle-dash,Mapped,Different name
+368,circle-divide,circle-divide,Mapped,Same name
+369,circle-dollar-sign,currency-dollar,Mapped,Different name
+370,circle-dot-dashed,circle-dot-dashed,Mapped,Same name
+371,circle-dot,circle-dot,Mapped,Same name
+372,circle-ellipsis,more-3,Mapped,Different name
+373,circle-equal,circle-equal,Mapped,Same name
+374,circle-fading-arrow-up,circle-fading-arrow-up,Mapped,Same name
+375,circle-fading-plus,circle-fading-plus,Mapped,Same name
+376,circle-gauge,dashboard-3,Mapped,Different name
+377,circle-minus,minus-circle,Mapped,Different name
+378,circle-off,circle-off,Mapped,Same name
+379,circle-parking-off,circle-parking-off,Mapped,Same name
+380,circle-parking,parking,Mapped,Different name
+381,circle-pause,pause-circle,Mapped,Different name
+382,circle-percent,circle-percent,Mapped,Same name
+383,circle-pile,circle-pile,Mapped,Same name
+384,circle-play,play-circle,Mapped,Different name
+385,circle-plus,add-circle,Mapped,Different name
+386,circle-pound-sterling,currency-pound,Mapped,Different name
+387,circle-power,circle-power,Mapped,Same name
+388,circle-question-mark,question,Mapped,Different name
+389,circle-slash-2,circle-slash-2,Mapped,Same name
+390,circle-slash,forbid-circle,Mapped,Different name
+391,circle-small,circle-small,Mapped,Same name
+392,circle-star,circle-star,Mapped,Same name
+393,circle-stop,stop-circle,Mapped,Different name
+394,circle-user-round,user-4,Mapped,Different name
+395,circle-user,circle-user,Mapped,Same name
+396,circle-x,close-circle,Mapped,Different name
+397,circle,round,Mapped,Different name
+398,circuit-board,circuit-board,Mapped,Same name
+399,citrus,citrus,Mapped,Same name
+400,clapperboard,clapperboard,Mapped,Same name
+401,clipboard-check,task,Mapped,Different name
+402,clipboard-clock,clipboard-clock,Mapped,Same name
+403,clipboard-copy,clipboard-copy,Mapped,Same name
+404,clipboard-list,task-2,Mapped,Different name
+405,clipboard-minus,clipboard-minus,Mapped,Same name
+406,clipboard-paste,clipboard-paste,Mapped,Same name
+407,clipboard-pen-line,clipboard-pen-line,Mapped,Same name
+408,clipboard-pen,clipboard-pen,Mapped,Same name
+409,clipboard-plus,clipboard-plus,Mapped,Same name
+410,clipboard-type,clipboard-type,Mapped,Same name
+411,clipboard-x,clipboard-x,Mapped,Same name
+412,clipboard,clipboard,Mapped,Same name
+413,clock-1,clock-1,Mapped,Same name
+414,clock-2,clock-2,Mapped,Same name
+415,clock-3,clock-3,Mapped,Same name
+416,clock-4,clock-4,Mapped,Same name
+417,clock-5,clock-5,Mapped,Same name
+418,clock-6,clock-6,Mapped,Same name
+419,clock-7,clock-7,Mapped,Same name
+420,clock-8,clock-8,Mapped,Same name
+421,clock-9,clock-9,Mapped,Same name
+422,clock-10,clock-10,Mapped,Same name
+423,clock-11,clock-11,Mapped,Same name
+424,clock-12,clock-12,Mapped,Same name
+425,clock-alert,clock-alert,Mapped,Same name
+426,clock-arrow-down,clock-arrow-down,Mapped,Same name
+427,clock-arrow-up,clock-arrow-up,Mapped,Same name
+428,clock-check,clock-check,Mapped,Same name
+429,clock-fading,time-duration,Mapped,Different name
+430,clock-plus,clock-plus,Mapped,Same name
+431,clock,time,Mapped,Different name
+432,closed-caption,subtitle,Mapped,Different name
+433,cloud-alert,cloud-alert,Mapped,Same name
+434,cloud-backup,cloud-backup,Mapped,Same name
+435,cloud-check,cloud-check,Mapped,Same name
+436,cloud-cog,cloud-cog,Mapped,Same name
+437,cloud-download,download-3,Mapped,Different name
+438,cloud-drizzle,rain,Mapped,Different name
+439,cloud-fog,fog,Mapped,Different name
+440,cloud-hail,hail,Mapped,Different name
+441,cloud-lightning,cloud-lightning,Mapped,Same name
+442,cloud-moon-rain,cloud-moon-rain,Mapped,Same name
+443,cloud-moon,moon-cloudy,Mapped,Different name
+444,cloud-off,cloud-off,Mapped,Same name
+445,cloud-rain-wind,heavy-rainstorm,Mapped,Different name
+446,cloud-rain,heavy-rain,Mapped,Different name
+447,cloud-snow,light-snow,Mapped,Different name
+448,cloud-sun-rain,cloud-sun-rain,Mapped,Same name
+449,cloud-sun,sun-cloudy,Mapped,Different name
+450,cloud-sync,cloud-sync,Mapped,Same name
+451,cloud-upload,upload-3,Mapped,Different name
+452,cloud,cloud,Mapped,Same name
+453,cloudy,clouds,Mapped,Different name
+454,clover,leaf-3,Mapped,Different name
+455,club,clubs,Mapped,Different name
+456,code-xml,code,Mapped,Different name
+457,code,brackets-angle,Mapped,Different name
+458,coffee,teacup,Mapped,Different name
+459,cog,settings-7,Mapped,Different name
+460,coins,copper-coin,Mapped,Different name
+461,columns-2,columns-2,Mapped,Same name
+462,columns-3-cog,columns-3-cog,Mapped,Same name
+463,columns-3,column,Mapped,Different name
+464,columns-4,columns-4,Mapped,Same name
+465,combine,combine-2,Mapped,Different name
+466,command,command,Mapped,Same name
+467,compass,compass,Mapped,Same name
+468,component,components,Mapped,Different name
+469,computer,computer,Mapped,Same name
+470,concierge-bell,dish-cover,Mapped,Different name
+471,cone,cone,Mapped,Same name
+472,construction,construction,Mapped,Same name
+473,contact-round,contacts-2,Mapped,Different name
+474,contact,contacts-2,Mapped,Different name
+475,container,container,Mapped,Same name
+476,contrast,contrast,Mapped,Same name
+477,cookie,cookie,Mapped,Same name
+478,cooking-pot,soup-pot-2,Mapped,Different name
+479,copy-check,copy-check,Mapped,Same name
+480,copy-minus,copy-minus,Mapped,Same name
+481,copy-plus,copy-plus,Mapped,Same name
+482,copy-slash,copy-slash,Mapped,Same name
+483,copy-x,copy-x,Mapped,Same name
+484,copy,copy-2,Mapped,Different name
+485,copyleft,copyleft,Mapped,Same name
+486,copyright,copyright,Mapped,Same name
+487,corner-down-left,corner-down-left,Mapped,Same name
+488,corner-down-right,corner-down-right,Mapped,Same name
+489,corner-left-down,corner-left-down,Mapped,Same name
+490,corner-left-up,corner-left-up,Mapped,Same name
+491,corner-right-down,corner-right-down,Mapped,Same name
+492,corner-right-up,corner-right-up,Mapped,Same name
+493,corner-up-left,corner-up-left,Mapped,Same name
+494,corner-up-right,corner-up-right,Mapped,Same name
+495,cpu,chip,Mapped,Different name
+496,creative-commons,creative-commons,Mapped,Same name
+497,credit-card,bank-card,Mapped,Different name
+498,croissant,croissant,Mapped,Same name
+499,crop,screenshot,Mapped,Different name
+500,cross,cross,Mapped,Same name
+501,crosshair,aiming,Mapped,Different name
+502,crown,VIP-2,Mapped,Different name
+503,cuboid,cuboid,Mapped,Same name
+504,cup-soda,drink,Mapped,Different name
+505,currency,currency,Mapped,Same name
+506,cylinder,cylinder,Mapped,Same name
+507,dam,dam,Mapped,Same name
+508,database-backup,database-backup,Mapped,Same name
+509,database-search,database-search,Mapped,Same name
+510,database-zap,database-zap,Mapped,Same name
+511,database,coin-2,Mapped,Different name
+512,decimals-arrow-left,decimals-arrow-left,Mapped,Same name
+513,decimals-arrow-right,decimals-arrow-right,Mapped,Same name
+514,delete,delete-back,Mapped,Different name
+515,dessert,cupcake,Mapped,Different name
+516,diameter,diameter,Mapped,Same name
+517,diamond-minus,diamond-minus,Mapped,Same name
+518,diamond-percent,diamond-percent,Mapped,Same name
+519,diamond-plus,diamond-plus,Mapped,Same name
+520,diamond,diamond-square,Mapped,Different name
+521,dice-1,dice-1,Mapped,Same name
+522,dice-2,dice-2,Mapped,Same name
+523,dice-3,dice-3,Mapped,Same name
+524,dice-4,dice-4,Mapped,Same name
+525,dice-5,random,Mapped,Different name
+526,dice-6,dice-6,Mapped,Same name
+527,dices,dices,Mapped,Same name
+528,diff,diff,Mapped,Same name
+529,disc-2,disc,Mapped,Different name
+530,disc-3,music-3,Mapped,Different name
+531,disc-album,disc-album,Mapped,Same name
+532,disc,album,Mapped,Different name
+533,divide,divide,Mapped,Same name
+534,dna-off,dna-off,Mapped,Same name
+535,dna,dna,Mapped,Same name
+536,dock,layout-bottom,Mapped,Different name
+537,dog,dog,Mapped,Same name
+538,dollar-sign,currency-dollar-2,Mapped,Different name
+539,donut,donut,Mapped,Same name
+540,door-closed-locked,door-closed-locked,Mapped,Same name
+541,door-closed,door,Mapped,Different name
+542,door-open,open-door,Mapped,Different name
+543,dot,dot,Mapped,Same name
+544,download,download-2,Mapped,Different name
+545,drafting-compass,compass-2,Mapped,Different name
+546,drama,drama,Mapped,Same name
+547,drill,drill,Mapped,Same name
+548,drone,drone,Mapped,Same name
+549,droplet-off,droplet-off,Mapped,Same name
+550,droplet,drop,Mapped,Different name
+551,droplets,droplets,Mapped,Same name
+552,drum,drum,Mapped,Same name
+553,drumstick,chicken,Mapped,Different name
+554,dumbbell,barbell,Mapped,Different name
+555,ear-off,ear-off,Mapped,Same name
+556,ear,ear,Mapped,Same name
+557,earth-lock,earth-lock,Mapped,Same name
+558,earth,world-2,Mapped,Different name
+559,eclipse,eclipse,Mapped,Same name
+560,egg-fried,fried-egg,Mapped,Different name
+561,egg-off,egg-off,Mapped,Same name
+562,egg,egg,Mapped,Same name
+563,ellipse,ellipse,Mapped,Same name
+564,ellipsis-vertical,more-2,Mapped,Different name
+565,ellipsis,more-1,Mapped,Different name
+566,equal-approximately,equal-approximately,Mapped,Same name
+567,equal-not,equal-not,Mapped,Same name
+568,equal,equal,Mapped,Same name
+569,eraser,eraser,Mapped,Same name
+570,ethernet-port,ethernet-port,Mapped,Same name
+571,euro,currency-euro-2,Mapped,Different name
+572,ev-charger,charging-pile,Mapped,Different name
+573,expand,fullscreen,Mapped,Different name
+574,external-link,external-link,Mapped,Same name
+575,eye-closed,eye-close,Mapped,Different name
+576,eye-off,eye-off,Mapped,Same name
+577,eye,eye,Mapped,Same name
+578,factory,factory-2,Mapped,Different name
+579,fan,pinwheel,Mapped,Different name
+580,fast-forward,fast-forward,Mapped,Same name
+581,feather,quill-pen,Mapped,Different name
+582,fence,fence,Mapped,Same name
+583,ferris-wheel,ferris-wheel,Mapped,Same name
+584,file-archive,file-zip,Mapped,Different name
+585,file-axis-3d,file-axis-3d,Mapped,Same name
+586,file-badge,file-certificate,Mapped,Different name
+587,file-box,file-box,Mapped,Same name
+588,file-braces-corner,file-braces-corner,Mapped,Same name
+589,file-braces,file-braces,Mapped,Same name
+590,file-chart-column-increasing,file-chart-column-increasing,Mapped,Same name
+591,file-chart-column,file-chart-column,Mapped,Same name
+592,file-chart-line,file-chart-line,Mapped,Same name
+593,file-chart-pie,file-chart-pie,Mapped,Same name
+594,file-check-corner,file-check-corner,Mapped,Same name
+595,file-check,file-check,Mapped,Same name
+596,file-clock,file-clock,Mapped,Same name
+597,file-code-corner,file-code-corner,Mapped,Same name
+598,file-code,file-code,Mapped,Same name
+599,file-cog,file-cog,Mapped,Same name
+600,file-diff,file-diff,Mapped,Same name
+601,file-digit,file-digit,Mapped,Same name
+602,file-down,file-download,Mapped,Different name
+603,file-exclamation-point,file-warning,Mapped,Different name
+604,file-headphone,file-headphone,Mapped,Same name
+605,file-heart,file-heart,Mapped,Same name
+606,file-image,file-image,Mapped,Same name
+607,file-input,file-import,Mapped,Different name
+608,file-key,file-key,Mapped,Same name
+609,file-lock,file-locked,Mapped,Different name
+610,file-minus-corner,file-minus-corner,Mapped,Same name
+611,file-minus,file-minus,Mapped,Same name
+612,file-music,file-music,Mapped,Same name
+613,file-output,file-export,Mapped,Different name
+614,file-pen-line,file-pen-line,Mapped,Same name
+615,file-pen,file-pen,Mapped,Same name
+616,file-play,file-play,Mapped,Same name
+617,file-plus-corner,file-plus-corner,Mapped,Same name
+618,file-plus,file-new,Mapped,Different name
+619,file-question-mark,file-unknown,Mapped,Different name
+620,file-scan,file-scan,Mapped,Same name
+621,file-search-corner,file-search-corner,Mapped,Same name
+622,file-search,file-search,Mapped,Same name
+623,file-signal,file-signal,Mapped,Same name
+624,file-sliders,file-sliders,Mapped,Same name
+625,file-spreadsheet,file-spreadsheet,Mapped,Same name
+626,file-stack,file-stack,Mapped,Same name
+627,file-symlink,file-symlink,Mapped,Same name
+628,file-terminal,file-terminal,Mapped,Same name
+629,file-text,document-2,Mapped,Different name
+630,file-type-corner,file-type-corner,Mapped,Same name
+631,file-type,file-type,Mapped,Same name
+632,file-up,file-upload,Mapped,Different name
+633,file-user,file-user,Mapped,Same name
+634,file-video-camera,file-video-camera,Mapped,Same name
+635,file-volume,file-volume,Mapped,Same name
+636,file-x-corner,file-x-corner,Mapped,Same name
+637,file-x,xls,Mapped,Different name
+638,file,file,Mapped,Same name
+639,files,documents,Mapped,Different name
+640,film,film,Mapped,Same name
+641,fingerprint-pattern,fingerprint-2,Mapped,Different name
+642,fire-extinguisher,fire-extinguisher,Mapped,Same name
+643,fish-off,fish-off,Mapped,Same name
+644,fish-symbol,fish-symbol,Mapped,Same name
+645,fish,fish,Mapped,Same name
+646,fishing-hook,fishing-hook,Mapped,Same name
+647,fishing-rod,fishing-rod,Mapped,Same name
+648,flag-off,flag-off,Mapped,Same name
+649,flag-triangle-left,flag-triangle-right,Mapped,Different name
+650,flag-triangle-right,flag-3,Mapped,Different name
+651,flag,flag-4,Mapped,Different name
+652,flame-kindling,campfire,Mapped,Different name
+653,flame,fire,Mapped,Different name
+654,flashlight-off,flashlight-off,Mapped,Same name
+655,flashlight,flashlight,Mapped,Same name
+656,flask-conical-off,flask-conical-off,Mapped,Same name
+657,flask-conical,flask,Mapped,Different name
+658,flask-round,flask-3,Mapped,Different name
+659,flip-horizontal-2,flip-horizontal,Mapped,Different name
+660,flip-vertical-2,flip-vertical,Mapped,Different name
+661,flower-2,flower-4,Mapped,Different name
+662,flower,flower-3,Mapped,Different name
+663,focus,focus,Mapped,Same name
+664,fold-horizontal,fold-horizontal,Mapped,Same name
+665,fold-vertical,fold-vertical,Mapped,Same name
+666,folder-archive,folder-zip,Mapped,Different name
+667,folder-check,folder-check,Mapped,Same name
+668,folder-clock,folder-clock,Mapped,Same name
+669,folder-closed,folder-2,Mapped,Different name
+670,folder-code,folder-code,Mapped,Same name
+671,folder-cog,folder-cog,Mapped,Same name
+672,folder-dot,folder-dot,Mapped,Same name
+673,folder-down,folder-download,Mapped,Different name
+674,folder-git-2,folder-git-2,Mapped,Same name
+675,folder-git,folder-git,Mapped,Same name
+676,folder-heart,folder-heart,Mapped,Same name
+677,folder-input,folder-input,Mapped,Same name
+678,folder-kanban,folder-kanban,Mapped,Same name
+679,folder-key,folder-key,Mapped,Same name
+680,folder-lock,folder-locked-2,Mapped,Different name
+681,folder-minus,folder-minus,Mapped,Same name
+682,folder-open-dot,folder-open-dot,Mapped,Same name
+683,folder-open,folder-open,Mapped,Same name
+684,folder-output,folder-output,Mapped,Same name
+685,folder-pen,folder-pen,Mapped,Same name
+686,folder-plus,new-folder,Mapped,Different name
+687,folder-root,folder-root,Mapped,Same name
+688,folder-search-2,folder-search-2,Mapped,Same name
+689,folder-search,folder-search,Mapped,Same name
+690,folder-symlink,folder-symlink,Mapped,Same name
+691,folder-sync,folder-sync,Mapped,Same name
+692,folder-tree,folder-tree,Mapped,Same name
+693,folder-up,folder-upload,Mapped,Different name
+694,folder-x,folder-delete,Mapped,Different name
+695,folder,folder,Mapped,Same name
+696,folders,folders,Mapped,Same name
+697,footprints,foot,Mapped,Different name
+698,forklift,forklift,Mapped,Same name
+699,form,report-forms,Mapped,Different name
+700,forward,forward-2,Mapped,Different name
+701,frame,frame,Mapped,Same name
+702,frown,sad,Mapped,Different name
+703,fuel,gas-station,Mapped,Different name
+704,fullscreen,fullscreen,Mapped,Same name
+705,funnel-plus,funnel-plus,Mapped,Same name
+706,funnel-x,funnel-x,Mapped,Same name
+707,funnel,filter,Mapped,Different name
+708,gallery-horizontal-end,gallery-horizontal-end,Mapped,Same name
+709,gallery-horizontal,gallery-horizontal,Mapped,Same name
+710,gallery-thumbnails,gallery-thumbnails,Mapped,Same name
+711,gallery-vertical-end,gallery-vertical-end,Mapped,Same name
+712,gallery-vertical,gallery-vertical,Mapped,Same name
+713,gamepad-2,game-2,Mapped,Different name
+714,gamepad-directional,gamepad-directional,Mapped,Same name
+715,gamepad,game-1,Mapped,Different name
+716,gauge,dashboard-2,Mapped,Different name
+717,gavel,auction,Mapped,Different name
+718,gem,diamond-2,Mapped,Different name
+719,georgian-lari,georgian-lari,Mapped,Same name
+720,ghost,ghost,Mapped,Same name
+721,gift,gift,Mapped,Same name
+722,git-branch-minus,git-branch-minus,Mapped,Same name
+723,git-branch-plus,git-branch-plus,Mapped,Same name
+724,git-branch,git-branch,Mapped,Same name
+725,git-commit-horizontal,git-commit-horizontal,Mapped,Same name
+726,git-commit-vertical,git-commit,Mapped,Different name
+727,git-compare-arrows,git-compare,Mapped,Different name
+728,git-compare,git-compare-2,Mapped,Different name
+729,git-fork,git-fork,Mapped,Same name
+730,git-graph,git-graph,Mapped,Same name
+731,git-merge-conflict,git-merge-conflict,Mapped,Same name
+732,git-merge,git-merge,Mapped,Same name
+733,git-pull-request-arrow,git-pull-request,Mapped,Different name
+734,git-pull-request-closed,git-pull-request-close,Mapped,Different name
+735,git-pull-request-create-arrow,git-pull-request-create-arrow,Mapped,Same name
+736,git-pull-request-create,git-pull-request-create,Mapped,Same name
+737,git-pull-request-draft,git-pull-request-draft,Mapped,Same name
+738,git-pull-request,git-pull-request-2,Mapped,Different name
+739,glass-water,glass-cup,Mapped,Different name
+740,glasses,eyeglass,Mapped,Different name
+741,globe-check,globe-check,Mapped,Same name
+742,globe-lock,globe-lock,Mapped,Same name
+743,globe-off,globe-off,Mapped,Same name
+744,globe-x,globe-x,Mapped,Same name
+745,globe,earth-4,Mapped,Different name
+746,goal,target,Mapped,Different name
+747,gpu,gpu,Mapped,Same name
+748,graduation-cap,mortarboard,Mapped,Different name
+749,grape,grape,Mapped,Same name
+750,grid-2x2-check,grid-2x2-check,Mapped,Same name
+751,grid-2x2-plus,grid-2x2-plus,Mapped,Same name
+752,grid-2x2-x,grid-2x2-x,Mapped,Same name
+753,grid-2x2,layout-grid,Mapped,Different name
+754,grid-3x2,grid-3x2,Mapped,Same name
+755,grid-3x3,grid-3x3,Mapped,Same name
+756,grip-horizontal,dots-vertical,Mapped,Different name
+757,grip-vertical,dots,Mapped,Different name
+758,grip,dot-grid,Mapped,Different name
+759,group,group,Mapped,Same name
+760,guitar,guitar,Mapped,Same name
+761,ham,ham,Mapped,Same name
+762,hamburger,hamburger,Mapped,Same name
+763,hammer,hammer,Mapped,Same name
+764,hand-coins,hand-coins,Mapped,Same name
+765,hand-fist,hand-fist,Mapped,Same name
+766,hand-grab,hand-grab,Mapped,Same name
+767,hand-heart,hand-heart,Mapped,Same name
+768,hand-helping,hand-helping,Mapped,Same name
+769,hand-metal,finger-rock,Mapped,Different name
+770,hand-platter,hand-platter,Mapped,Same name
+771,hand,hand,Mapped,Same name
+772,handbag,shopping-bag-1,Mapped,Different name
+773,handshake,handshake,Mapped,Same name
+774,hard-drive-download,hard-drive-download,Mapped,Same name
+775,hard-drive-upload,hard-drive-upload,Mapped,Same name
+776,hard-drive,server-2,Mapped,Different name
+777,hard-hat,hard-hat,Mapped,Same name
+778,hash,hashtag,Mapped,Different name
+779,hat-glasses,incognito-mode,Mapped,Different name
+780,haze,sun-fog,Mapped,Different name
+781,hd,hd,Mapped,Same name
+782,hdmi-port,hdmi-port,Mapped,Same name
+783,heading-1,heading-1,Mapped,Same name
+784,heading-2,heading-2,Mapped,Same name
+785,heading-3,heading-3,Mapped,Same name
+786,heading-4,heading-4,Mapped,Same name
+787,heading-5,heading-5,Mapped,Same name
+788,heading-6,heading-6,Mapped,Same name
+789,heading,heading,Mapped,Same name
+790,headphone-off,headphone-off,Mapped,Same name
+791,headphones,headphone,Mapped,Different name
+792,headset,service,Mapped,Different name
+793,heart-crack,heart-crack,Mapped,Same name
+794,heart-handshake,heart-hand,Mapped,Different name
+795,heart-minus,heart-minus,Mapped,Same name
+796,heart-off,heart-off,Mapped,Same name
+797,heart-check,heart-check,Mapped,Same name
+798,heart-plus,heart-plus,Mapped,Same name
+799,heart-x,heart-x,Mapped,Same name
+800,heart-pulse,heartbeat-2,Mapped,Different name
+801,heart,heart,Mapped,Same name
+802,heater,heater,Mapped,Same name
+803,helicopter,helicopter,Mapped,Same name
+804,hexagon,hexagon,Mapped,Same name
+805,highlighter,highlighter,Mapped,Same name
+806,history,history-anticlockwise,Mapped,Different name
+807,hop-off,hop-2-off,Mapped,Different name
+808,hop,hop-2,Mapped,Different name
+809,hospital,hospital,Mapped,Same name
+810,hotel,hotel,Mapped,Same name
+811,hourglass,sandglass,Mapped,Different name
+812,house-heart,house-heart,Mapped,Same name
+813,house-plug,house-plug,Mapped,Same name
+814,house-plus,house-plus,Mapped,Same name
+815,house-wifi,home-wifi,Mapped,Different name
+816,house,home-4,Mapped,Different name
+817,ice-cream-bowl,ice-cream-bowl,Mapped,Same name
+818,ice-cream-cone,ice-cream,Mapped,Different name
+819,id-card-lanyard,badge,Mapped,Different name
+820,id-card,IDcard,Mapped,Different name
+821,image-down,image-down,Mapped,Same name
+822,image-minus,image-minus,Mapped,Same name
+823,image-off,image-off,Mapped,Same name
+824,image-play,image-play,Mapped,Same name
+825,image-plus,image-plus,Mapped,Same name
+826,image-up,image-up,Mapped,Same name
+827,image-upscale,image-upscale,Mapped,Same name
+828,image,pic,Mapped,Different name
+829,images,photo-album,Mapped,Different name
+830,import,download,Mapped,Different name
+831,inbox,inbox-2,Mapped,Different name
+832,indian-rupee,currency-rupee-2,Mapped,Different name
+833,infinity,infinity,Mapped,Same name
+834,info,information,Mapped,Different name
+835,inspection-panel,inspection-panel,Mapped,Same name
+836,italic,italic,Mapped,Same name
+837,iteration-ccw,iteration-ccw,Mapped,Same name
+838,iteration-cw,iteration-cw,Mapped,Same name
+839,japanese-yen,currency-cny-2,Mapped,Different name
+840,joystick,joystick,Mapped,Same name
+841,kanban,trello-board,Mapped,Different name
+842,kayak,kayak,Mapped,Same name
+843,key-round,key-2,Mapped,Different name
+844,key-square,key-square,Mapped,Same name
+845,key,key-1,Mapped,Different name
+846,keyboard-music,midi,Mapped,Different name
+847,keyboard-off,keyboard-off,Mapped,Same name
+848,keyboard,keyboard,Mapped,Same name
+849,lamp-ceiling,ceiling-lamp,Mapped,Different name
+850,lamp-desk,desk-lamp-2,Mapped,Different name
+851,lamp-floor,lamp-floor,Mapped,Same name
+852,lamp-wall-down,lamp-wall-down,Mapped,Same name
+853,lamp-wall-up,lamp-wall-up,Mapped,Same name
+854,lamp,desk-lamp,Mapped,Different name
+855,land-plot,land-plot,Mapped,Same name
+856,landmark,bank,Mapped,Different name
+857,languages,translate-2,Mapped,Different name
+858,laptop-minimal-check,laptop-2-check,Mapped,Different name
+859,laptop-minimal,laptop-2,Mapped,Different name
+860,laptop,laptop,Mapped,Same name
+861,lasso-select,lasso-select,Mapped,Same name
+862,lasso,lasso,Mapped,Same name
+863,laugh,laugh,Mapped,Same name
+864,layers-2,layers-2,Mapped,Same name
+865,layers-plus,layers-plus,Mapped,Same name
+866,layers-minus,layers-minus,Mapped,Same name
+867,layers,version,Mapped,Different name
+868,layout-dashboard,grid-2,Mapped,Different name
+869,layout-grid,grid,Mapped,Different name
+870,layout-list,list-check-3,Mapped,Different name
+871,layout-panel-left,layout-panel-left,Mapped,Same name
+872,layout-panel-top,layout-panel-top,Mapped,Same name
+873,layout-template,layout-template,Mapped,Same name
+874,leaf,leaf,Mapped,Same name
+875,leafy-green,leafy-green,Mapped,Same name
+876,lectern,lectern,Mapped,Same name
+877,lens-concave,lens-concave,Mapped,Same name
+878,lens-convex,lens-convex,Mapped,Same name
+879,library-big,book-5,Mapped,Different name
+880,library,library,Mapped,Same name
+881,life-buoy,lifebuoy,Mapped,Different name
+882,ligature,ligature,Mapped,Same name
+883,lightbulb-off,lightbulb-off,Mapped,Same name
+884,lightbulb,bulb-2,Mapped,Different name
+885,line-dot-right-horizontal,line-dot-right-horizontal,Mapped,Same name
+886,line-squiggle,line-squiggle,Mapped,Same name
+887,line-style,dividing-line,Mapped,Different name
+888,link-2-off,unlink-2,Mapped,Different name
+889,link-2,link-2,Mapped,Same name
+890,link,link,Mapped,Same name
+891,list-check,list-check,Mapped,Same name
+892,list-checks,list-check-2,Mapped,Different name
+893,list-chevrons-down-up,list-chevrons-down-up,Mapped,Same name
+894,list-chevrons-up-down,list-chevrons-down-up,Mapped,Different name
+895,list-collapse,list-collapse-2,Mapped,Different name
+896,list-end,list-end,Mapped,Same name
+897,list-filter-plus,list-filter-plus,Mapped,Same name
+898,list-filter,filter-2,Mapped,Different name
+899,list-indent-decrease,list-indent-decrease,Mapped,Same name
+900,list-indent-increase,list-indent-increase,Mapped,Same name
+901,list-minus,list-minus,Mapped,Same name
+902,list-music,playlist,Mapped,Different name
+903,list-ordered,list-ordered,Mapped,Same name
+904,list-plus,list-plus,Mapped,Same name
+905,list-restart,list-restart,Mapped,Same name
+906,list-start,list-start,Mapped,Same name
+907,list-todo,list-todo,Mapped,Same name
+908,list-tree,directory,Mapped,Different name
+909,list-video,list-video,Mapped,Same name
+910,list-x,list-x,Mapped,Same name
+911,list,list-check,Mapped,Different name
+912,loader-circle,loading,Mapped,Different name
+913,loader-pinwheel,beachball,Mapped,Different name
+914,loader,loading-2,Mapped,Different name
+915,locate-fixed,aiming-2,Mapped,Different name
+916,locate-off,locate-off,Mapped,Same name
+917,locate,locate,Mapped,Same name
+918,lock-keyhole-open,unlock,Mapped,Different name
+919,lock-keyhole,lock,Mapped,Different name
+920,lock-open,lock-open,Mapped,Same name
+921,lock,lock-2,Mapped,Different name
+922,log-in,entrance,Mapped,Different name
+923,log-out,exit,Mapped,Different name
+924,logs,logs,Mapped,Same name
+925,lollipop,lollipop,Mapped,Same name
+926,luggage,luggage,Mapped,Same name
+927,magnet,magnet,Mapped,Same name
+928,mail-check,mail-check,Mapped,Same name
+929,mail-minus,mail-minus,Mapped,Same name
+930,mail-open,mail-open,Mapped,Same name
+931,mail-plus,mail-plus,Mapped,Same name
+932,mail-question-mark,mail-question-mark,Mapped,Same name
+933,mail-search,mail-search,Mapped,Same name
+934,mail-warning,mail-warning,Mapped,Same name
+935,mail-x,mail-x,Mapped,Same name
+936,mail,mail,Mapped,Same name
+937,mailbox,mailbox,Mapped,Same name
+938,mails,mails,Mapped,Same name
+939,map-minus,map-minus,Mapped,Same name
+940,map-pin-check-inside,clock,Mapped,Different name
+941,map-pin-check,map-pin-check,Mapped,Same name
+942,map-pin-house,map-pin-house,Mapped,Same name
+943,map-pin-minus-inside,map-pin-minus-inside,Mapped,Same name
+944,map-pin-minus,map-pin-minus,Mapped,Same name
+945,map-pin-off,map-pin-off,Mapped,Same name
+946,map-pin-pen,map-pin-pen,Mapped,Same name
+947,map-pin-plus-inside,map-pin-plus-inside,Mapped,Same name
+948,map-pin-plus,map-pin-plus,Mapped,Same name
+949,map-pin-search,map-pin-search,Mapped,Same name
+950,map-pin-x-inside,map-pin-x-inside,Mapped,Same name
+951,map-pin-x,map-pin-x,Mapped,Same name
+952,map-pin,location,Mapped,Different name
+953,map-pinned,location-3,Mapped,Different name
+954,map-plus,map-plus,Mapped,Same name
+955,map,map,Mapped,Same name
+956,mars-stroke,mars-stroke,Mapped,Same name
+957,mars,male,Mapped,Different name
+958,martini,wineglass-2,Mapped,Different name
+959,maximize-2,fullscreen-2,Mapped,Different name
+960,maximize,fullscreen,Mapped,Different name
+961,medal,medal,Mapped,Same name
+962,megaphone-off,megaphone-off,Mapped,Same name
+963,megaphone,horn,Mapped,Different name
+964,meh,meh,Mapped,Same name
+965,memory-stick,memory-stick,Mapped,Same name
+966,menu,menu,Mapped,Same name
+967,merge,merge,Mapped,Same name
+968,message-circle-check,message-circle-check,Mapped,Same name
+969,message-circle-code,message-circle-code,Mapped,Same name
+970,message-circle-dashed,message-circle-dashed,Mapped,Same name
+971,message-circle-heart,message-circle-heart,Mapped,Same name
+972,message-circle-more,chat-2,Mapped,Different name
+973,message-circle-off,message-circle-off,Mapped,Same name
+974,message-circle-plus,message-circle-plus,Mapped,Same name
+975,message-circle-question-mark,message-circle-question-mark,Mapped,Same name
+976,message-circle-reply,message-circle-reply,Mapped,Same name
+977,message-circle-warning,message-circle-warning,Mapped,Same name
+978,message-circle-x,message-circle-x,Mapped,Same name
+979,message-circle,chat-3,Mapped,Different name
+980,message-square-check,message-square-check,Mapped,Same name
+981,message-square-code,message-square-code,Mapped,Same name
+982,message-square-dashed,message-square-dashed,Mapped,Same name
+983,message-square-diff,message-square-diff,Mapped,Same name
+984,message-square-dot,message-square-dot,Mapped,Same name
+985,message-square-heart,message-square-heart,Mapped,Same name
+986,message-square-lock,message-square-lock,Mapped,Same name
+987,message-square-more,message-square-more,Mapped,Same name
+988,message-square-off,message-square-off,Mapped,Same name
+989,message-square-plus,message-square-plus,Mapped,Same name
+990,message-square-quote,message-square-quote,Mapped,Same name
+991,message-square-reply,message-square-reply,Mapped,Same name
+992,message-square-share,message-square-share,Mapped,Same name
+993,message-square-text,message-square-text,Mapped,Same name
+994,message-square-warning,message-square-warning,Mapped,Same name
+995,message-square-x,message-square-x,Mapped,Same name
+996,message-square,message-2,Mapped,Different name
+997,messages-square,messages-square,Mapped,Same name
+998,metronome,,To be added,
+999,mic-off,mic-off,Mapped,Same name
+1000,mic-vocal,microphone,Mapped,Different name
+1001,mic,mic,Mapped,Same name
+1002,microchip,chip,Mapped,Different name
+1003,microscope,microscope,Mapped,Same name
+1004,microwave,,To be added,
+1005,milestone,directions-2,Mapped,Different name
+1006,milk-off,,To be added,
+1007,milk,milk,Mapped,Same name
+1008,minimize-2,fullscreen-exit-2,Mapped,Different name
+1009,minimize,fullscreen-exit,Mapped,Different name
+1010,minus,minimize,Mapped,Different name
+1011,mirror-rectangular,display,Mapped,Different name
+1012,mirror-round,,To be added,
+1013,monitor-check,,To be added,
+1014,monitor-cloud,,To be added,
+1015,monitor-cog,,To be added,
+1016,monitor-dot,,To be added,
+1017,monitor-down,,To be added,
+1018,monitor-off,,To be added,
+1019,monitor-pause,,To be added,
+1020,monitor-play,,To be added,
+1021,monitor-smartphone,device,Mapped,Different name
+1022,monitor-speaker,,To be added,
+1023,monitor-stop,,To be added,
+1024,monitor-up,,To be added,
+1025,monitor-x,,To be added,
+1026,monitor,monitor,Mapped,Same name
+1027,moon-star,moon-stars,Mapped,Different name
+1028,moon,moon,Mapped,Same name
+1029,motorbike,,To be added,
+1030,mountain-snow,mountain-2,Mapped,Different name
+1031,mountain,mountain-2,Mapped,Different name
+1032,mouse-left,,To be added,
+1033,mouse-off,,To be added,
+1034,mouse-pointer-2-off,,To be added,
+1035,mouse-pointer-2,cursor,Mapped,Different name
+1036,mouse-pointer-ban,,To be added,
+1037,mouse-pointer-click,cursor-3,Mapped,Different name
+1038,mouse-pointer,cursor-2,Mapped,Different name
+1039,mouse-right,,To be added,
+1040,mouse,mouse,Mapped,Same name
+1041,move-3d,axis-3d,Mapped,Different name
+1042,move-diagonal-2,,To be added,
+1043,move-diagonal,diagonal,Mapped,Different name
+1044,move-down-left,,To be added,
+1045,move-down-right,,To be added,
+1046,move-down,,To be added,
+1047,move-horizontal,,To be added,
+1048,move-left,,To be added,
+1049,move-right,,To be added,
+1050,move-up-left,,To be added,
+1051,move-up-right,,To be added,
+1052,move-up,,To be added,
+1053,move-vertical,,To be added,
+1054,move,move,Mapped,Same name
+1055,music-2,music-2,Mapped,Same name
+1056,music-3,,To be added,
+1057,music-4,music,Mapped,Different name
+1058,music,,To be added,
+1059,navigation-2-off,,To be added,
+1060,navigation-2,,To be added,
+1061,navigation-off,,To be added,
+1062,navigation,navigation,Mapped,Same name
+1063,network,sitemap,Mapped,Different name
+1064,newspaper,news-2,Mapped,Different name
+1065,nfc,nfc,Mapped,Same name
+1066,non-binary,,To be added,
+1067,notebook-pen,,To be added,
+1068,notebook-tabs,,To be added,
+1069,notebook-text,,To be added,
+1070,notebook,notebook,Mapped,Same name
+1071,notepad-text-dashed,,To be added,
+1072,notepad-text,,To be added,
+1073,nut-off,,To be added,
+1074,nut,,To be added,
+1075,octagon-alert,alert-octagon,Mapped,Different name
+1076,octagon-minus,,To be added,
+1077,octagon-pause,,To be added,
+1078,octagon-x,,To be added,
+1079,octagon,octagon,Mapped,Same name
+1080,omega,omega,Mapped,Same name
+1081,option,,To be added,
+1082,orbit,,To be added,
+1083,origami,,To be added,
+1084,package-2,box,Mapped,Different name
+1085,package-check,,To be added,
+1086,package-minus,,To be added,
+1087,package-open,empty-box,Mapped,Different name
+1088,package-plus,,To be added,
+1089,package-search,,To be added,
+1090,package-x,,To be added,
+1091,package,package-2,Mapped,Different name
+1092,paint-bucket,paint,Mapped,Different name
+1093,paint-roller,paint-2,Mapped,Different name
+1094,paintbrush-vertical,brush,Mapped,Different name
+1095,paintbrush,brush-2,Mapped,Different name
+1096,palette,palette,Mapped,Same name
+1097,panda,,To be added,
+1098,panel-bottom-close,layout-bottom-close,Mapped,Different name
+1099,panel-bottom-dashed,,To be added,
+1100,panel-bottom-open,layout-bottom-open,Mapped,Different name
+1101,panel-bottom,layout-bottom,Mapped,Different name
+1102,panel-left-close,layout-leftbar-close,Mapped,Different name
+1103,panel-left-dashed,,To be added,
+1104,panel-left-open,layout-leftbar-open,Mapped,Different name
+1105,panel-left-right-dashed,,To be added,
+1106,panel-left,layout-left,Mapped,Different name
+1107,panel-right-close,layout-rightbar-close,Mapped,Different name
+1108,panel-right-dashed,,To be added,
+1109,panel-right-open,layout-rightbar-open,Mapped,Different name
+1110,panel-right,layout-right,Mapped,Different name
+1111,panel-top-bottom-dashed,,To be added,
+1112,panel-top-close,layout-bottom-close,Mapped,Different name
+1113,panel-top-dashed,,To be added,
+1114,panel-top-open,layout-bottom-open,Mapped,Different name
+1115,panel-top,layout-top,Mapped,Different name
+1116,panels-left-bottom,,To be added,
+1117,panels-right-bottom,,To be added,
+1118,panels-top-left,layout,Mapped,Different name
+1119,paperclip,attachment-3,Mapped,Different name
+1120,parasol,umbrella-2,Mapped,Different name
+1121,parentheses,parentheses,Mapped,Same name
+1122,parking-meter,,To be added,
+1123,party-popper,celebrate,Mapped,Different name
+1124,pause,pause,Mapped,Same name
+1125,paw-print,paw,Mapped,Different name
+1126,pc-case,,To be added,
+1127,pen-line,pencil-2,Mapped,Different name
+1128,pen-off,,To be added,
+1129,pen-tool,pen,Mapped,Different name
+1130,pen,pencil-3,Mapped,Different name
+1131,pencil-line,,To be added,
+1132,pencil-off,,To be added,
+1133,pencil-ruler,pencil-ruler,Mapped,Same name
+1134,pencil,pencil,Mapped,Same name
+1135,pentagon,pentagon,Mapped,Same name
+1136,percent,percentage,Mapped,Different name
+1137,person-standing,figure,Mapped,Different name
+1138,phi,,To be added,
+1139,philippine-peso,,To be added,
+1140,phone-call,phone-call,Mapped,Same name
+1141,phone-forwarded,,To be added,
+1142,phone-incoming,phone-incoming,Mapped,Same name
+1143,phone-missed,phone-block,Mapped,Different name
+1144,phone-off,phone-off,Mapped,Same name
+1145,phone-outgoing,phone-outgoing,Mapped,Same name
+1146,phone,phone,Mapped,Same name
+1147,pi,,To be added,
+1148,piano,,To be added,
+1149,pickaxe,pickax,Mapped,Different name
+1150,picture-in-picture-2,miniplayer,Mapped,Different name
+1151,picture-in-picture,expand-player,Mapped,Different name
+1152,piggy-bank,pig,Mapped,Different name
+1153,pilcrow-left,text-direction-left,Mapped,Different name
+1154,pilcrow-right,text-direction-right,Mapped,Different name
+1155,pilcrow,paragraph,Mapped,Different name
+1156,pill-bottle,capsule,Mapped,Different name
+1157,pill,bottle,Mapped,Different name
+1158,pin-off,pin-2,Mapped,Different name
+1159,pin,pin,Mapped,Same name
+1160,pipette,color-picker,Mapped,Different name
+1161,pizza,pizza,Mapped,Same name
+1162,plane-landing,flight-land,Mapped,Different name
+1163,plane-takeoff,flight-takeoff,Mapped,Different name
+1164,plane,airplane,Mapped,Different name
+1165,play,play,Mapped,Same name
+1166,play-off,,To be added,
+1167,plug-2,,To be added,
+1168,plug-zap,,To be added,
+1169,plug,plugin,Mapped,Different name
+1170,plus,add,Mapped,Different name
+1171,pocket-knife,,To be added,
+1172,podcast,,To be added,
+1173,pointer-off,,To be added,
+1174,pointer,hand-finger-2,Mapped,Different name
+1175,popcorn,,To be added,
+1176,popsicle,ice-cream-2,Mapped,Different name
+1177,pound-sterling,currency-pound-2,Mapped,Different name
+1178,power-off,,To be added,
+1179,power,power,Mapped,Same name
+1180,presentation,presentation-1,Mapped,Different name
+1181,printer-check,,To be added,
+1182,printer-x,,To be added,
+1183,printer,print,Mapped,Different name
+1184,projector,projector,Mapped,Same name
+1185,proportions,,To be added,
+1186,puzzle,,To be added,
+1187,pyramid,,To be added,
+1188,qr-code,qrcode-2,Mapped,Different name
+1189,quote,quote-right,Mapped,Different name
+1190,rabbit,rabbit,Mapped,Same name
+1191,radar,scan-2,Mapped,Different name
+1192,radiation,,To be added,
+1193,radical,,To be added,
+1194,radio-off,,To be added,
+1195,radio-receiver,,To be added,
+1196,radio-tower,base-station-2,Mapped,Different name
+1197,radio,radar,Mapped,Different name
+1198,radius,,To be added,
+1199,rainbow,rainbow,Mapped,Same name
+1200,rat,mickeymouse,Mapped,Different name
+1201,ratio,rotate-to-horizontal,Mapped,Different name
+1202,receipt-cent,,To be added,
+1203,receipt-euro,,To be added,
+1204,receipt-indian-rupee,,To be added,
+1205,receipt-japanese-yen,,To be added,
+1206,receipt-pound-sterling,,To be added,
+1207,receipt-russian-ruble,,To be added,
+1208,receipt-swiss-franc,,To be added,
+1209,receipt-text,bill,Mapped,Different name
+1210,receipt-turkish-lira,,To be added,
+1211,receipt,,To be added,
+1212,rectangle-circle,,To be added,
+1213,rectangle-ellipsis,,To be added,
+1214,rectangle-goggles,cardboard-vr,Mapped,Different name
+1215,rectangle-horizontal,rectangle,Mapped,Different name
+1216,rectangle-vertical,rectangle-vertical,Mapped,Same name
+1217,recycle,recycle,Mapped,Same name
+1218,redo-2,forward,Mapped,Different name
+1219,redo-dot,,To be added,
+1220,redo,forward-2,Mapped,Different name
+1221,refresh-ccw-dot,,To be added,
+1222,refresh-ccw,,To be added,
+1223,refresh-cw-off,,To be added,
+1224,refresh-cw,refresh-2,Mapped,Different name
+1225,refrigerator,fridge,Mapped,Different name
+1226,regex,,To be added,
+1227,remove-formatting,,To be added,
+1228,repeat-1,repeat-one,Mapped,Different name
+1229,repeat-2,transformation,Mapped,Different name
+1230,repeat,repeat,Mapped,Same name
+1231,replace-all,,To be added,
+1232,replace,,To be added,
+1233,reply-all,,To be added,
+1234,reply,,To be added,
+1235,rewind,fast-rewind,Mapped,Different name
+1236,ribbon,,To be added,
+1237,road,road,Mapped,Same name
+1238,rocket,rocket,Mapped,Same name
+1239,rocking-chair,,To be added,
+1240,roller-coaster,,To be added,
+1241,rose,rose,Mapped,Same name
+1242,rotate-3d,,To be added,
+1243,rotate-ccw-key,,To be added,
+1244,rotate-ccw-square,,To be added,
+1245,rotate-ccw,refresh-anticlockwise-1,Mapped,Different name
+1246,rotate-cw-square,,To be added,
+1247,rotate-cw,refresh-1,Mapped,Different name
+1248,route-off,,To be added,
+1249,route,route,Mapped,Same name
+1250,router,router-modem,Mapped,Different name
+1251,rows-2,rows-2,Mapped,Same name
+1252,rows-3,rows-4,Mapped,Different name
+1253,rows-4,,To be added,
+1254,rss,rss,Mapped,Same name
+1255,ruler-dimension-line,,To be added,
+1256,ruler,ruler,Mapped,Same name
+1257,russian-ruble,currency-ruble-2,Mapped,Different name
+1258,sailboat,sailboat,Mapped,Same name
+1259,salad,,To be added,
+1260,sandwich,,To be added,
+1261,satellite-dish,radar-2,Mapped,Different name
+1262,satellite,,To be added,
+1263,saudi-riyal,,To be added,
+1264,save-all,,To be added,
+1265,save-off,,To be added,
+1266,save,save-2,Mapped,Different name
+1267,scale-3d,,To be added,
+1268,scale,balance,Mapped,Different name
+1269,scaling,scale,Mapped,Different name
+1270,scan-barcode,barcode-scan,Mapped,Different name
+1271,scan-eye,,To be added,
+1272,scan-face,faceid,Mapped,Different name
+1273,scan-heart,,To be added,
+1274,scan-line,scan,Mapped,Different name
+1275,scan-qr-code,,To be added,
+1276,scan-search,,To be added,
+1277,scan-text,,To be added,
+1278,scan,scan,Mapped,Same name
+1279,school,school,Mapped,Same name
+1280,scissors-line-dashed,scissors-3,Mapped,Different name
+1281,scissors,scissors,Mapped,Same name
+1282,scooter,scooter,Mapped,Same name
+1283,screen-share-off,,To be added,
+1284,screen-share,,To be added,
+1285,scroll-text,paper,Mapped,Different name
+1286,scroll,,To be added,
+1287,search-alert,,To be added,
+1288,search-check,,To be added,
+1289,search-code,,To be added,
+1290,search-slash,,To be added,
+1291,search-x,search-none,Mapped,Different name
+1292,search,search,Mapped,Same name
+1293,section,,To be added,
+1294,send-horizontal,,To be added,
+1295,send-to-back,,To be added,
+1296,send,send,Mapped,Same name
+1297,separator-horizontal,,To be added,
+1298,separator-vertical,,To be added,
+1299,server-cog,,To be added,
+1300,server-crash,,To be added,
+1301,server-off,,To be added,
+1302,server,server,Mapped,Same name
+1303,settings-2,settings-horizontal,Mapped,Different name
+1304,settings,settings-3,Mapped,Different name
+1305,shapes,polygon,Mapped,Different name
+1306,share-2,share-2,Mapped,Same name
+1307,share,upload,Mapped,Different name
+1308,sheet,table,Mapped,Different name
+1309,shell,,To be added,
+1310,shelving-unit,,To be added,
+1311,shield-alert,safe-alert,Mapped,Different name
+1312,shield-ban,,To be added,
+1313,shield-check,safety-certificate,Mapped,Different name
+1314,shield-cog-corner,,To be added,
+1315,shield-cog,,To be added,
+1316,shield-ellipsis,,To be added,
+1317,shield-half,safe-shield-2,Mapped,Different name
+1318,shield-keyhole,safe-lock,Mapped,Different name
+1319,shield-minus,,To be added,
+1320,shield-off,,To be added,
+1321,shield-plus,shield,Mapped,Different name
+1322,shield-question-mark,,To be added,
+1323,shield-user,,To be added,
+1324,shield-x,,To be added,
+1325,shield,shield-shape,Mapped,Different name
+1326,ship-wheel,rudder,Mapped,Different name
+1327,ship,ship,Mapped,Same name
+1328,shirt,t-shirt,Mapped,Different name
+1329,shopping-bag,shopping-bag-3,Mapped,Different name
+1330,shopping-basket,basket-2,Mapped,Different name
+1331,shopping-cart,shopping-cart-1,Mapped,Different name
+1332,shovel,shovel,Mapped,Same name
+1333,shower-head,shower,Mapped,Different name
+1334,shredder,,To be added,
+1335,shrimp,,To be added,
+1336,shrink,fullscreen-exit-2,Mapped,Different name
+1337,shrub,tree-3,Mapped,Different name
+1338,shuffle,shuffle,Mapped,Same name
+1339,sigma,formula,Mapped,Different name
+1340,signal-high,,To be added,
+1341,signal-low,,To be added,
+1342,signal-medium,,To be added,
+1343,signal-zero,,To be added,
+1344,signal,signal,Mapped,Same name
+1345,signature,line-squiggle,Mapped,Different name
+1346,signpost-big,directions-2,Mapped,Different name
+1347,signpost,directions,Mapped,Different name
+1348,siren,report,Mapped,Different name
+1349,skip-back,skip-previous,Mapped,Different name
+1350,skip-forward,skip-forward,Mapped,Same name
+1351,skull,skull,Mapped,Same name
+1352,slash,line,Mapped,Different name
+1353,slice,,To be added,
+1354,sliders-horizontal,settings-2,Mapped,Different name
+1355,sliders-vertical,,To be added,
+1356,smartphone-charging,,To be added,
+1357,smartphone-nfc,,To be added,
+1358,smartphone,cellphone,Mapped,Different name
+1359,smile-plus,,To be added,
+1360,smile,,To be added,
+1361,snail,,To be added,
+1362,snowflake,snowflake,Mapped,Same name
+1363,soap-dispenser-droplet,,To be added,
+1364,sofa,sofa,Mapped,Same name
+1365,solar-panel,solar-panel,Mapped,Same name
+1366,soup,bowl-2,Mapped,Different name
+1367,space,space,Mapped,Same name
+1368,spade,spade,Mapped,Same name
+1369,sparkle,sparkles-3,Mapped,Different name
+1370,sparkles,sparkles-2,Mapped,Different name
+1371,speaker,speaker,Mapped,Same name
+1372,speech,,To be added,
+1373,spell-check-2,,To be added,
+1374,spell-check,,To be added,
+1375,spline-pointer,,To be added,
+1376,spline,,To be added,
+1377,split,,To be added,
+1378,spool,,To be added,
+1379,sport-shoe,run-2,Mapped,Different name
+1380,spotlight,,To be added,
+1381,spray-can,,To be added,
+1382,sprout,,To be added,
+1383,square-activity,performance,Mapped,Different name
+1384,square-arrow-down-left,,To be added,
+1385,square-arrow-down-right,,To be added,
+1386,square-arrow-down,,To be added,
+1387,square-arrow-left,,To be added,
+1388,square-arrow-out-down-left,,To be added,
+1389,square-arrow-out-down-right,,To be added,
+1390,square-arrow-out-up-left,,To be added,
+1391,square-arrow-out-up-right,,To be added,
+1392,square-arrow-right-enter,,To be added,
+1393,square-arrow-right-exit,,To be added,
+1394,square-arrow-right,,To be added,
+1395,square-arrow-up-left,,To be added,
+1396,square-arrow-up-right,,To be added,
+1397,square-arrow-up,,To be added,
+1398,square-asterisk,,To be added,
+1399,square-bottom-dashed-scissors,,To be added,
+1400,square-centerline-dashed-horizontal,,To be added,
+1401,square-centerline-dashed-vertical,,To be added,
+1402,square-chart-gantt,,To be added,
+1403,square-check-big,choice,Mapped,Different name
+1404,square-check,checkbox,Mapped,Different name
+1405,square-chevron-down,square-arrow-down,Mapped,Different name
+1406,square-chevron-left,square-arrow-left,Mapped,Different name
+1407,square-chevron-right,square-arrow-right,Mapped,Different name
+1408,square-chevron-up,square-arrow-up,Mapped,Different name
+1409,square-code,,To be added,
+1410,square-dashed-bottom-code,,To be added,
+1411,square-dashed-bottom,,To be added,
+1412,square-dashed-kanban,,To be added,
+1413,square-dashed-mouse-pointer,,To be added,
+1414,square-dashed-text,,To be added,
+1415,square-dashed-top-solid,,To be added,
+1416,square-dashed,,To be added,
+1417,square-divide,,To be added,
+1418,square-dot,,To be added,
+1419,square-equal,,To be added,
+1420,square-function,,To be added,
+1421,square-kanban,,To be added,
+1422,square-library,,To be added,
+1423,square-m,,To be added,
+1424,square-menu,,To be added,
+1425,square-minus,minus-square,Mapped,Different name
+1426,square-mouse-pointer,inspect,Mapped,Different name
+1427,square-parking-off,,To be added,
+1428,square-parking,,To be added,
+1429,square-pause,,To be added,
+1430,square-pen,edit-5,Mapped,Different name
+1431,square-percent,,To be added,
+1432,square-pi,,To be added,
+1433,square-pilcrow,,To be added,
+1434,square-play,,To be added,
+1435,square-plus,add-square,Mapped,Different name
+1436,square-power,,To be added,
+1437,square-radical,,To be added,
+1438,square-round-corner,border-radius,Mapped,Different name
+1439,square-scissors,,To be added,
+1440,square-sigma,,To be added,
+1441,square-slash,grok,Mapped,Different name
+1442,square-split-horizontal,,To be added,
+1443,square-split-vertical,,To be added,
+1444,square-square,,To be added,
+1445,square-stack,,To be added,
+1446,square-star,,To be added,
+1447,square-stop,,To be added,
+1448,square-terminal,terminal-box,Mapped,Different name
+1449,square-user-round,,To be added,
+1450,square-user,,To be added,
+1451,square-x,close-square,Mapped,Different name
+1452,square,square,Mapped,Same name
+1453,squares-exclude,exclude,Mapped,Different name
+1454,squares-intersect,intersect,Mapped,Different name
+1455,squares-subtract,subtract,Mapped,Different name
+1456,squares-unite,union,Mapped,Different name
+1457,squircle-dashed,,To be added,
+1458,squircle,,To be added,
+1459,squirrel,,To be added,
+1460,stamp,seal,Mapped,Different name
+1461,star-half,star-half,Mapped,Same name
+1462,star-off,,To be added,
+1463,star,star,Mapped,Same name
+1464,step-back,,To be added,
+1465,step-forward,,To be added,
+1466,stethoscope,stethoscope,Mapped,Same name
+1467,sticker,,To be added,
+1468,sticky-note,sticker,Mapped,Different name
+1469,stone,,To be added,
+1470,store,store,Mapped,Same name
+1471,stretch-horizontal,rows-3,Mapped,Different name
+1472,stretch-vertical,columns-3,Mapped,Different name
+1473,strikethrough,strikethrough,Mapped,Same name
+1474,subscript,,To be added,
+1475,sun-dim,,To be added,
+1476,sun-medium,,To be added,
+1477,sun-moon,,To be added,
+1478,sun-snow,,To be added,
+1479,sun,sun,Mapped,Same name
+1480,sunrise,sunrise,Mapped,Same name
+1481,sunset,sunset,Mapped,Same name
+1482,superscript,,To be added,
+1483,swatch-book,palette-2,Mapped,Different name
+1484,swiss-franc,,To be added,
+1485,switch-camera,camera-rotate,Mapped,Different name
+1486,sword,sword,Mapped,Same name
+1487,swords,,To be added,
+1488,syringe,injection,Mapped,Different name
+1489,table-2,table-2,Mapped,Same name
+1490,table-cells-merge,,To be added,
+1491,table-cells-split,,To be added,
+1492,table-columns-split,,To be added,
+1493,table-of-contents,,To be added,
+1494,table-properties,,To be added,
+1495,table-rows-split,,To be added,
+1496,table,table,Mapped,Same name
+1497,tablet-smartphone,,To be added,
+1498,tablet,pad,Mapped,Different name
+1499,tablets,,To be added,
+1500,tag,tag,Mapped,Same name
+1501,tags,tag-2,Mapped,Different name
+1502,tally-1,,To be added,
+1503,tally-2,,To be added,
+1504,tally-3,,To be added,
+1505,tally-4,,To be added,
+1506,tally-5,,To be added,
+1507,tangent,,To be added,
+1508,target,target,Mapped,Same name
+1509,telescope,telescope,Mapped,Same name
+1510,tent-tree,,To be added,
+1511,tent,tent,Mapped,Same name
+1512,terminal,terminal,Mapped,Same name
+1513,test-tube-diagonal,,To be added,
+1514,test-tube,test-tube,Mapped,Same name
+1515,test-tubes,,To be added,
+1516,text-align-center,text-align-center,Mapped,Same name
+1517,text-align-end,text-align-end,Mapped,Same name
+1518,text-align-justify,text-align-justify,Mapped,Same name
+1519,text-align-start,text-align-start,Mapped,Same name
+1520,text-cursor-input,textbox,Mapped,Different name
+1521,text-cursor,cursor-text,Mapped,Different name
+1522,text-initial,,To be added,
+1523,text-quote,blockquote,Mapped,Different name
+1524,text-search,list-search,Mapped,Different name
+1525,text-wrap,,To be added,
+1526,theater,,To be added,
+1527,thermometer-snowflake,low-temperature,Mapped,Different name
+1528,thermometer-sun,high-temperature,Mapped,Different name
+1529,thermometer,thermometer,Mapped,Same name
+1530,thumbs-down,thumb-down,Mapped,Different name
+1531,thumbs-up,thumb-up,Mapped,Different name
+1532,ticket-check,,To be added,
+1533,ticket-minus,,To be added,
+1534,ticket-percent,,To be added,
+1535,ticket-plus,,To be added,
+1536,ticket-slash,,To be added,
+1537,ticket-x,,To be added,
+1538,ticket,ticket,Mapped,Same name
+1539,tickets-plane,,To be added,
+1540,tickets,,To be added,
+1541,timer-off,stopwatch-2-off,Mapped,Different name
+1542,timer-reset,,To be added,
+1543,timer,stopwatch-2,Mapped,Different name
+1544,toggle-left,toggle-left,Mapped,Same name
+1545,toggle-right,toggle-right,Mapped,Same name
+1546,toilet,,To be added,
+1547,tool-case,box-4,Mapped,Different name
+1548,toolbox,suitcase-2,Mapped,Different name
+1549,tornado,tornado,Mapped,Same name
+1550,torus,,To be added,
+1551,touchpad-off,,To be added,
+1552,touchpad,,To be added,
+1553,towel-rack,,To be added,
+1554,tower-control,,To be added,
+1555,toy-brick,,To be added,
+1556,tractor,,To be added,
+1557,traffic-cone,traffic-cone,Mapped,Same name
+1558,train-front-tunnel,,To be added,
+1559,train-front,train-4,Mapped,Different name
+1560,train-track,,To be added,
+1561,tram-front,train-2,Mapped,Different name
+1562,transgender,,To be added,
+1563,trash,delete-2,Mapped,Different name
+1564,tree-deciduous,,To be added,
+1565,tree-palm,tree-4,Mapped,Different name
+1566,tree-pine,tree,Mapped,Different name
+1567,trees,,To be added,
+1568,trending-down,trending-down,Mapped,Same name
+1569,trending-up-down,,To be added,
+1570,trending-up,trending-up,Mapped,Same name
+1571,triangle-alert,alert,Mapped,Different name
+1572,triangle-dashed,,To be added,
+1573,triangle-right,,To be added,
+1574,triangle,angle,Mapped,Different name
+1575,trophy,trophy,Mapped,Same name
+1576,truck-electric,,To be added,
+1577,truck,truck,Mapped,Same name
+1578,turkish-lira,currency-lira-2,Mapped,Different name
+1579,turntable,,To be added,
+1580,turtle,,To be added,
+1581,tv-minimal-play,,To be added,
+1582,tv-minimal,tv-1,Mapped,Different name
+1583,tv,tv-2,Mapped,Different name
+1584,type-outline,,To be added,
+1585,type,text-2,Mapped,Different name
+1586,umbrella-off,,To be added,
+1587,umbrella,umbrella,Mapped,Same name
+1588,underline,underline,Mapped,Same name
+1589,undo-2,back,Mapped,Different name
+1590,undo-dot,,To be added,
+1591,undo,back-2,Mapped,Different name
+1592,unfold-horizontal,unfold-horizontal,Mapped,Same name
+1593,unfold-vertical,unfold-vertical,Mapped,Same name
+1594,ungroup,,To be added,
+1595,university,,To be added,
+1596,unlink-2,unlink-2,Mapped,Same name
+1597,unlink,unlink,Mapped,Same name
+1598,unplug,,To be added,
+1599,upload,upload-2,Mapped,Different name
+1600,usb,usb,Mapped,Same name
+1601,user-check,user-follow-2,Mapped,Different name
+1602,user-cog,user-setting,Mapped,Different name
+1603,user-key,,To be added,
+1604,user-lock,user-lock,Mapped,Same name
+1605,user-minus,user-remove-2,Mapped,Different name
+1606,user-pen,user-edit,Mapped,Different name
+1607,user-plus,user-add-2,Mapped,Different name
+1608,user-round-check,user-follow,Mapped,Different name
+1609,user-round-cog,,To be added,
+1610,user-round-key,,To be added,
+1611,user-round-minus,,To be added,
+1612,user-round-pen,,To be added,
+1613,user-round-plus,,To be added,
+1614,user-round-search,,To be added,
+1615,user-round-x,,To be added,
+1616,user-round,user-1,Mapped,Different name
+1617,user-search,user-search,Mapped,Same name
+1618,user-star,user-star,Mapped,Same name
+1619,user-x,user-x,Mapped,Same name
+1620,user,user-3,Mapped,Different name
+1621,users-round,group,Mapped,Different name
+1622,users,group-2,Mapped,Different name
+1623,utensils-crossed,fork-knife,Mapped,Different name
+1624,utensils,utensils,Mapped,Same name
+1625,utility-pole,,To be added,
+1626,van,,To be added,
+1627,variable,,To be added,
+1628,vault,,To be added,
+1629,vector-square,vector-bezier-3,Mapped,Different name
+1630,vegan,,To be added,
+1631,venetian-mask,,To be added,
+1632,venus-and-mars,venus-and-mars,Mapped,Same name
+1633,venus,female,Mapped,Different name
+1634,vibrate-off,,To be added,
+1635,vibrate,cellphone-vibration,Mapped,Different name
+1636,video-off,,To be added,
+1637,video,camcorder,Mapped,Different name
+1638,videotape,,To be added,
+1639,view,,To be added,
+1640,voicemail,record-mail,Mapped,Different name
+1641,volleyball,volleyball,Mapped,Same name
+1642,volume-1,volume-low,Mapped,Different name
+1643,volume-2,volume,Mapped,Different name
+1644,volume-off,,To be added,
+1645,volume-x,volume-mute,Mapped,Different name
+1646,volume,,To be added,
+1647,vote,,To be added,
+1648,wallet-cards,wallet-5,Mapped,Different name
+1649,wallet-minimal,wallet-3,Mapped,Different name
+1650,wallet,wallet,Mapped,Same name
+1651,wallpaper,,To be added,
+1652,wand-sparkles,magic-3,Mapped,Different name
+1653,wand,magic-2,Mapped,Different name
+1654,warehouse,,To be added,
+1655,washing-machine,wash-machine,Mapped,Different name
+1656,watch,watch,Mapped,Same name
+1657,waves-arrow-down,,To be added,
+1658,waves-arrow-up,,To be added,
+1659,waves-ladder,swimming-pool,Mapped,Different name
+1660,waves-horizontal,wave,Mapped,Different name
+1661,waypoints,,To be added,
+1662,webcam,computer-camera,Mapped,Different name
+1663,webcam-off,computer-camera-off,Mapped,Different name
+1664,webhook-off,,To be added,
+1665,webhook,webhook-2,Mapped,Different name
+1666,weight-tilde,,To be added,
+1667,weight,,To be added,
+1668,wheat-off,,To be added,
+1669,wheat,,To be added,
+1670,whistle,whistle,Mapped,Same name
+1671,whole-word,,To be added,
+1672,wifi-cog,,To be added,
+1673,wifi-high,,To be added,
+1674,wifi-low,,To be added,
+1675,wifi-off,wifi-off,Mapped,Same name
+1676,wifi-pen,,To be added,
+1677,wifi-sync,,To be added,
+1678,wifi-zero,,To be added,
+1679,wifi,wifi,Mapped,Same name
+1680,wind-arrow-down,,To be added,
+1681,wind-arrow-up,,To be added,
+1682,wind,wind,Mapped,Same name
+1683,wine-off,,To be added,
+1684,wine,wineglass,Mapped,Different name
+1685,workflow,,To be added,
+1686,worm,,To be added,
+1687,wrench,tool,Mapped,Different name
+1688,wrench-off,,To be added,
+1689,x-line-top,,To be added,
+1690,x,close,Mapped,Different name
+1691,zap-off,,To be added,
+1692,zap,flash,Mapped,Different name
+1693,zodiac-aquarius,Aquarius,Mapped,Different name
+1694,zodiac-aries,Aries,Mapped,Different name
+1695,zodiac-cancer,Cancer,Mapped,Different name
+1696,zodiac-capricorn,Capricorn,Mapped,Different name
+1697,zodiac-gemini,Gemini,Mapped,Different name
+1698,zodiac-leo,Leo,Mapped,Different name
+1699,zodiac-libra,Libra,Mapped,Different name
+1700,zodiac-ophiuchus,,To be added,
+1701,zodiac-pisces,Pisces,Mapped,Different name
+1702,zodiac-sagittarius,Sagittarius,Mapped,Different name
+1703,zodiac-scorpio,Scorpio,Mapped,Different name
+1704,zodiac-taurus,Taurus,Mapped,Different name
+1705,zodiac-virgo,Virgo,Mapped,Different name
+1706,zoom-in,zoom-in,Mapped,Same name
+1707,zoom-out,zoom-out,Mapped,Same name

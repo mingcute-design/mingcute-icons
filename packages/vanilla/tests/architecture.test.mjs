@@ -24,14 +24,14 @@ test('root is utility-only and importing it is safe without a DOM', async () => 
 test('style and direct icon package subpaths resolve', async () => {
   const style = await import('@mingcute/vanilla/core-regular');
   const direct = await import('@mingcute/vanilla/core-regular/home-1');
-  assert.equal(Object.keys(style).length, 1663);
+  assert.equal(Object.keys(style).length, 2263);
   assert.match(style.Home1Regular, /^<svg/);
   assert.deepEqual(Object.keys(direct), ['Home1Regular', 'default']);
 });
 
 test('generated icons are independent wrappers around shared definitions', async () => {
   const directory = path.join(root, 'dist/styles/core-regular');
-  assert.equal((await readdir(directory)).filter((name) => name.endsWith('.js')).length, 1663);
+  assert.equal((await readdir(directory)).filter((name) => name.endsWith('.js')).length, 2263);
   const home = await readFile(path.join(directory, 'home-1.js'), 'utf8');
   assert.match(home, /@mingcute\/icons\/core-regular\/home-1/);
   assert.match(home, /renderIconSource\(definition\)/);

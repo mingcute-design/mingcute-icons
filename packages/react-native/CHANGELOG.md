@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.1.0] - 2026-10-29
+
+### Added
+
+- React Native components for the expanded Core Regular and Filled corpus,
+  now 2,263 icons per style.
+
+### Changed
+
+- Followed renamed icon exports from `@mingcute/icons` and removed `dots-vertical`.
+
 ## [3.0.2] - 2026-07-31
 
 ### Fixed

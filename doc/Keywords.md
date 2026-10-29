@@ -1,0 +1,5897 @@
+# MingCute Icons Keywords
+
+This document maps English keywords to import names in the current public icon packages.
+
+Regular and Filled share the same keywords and icon names; only the style differs.
+
+MingCute Pro and MingCute Icons use the same icon names and keywords. A name in this document can be used to find the icon in both the public packages and the Pro packages. The difference is the package name and the style range: Pro also includes additional styles.
+
+Coverage: 2,263 icons, 4,526 styled definitions, and 3,393 English keywords.
+
+## How to use
+
+Search this file for an English keyword such as `search`, `calendar`, or `lock`. The names in the index are the package import paths.
+
+~~~tsx
+import CalendarRegular from '@mingcute/react/core-regular/calendar';
+import CalendarFilled from '@mingcute/react/core-filled/calendar';
+~~~
+
+Other packages use the same path:
+
+~~~ts
+import { CalendarRegular } from '@mingcute/vue/core-regular';
+import calendarRegular from '@mingcute/svelte/core-regular/calendar';
+~~~
+
+The SVG file is `@mingcute/svg/core-regular/calendar.svg`. The font classes are `mgc-calendar-core-regular` and `mgc-calendar-core-filled`.
+
+Component names are listed in the catalogue. Split the slug on `-`, capitalize each ordinary word, uppercase acronyms such as `ios`, `ai`, and `id`, then append `Regular` or `Filled`.
+
+## Common keywords
+
+Only the first 12 icons are listed for each keyword. The index below has the full results.
+
+| Keyword | Count | Icons |
+| --- | ---: | --- |
+| search | 19 | `calendar-search`, `mail-search`, `database-search`, `list-search`, `book-search`, `search`, `file-search`, `search-2`, `search-3`, `search-ai`, `search-2-ai`, `search-2-none` … |
+| settings | 23 | `brain-cog`, `calendar-cog`, `keyboard-off`, `columns-3-cog`, `file-cog`, `file-sliders`, `folder-cog`, `settings-1`, `settings-2`, `settings-3`, `settings-4`, `settings-5` … |
+| home | 18 | `home-1`, `home-2`, `home-3`, `home-4`, `home-5`, `home-6`, `house`, `home-7`, `house-2`, `house-plug`, `house-plus`, `layout-panel-left` … |
+| user | 33 | `book-user`, `file-user`, `user-1`, `user-2`, `user-3`, `user-4`, `user-5`, `user-add`, `user-follow`, `user-remove`, `user-add-2`, `user-edit` … |
+| delete | 51 | `calendar-x`, `banknote-x`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `funnel-x`, `mail-minus`, `mail-x`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x` … |
+| edit | 28 | `mail-pen`, `pen`, `quill-pen`, `quill-pen-ai`, `pen-ai`, `edit`, `pencil`, `pen-2`, `edit-2`, `edit-3`, `pencil-2`, `edit-4` … |
+| download | 9 | `arrow-big-down-dash`, `hard-drive-download`, `download-2`, `download`, `file-download`, `download-3`, `folder-download`, `image-down`, `cloud-sync` |
+| upload | 9 | `hard-drive-upload`, `file-upload`, `upload-2`, `upload-3`, `upload`, `folder-upload`, `image-up`, `cloud-backup`, `cloud-sync` |
+| close | 17 | `calendar-x`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `layout-bottom-close`, `layout-leftbar-close`, `layout-rightbar-close`, `layout-top-close`, `sidebar-left-close`, `sidebar-right-close`, `bookmark-x` … |
+| add | 40 | `calendar-add`, `calendar-plus-2`, `funnel-plus`, `mail-plus`, `message-circle-plus`, `message-square-diff`, `message-square-plus`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `git-branch-plus` … |
+| share | 4 | `message-square-share`, `share-forward`, `share-2`, `share-3` |
+| copy | 27 | `mails`, `messages-square`, `book-copy`, `clipboard`, `copy`, `document`, `documents`, `copy-2`, `copy-3`, `task-2`, `task`, `paste` … |
+| refresh | 11 | `calendar-sync`, `list-restart`, `folder-sync`, `refresh-1`, `refresh-2`, `refresh-3`, `refresh-4`, `refresh-anticlockwise-1`, `refresh-4-ai`, `cloud-backup`, `cloud-sync` |
+| loading | 8 | `loading`, `loading-2`, `loading-3`, `loading-4`, `progress-25`, `progress-50`, `progress-75`, `progress-arc` |
+| notification | 49 | `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `message-circle-check`, `message-circle-code` … |
+| message | 60 | `chat-1`, `chat-2`, `mail`, `mail-open`, `mail-send`, `mail-ai`, `message-1`, `message-2`, `message-3`, `chat-3`, `message-4`, `chat-4` … |
+| mail | 19 | `mail`, `mail-open`, `mail-send`, `mail-ai`, `invite`, `mailbox`, `send`, `send-plane`, `mail-badge`, `mail-check`, `mail-clock`, `mail-minus` … |
+| calendar | 26 | `calendar`, `schedule`, `anniversary`, `calendar-add`, `calendar-day`, `calendar-month`, `calendar-time-add`, `calendar-week`, `calendar-2`, `calendar-3`, `calendar-x`, `calendar-1` … |
+| file | 107 | `file`, `doc`, `file-export`, `file-import`, `file-music`, `file-new`, `file-upload`, `pdf`, `ppt`, `save`, `xls`, `file-zip` … |
+| folder | 38 | `folder-2`, `folder`, `folder-open`, `folder-open-2`, `album-2`, `folder-3`, `folder-check`, `folder-download`, `folder-forbid`, `folder-info`, `folder-locked`, `folder-locked-2` … |
+| lock | 14 | `message-square-lock`, `book-lock`, `file-locked`, `folder-locked`, `folder-locked-2`, `earth-lock`, `globe-lock`, `lock`, `safe-lock`, `keyhole`, `door-closed-locked`, `lock-2` … |
+| unlock | 3 | `unlock`, `gesture-unlock`, `key-square` |
+| payment | 30 | `alipay`, `paypal`, `mastercard`, `stripe`, `visa`, `wechat-pay`, `nfc`, `amazon-pay`, `coin-2`, `coin`, `copper-coin`, `wallet-5` … |
+| cart | 3 | `shopping-cart-1`, `shopping-cart-2`, `baggage-claim` |
+| location | 33 | `arrow-down-to-dot`, `location-2`, `location`, `navigation`, `clock`, `clock-time`, `live-location`, `map-pin`, `location-3`, `bed-single`, `circle-parking-off`, `earth-lock` … |
+| camera | 17 | `computer-camera`, `computer-camera-off`, `camcorder-2`, `cctv-off`, `file-video-camera`, `camera-2`, `camcorder`, `camera`, `camera-rotate`, `camcorder-3`, `camcorder-off`, `camera-2-off` … |
+| image | 15 | `book-image`, `pic-2`, `pic`, `photo-album`, `photo-album-2`, `pic-ai`, `file-image`, `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play` … |
+| video | 13 | `tiktok`, `youtube`, `bilibili`, `tv-1`, `tv-2`, `computer-camera`, `computer-camera-off`, `hdmi-port`, `file-play`, `file-video-camera`, `video`, `video-ai` … |
+| filter | 12 | `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `filter`, `filter-3`, `funnel-plus`, `funnel-x`, `color-filter`, `cone`, `filter-2`, `list-filter-plus` |
+| sort | 18 | `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `az-sort-ascending-letters`, `sort-ascending`, `sort-descending`, `za-sort-descending-letters`, `az-sort-descending-letters`, `za-sort-ascending-letters` … |
+| warning | 18 | `mail-warning`, `message-circle-warning`, `message-square-warning`, `alarm-smoke`, `battery-warning`, `book-alert`, `file-warning`, `folder-warning`, `traffic-cone`, `alert`, `warning`, `alert-octagon` … |
+| success | 14 | `trophy`, `mail-check`, `laptop-minimal-check`, `file-check`, `folder-check`, `globe-check`, `check-circle`, `check`, `check-2`, `checks`, `progress-100`, `user-follow` … |
+| error | 11 | `banknote-x`, `bug`, `git-merge-conflict`, `copy-slash`, `circle-off`, `close-circle`, `close`, `close-square`, `fault`, `ban`, `cloud-alert` |
+| star | 13 | `bling`, `ai`, `file-star`, `folder-star`, `star-2`, `star-topper`, `star`, `star-half`, `circle-star`, `user-star`, `sparkles`, `sparkles-2` … |
+| like | 6 | `message-circle-heart`, `message-square-heart`, `book-heart`, `heart-plus`, `thumb-up`, `thumb-up-2` |
+| comment | 31 | `comment`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check` … |
+| menu | 9 | `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `circle-chevron-up`, `menu`, `list-collapse`, `list-expansion`, `logs`, `text-align-justify` |
+| link | 7 | `cable`, `link-2`, `link`, `external-link`, `link-3`, `file-symlink`, `folder-symlink` |
+| qrcode | 2 | `qrcode`, `qrcode-2` |
+| print | 1 | `print` |
+| save | 11 | `hard-drive-download`, `hard-drive-upload`, `download-2`, `download`, `file-download`, `save`, `download-3`, `save-2`, `folder-download`, `image-down`, `cloud-backup` |
+| send | 5 | `mail-send`, `invite`, `send`, `send-plane`, `bring-to-front` |
+
+## English keywords
+
+Grouped by initial letter, case-insensitive. One keyword may match several icons.
+
+### #
+
+- `#`: `hashtag`
+- `$`: `refund-dollar`, `badge-cent`, `badge-dollar-sign`
+- `&`: `and`
+- `&&`: `ampersands`
+- `*`: `asterisk`, `asterisk-2`
+- `+`: `git-branch-plus`, `git-pull-request-create`, `git-pull-request-create-arrow`, `battery-plus`, `copy-plus`, `add-circle`, `add`, `plus`, `add-square`, `diamond-plus`, `user-add`, `user-add-2`
+- `-`: `git-branch-minus`, `copy-minus`
+- `---`: `diamond-minus`
+- `.`: `dot`
+- `...`: `message-square-more`
+- `/`: `circle-divide`, `divide`, `copy-slash`, `circle-slash-2`
+### 1
+
+- `1`: `calendar-1`, `dice-1`
+- `1 oclock`: `clock-1`
+- `10`: `rewind-backward-10`, `rewind-forward-10`, `rewind-backward-square-10`, `rewind-forward-square-10`
+- `10 oclock`: `clock-10`
+- `100 percent`: `progress-100`
+- `100%`: `progress-100`
+- `101`: `taipei101`
+- `1080p`: `hd`
+- `11 oclock`: `clock-11`
+- `12 oclock`: `clock-12`
+- `15`: `rewind-backward-15`, `rewind-forward-15`, `rewind-backward-square-15`, `rewind-forward-square-15`
+### 2
+
+- `2`: `dice-2`
+- `2 oclock`: `clock-2`
+- `24`: `hours`
+- `25 percent`: `quarter-circle-dash`, `progress-25`
+- `25%`: `progress-25`
+- `2G`: `signal`
+- `2g`: `signal`
+- `2x2`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`
+### 3
+
+- `3`: `dice-3`
+- `3 oclock`: `clock-3`
+- `30`: `rewind-backward-30`, `rewind-forward-30`, `rewind-backward-square-30`, `rewind-forward-square-30`
+- `3D`: `axis-3d`, `file-axis-3d`
+- `3d`: `cube-3d`, `file-axis-3d`, `file-box`, `hemisphere`, `hemisphere-2`, `cuboid`
+- `3D model file`: `file-box`
+- `3G`: `signal`
+- `3g`: `signal`
+- `3x3`: `grid-3x3`
+### 4
+
+- `4`: `dice-4`
+- `4 oclock`: `clock-4`
+- `4G`: `signal`
+- `4g`: `signal`
+- `4wd`: `four-wheel-drive`
+### 5
+
+- `5`: `rewind-backward-5`, `rewind-forward-5`, `rewind-backward-square-5`, `rewind-forward-square-5`, `random`
+- `5 oclock`: `clock-5`
+- `50 percent`: `semicircle-dash`, `progress-50`
+- `50%`: `progress-50`
+- `5G`: `signal`
+- `5g`: `signal`
+### 6
+
+- `6`: `dice-6`
+- `6 oclock`: `clock-6`
+### 7
+
+- `7 oclock`: `clock-7`
+- `720p`: `hd`
+- `75 percent`: `three-quarters-circle-dash`, `progress-75`
+- `75%`: `progress-75`
+### 8
+
+- `8 oclock`: `clock-8`
+### 9
+
+- `9 oclock`: `clock-9`
+### #
+
+- `<`: `circle-chevron-left`
+- `=`: `circle-equal`, `equal`
+- `>`: `circle-chevron-right`
+- `@`: `at`
+- `^`: `circle-chevron-up`
+### A
+
+- `abode`: `house-heart`
+- `about`: `equal-approximately`
+- `ABS`: `abs`
+- `abuse`: `message-circle-warning`, `message-square-warning`
+- `academy`: `book-alert`, `book-copy`, `book-open-text`, `book-text`, `book-type`, `library`
+- `access`: `inspection-panel`
+- `accessibility`: `ear-off`, `contrast`, `captions`, `captions-off`, `eclipse`
+- `accessible`: `disabled`, `disabled-2`, `wheelchair`
+- `accessories`: `bow-tie`, `scarf`, `bowknot`
+- `accordion`: `list-chevrons-down-up`, `list-chevrons-up-down`
+- `account`: `user-1`, `user-2`, `user-3`, `user-4`, `user-5`, `circle-user`
+- `accountancy`: `between-horizontal-end`, `between-horizontal-start`
+- `accumulator`: `battery-plus`, `battery-warning`
+- `acme`: `anvil`
+- `acoustic`: `voice`, `voice-2`, `sound-line`
+- `acquaintances`: `book-user`
+- `acre`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`
+- `acres`: `land-plot`
+- `action sports`: `skateboarding`
+- `active`: `folder-open-dot`
+- `activity`: `flag-1`, `flag-2`, `flag-3`, `flag-4`
+- `ad`: `ad-circle`, `ad-circle-off`, `ad-rectangle`, `ad-rectangle-off`
+- `ADA`: `cardano-ada`
+- `add`: `calendar-add`, `calendar-plus-2`, `funnel-plus`, `mail-plus`, `message-circle-plus`, `message-square-diff`, `message-square-plus`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `git-branch-plus`, `git-pull-request-create`, `git-pull-request-create-arrow`, `alarm-clock-plus`, `battery-plus`, `list-plus`, `bookmark-add`, `file-new`, `new-folder`, `clipboard-plus`, `copy-plus`, `image-plus`, `map-pin-plus`, `map-pin-plus-inside`, `map-plus`, `bell-plus`, `heart-plus`, `add`, `classify-add-2`, `classify-add`, `plus`, `add-square`, `badge-plus`, `clock-plus`, `diamond-plus`, `layers-plus`, `list-filter-plus`, `user-add`, `user-add-2`
+- `add circle dash`: `add-circle-dash`
+- `add icon`: `add-circle-dash`
+- `add time`: `clock-plus`
+- `add-circle`: `add-circle`
+- `added`: `map-pin-check`
+- `addition`: `house-plus`
+- `address`: `map-pin-house`, `contacts`, `contacts-2`, `contacts-3`, `contacts-4`
+- `addresses`: `book-user`
+- `adjust`: `columns-3-cog`
+- `adjustments`: `settings-1`, `settings-2`, `settings-3`, `settings-4`, `settings-5`, `settings-6`, `settings-7`, `user-setting`
+- `admin`: `brick-wall-shield`, `file-sliders`
+- `advance`: `clock-arrow-up`
+- `adventure`: `skateboard`, `kayak`
+- `advertisement`: `ad-circle`, `ad-circle-off`, `ad-rectangle`, `ad-rectangle-off`
+- `aerial`: `antenna`, `aerial-lift`
+- `agenda`: `list-check-2`
+- `agile`: `chart-no-axes-gantt`, `folder-kanban`
+- `agility drill`: `hop`
+- `agreement`: `hand-helping`, `handshake`
+- `ahead`: `circle-chevron-up`, `fast-forward`, `rewind-forward-5`, `rewind-forward-10`, `rewind-forward-15`, `rewind-forward-30`, `rewind-forward-square-5`, `rewind-forward-square-10`, `rewind-forward-square-15`, `rewind-forward-square-30`
+- `AI`: `deepseek`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `magic-1`, `magic-2`, `magic-3`, `magic-hat-2`, `magic-hat`, `brush-2-ai`, `pen-ai`, `terminal-ai`, `terminal-box-ai`, `bulb-ai`, `bulb-2-ai`, `crystal-ball`
+- `ai`: `brain-circuit`, `brain-cog`, `openai`, `grok`, `siri`, `apple-intelligence`, `apple-intelligence-frame`, `siri-frame`, `copilot`, `mail-ai`, `bot-message-square`, `bling`, `paint-brush-ai`, `bot-off`, `cellphone-2-ai`, `ai`, `pencil-2-ai`, `textbox-ai`, `content-ai`, `translate-2-ai`, `edit-2-ai`, `edit-3-ai`, `eraser-ai`, `pen-2-ai`, `pencil-3-ai`, `pencil-ai`, `signature-2-ai`, `book-ai`, `book-2-ai`, `book-6-ai`, `pic-ai`, `search-ai`, `file-ai`, `search-2-ai`, `search-3-ai`, `camcorder-ai`, `video-ai`, `refresh-4-ai`, `brush-3-ai`, `classify-ai`, `classify-2-ai`, `classify-3-ai`, `sparkles`, `sparkles-2`, `sparkles-3`, `cloud-cog`
+- `AI chatbot`: `claude`, `google-gemini`
+- `AI search`: `perplexity`
+- `aid`: `bandage`
+- `aim`: `target`, `diamond-plus`
+- `aiming`: `aiming`, `aiming-2`
+- `air`: `air-condition`, `air-condition-open`, `air-balloon`, `fan-2`, `fan`, `pinwheel`, `pinwheel-2`, `wind`
+- `air-conditioner`: `air-condition`, `air-condition-open`
+- `airbnb`: `airbnb`
+- `aircraft`: `parachute`, `helicopter`
+- `airdrop`: `airdrop`
+- `airplane`: `airplane`
+- `airplay`: `airplay`
+- `airpods`: `airpods-2`, `airpods`
+- `airport`: `airplane`
+- `airwaves`: `audio-waveform`
+- `al`: `burj-al-arab`
+- `alarm`: `alarm-1`, `alarm-2`, `alarm-clock-check`, `alarm-clock-minus`, `alarm-clock-plus`, `alarm-smoke`, `clipboard-clock`, `notification`, `volume`, `notification-off`, `notification-newdot`, `horn`, `announcement`, `bell-ringing`, `horn-2`, `bell-minus`, `time`, `newdot`, `report`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`, `clock-alert`, `clock-arrow-down`, `clock-arrow-up`, `clock-check`, `clock-plus`
+- `album`: `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`, `book-image`, `album-2`, `photo-album`, `photo-album-2`, `album-3`, `album`, `music-2`, `music`, `music-3`, `music-2-ai`, `disc-album`, `circle-dot`
+- `albums`: `library`
+- `alcohol`: `beer`, `beer-off`
+- `alert`: `message-circle-warning`, `message-square-warning`, `alarm-smoke`, `bell-electric`, `book-alert`, `file-warning`, `folder-warning`, `alert`, `warning`, `alert-octagon`, `safe-alert`, `alert-diamond`, `badge-alert`, `clock-alert`, `user-warning`, `cloud-alert`
+- `align`: `align-bottom`, `align-horizontal-center`, `align-left-2`, `align-right-2`, `align-top`, `align-vertical-center`, `align-center-horizontal`, `align-center-vertical`, `align-end-horizontal`, `align-end-vertical`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-horizontal-justify-center`, `align-horizontal-justify-end`, `align-horizontal-justify-start`, `align-horizontal-space-between`, `align-start-horizontal`, `align-start-vertical`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`, `layout-align-left`, `layout-align-right`, `align-right`, `align-center`, `align-left`, `align-justify`, `text-align-center`, `text-align-end`, `text-align-justify`, `text-align-start`
+- `alignment`: `align-justify`, `columns-4`, `text-align-center`, `text-align-end`, `text-align-justify`, `text-align-start`
+- `Alipay`: `alipay`
+- `allergy`: `candy-off`, `fish-off`, `bean-off`
+- `allotment`: `land-plot`
+- `allowance`: `hand-coins`
+- `alloy`: `anvil`
+- `alphabet`: `google`
+- `alternates`: `ligature`
+- `alternatives`: `ligature`
+- `amalgamate`: `combine`
+- `amazed`: `omg`, `surprise`
+- `Amazon`: `amazon-pay`
+- `ambulance`: `ambulance`
+- `ambulation`: `walk`
+- `amenities`: `alarm-smoke`, `heater`, `fire-extinguisher`
+- `America`: `statue-of-liberty`
+- `American`: `american-express`
+- `american`: `american-football`
+- `ampersand`: `ampersands`
+- `analysis`: `chart-bar`, `chart-line`, `chart-pie`, `chart-bar-2`, `chart-decrease`, `chart-horizontal`, `chart-pie-2`, `chart-vertical`, `chart-horizontal-2`, `chart-pie-3`, `chart-vertical-2`
+- `analytics`: `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`, `chart-scatter`, `chart-spline`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`
+- `anchor`: `anchor`
+- `and`: `and`, `ampersands`, `venus-and-mars`
+- `androgyne`: `mars-stroke`
+- `androgynous`: `venus-and-mars`
+- `android`: `android`, `android-2`
+- `angel`: `angel`
+- `angle`: `brackets-angle`
+- `angler`: `fishing-hook`
+- `angry`: `angry`
+- `animal`: `fish`, `fish-off`, `pig`, `cat`, `paw`, `rabbit`
+- `animation`: `ease-in-control-point`, `ease-in-out-control-point`, `ease-out-control-point`
+- `anniversary`: `anniversary`
+- `annotate`: `line-squiggle`
+- `annoyed`: `annoyed`
+- `answer engine`: `perplexity`
+- `antenna`: `antenna`
+- `Anthropic`: `claude`
+- `anticlockwise`: `anticlockwise`, `anticlockwise-alt`, `history-anticlockwise`, `refresh-anticlockwise-1`
+- `antivirus`: `brick-wall-shield`
+- `antler`: `deer`
+- `anvil`: `anvil`
+- `apartment`: `airbnb`
+- `apartments`: `building-2`, `building-3`, `building-4`, `building-6`
+- `aperture`: `moment`
+- `app`: `facebook`, `snapchat`, `telegram`, `tiktok`, `twitter`, `weibo`, `vkontakte`, `mastodon`, `linear`, `notion`, `viber-messenger`, `social-x`, `wechat-miniprogram`, `bluesky-social`, `layout-panel-left`, `app-window`, `version`
+- `apparatus`: `gradienter`
+- `Apple`: `ios`, `apple-fruit`
+- `apple`: `apple`, `carplay`, `siri`, `apple-intelligence`, `apple-intelligence-frame`, `siri-frame`, `vison-pro`, `homepod`, `homepod-mini`
+- `apple fruit`: `apple-fruit`
+- `appliances`: `blender`
+- `application`: `appstore`, `google-play`, `app-window`
+- `application form`: `file-user`
+- `appointment`: `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `clipboard-clock`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`
+- `approximately`: `equal-approximately`
+- `appstore`: `appstore`, `google-play`
+- `aquatic sports`: `swimming`
+- `ar`: `file-box`
+- `arab`: `burj-al-arab`
+- `arc`: `arc-browser`, `progress-arc`
+- `arch`: `triumphal-arch`
+- `archer`: `sagittarius`
+- `architecture`: `building-1`, `building-5`, `hotel`, `house-plug`, `house-plus`, `compass-2`, `map-pin-house`
+- `archive`: `download-2`, `download`, `file-download`, `download-3`, `archive`, `archive-restore`, `archive-x`
+- `area`: `chart-area`, `text-area`, `parking`, `rest-area`, `land-plot`
+- `arithmetic`: `minus-circle`, `minus-square`
+- `arm`: `fitness`
+- `armored`: `brick-wall-shield`
+- `armoured`: `brick-wall-shield`
+- `army`: `brick-wall-shield`
+- `around`: `align-horizontal-distribute-center`, `align-horizontal-space-between`, `align-vertical-distribute-center`
+- `array`: `brackets`
+- `arrival`: `flight-land`
+- `arrow`: `arrow-down`, `arrow-left-down`, `arrow-left`, `arrow-right`, `arrow-up`, `back`, `down`, `left`, `right`, `up`, `back-2`, `forward-2`, `forward`, `fullscreen-2`, `fullscreen-exit-2`, `move`, `transfer-2`, `transfer-3`, `transfer-4`, `transfer`, `align-arrow-down`, `align-arrow-left`, `align-arrow-right`, `align-arrow-up`, `arrow-to-down`, `arrow-to-left`, `arrow-to-right`, `arrow-to-up`, `arrow-down-circle`, `arrow-left-circle`, `arrow-left-down-circle`, `arrow-left-up-circle`, `arrow-left-up`, `arrow-right-circle`, `arrow-right-down-circle`, `arrow-right-down`, `arrow-right-up-circle`, `arrow-right-up`, `arrow-up-circle`, `down-small`, `large-arrow-down`, `large-arrow-left`, `large-arrow-right`, `large-arrow-up`, `left-small`, `right-small`, `selector-horizontal`, `selector-vertical`, `square-arrow-down`, `square-arrow-left`, `square-arrow-right`, `square-arrow-up`, `up-small`, `direction-arrow`, `transfer-horizontal`, `transfer-vertical`, `corner-down-left`, `corner-down-right`, `corner-up-left`, `corner-up-right`, `arrow-big-down-dash`, `arrow-big-left-dash`, `arrow-big-right-dash`, `arrow-big-up-dash`, `arrow-down-narrow-wide`, `arrow-down-to-dot`, `arrow-down-wide-narrow`, `arrow-up-from-dot`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `arrows-up-from-line`, `chevron-first`, `chevron-last`, `chevrons-down-up`, `chevrons-left-right`, `chevrons-right-left`, `chevrons-up-down`, `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `circle-chevron-up`, `circle-fading-arrow-up`, `corner-left-down`, `corner-left-up`, `corner-right-down`, `corner-right-up`, `diagonal`, `iteration-ccw`, `iteration-cw`, `banknote-arrow-down`, `banknote-arrow-up`, `calendar-arrow-down`, `calendar-arrow-up`, `fold-horizontal`, `fold-vertical`, `unfold-horizontal`, `unfold-vertical`, `git-pull-request-create-arrow`, `database-backup`, `gamepad-directional`, `a-arrow-down`, `a-arrow-up`, `decimals-arrow-left`, `decimals-arrow-right`, `upload-2`, `upload`, `folder-upload`, `toxophily`
+- `arrow down`: `clock-arrow-down`
+- `arrow up`: `clock-arrow-up`
+- `arrowhead`: `gamepad-directional`
+- `arrows`: `arrows-down`, `arrows-left`, `arrows-right`, `arrows-up`, `trending-up`, `trending-down`, `arrows-up-from-line`
+- `art`: `artboard`, `board`, `line-squiggle`
+- `artboard`: `frame`
+- `article`: `medium`, `news`, `news-2`, `paper`, `paper-2`
+- `artificial`: `apple-intelligence`, `apple-intelligence-frame`, `siri-frame`, `copilot`, `mail-ai`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `magic-1`, `magic-2`, `magic-3`, `magic-hat-2`, `magic-hat`, `paint-brush-ai`, `quill-pen-ai`, `brush-2-ai`, `pen-ai`, `terminal-ai`, `terminal-box-ai`, `cellphone-2-ai`, `ai`, `bulb-ai`, `bulb-2-ai`, `pencil-2-ai`, `textbox-ai`, `content-ai`, `translate-2-ai`, `edit-2-ai`, `edit-3-ai`, `eraser-ai`, `pen-2-ai`, `pencil-3-ai`, `pencil-ai`, `signature-2-ai`, `book-ai`, `book-2-ai`, `book-6-ai`, `pic-ai`, `search-ai`, `file-ai`, `search-2-ai`, `search-3-ai`, `camera-2-ai`, `mic-ai`, `music-2-ai`, `camcorder-ai`, `video-ai`, `crystal-ball`, `refresh-4-ai`, `brush-3-ai`, `classify-ai`, `classify-2-ai`, `classify-3-ai`
+- `artificial intelligence`: `head-ai`, `brain-circuit`, `brain-cog`
+- `ascending`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `az-sort-ascending-letters`, `sort-ascending`, `za-sort-ascending-letters`, `numbers-09-sort-ascending`, `numbers-90-sort-ascending`, `clock-arrow-down`, `clock-arrow-up`
+- `ask`: `puzzled`, `question`, `question-2`, `user-question`
+- `aspect`: `aspect-ratio`
+- `asset`: `file-box`, `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`
+- `assets`: `chart-candlestick`
+- `assignment`: `equal`
+- `assistance`: `handshake`
+- `assistant`: `siri`, `apple-intelligence`, `apple-intelligence-frame`, `siri-frame`, `copilot`, `bot-message-square`, `bot-off`
+- `asterisk`: `asterisk`, `asterisk-2`
+- `astronomy`: `planet`
+- `at`: `at`
+- `atomic`: `science`
+- `attachment`: `attachment-2`, `attachment`, `attachment-3`, `file-axis-3d`, `file-box`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`, `file-check-corner`, `file-clock`, `file-code-corner`, `file-cog`, `file-diff`, `file-digit`, `file-headphone`, `file-heart`, `file-image`, `file-key`, `file-minus`, `file-minus-corner`, `file-pen`, `file-pen-line`, `file-play`, `file-scan`, `file-search-corner`, `file-signal`, `file-sliders`, `file-spreadsheet`, `file-symlink`, `file-terminal`, `file-type`, `file-type-corner`, `file-user`, `file-video-camera`, `file-volume`, `file-x-corner`
+- `attack`: `tank`
+- `attract`: `magnet`
+- `attribute`: `user-info`
+- `auction`: `auction`
+- `audio`: `ear-off`, `airpods-2`, `boom-box`, `hdmi-port`, `book-audio`, `file-headphone`, `file-signal`, `file-volume`, `headphone-2`, `headphone`, `mic`, `microphone`, `pause-circle`, `pause`, `play-circle`, `play`, `repeat-one`, `shuffle`, `skip-forward`, `skip-previous`, `stop-circle`, `stop`, `mic-2`, `airpods`, `audio-tape`, `shuffle-2`, `mic-ai`, `audio-waveform`, `headphone-off`
+- `audio video`: `cable`
+- `audiobook`: `book-audio`, `book-headphones`
+- `audit`: `brick-wall-shield`
+- `auditing`: `seal`
+- `augmented reality`: `file-box`
+- `auscultation`: `stethoscope`
+- `Australia`: `sydney-opera-house`
+- `autarky`: `house-plug`
+- `authentication`: `key-1`, `key-2`, `key-3`, `key-4`, `key-square`
+- `author`: `book-alert`, `book-dashed`, `book-open-text`, `book-plus`, `book-text`, `book-type`
+- `authored`: `book-check`, `book-open-check`
+- `authors`: `library`
+- `auto`: `calendar-sync`, `car-2`, `car`, `four-wheel-drive`, `abs`, `auto-hold`, `brake`, `car-3`, `emergency-flashers`, `engine`, `fan-direction-down`, `fan-direction-front`, `fan-direction-up`, `front-fog-lights`, `front-windshield-defroster`, `hight-beam-headlights`, `jeep`, `low-beam-headlights`, `oil`, `park`, `parking-lights`, `rare-fog-lights`, `rear-windshield-defroster`, `seat`, `seat-heated`, `steering-wheel`, `tyre`, `wheel`, `car-door`, `car-window`, `hood`, `trunk`
+- `automatic`: `calendar-sync`
+- `automotive`: `battery-automotive`
+- `av`: `cable`, `hdmi-port`
+- `available`: `globe-check`
+- `avalanche`: `avalanche-avax`
+- `AVAX`: `avalanche-avax`
+- `average`: `circle-slash-2`
+- `avg`: `circle-slash-2`
+- `aviation`: `helicopter`
+- `avoid`: `globe-off`
+- `award`: `award`
+- `axe`: `axe`
+- `axes`: `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`
+- `axis`: `axis-3d`, `file-axis-3d`
+### B
+
+- `baby`: `baby`, `feeder`, `baby-carriage`
+- `back`: `arrow-left`, `back`, `left`, `back-2`, `align-arrow-left`, `arrow-to-left`, `arrow-left-circle`, `large-arrow-left`, `left-small`, `square-arrow-left`, `arrows-left`, `arrow-big-left-dash`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `folder-delete`, `folder-minus`, `skip-previous`, `delete-back`
+- `backboard`: `backboard`
+- `backend`: `database-backup`, `database-search`, `database-zap`
+- `background`: `background`, `background-base`
+- `backpack`: `backpack`
+- `backspace`: `folder-delete`, `folder-minus`, `delete-back`
+- `backup`: `calendar-sync`, `gallery-horizontal-end`, `gallery-vertical-end`, `database-backup`, `archive-restore`, `archive-x`, `folder-sync`, `cloud-backup`, `cloud-sync`
+- `backwards`: `arrow-big-down-dash`, `fast-rewind`, `rewind-backward-5`, `rewind-backward-10`, `rewind-backward-15`, `rewind-backward-30`, `rewind-backward-square-5`, `rewind-backward-square-10`, `rewind-backward-square-15`, `rewind-backward-square-30`
+- `bad`: `thumb-down`, `thumb-down-2`
+- `bad egg`: `egg-off`
+- `badge`: `badge-cent`, `badge-cny`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `mail-badge`, `subtitle`, `badge-octagram`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`, `circle-star`, `badge`
+- `badminton`: `badminton`
+- `bag`: `briefcase`, `shopping-bag-3`, `shopping-bag-1`, `shopping-bag-2`, `suitcase-2`, `suitcase`
+- `baggage`: `briefcase`, `suitcase-2`, `suitcase`, `baggage-claim`, `briefcase-conveyor-belt`
+- `baht`: `currency-baht-2`, `currency-baht`, `exchange-baht`
+- `bait`: `fishing-hook`
+- `bakery`: `croissant`
+- `baking`: `bread`, `cake`, `birthday-2`, `donut`, `electric-cooker`, `cake-slice`
+- `balance`: `balance`
+- `ball`: `christmas-ball`, `crystal-ball`, `beachball`
+- `balloon`: `balloon-2`, `air-balloon`
+- `ban`: `book-minus`, `copy-slash`, `circle-off`, `circle-slash-2`, `ban`
+- `banana`: `banana`
+- `band-aid`: `bandage`
+- `bandage`: `bandage`
+- `bank`: `bank`, `bank-card`, `card-pay`, `card-refund`
+- `banking`: `hand-coins`
+- `banknote`: `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`
+- `banned`: `book-x`
+- `bar`: `chart-bar`, `chart-bar-2`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `layout-bottom-close`, `layout-bottom-open`, `layout-leftbar-close`, `layout-leftbar-open`, `layout-rightbar-close`, `layout-rightbar-open`, `layout-top-close`, `layout-top-open`, `beer`, `beer-off`
+- `barbell`: `barbell`
+- `barcode`: `barcode`, `barcode-scan`
+- `barrage`: `danmaku`, `danmaku-on`, `danmaku-off`
+- `barrel`: `barrel-2`
+- `barricade`: `construction`
+- `bars`: `columns-4`
+- `base`: `base-station`, `base-station-2`
+- `baseball`: `baseball`, `baseball-2`
+- `bash`: `file-terminal`
+- `basket`: `basket`, `basket-2`
+- `basketball`: `backboard`, `basketball`
+- `bath`: `shower`, `bath`
+- `bathroom`: `shower`, `bath`
+- `battery`: `battery-charging`, `battery`, `battery-automotive`, `battery-1`, `battery-2`, `battery-3`, `battery-4`, `battery-plus`, `battery-warning`
+- `battle`: `brick-wall-shield`, `tank`
+- `bay`: `marina-bay-sand`
+- `bbq`: `beef`, `beef-off`
+- `be`: `behance`
+- `beach`: `umbrella-2`
+- `beachball`: `beachball`
+- `beacon`: `lighthouse`
+- `bead`: `droplet-off`, `droplets`
+- `beaker`: `flask-conical-off`
+- `beam`: `flashlight-off`, `hight-beam-headlights`, `low-beam-headlights`
+- `bean`: `bean`, `bean-off`
+- `bear`: `bear`
+- `beard`: `beard`
+- `bearer`: `aquarius`
+- `beauty`: `lipstick`
+- `bed`: `bed`, `bed-2`, `bed-single`
+- `bedroom`: `bed`, `bed-2`
+- `bedside`: `bedside-table`, `bedside-table-2`
+- `beef`: `beef`, `beef-off`
+- `beer`: `beer`, `beer-off`
+- `begging`: `hand-helping`
+- `beginning`: `ease-in`
+- `behance`: `behance`
+- `beijing`: `temple-of-heaven`
+- `bell`: `bell-electric`, `notification`, `notification-off`, `bell-ringing`, `bell-minus`, `bell-plus`
+- `below`: `arrow-down`, `down`, `align-arrow-down`, `arrow-to-down`, `arrow-down-circle`, `arrow-left-down-circle`, `down-small`, `large-arrow-down`, `square-arrow-down`, `arrows-down`, `trending-down`
+- `belt`: `briefcase-conveyor-belt`
+- `ben`: `big-ben`
+- `best`: `blessing`
+- `between`: `align-horizontal-space-between`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`
+- `beverage`: `beer`, `beer-off`, `blender`, `milk`
+- `bezier`: `vector-bezier-2`, `vector-bezier-3`, `vector-bezier`
+- `big`: `big-ben`
+- `bigger`: `a-arrow-up`
+- `bike`: `riding`, `bike`, `ebike`
+- `bilibili`: `bilibili`
+- `bill`: `receive-money`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `clipboard`, `bill`, `bill-2`, `inventory`, `task-2`, `task`
+- `binance`: `binance-coin-bnb`, `binance-usd-busd`, `bnb`
+- `binary`: `binary`, `circle-power`
+- `biohazard`: `biohazard`
+- `biology`: `biohazard`
+- `bird`: `twitter`, `bird`
+- `birdie`: `bird`
+- `birthdate`: `calendar-fold`, `cake-slice`
+- `birthday`: `calendar-fold`, `cake`, `birthday-2`, `cake-slice`, `balloon-2`
+- `bishop`: `chess-bishop`
+- `bit`: `drill`
+- `bitcoin`: `currency-bitcoin`, `currency-bitcoin-2`
+- `blackboard`: `black-board-2`, `black-board`
+- `blacksmith`: `anvil`
+- `blade`: `blender`
+- `blank`: `border-blank`, `book-check`, `book-open-check`
+- `blend`: `eclipse`
+- `blender`: `blender`
+- `blessing`: `pray`, `blessing`
+- `bling`: `bling`
+- `blizzard`: `snowstorm`, `snowstorm-2`
+- `block`: `brick-wall-shield`, `layout-panel-top`, `cuboid`
+- `blockade`: `construction`
+- `blockquote`: `message-square-quote`, `blockquote`
+- `blocks`: `brick-wall-fire`, `brick-wall-shield`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`
+- `blouse`: `shirt`
+- `blueprint`: `file-box`
+- `bluesky`: `bluesky-social`
+- `Bluetooth`: `bluetooth-connected`, `bluetooth-searching`
+- `bluetooth`: `bluetooth`, `bluetooth-off`
+- `blur`: `mosaic`
+- `BNB`: `binance-coin-bnb`, `binance-usd-busd`, `bnb`
+- `board`: `drawing-board`, `artboard`, `board`, `whiteboard`, `circuit-board`, `folder-kanban`, `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`, `dices`
+- `board game`: `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`, `chess-bishop`, `chess-king`, `chess-pawn`, `chess-queen`, `chess-rook`
+- `boat`: `kayak`, `ship`, `sailboat`
+- `boating`: `fishing-hook`
+- `body`: `body`, `brain-circuit`, `brain-cog`, `ear-off`, `eye-2-off`, `hand-fist`, `hand-helping`, `handshake`
+- `body shape`: `figure`
+- `body text`: `a-large-small`
+- `bodyweight exercise`: `squats`
+- `bok choy`: `leafy-green`
+- `bold`: `bold`
+- `bomb`: `bomb`
+- `bone`: `bone`, `ham`
+- `bonfire`: `campfire`, `fire`, `flame`
+- `book`: `book-3`, `book-2`, `book`, `book-4`, `book-5`, `book-6`, `book-ai`, `book-2-ai`, `book-6-ai`, `book-alert`, `book-audio`, `book-check`, `book-copy`, `book-dashed`, `book-down`, `book-headphones`, `book-heart`, `book-image`, `book-key`, `book-lock`, `book-marked`, `book-minus`, `book-open-check`, `book-open-text`, `book-plus`, `book-search`, `book-text`, `book-type`, `book-up`, `book-up-2`, `book-user`, `book-x`
+- `booklet`: `book-3`, `book-5`, `book-alert`, `book-check`, `book-open-check`, `book-open-text`, `book-text`, `book-type`
+- `bookmark`: `bookmark`, `bookmarks`, `bookmark-add`, `bookmark-remove`, `bookmark-edit`, `bookmark-check`, `bookmark-off`, `bookmark-x`, `file-heart`, `folder-heart`
+- `books`: `book-copy`, `library`
+- `boolean`: `binary`, `circle-power`
+- `boom`: `boom-box`, `boom`
+- `boost`: `arrow-big-up-dash`
+- `border`: `border-blank`, `border-bottom`, `border-horizontal`, `border-inner`, `border-left`, `border-right`, `border-outer`, `border-radius`, `border-top`, `border-vertical`, `layout-grid`
+- `bot`: `bot-message-square`, `bot-off`
+- `botany`: `flower`, `flower-2`, `flower-3`, `flower-4`, `sunflower`, `flower-5`
+- `bottle`: `wine`, `milk`, `bottle`, `watering-can`
+- `bottom`: `arrow-down`, `arrow-left-down`, `down`, `align-arrow-down`, `arrow-to-down`, `arrow-down-circle`, `arrow-left-down-circle`, `down-small`, `large-arrow-down`, `square-arrow-down`, `arrows-down`, `corner-down-left`, `align-bottom`, `border-bottom`, `layout-bottom-close`, `layout-bottom-open`, `align-end-horizontal`, `align-horizontal-space-between`, `align-vertical-distribute-end`, `align-vertical-justify-end`, `between-vertical-start`, `list-end`
+- `bottombar`: `layout-bottom`
+- `boundary`: `ellipse`
+- `bow`: `bow-tie`, `bowknot`, `toxophily`
+- `bowknot`: `bow-tie`, `bowknot`
+- `bowl`: `bowl`, `dinner`, `bowl-2`, `ice-cream-bowl`
+- `box`: `arrows-up-from-line`, `terminal-box`, `terminal-box-ai`, `boom-box`, `textbox`, `textbox-ai`, `box`, `box-2`, `box-3`, `archive`, `package-2`, `package`, `unarchive`, `box-4`, `archive-restore`, `archive-x`, `file-box`, `cuboid`, `cube`
+- `braces`: `braces`
+- `bracket`: `parentheses`
+- `brackets`: `brackets`, `brackets-angle`
+- `brain`: `head`, `brain`, `brain-circuit`, `brain-cog`
+- `brake`: `brake`
+- `braking`: `abs`
+- `branch`: `git-branch`, `department`, `git-branch-2`, `git-branch-minus`, `git-branch-plus`, `mind-map`
+- `brand`: `amazon-pay`, `american-express`, `diners-club`, `jcb-japan-credit-bureau`
+- `bravery`: `brick-wall-shield`
+- `brawl`: `hand-fist`
+- `Brazil`: `christ-the-redeemer`
+- `bread`: `bread`, `donut`
+- `breakfast`: `fried-egg`, `utensils`
+- `breeze`: `cloud-windy`, `drizzle`
+- `brewery`: `beer`, `beer-off`
+- `brick`: `brick-wall-fire`, `brick-wall-shield`, `cuboid`
+- `bricks`: `brick-wall-fire`, `brick-wall-shield`, `bricks`
+- `bridge`: `bridge`, `bridge-2`
+- `briefcase`: `briefcase`, `suitcase-2`, `suitcase`, `briefcase-2`, `briefcase-conveyor-belt`
+- `briefs`: `brief`
+- `brigade`: `bell-electric`, `fire-extinguisher`
+- `bright`: `exposure`, `flashlight-off`
+- `brightness`: `brightness`, `sun`, `sun-2`, `eclipse`
+- `bring`: `bring-to-front`
+- `bring forward`: `clock-arrow-up`
+- `britain`: `currency-pound-2`, `currency-pound`
+- `british`: `badge-pound-sterling`
+- `broadcast`: `airplay`, `radio`, `base-station`, `base-station-2`, `antenna`, `boom-box`, `cast`, `audio-waveform`
+- `broccoli`: `broccoli`
+- `brochure`: `book-image`
+- `broken`: `egg-crack`, `heart-crack`
+- `bronze`: `circle-star`
+- `broom`: `broom`
+- `browse`: `book-image`
+- `browser`: `chrome`, `firefox`, `edge`, `safari`, `arc-browser`, `web`, `file-search-corner`, `folder-search`, `folder-search-2`, `folder-tree`, `earth-lock`, `globe-check`, `globe-lock`, `globe-off`
+- `browsing`: `book-search`
+- `brume`: `fog`, `moon-fog`, `sun-fog`
+- `brush`: `paint-2`, `paint-brush`, `brush-2`, `paint-brush-ai`, `brush-2-ai`, `brush`, `brush-3`, `brush-3-ai`
+- `bubble`: `thought`, `bubble`
+- `bubble tea`: `drink`
+- `bug`: `bug`, `bug-off`, `bug-play`
+- `build`: `drill`
+- `builder`: `brick-wall-fire`, `brick-wall-shield`
+- `building`: `bank`, `building-1`, `building-2`, `building-3`, `hospital`, `school`, `bridge`, `building-4`, `bridge-2`, `bank-of-china-tower`, `kingkey-100-tower`, `building-5`, `building-6`, `burj-khalifa-tower`, `government`, `taipei101`, `church`, `hotel`, `brick-wall-fire`, `brick-wall-shield`, `bricks`, `castle`, `construction`, `dam`, `house-heart`, `house-plug`, `house-plus`, `map-pin-house`
+- `bulb`: `bulb`, `bulb-2`, `light`, `bulb-ai`, `bulb-2-ai`
+- `bull`: `taurus`
+- `bullet`: `danmaku`, `danmaku-on`, `danmaku-off`, `circle-small`
+- `bureau`: `jcb-japan-credit-bureau`, `desk`
+- `burger`: `hamburger`
+- `burj`: `burj-al-arab`, `burj-khalifa-tower`
+- `bus`: `bus`, `bus-2`
+- `business`: `necktie`, `handshake`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `briefcase-2`, `briefcase-conveyor-belt`, `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `calendars`, `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`, `chart-scatter`, `chart-spline`, `check-line`, `copyleft`, `creative-commons`, `currency`, `flag-1-off`, `flag-4-off`, `flag-triangle-left`, `funnel-plus`, `funnel-x`, `georgian-lari`
+- `butter`: `cuboid`
+- `butterfly`: `bluesky-social`, `butterfly`, `butterfly-2`
+- `button`: `arrow-big-up-dash`, `circle-arrow-out-up-left`, `circle-fading-arrow-up`, `gamepad-directional`, `button`, `circle-power`, `diamond-minus`
+- `buy`: `shopping-cart-1`, `shopping-cart-2`
+- `bytes`: `database-backup`, `database-search`, `database-zap`, `cloud-backup`
+### C
+
+- `cabbage`: `leafy-green`
+- `cabinet`: `drawer-2`, `drawer`, `wardrobe-2`, `wardrobe`, `bedside-table`, `bedside-table-2`
+- `cable`: `chevrons-left-right-ellipsis`, `antenna`, `cable`, `ethernet-port`
+- `cache busting`: `database-zap`
+- `cactus`: `cactus-2`, `cactus`
+- `CAD`: `file-box`
+- `cad`: `file-box`
+- `CAD document`: `file-box`
+- `cadet`: `brick-wall-shield`
+- `cake`: `bread`, `cake`, `birthday-2`, `donut`, `cake-slice`
+- `calculate`: `diameter`, `circle-divide`, `circle-equal`, `divide`, `equal`, `equal-approximately`, `equal-not`, `diamond-plus`
+- `calculator`: `counter-2`, `counter`, `diamond-minus`
+- `calendar`: `calendar`, `schedule`, `anniversary`, `calendar-add`, `calendar-day`, `calendar-month`, `calendar-time-add`, `calendar-week`, `calendar-2`, `calendar-3`, `calendar-x`, `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`
+- `calendars`: `calendars`
+- `call`: `phone`, `phone-off`, `fax`
+- `camcorder`: `camcorder-2`, `camcorder`, `camcorder-3`, `camcorder-off`, `video-camera`, `video-camera-2`, `camcorder-ai`
+- `camera`: `computer-camera`, `computer-camera-off`, `camcorder-2`, `cctv-off`, `file-video-camera`, `camera-2`, `camcorder`, `camera`, `camera-rotate`, `camcorder-3`, `camcorder-off`, `camera-2-off`, `video-camera`, `video-camera-2`, `camera-2-ai`, `camcorder-ai`, `focus`
+- `campfire`: `brick-wall-fire`, `campfire`
+- `camping`: `campground`, `tent`, `brick-wall-fire`, `caravan`
+- `campsite`: `caravan`
+- `cancel`: `calendar-x`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `book-minus`, `bookmark-x`, `copy-slash`, `copy-x`, `circle-off`, `ban`, `clock-x`
+- `cancel button`: `close-circle-dash`
+- `canceled`: `banknote-x`
+- `cancelled`: `book-x`, `forbid-circle`
+- `candle`: `candle`
+- `candles`: `candles`, `cake-slice`
+- `candlestick`: `chart-candlestick`
+- `candy`: `lollipop`, `candy`, `candy-2`, `ice-cream-2`, `ice-cream`, `candy-off`
+- `cane`: `crutch`
+- `cannabis`: `cannabis-off`
+- `cap`: `hat-2`, `hat`, `christmas-hat`
+- `capacity`: `storage`, `memory-stick`
+- `capitals`: `arrow-big-up-dash`
+- `caps lock`: `arrow-big-up-dash`
+- `capsule`: `capsule`
+- `caption`: `subtitle`
+- `captions`: `captions`, `captions-off`
+- `car`: `parking`, `car-2`, `car`, `car-3`, `jeep`, `car-door`, `car-window`, `hood`, `trunk`
+- `car key`: `key-square`
+- `car park`: `circle-parking-off`
+- `caravan`: `caravan`
+- `carbon monoxide`: `alarm-smoke`
+- `card`: `trello-board`, `mastercard`, `visa`, `bank-card`, `gift-card`, `card-pay`, `card-refund`, `card-sim`, `hand-card`, `badge`, `idcard`
+- `cardano`: `cardano-ada`
+- `cardboard`: `cardboard-vr`
+- `cardio drill`: `high-knees`
+- `cardio equipment`: `indoor-rowing`
+- `cardio workout`: `stair-stepper`
+- `care`: `heart-hand`, `bandage`
+- `caregiver`: `nurse`
+- `caret`: `circle-chevron-up`
+- `carnie`: `ferris-wheel`
+- `carousel`: `briefcase-conveyor-belt`, `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`
+- `carplay`: `carplay`
+- `carriage`: `baby-carriage`
+- `carrot`: `carrot`
+- `cart`: `shopping-cart-1`, `shopping-cart-2`, `baggage-claim`
+- `carton`: `cuboid`
+- `cartoon`: `mickeymouse`
+- `case`: `case-lower`, `case-upper`
+- `cash`: `wallet-5`, `wallet`, `wallet-2`, `wallet-3`, `wallet-4`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `cash-2`
+- `cassette`: `audio-tape`
+- `cast`: `airplay`, `projector-screen`, `cast`
+- `castle`: `school`, `greatwall`, `palace`, `castle`, `chess-rook`
+- `cat`: `github`, `github-2`, `cat`
+- `catalog`: `book-image`
+- `catalogue`: `directory`, `book-image`
+- `categorical`: `chart-bar-stacked`, `chart-column-stacked`
+- `caution`: `message-circle-warning`, `message-square-warning`, `alert`, `warning`, `alert-octagon`, `safe-alert`, `alert-diamond`
+- `CCTV`: `cctv-off`
+- `cd`: `disc-album`, `circle-dot`
+- `ceiling`: `ceiling-lamp`
+- `celcius`: `thermometer`
+- `celebrate`: `celebrate`, `firework`
+- `celebration`: `cake-slice`
+- `cell`: `columns-4`
+- `cellphone`: `cellphone`, `cellphone-2`, `cellphone-2-horizontal`, `cellphone-vibration`, `cellphone-2-ai`, `card-sim`
+- `cells`: `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`
+- `cellular`: `card-sim`
+- `celsius`: `celsius`
+- `cement`: `brick-wall-fire`, `brick-wall-shield`
+- `censor`: `book-minus`
+- `censored`: `book-x`
+- `cent`: `badge-cent`
+- `center`: `align-horizontal-center`, `align-vertical-center`, `align-center-horizontal`, `align-center-vertical`, `align-horizontal-distribute-center`, `align-horizontal-justify-center`, `align-vertical-distribute-center`, `align-vertical-justify-center`, `align-vertical-space-between`, `align-center`, `columns-4`, `text-align-center`, `dot`
+- `centigrade`: `celsius`
+- `cents`: `badge-cent`
+- `cephalic`: `vison-pro`
+- `certificate`: `signature`, `signature-2`, `signature-2-ai`, `certificate-2`, `file-certificate`, `file-security`, `folder-security`, `passport`, `certificate`, `safety-certificate`
+- `certified`: `mail-badge`
+- `certified email`: `mail-badge`
+- `chain`: `link-2`, `link`, `link-3`
+- `chair`: `sofa`, `seat`, `seat-heated`
+- `chalkboard`: `black-board-2`, `black-board`
+- `champagne`: `champagne`
+- `champion`: `medal`
+- `change`: `easy-in-out`, `repeat`, `transformation`
+- `channel`: `youtube`, `bilibili`
+- `channels`: `antenna`
+- `chapel`: `church`
+- `character`: `letter-spacing`
+- `characters`: `case-lower`, `case-upper`, `dot`
+- `chard`: `leafy-green`
+- `charge`: `battery-plus`, `battery-warning`
+- `charged`: `power`
+- `charger`: `flash`, `plugin`, `flash-circle`, `cable`
+- `charging`: `battery-charging`, `battery-automotive`, `charging-pile`
+- `charity`: `hand-helping`
+- `charlatan`: `book-x`
+- `chart`: `chart-bar`, `chart-line`, `chart-pie`, `chart-bar-2`, `chart-decrease`, `chart-horizontal`, `chart-pie-2`, `chart-vertical`, `chart-horizontal-2`, `chart-pie-3`, `chart-vertical-2`, `axis-3d`, `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`, `chart-scatter`, `chart-spline`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`
+- `chassis`: `four-wheel-drive`
+- `chat`: `qq`, `grok`, `chat-1`, `chat-2`, `message-1`, `message-2`, `message-3`, `chat-3`, `message-4`, `chat-4`, `comment-2`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `bot-message-square`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`, `bot-off`
+- `chatbot`: `grok-2`
+- `chateau`: `castle`
+- `chatgpt`: `openai`
+- `check`: `calendar-check-2`, `check-line`, `mail-check`, `message-circle-check`, `message-square-check`, `grid-2x2-check`, `alarm-clock-check`, `laptop-minimal-check`, `list-check`, `list-check-2`, `list-check-3`, `list-check-4`, `list-todo`, `book-check`, `book-open-check`, `bookmark-check`, `save`, `file-check`, `save-2`, `folder-check`, `copy-check`, `file-check-corner`, `globe-check`, `map-pin-check`, `heart-check`, `checkbox`, `choice`, `multiselect`, `badge-alert`, `circle-check-big`, `clock-check`, `cloud-check`
+- `check circle dash`: `check-circle-dash`
+- `check icon`: `check-circle-dash`
+- `checkbox`: `checkbox`, `choice`, `radiobox`
+- `checklist`: `list-check-3`, `list-check-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `list-end`, `list-indent-decrease`, `list-indent-increase`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-todo`, `list-x`, `clipboard`, `task-2`, `task`, `list-filter-plus`
+- `checks`: `check-circle`, `check`, `check-2`, `checks`, `user-follow`, `user-follow-2`
+- `cheese`: `pizza`, `cuboid`
+- `cheeseburger`: `hamburger`
+- `chef`: `chef-hat`, `blender`
+- `chemical`: `biohazard`
+- `chemistry`: `flask`, `flask-2`, `flask-3`, `flask-conical-off`, `biohazard`
+- `cherry`: `cherry`
+- `chess`: `chess`, `chess-bishop`, `chess-king`, `chess-pawn`, `chess-queen`, `chess-rook`
+- `chevron`: `chevron-first`, `chevron-last`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `circle-chevron-up`, `tag-chevron`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`
+- `chevrons`: `chevrons-down-up`, `chevrons-left-right`, `chevrons-left-right-ellipsis`, `chevrons-right-left`, `chevrons-up-down`, `list-chevrons-down-up`, `list-chevrons-up-down`
+- `chf`: `badge-swiss-franc`
+- `chicken`: `chicken`, `egg`
+- `child`: `baby`, `toy-horse`
+- `Chile`: `moai`
+- `chimney`: `factory`, `factory-2`
+- `chinese`: `chinese-knot`
+- `chip`: `nfc`, `chip`, `card-sim`, `gpu`, `memory-stick`
+- `choice`: `file-check`, `folder-check`, `checkbox`, `choice`
+- `choices`: `circle-dot`
+- `choose`: `circle-dot`
+- `chopsticks`: `chopsticks`
+- `christ`: `christ-the-redeemer`
+- `christmas`: `glove`, `sock`, `bowknot`, `christmas-hat`, `deer`, `father-christmas`, `gift-2`, `gift`, `candle`, `celebrate`, `christmas-ball`, `gift-card`, `candles`, `magic-1`, `lollipop`, `candy`, `candy-2`, `champagne`, `chicken`, `cookie`, `cookie-man`, `cupcake`, `notification`, `star-topper`, `tree`, `wreath`, `crutch`, `sleigh`, `snow`, `snowman`, `snowflake`
+- `chrome`: `chrome`
+- `chromosome`: `dna`, `dna-off`
+- `church`: `church`, `cross-2`
+- `cigarette`: `cigarette`, `cigarette-off`
+- `cinema`: `coupon`, `ticket`
+- `circle`: `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `circle-chevron-up`, `circle-fading-arrow-up`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `diameter`, `flash-circle`, `circle-divide`, `circle-equal`, `circle-percent`, `circle-parking-off`, `circle-off`, `circle-slash-2`, `circle-small`, `forbid-circle`, `polygon`, `ban`, `circle-check-big`, `circle-dot`, `circle-dot-dashed`, `circle-fading-plus`, `circle-pile`, `circle-power`, `circle-star`, `circle-user`
+- `circle dash`: `circle-dash`
+- `circle-pile`: `circle-pile`
+- `circles`: `three-circles`
+- `circuit`: `brain-circuit`, `circuit-board`, `gpu`, `memory-stick`
+- `circuit board`: `card-sim`
+- `circular`: `sector`
+- `circular border`: `circle-dash`
+- `circular progress`: `progress-arc`
+- `citation`: `blockquote`
+- `citrus`: `citrus`, `citrus-2`
+- `city`: `bank`, `building-1`, `building-2`, `building-3`, `building-4`, `building-5`, `building-6`
+- `claim`: `baggage-claim`
+- `clapperboard`: `clapperboard`
+- `clapping`: `hands-clapping`
+- `classify`: `grid`, `grid-2`, `dot-grid`, `classify`, `classify-2`, `classify-3`, `classify-add-2`, `classify-add`, `three-circles`, `classify-ai`, `classify-2-ai`, `classify-3-ai`
+- `claude`: `claude`
+- `claude 3`: `claude`
+- `clean`: `wash-machine`, `shower-gel`, `broom`
+- `clear`: `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `bookmark-x`, `copy-x`, `heart-x`
+- `clench`: `hand-fist`
+- `click`: `finger-tap`, `mouse`
+- `clickable element`: `button`
+- `climate`: `dry`, `wet`
+- `climb`: `ladder`
+- `clip`: `screenshot`, `bookmark`, `bookmarks`, `bookmark-add`, `bookmark-remove`, `bookmark-edit`, `bookmark-check`, `bookmark-x`, `pin`, `pin-2`
+- `clipboard`: `scissors-2`, `scissors`, `scissors-3`, `clipboard`, `copy`, `copy-2`, `copy-3`, `task-2`, `task`, `paste`, `empty-box`, `clipboard-clock`, `clipboard-copy`, `clipboard-minus`, `clipboard-paste`, `clipboard-pen`, `clipboard-pen-line`, `clipboard-plus`, `clipboard-type`, `clipboard-x`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`
+- `clock`: `big-ben`, `mail-clock`, `alarm-1`, `alarm-2`, `watch`, `watch-2`, `alarm-clock-check`, `alarm-clock-minus`, `alarm-clock-plus`, `clipboard-clock`, `file-clock`, `folder-clock`, `clock`, `clock-time`, `time`, `time-duration`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`, `clock-alert`, `clock-arrow-down`, `clock-arrow-up`, `clock-check`, `clock-minus`, `clock-plus`, `clock-x`
+- `clockwise`: `iteration-cw`, `clockwise`, `clockwise-alt`
+- `clone`: `book-copy`, `copy`, `copy-2`, `copy-3`, `paste`, `empty-box`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`
+- `close`: `calendar-x`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `layout-bottom-close`, `layout-leftbar-close`, `layout-rightbar-close`, `layout-top-close`, `sidebar-left-close`, `sidebar-right-close`, `bookmark-x`, `copy-x`, `close-circle`, `close`, `close-square`, `fault`
+- `close circle dash`: `close-circle-dash`
+- `close icon`: `close-circle-dash`, `close-medium`, `close-small`
+- `close medium`: `close-medium`
+- `close small`: `close-small`
+- `closed`: `eye-close`, `door-closed-locked`, `user-hide`
+- `closed captions`: `captions`, `captions-off`
+- `clothes`: `shirt`, `skirt`, `t-shirt-2`, `vest`, `dress`, `coathanger`, `t-shirt`
+- `cloud`: `download-3`, `upload-3`, `cloud-lightning`, `cloud`, `cloud-snow`, `sun-cloudy`, `cloud-windy`, `clouds`, `cloud-2`, `partly-cloud-daytime`, `partly-cloud-night`, `cloud-alert`, `cloud-backup`, `cloud-check`, `cloud-cog`, `cloud-moon-rain`, `cloud-off`, `cloud-sun-rain`, `cloud-sync`
+- `cloud service`: `cloud-alert`, `cloud-backup`, `cloud-check`, `cloud-cog`, `cloud-moon-rain`, `cloud-off`, `cloud-sun-rain`, `cloud-sync`
+- `cloudy`: `cloud`, `moon-cloudy`, `sun-cloudy`, `clouds`, `cloud-2`, `partly-cloud-daytime`, `partly-cloud-night`
+- `clover`: `leaf-2`, `leaf-3`
+- `club`: `diners-club`
+- `clubs`: `clubs`
+- `cluster`: `chart-network`, `cloud-cog`
+- `CNY`: `badge-cny`
+- `cny`: `currency-cny`, `currency-cny-2`, `refund-cny`
+- `coat`: `coat`, `coathanger`
+- `coated`: `sugar-coated-haws`
+- `cocktail`: `blender`
+- `code`: `github`, `git-lab`, `wechat-miniprogram`, `github-2`, `chart-no-axes-gantt`, `message-circle-code`, `message-square-code`, `braces`, `code`, `git-commit`, `git-compare`, `brackets-angle`, `inspect`, `app-window`, `binary`, `bot-off`, `bug-off`, `bug-play`, `git-branch-minus`, `git-branch-plus`, `git-commit-horizontal`, `git-compare-2`, `git-fork`, `git-graph`, `git-merge-conflict`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `merge`, `scan-2`, `scan`, `ampersands`, `book-copy`, `book-dashed`, `book-down`, `book-key`, `book-lock`, `book-minus`, `book-plus`, `book-up`, `book-up-2`, `book-x`, `divide`, `equal`, `equal-not`, `file-code`, `container`, `file-code-corner`, `file-scan`, `folder-code`, `folder-kanban`, `circle-dot`, `circle-dot-dashed`, `diamond-minus`, `line-dot-right-horizontal`
+- `code review`: `message-circle-code`, `message-square-code`, `message-square-diff`
+- `codepen`: `codepen`
+- `codes`: `codepen`
+- `coding`: `chart-no-axes-gantt`, `message-circle-code`, `message-square-code`, `message-square-diff`, `book-copy`, `book-dashed`, `book-down`, `book-key`, `book-lock`, `book-minus`, `book-plus`, `book-up`, `book-up-2`, `book-x`, `container`, `folder-code`, `folder-kanban`, `circle-dot`, `circle-dot-dashed`, `diamond-minus`
+- `coding model`: `deepseek`
+- `coffee`: `teacup`
+- `cog`: `calendar-cog`, `file-cog`, `folder-cog`
+- `cogged`: `file-sliders`
+- `coin`: `coin-2`, `coin`, `copper-coin`, `pig-money`, `coin-3`
+- `coins`: `hand-coins`
+- `coke`: `drink`
+- `cold`: `low-temperature`
+- `collage`: `rows-2`, `rows-3`, `rows-4`
+- `collapse`: `chevrons-down-up`, `chevrons-right-left`, `layout-bottom-close`, `layout-leftbar-close`, `layout-rightbar-close`, `layout-top-close`, `sidebar-left-collapse`, `sidebar-right-collapse`, `list-collapse`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `copy-minus`
+- `collect`: `archive`, `unarchive`
+- `collection`: `book-image`, `book-type`, `library`, `box`, `box-2`, `box-3`, `package-2`, `package`, `box-4`, `circle-pile`
+- `college`: `book-alert`, `book-copy`, `book-open-text`, `book-text`, `book-type`, `library`
+- `color`: `palette-3`, `color-filter`, `paint-2`, `paint-brush`, `palette`, `palette-2`, `brush-2`, `paint-brush-ai`, `brush-2-ai`, `paint`, `text-color`, `brush`, `brush-3`, `brush-3-ai`, `rainbow`, `eclipse`
+- `color-picker`: `color-picker`
+- `colorful`: `beachball`, `rainbow`
+- `column`: `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `column`, `file-chart-column`, `file-chart-column-increasing`
+- `columns`: `columns-2`, `columns-3`, `layout-2`, `layout-3`, `layout-4`, `layout-5`, `layout-6`, `layout-7`, `layout-8`, `layout-9`, `layout-10`, `layout-11`, `between-vertical-end`, `between-vertical-start`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `grid-3x3`, `columns-3-cog`, `columns-4`
+- `combat`: `hand-fist`
+- `combination`: `union`
+- `combine`: `combine`, `combine-2`, `merge`
+- `combined`: `chart-no-axes-combined`
+- `comfort`: `heater`
+- `command`: `command`, `terminal-box`, `terminal-box-ai`
+- `comment`: `comment`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`, `danmaku`, `danmaku-on`, `danmaku-off`
+- `commerce`: `ad-circle`, `ad-circle-off`, `ad-rectangle`, `ad-rectangle-off`
+- `commit`: `git-commit`, `git-commit-horizontal`
+- `commit graph`: `git-graph`
+- `commits`: `git-graph`, `git-merge-conflict`
+- `commodities`: `chart-candlestick`
+- `commons`: `creative-commons`
+- `communication`: `chevrons-left-right-ellipsis`, `messenger`, `telegram`, `twitter`, `wechat`, `whatsapp`, `weibo`, `discord`, `vkontakte`, `kakao-talk`, `line-app`, `social-x`, `bluesky-social`, `chat-1`, `chat-2`, `message-1`, `message-2`, `message-3`, `chat-3`, `message-4`, `chat-4`, `comment-2`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `bot-message-square`, `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `mails`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`, `ethernet-port`, `webhook`
+- `community`: `instagram`, `threads`
+- `compare`: `git-compare`, `git-compare-2`, `diff`
+- `comparison`: `chart-bar-stacked`, `chart-column-stacked`
+- `compass`: `compass-2`, `compass`, `compass-3`
+- `compilation`: `disc-album`, `circle-dot`
+- `complete`: `calendar-check-2`, `check-line`, `mail-check`, `message-circle-check`, `message-square-check`, `alarm-clock-check`, `laptop-minimal-check`, `list-todo`, `bookmark-check`, `file-check-corner`, `map-pin-check`, `circle-check-big`, `progress-100`
+- `complete action`: `check-circle-dash`
+- `completed`: `book-check`, `book-open-check`, `clock-check`, `progress-100`, `cloud-check`
+- `completion`: `progress-25`, `progress-50`, `progress-75`, `progress-arc`
+- `components`: `components`
+- `compose`: `mail-pen`, `mail-plus`
+- `compose email`: `mail-pen`
+- `compressed`: `fire-extinguisher`
+- `computer`: `linux`, `binary`, `computer`, `device`, `imac`, `laptop`, `laptop-2`, `cable`, `gpu`, `hard-drive-download`, `hard-drive-upload`, `laptop-minimal-check`, `memory-stick`
+- `computing`: `brain-circuit`, `brain-cog`, `circuit-board`, `cloud-cog`
+- `concave`: `lens-concave`
+- `conceal`: `eye-off`
+- `condition`: `air-condition`, `air-condition-open`
+- `cone`: `traffic-cone`, `cone`
+- `confetti`: `celebrate`
+- `configuration`: `columns-3-cog`, `file-sliders`, `settings-horizontal`, `settings-vertical`
+- `confirm`: `calendar-check-2`, `check-circle`, `check`, `check-2`, `checks`, `user-follow`, `user-follow-2`
+- `confirmed`: `clock-check`
+- `conflict`: `git-merge-conflict`
+- `confused`: `confused`, `puzzled`
+- `conical`: `flask-conical-off`, `cone`
+- `connect`: `bluetooth`, `bluetooth-off`, `wifi`, `wifi-off`, `usb`, `home-wifi`, `link-2`, `link`, `external-link`, `link-3`
+- `connected`: `bluetooth-connected`
+- `connection`: `chevrons-left-right-ellipsis`, `antenna`, `cable`, `ethernet-port`, `signal`, `earth-lock`, `globe-lock`, `globe-off`, `globe-x`, `cloud-sync`
+- `connections`: `chart-network`
+- `connectivity`: `antenna`
+- `connector`: `chevrons-left-right-ellipsis`, `cable`, `ethernet-port`, `hdmi-port`
+- `console`: `chevrons-left-right-ellipsis`, `terminal`, `terminal-box`, `terminal-ai`, `terminal-box-ai`, `cable`, `ethernet-port`, `gamepad-directional`, `hdmi-port`, `joystick`
+- `constellation`: `aries`, `taurus`, `gemini`, `cancer`, `leo`, `virgo`, `libra`, `scorpio`, `sagittarius`, `capricorn`, `aquarius`, `pisces`
+- `construct`: `tower-crane`
+- `construction`: `brick-wall-fire`, `brick-wall-shield`, `construction`, `drill`, `hammer`
+- `contact`: `file-user`, `circle-user`
+- `contactless`: `nfc`
+- `contacts`: `card-sim`, `book-user`, `contacts`, `contacts-2`, `contacts-3`, `contacts-4`
+- `container`: `database-search`, `container`, `blender`, `cuboid`
+- `content`: `content-ai`, `circle-fading-plus`
+- `continuous`: `chart-spline`
+- `contractual`: `card-sim`
+- `contrast`: `contrast`, `eclipse`
+- `control`: `carplay`, `ease-in-control-point`, `ease-in-out-control-point`, `ease-out-control-point`, `git-branch`, `git-branch-2`, `remote`, `remote-control`, `folder-cog`, `settings-1`, `settings-2`, `settings-3`, `settings-4`, `settings-5`, `settings-6`, `settings-7`, `user-setting`
+- `control stick`: `joystick`
+- `controller`: `chevrons-left-right-ellipsis`, `ethernet-port`, `gamepad-directional`, `hdmi-port`
+- `controls`: `file-sliders`, `settings-horizontal`, `settings-vertical`
+- `conversation`: `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`
+- `convert`: `transfer-horizontal`, `transfer-vertical`
+- `convex`: `lens-convex`
+- `conveyor`: `briefcase-conveyor-belt`
+- `cooker`: `electric-cooker`
+- `cookie`: `cookie`, `cookie-man`
+- `cooking`: `chef-hat`, `soup-pot`, `soup-pot-2`, `spatula`, `blender`, `croissant`
+- `cooldown`: `cooldown`
+- `cooler`: `fridge`
+- `cooperation`: `handshake`
+- `coordinates`: `axis-3d`, `file-axis-3d`
+- `copied`: `book-copy`
+- `copies`: `book-copy`, `layers-2`, `layers-minus`
+- `copilot`: `copilot`
+- `copper`: `copper-coin`
+- `cops`: `columns-4`
+- `copy`: `mails`, `messages-square`, `book-copy`, `clipboard`, `copy`, `document`, `documents`, `copy-2`, `copy-3`, `task-2`, `task`, `paste`, `empty-box`, `clipboard-clock`, `clipboard-copy`, `clipboard-minus`, `clipboard-paste`, `clipboard-plus`, `clipboard-x`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`, `layers-2`, `layers-minus`, `layers-plus`
+- `copyleft`: `copyleft`
+- `copyright`: `copyright`
+- `copyrigth`: `registered`
+- `cord`: `cable`
+- `cores`: `gpu`
+- `corner`: `corner-down-left`, `corner-down-right`, `corner-up-left`, `corner-up-right`, `arrow-big-left-dash`, `arrow-big-right-dash`, `corner-left-down`, `corner-left-up`, `corner-right-down`, `corner-right-up`, `border-radius`, `file-check-corner`, `file-code-corner`, `file-minus-corner`, `file-search-corner`, `file-type-corner`, `file-x-corner`
+- `corporation`: `linkedin`, `building-2`, `building-3`, `building-4`, `building-6`
+- `corrected`: `book-check`, `book-open-check`
+- `cosmetics`: `lipstick`, `parfum`
+- `counter`: `counter-2`, `counter`
+- `counterclockwise`: `iteration-ccw`
+- `coupon`: `coupon`, `gift-card`, `ticket`
+- `course`: `beef`, `beef-off`, `fish-off`, `fish-symbol`, `ice-cream-bowl`, `hand-platter`
+- `cover`: `inspection-panel`, `dish-cover`, `disc-album`, `circle-dot`
+- `cover letter`: `file-user`
+- `coverage`: `card-sim`
+- `cpu`: `chip`
+- `crab`: `cancer`
+- `crack`: `egg-crack`, `heart-crack`
+- `cracker`: `firecracker`, `firework`
+- `craft`: `drone`
+- `crane`: `tower-crane`
+- `crash`: `database-zap`
+- `crate`: `cuboid`
+- `cream`: `ice-cream-2`, `ice-cream`, `ice-cream-bowl`
+- `create`: `calendar-plus-2`, `funnel-plus`, `mail-pen`, `mail-plus`, `git-branch-plus`, `git-pull-request-create`, `git-pull-request-create-arrow`, `clipboard-plus`, `image-plus`, `map-pin-plus`, `map-pin-plus-inside`, `map-plus`, `bell-plus`, `badge-plus`, `clock-plus`, `layers-plus`
+- `create schedule`: `clock-plus`
+- `creative`: `creative-commons`
+- `credit`: `jcb-japan-credit-bureau`, `bank`, `bank-card`, `banknote-arrow-up`
+- `crescent moon`: `eclipse`
+- `crest`: `brick-wall-shield`
+- `crime`: `cctv-off`, `columns-4`
+- `criminal`: `columns-4`
+- `crisp`: `broccoli`
+- `croissant`: `croissant`
+- `cross`: `intersect`, `locate`, `locate-off`, `cross-2`, `cross`, `plus`
+- `crosshair`: `diamond-plus`
+- `crossing`: `traffic-lights`
+- `crown`: `chess-king`, `chess-queen`
+- `crush`: `book-heart`
+- `crutch`: `crutch`
+- `cry`: `sob`
+- `crypto`: `avalanche-avax`, `binance-coin-bnb`, `binance-usd-busd`, `bnb`, `cardano-ada`, `dogecoin-doge`, `ethereum`, `polkadot-dot`, `solana-sol`, `tether-usdt`, `usd-coin-usdc`, `xrp`, `monero`
+- `crypto mining`: `gpu`
+- `crystal`: `diamond-2`, `crystal-ball`
+- `css`: `eclipse`
+- `cube`: `cube-3d`, `file-box`, `cube`
+- `cuboid`: `cuboid`
+- `culinary`: `blender`, `broccoli`
+- `cultivate`: `hoe`, `pickax`, `rake`
+- `cupcake`: `cupcake`
+- `cured`: `ham`
+- `curly`: `braces`
+- `currencies`: `chart-candlestick`
+- `currency`: `currency-cny`, `currency-dollar`, `currency-euro`, `currency-baht-2`, `currency-cny-2`, `currency-dollar-2`, `currency-euro-2`, `currency-lira-2`, `currency-lira`, `currency-pound-2`, `currency-pound`, `currency-ruble-2`, `currency-ruble`, `currency-rupee-2`, `currency-rupee`, `currency-shekel-2`, `currency-shekel`, `currency-won-2`, `currency-won`, `currency-baht`, `cash`, `currency-nigeria-2`, `currency-nigeria`, `badge-cent`, `badge-cny`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `cash-2`, `chart-candlestick`, `currency`, `georgian-lari`, `avalanche-avax`, `binance-coin-bnb`, `binance-usd-busd`, `bnb`, `cardano-ada`, `dogecoin-doge`, `ethereum`, `polkadot-dot`, `solana-sol`, `tether-usdt`, `usd-coin-usdc`, `xrp`, `monero`, `currency-bitcoin`, `currency-bitcoin-2`
+- `current`: `folder-open-dot`
+- `curriculum vitae`: `file-user`
+- `cursor`: `lasso`, `lasso-select`, `cursor`, `cursor-2`, `cursor-3`, `cursor-text`, `textbox`, `textbox-ai`, `beachball`
+- `curtain`: `curtain`
+- `curve`: `chart-spline`, `vector-bezier-2`, `vector-bezier-3`, `vector-bezier`, `vector-group`, `line-squiggle`, `ellipse`
+- `curved`: `lens-concave`, `lens-convex`
+- `customize`: `columns-3-cog`
+- `cut`: `scissors-2`, `scissors`, `screenshot`, `knife`, `scissors-3`
+- `cutlery`: `utensils`
+- `cv`: `file-user`
+- `cybersecurity`: `brick-wall-shield`
+- `cycling`: `riding`
+- `cyclists`: `bike`, `ebike`
+- `cylinder`: `fire-extinguisher`, `cylinder`, `cylinder-2`
+### D
+
+- `dam`: `dam`
+- `damage`: `heart-minus`
+- `damp`: `droplet-off`, `droplets`
+- `dandelion`: `dandelion`
+- `danger`: `message-circle-warning`, `message-square-warning`, `book-alert`, `alert`, `warning`, `alert-octagon`, `safe-alert`, `alert-diamond`, `cloud-alert`
+- `danmaku`: `danmaku`, `danmaku-on`, `danmaku-off`
+- `dark`: `brightness`, `shadow`, `progress-50`, `moon`, `moon-stars`, `full-moon`, `moonlight`, `eclipse`
+- `dashboard`: `home-1`, `home-2`, `home-3`, `home-4`, `home-5`, `home-6`, `house`, `home-7`, `house-2`, `dashboard-2`, `dashboard`, `dashboard-3`, `dashboard-4`, `instrument`, `pentagon`, `wiper`
+- `dashed`: `arrow-big-down-dash`, `arrow-big-left-dash`, `arrow-big-right-dash`, `arrow-big-up-dash`, `message-circle-dashed`, `message-square-dashed`, `git-pull-request-draft`, `book-dashed`, `circle-dot-dashed`, `focus`
+- `dashed circle`: `add-circle-dash`, `check-circle-dash`, `circle-dash`, `close-circle-dash`, `minus-circle-dash`
+- `dashed progress`: `quarter-circle-dash`, `semicircle-dash`, `three-quarters-circle-dash`
+- `data`: `chevrons-left-right-ellipsis`, `chart-bar`, `chart-line`, `chart-pie`, `coin-2`, `coin-3`, `chart-bar-2`, `chart-decrease`, `chart-horizontal`, `chart-pie-2`, `chart-vertical`, `chart-horizontal-2`, `chart-pie-3`, `chart-vertical-2`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `qrcode`, `qrcode-2`, `storage`, `card-sim`, `database-backup`, `database-search`, `database-zap`, `ethernet-port`, `hard-drive-download`, `hard-drive-upload`, `hdmi-port`, `na`, `cloud-backup`, `cloud-sync`
+- `data visualization`: `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`, `chart-scatter`, `chart-spline`
+- `database`: `database-backup`, `database-search`, `database-zap`
+- `date`: `calendar`, `schedule`, `anniversary`, `calendar-add`, `calendar-day`, `calendar-month`, `calendar-week`, `calendar-2`, `calendar-3`, `calendar-x`, `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `calendars`, `chart-no-axes-gantt`, `message-circle-heart`, `message-square-heart`
+- `dates`: `calendars`
+- `dating`: `message-circle-heart`, `message-square-heart`
+- `day`: `calendar`, `schedule`, `calendar-day`, `calendar-2`, `calendar-3`, `calendar-x`, `calendar-check-2`, `calendar-cog`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-x-2`, `hours`, `eclipse`
+- `daytime`: `sun`, `sun-2`, `partly-cloud-daytime`, `partly-cloud-night`
+- `deadline`: `chart-no-axes-gantt`, `clipboard-clock`, `clock-alert`
+- `deafness`: `ear-off`
+- `deal`: `handshake`
+- `debate`: `messages-square`
+- `debit`: `banknote-arrow-down`
+- `debug`: `bug-off`, `bug-play`
+- `decentralized social media`: `misskey`
+- `decimal`: `decimals-arrow-left`, `decimals-arrow-right`
+- `decimals`: `decimals-arrow-left`, `decimals-arrow-right`
+- `declined`: `banknote-x`
+- `decorate`: `tree`, `wreath`
+- `decoration`: `balloon-2`, `circle-star`
+- `decrease`: `trending-down`, `chart-decrease`, `banknote-arrow-down`, `subtract`, `indent-decrease`, `list-indent-decrease`, `decimals-arrow-left`, `diamond-minus`
+- `decreasing`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `chart-bar-decreasing`, `chart-column-decreasing`, `chart-no-axes-column-decreasing`, `clock-arrow-down`, `clock-arrow-up`
+- `deduct`: `subtract`
+- `deep learning`: `brain-circuit`, `brain-cog`
+- `deepseek`: `deepseek`
+- `deepseek coder`: `deepseek`
+- `deer`: `deer`
+- `defence`: `brick-wall-shield`
+- `defender`: `brick-wall-shield`
+- `defense`: `brick-wall-shield`
+- `defroster`: `front-windshield-defroster`, `rear-windshield-defroster`
+- `degree`: `mortarboard`
+- `degrees`: `thermometer`
+- `delay`: `clock-arrow-down`
+- `delayed`: `mail-clock`
+- `delayed delivery`: `mail-clock`
+- `delete`: `calendar-x`, `banknote-x`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `funnel-x`, `mail-minus`, `mail-x`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `git-branch-minus`, `list-minus`, `list-x`, `bookmark-remove`, `book-minus`, `book-plus`, `book-x`, `bookmark-x`, `folder-delete`, `folder-minus`, `clipboard-minus`, `copy-minus`, `copy-x`, `file-minus`, `file-x-corner`, `image-minus`, `map-minus`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-x`, `map-pin-x-inside`, `bell-minus`, `heart-minus`, `heart-x`, `close-circle`, `close`, `delete`, `delete-back`, `delete-2`, `wastebasket`, `delete-3`, `close-square`, `fault`, `badge-minus`, `badge-x`, `layers-minus`, `user-remove`, `user-remove-2`, `user-x`
+- `delete action`: `minus-circle-dash`
+- `delete schedule`: `clock-x`
+- `delivered`: `mail-check`
+- `delivery`: `mail-badge`, `mail-clock`, `mail-question-mark`, `box`, `box-2`, `box-3`, `box-4`, `truck`
+- `delivery error`: `mail-warning`
+- `dental`: `dental`
+- `department`: `department`, `bell-electric`, `fire-extinguisher`
+- `departure`: `flight-takeoff`
+- `deposit`: `banknote-arrow-up`
+- `descending`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `sort-descending`, `za-sort-descending-letters`, `az-sort-descending-letters`, `numbers-09-sort-descending`, `numbers-90-sort-descending`, `clock-arrow-down`, `clock-arrow-up`
+- `desert`: `cactus-2`, `cactus`
+- `design`: `dribbble`, `figma`, `behance`, `layers`, `align-center-horizontal`, `align-center-vertical`, `align-end-horizontal`, `align-end-vertical`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-horizontal-justify-center`, `align-horizontal-justify-end`, `align-horizontal-justify-start`, `align-horizontal-space-between`, `align-start-horizontal`, `align-start-vertical`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `bring-to-front`, `combine-2`, `contrast`, `diameter`, `drop-2`, `droplet-off`, `droplets`, `gallery`, `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `grid-3x3`, `lasso`, `lasso-2`, `lasso-select`, `layout-align-left`, `layout-align-right`, `layout-panel-left`, `layout-panel-top`, `sidebar-left`, `sidebar-left-close`, `sidebar-left-collapse`, `sidebar-left-open`, `sidebar-right`, `sidebar-right-close`, `sidebar-right-collapse`, `sidebar-right-open`, `file-box`
+- `desk`: `desk`
+- `desktop`: `computer`, `imac`
+- `desktop OS`: `ubuntu`
+- `dessert`: `cake-slice`, `ice-cream-bowl`
+- `destination`: `flag-1`, `flag-2`, `flag-3`, `flag-4`, `map-pin-house`
+- `details`: `list-chevrons-down-up`, `list-chevrons-up-down`, `book-user`
+- `detection`: `brick-wall-shield`
+- `detector`: `alarm-smoke`
+- `develop`: `folder-code`
+- `development`: `app-window`, `binary`, `bot-off`, `bug-off`, `bug-play`, `git-branch-minus`, `git-branch-plus`, `git-commit-horizontal`, `git-compare-2`, `git-fork`, `git-graph`, `git-merge-conflict`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `merge`
+- `device`: `device`, `remote`, `remote-control`, `alarm-clock-check`, `alarm-clock-minus`, `alarm-clock-plus`, `alarm-smoke`, `antenna`, `battery-plus`, `battery-warning`, `bell-electric`, `bluetooth-connected`, `bluetooth-searching`, `boom-box`, `cable`, `card-sim`, `cast`, `cctv-off`, `circuit-board`, `database-backup`, `database-search`, `database-zap`, `drill`, `ethernet-port`, `flashlight-off`, `gamepad-directional`, `gpu`, `hard-drive-download`, `hard-drive-upload`, `hdmi-port`, `heater`, `inspection-panel`, `joystick`, `keyboard-off`, `lamp-floor`, `lamp-wall-down`, `lamp-wall-up`, `laptop-minimal-check`, `lightbulb-off`, `memory-stick`, `circle-power`
+- `devops`: `container`
+- `diagonal`: `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`, `diagonal`
+- `diagram`: `chart-bar`, `chart-line`, `chart-pie`, `chart-bar-2`, `chart-decrease`, `chart-pie-2`, `chart-pie-3`, `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-scatter`, `chart-spline`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`
+- `dialog`: `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`
+- `dialogue`: `comment-2`, `captions`, `captions-off`
+- `diameter`: `diameter`, `circle-off`, `circle-slash-2`
+- `diamond`: `diamond-2`, `diamond`, `diamond-square`, `diamond-minus`, `diamond-percent`, `diamond-plus`
+- `diapers`: `brief`
+- `diary`: `diary`, `notebook`, `notebook-2`, `book-heart`
+- `dice`: `random`, `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`, `dices`
+- `dice face`: `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`
+- `dice roll`: `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`
+- `dickey`: `bird`
+- `dictionary`: `book-3`, `book-2`, `book-4`, `book-2-ai`
+- `die`: `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`
+- `diet`: `broccoli`, `candy-off`, `fish-off`, `milk`, `bean-off`
+- `diff`: `git-merge-conflict`, `file-diff`
+- `difference`: `message-square-diff`, `diff`, `file-diff`, `minus-circle`, `minus-square`
+- `dig`: `hoe`, `pickax`, `shovel`
+- `digit`: `file-digit`
+- `digital`: `gumroad`, `lemon-squeezy`, `card-sim`
+- `digital image processing`: `gpu`
+- `digital product model`: `file-box`
+- `digits`: `binary`, `decimals-arrow-left`, `decimals-arrow-right`
+- `dim`: `shadow`
+- `dimension`: `aspect-ratio`
+- `Diners`: `diners-club`
+- `dingding`: `dingtalk`
+- `dining`: `hand-platter`
+- `dinner`: `bowl`, `dinner`, `dish-cover`, `utensils`, `hand-platter`
+- `direction`: `direction-arrow`, `arrow-big-down-dash`, `arrow-big-left-dash`, `arrow-big-right-dash`, `arrow-big-up-dash`, `arrow-down-narrow-wide`, `arrow-down-to-dot`, `arrow-down-wide-narrow`, `arrow-up-from-dot`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `arrows-up-from-line`, `chevron-first`, `chevron-last`, `chevrons-down-up`, `chevrons-left-right`, `chevrons-right-left`, `chevrons-up-down`, `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`, `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `circle-chevron-up`, `corner-left-down`, `corner-left-up`, `corner-right-down`, `corner-right-up`, `diagonal`, `gamepad-directional`, `text-direction-left`, `text-direction-right`, `compass`, `compass-3`, `direction-dot`, `fan-direction-down`, `fan-direction-front`, `fan-direction-up`
+- `directional`: `gamepad-directional`
+- `directions`: `directions`, `directions-2`
+- `directory`: `directory`, `book-user`, `folder-2`, `folder`, `folder-open`, `folder-open-2`, `folder-3`, `folders`, `folder-clock`, `folder-code`, `folder-cog`, `folder-git`, `folder-git-2`, `folder-heart`, `folder-input`, `folder-kanban`, `folder-key`, `folder-open-dot`, `folder-output`, `folder-pen`, `folder-root`, `folder-search`, `folder-search-2`, `folder-symlink`, `folder-sync`, `folder-tree`
+- `disable`: `globe-off`
+- `disabled`: `bookmark-off`, `disabled`, `disabled-2`, `wheelchair`
+- `disc`: `disc`, `disc-album`
+- `discard`: `clipboard-x`
+- `disclosure`: `list-chevrons-down-up`, `list-chevrons-up-down`
+- `disconnect`: `cloud-off`
+- `disconnected`: `cable`, `globe-off`, `globe-x`
+- `discord`: `discord`
+- `discount`: `sale`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `circle-percent`, `diamond-percent`
+- `discover`: `book-search`, `compass`, `directions`, `directions-2`, `compass-3`, `rocket`, `rocket-2`
+- `discussion`: `messages-square`
+- `dish`: `dish-cover`, `beef`, `beef-off`, `fish-off`, `fish-symbol`, `ice-cream-bowl`
+- `disinformation`: `book-x`
+- `disk`: `drive`, `dropbox`, `server-2`, `usb-flash-disk`, `card-sim`, `hard-drive-download`, `hard-drive-upload`
+- `dislike`: `heart-off`, `thumb-down`, `thumb-down-2`
+- `dismiss`: `heart-x`
+- `display`: `presentation-1`, `presentation-2`, `presentation-3`, `contrast`, `tv-1`, `tv-2`, `display`, `monitor`, `cast`, `live`, `eclipse`
+- `display adapter`: `gpu`
+- `displeased`: `unhappy-dizzy`
+- `disregard`: `exclude`
+- `distance`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `land-plot`
+- `distribute`: `distribute-spacing-horizontal`, `distribute-spacing-vertical`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`
+- `divide`: `circle-divide`, `divide`, `copy-slash`, `circle-slash-2`
+- `divider`: `dividing-line`, `diamond-minus`
+- `division`: `section`, `divide`, `copy-slash`, `circle-slash-2`
+- `diy`: `drill`, `fence`
+- `dizzy`: `unhappy-dizzy`
+- `dj`: `disc-album`, `circle-dot`
+- `DNA`: `dna`, `dna-off`
+- `doctor`: `hospital`, `clipboard-minus`, `clipboard-plus`, `stethoscope`
+- `document`: `file`, `doc`, `pdf`, `ppt`, `xls`, `document`, `document-2`, `document-3`, `documents`, `profile`, `to-do`, `file-ai`, `album-3`, `archive-restore`, `archive-x`, `clipboard-clock`, `clipboard-copy`, `clipboard-minus`, `clipboard-paste`, `clipboard-pen`, `clipboard-pen-line`, `clipboard-plus`, `clipboard-type`, `clipboard-x`, `container`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`, `file-axis-3d`, `file-box`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`, `file-check-corner`, `file-clock`, `file-code-corner`, `file-cog`, `file-diff`, `file-digit`, `file-headphone`, `file-heart`, `file-image`, `file-key`, `file-minus`, `file-minus-corner`, `file-pen`, `file-pen-line`, `file-play`, `file-scan`, `file-search-corner`, `file-signal`, `file-sliders`, `file-spreadsheet`, `file-symlink`, `file-terminal`, `file-type`, `file-type-corner`, `file-user`, `file-video-camera`, `file-volume`, `file-x-corner`, `folder-clock`, `folder-code`, `folder-cog`, `folder-git`, `folder-git-2`, `folder-heart`, `folder-input`, `folder-kanban`, `folder-key`, `folder-open-dot`, `folder-output`, `folder-pen`, `folder-root`, `folder-search`, `folder-search-2`, `folder-symlink`, `folder-sync`, `folder-tree`, `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`
+- `document management`: `file-axis-3d`, `file-box`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`, `file-check-corner`, `file-clock`, `file-code-corner`, `file-cog`, `file-diff`, `file-digit`, `file-headphone`, `file-heart`, `file-image`, `file-key`, `file-minus`, `file-minus-corner`, `file-pen`, `file-pen-line`, `file-play`, `file-scan`, `file-search-corner`, `file-signal`, `file-sliders`, `file-spreadsheet`, `file-symlink`, `file-terminal`, `file-type`, `file-type-corner`, `file-user`, `file-video-camera`, `file-volume`, `file-x-corner`
+- `documentation`: `book-alert`, `book-open-text`, `book-text`
+- `documented`: `book-check`, `book-open-check`
+- `documents`: `briefcase`, `suitcase-2`, `suitcase`
+- `dog`: `bone`, `dog`
+- `DOGE`: `dogecoin-doge`
+- `dogecoi`: `dogecoin-doge`
+- `dollar`: `currency-dollar`, `currency-dollar-2`, `refund-dollar`, `cash`, `badge-cent`, `badge-dollar-sign`
+- `done`: `calendar-check-2`, `check-line`, `mail-check`, `message-circle-check`, `message-square-check`, `alarm-clock-check`, `laptop-minimal-check`, `list-todo`, `book-check`, `book-open-check`, `copy-check`, `file-check-corner`, `map-pin-check`, `circle-check-big`, `cloud-check`
+- `donut`: `bread`, `donut`
+- `doodle`: `line-squiggle`
+- `door`: `door`, `entrance`, `exit`, `open-door`, `enter-door`, `exit-door`, `door-closed-locked`, `car-door`
+- `doorbell`: `bell-electric`
+- `DOT`: `polkadot-dot`
+- `dot`: `arrow-down-to-dot`, `arrow-up-from-dot`, `message-square-dot`, `folder-open-dot`, `dot`, `dot-grid`, `classify`, `classify-2`, `classify-3`, `classify-add-2`, `classify-add`, `direction-dot`, `three-circles`, `classify-ai`, `classify-2-ai`, `classify-3-ai`, `circle-dot`, `circle-dot-dashed`, `line-dot-right-horizontal`
+- `dot circle`: `dot-circle`
+- `dot indicator`: `dot-circle`
+- `dots`: `more-1`, `more-2`, `more-3`, `more-4`, `dots`, `dots-horizontal`
+- `double`: `layers-2`
+- `down`: `arrow-down`, `down`, `transfer-2`, `transfer-4`, `align-arrow-down`, `arrow-to-down`, `arrow-down-circle`, `arrow-left-down-circle`, `arrow-right-down-circle`, `arrow-right-down`, `down-small`, `large-arrow-down`, `square-arrow-down`, `arrows-down`, `trending-down`, `corner-down-left`, `corner-down-right`, `arrow-big-down-dash`, `arrow-down-narrow-wide`, `arrow-down-to-dot`, `arrow-down-wide-narrow`, `chevrons-down-up`, `chevrons-up-down`, `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-chevron-down`, `corner-left-down`, `corner-right-down`, `banknote-arrow-down`, `calendar-arrow-down`, `escalator-down`, `lamp-wall-down`, `az-sort-ascending-letters`, `za-sort-descending-letters`, `numbers-09-sort-descending`, `numbers-90-sort-descending`, `a-arrow-down`, `list-chevrons-down-up`, `list-chevrons-up-down`, `book-down`, `look-down`, `image-down`, `fan-direction-down`
+- `downgrade`: `book-minus`, `diamond-minus`
+- `download`: `arrow-big-down-dash`, `hard-drive-download`, `download-2`, `download`, `file-download`, `download-3`, `folder-download`, `image-down`, `cloud-sync`
+- `draft`: `mail-pen`, `message-circle-dashed`, `message-square-dashed`, `git-pull-request-draft`, `book-dashed`, `file-box`, `circle-dot-dashed`
+- `draft letter`: `mail-pen`
+- `dragonfly`: `dragonfly`
+- `drama`: `drama`
+- `draw`: `line-squiggle`
+- `drawer`: `drawer-2`, `drawer`
+- `drawers`: `columns-4`
+- `drawing`: `drawing-board`, `artboard`, `whiteboard`
+- `dream`: `sleep`
+- `dress`: `skirt`, `dress`
+- `dribbble`: `dribbble`
+- `drill`: `drill`
+- `drink`: `drink`, `glass-cup`, `wine`, `beer`, `beer-off`, `blender`, `drink-2`, `milk`
+- `drive`: `drive`, `usb`, `hard-drive-download`, `hard-drive-upload`, `four-wheel-drive`, `steering-wheel`, `rudder`
+- `drizzle`: `drizzle`
+- `drone`: `drone`
+- `drop`: `drop-2`, `map-minus`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`
+- `dropbox`: `dropbox`
+- `dropdown`: `dropdown`
+- `dropdown menu`: `dropdown`
+- `droplet`: `drop`, `droplet-off`
+- `droplets`: `droplets`
+- `drought`: `dry`
+- `drug`: `capsule`, `prescription`
+- `drum`: `drum`
+- `dry`: `dry`
+- `Dubai`: `burj-al-arab`, `burj-khalifa-tower`
+- `duplicate`: `book-copy`, `copy`, `copy-2`, `copy-3`, `paste`, `empty-box`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`, `layers-2`
+- `duration`: `time-duration`, `timeline`
+- `dust`: `floating-dust`, `haze`, `sandstorm`
+- `dutch`: `dutch-windmill`
+- `dvd`: `disc-album`, `circle-dot`
+- `dynamic warm-up`: `warm-up-2`
+### E
+
+- `ear`: `ear`, `ear-off`
+- `earnings`: `banknote-arrow-up`
+- `earth`: `globe`, `earth`, `world-2`, `world`, `earth-2`, `earth-latitude`, `earth-longitude`, `earth-3`, `globe-2`, `earth-4`, `earth-lock`, `globe-off`, `eclipse`
+- `ease`: `ease-in-control-point`, `ease-in`, `ease-in-out-control-point`, `ease-out-control-point`, `ease-out`, `easy-in-out`
+- `east`: `arrow-big-right-dash`, `look-right`
+- `easter`: `egg`
+- `Easter Island`: `moai`
+- `ebike`: `ebike`
+- `eclipse`: `eclipse`
+- `economy`: `battery-plus`
+- `edge`: `edge`
+- `edges`: `chart-network`
+- `edit`: `mail-pen`, `pen`, `quill-pen`, `quill-pen-ai`, `pen-ai`, `edit`, `pencil`, `pen-2`, `edit-2`, `edit-3`, `pencil-2`, `edit-4`, `pencil-3`, `pencil-2-ai`, `edit-2-ai`, `edit-3-ai`, `pen-2-ai`, `pencil-3-ai`, `pencil-ai`, `edit-5`, `bookmark-edit`, `file-cog`, `file-pen-line`, `file-sliders`, `folder-cog`, `image-edit`, `map-pin-pen`, `user-edit`
+- `edit email`: `mail-pen`
+- `edit email address`: `mail-pen`
+- `editing`: `a-arrow-down`, `a-arrow-up`, `a-large-small`, `ampersands`, `case-lower`, `case-upper`, `columns-3-cog`, `columns-4`, `edit-5`, `heading`, `heading-4`, `heading-5`, `heading-6`, `ligature`, `line-squiggle`, `list-check-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `list-end`, `list-indent-decrease`, `list-indent-increase`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-todo`, `list-x`, `logs`, `text-align-center`, `text-align-end`, `text-align-justify`, `text-align-start`, `typography`
+- `editor`: `code`, `align-right`, `align-center`, `align-left`, `paragraph`
+- `educated`: `book-check`, `book-open-check`
+- `education`: `book-alert`, `book-audio`, `book-check`, `book-copy`, `book-dashed`, `book-down`, `book-headphones`, `book-heart`, `book-image`, `book-key`, `book-lock`, `book-marked`, `book-minus`, `book-open-check`, `book-open-text`, `book-plus`, `book-search`, `book-text`, `book-type`, `book-up`, `book-up-2`, `book-user`, `book-x`, `bookmark-check`, `bookmark-off`, `bookmark-x`, `circle-divide`, `circle-equal`, `circle-percent`, `decimals-arrow-left`, `decimals-arrow-right`, `diff`, `divide`, `equal`, `equal-approximately`, `equal-not`, `flask-conical-off`, `infinity`, `infinity-2`, `lectern`, `lens-concave`, `lens-convex`, `library`
+- `effects`: `color-filter`
+- `egg`: `egg-crack`, `egg`, `fried-egg`, `egg-off`
+- `egg free`: `egg-off`
+- `egress`: `door-closed-locked`
+- `egyptian`: `egyptian-pyramids`
+- `eiffel`: `eiffel-tower`
+- `eight`: `clock-8`
+- `electric`: `high-voltage-power`, `bell-electric`, `heater`, `charging-pile`
+- `electricity`: `dam`, `battery`, `battery-1`, `battery-2`, `battery-3`, `battery-4`, `battery-plus`, `battery-warning`, `cable`, `circuit-board`, `lightning`
+- `electronics`: `cable`, `circuit-board`, `heater`
+- `element`: `biohazard`
+- `elements`: `components`
+- `elevator`: `escalator-down`, `escalator-up`
+- `eleven`: `clock-11`
+- `ellipse`: `ellipse`
+- `ellipsis`: `chevrons-left-right-ellipsis`, `message-square-more`, `more-1`, `more-2`, `more-3`, `more-4`, `dots`, `dots-horizontal`
+- `elon musk`: `grok-2`
+- `email`: `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `at`
+- `email reminder`: `mail-clock`
+- `emails`: `mails`
+- `embarrassed`: `sweats`
+- `emergency`: `bell-electric`, `flashlight-off`, `first-aid-kit`, `bandage`, `fire-extinguisher`, `report`, `emergency-flashers`, `ambulance`
+- `emergency exit`: `door-closed-locked`
+- `emoji`: `angry`, `confused`, `happy`, `sweats`, `terror`, `emoji`, `emoji-2`, `annoyed`
+- `emotion`: `book-heart`, `emoji`, `emoji-2`, `annoyed`, `heart-off`
+- `emulsify`: `blender`
+- `encrypted`: `message-square-lock`, `key-1`, `key-2`, `key-3`, `key-4`
+- `encryption`: `file-locked`, `folder-locked`, `folder-locked-2`, `earth-lock`, `globe-lock`, `user-lock`
+- `end`: `ease-out`, `align-end-horizontal`, `align-end-vertical`, `align-horizontal-distribute-end`, `align-horizontal-justify-end`, `align-vertical-distribute-end`, `align-vertical-justify-end`, `between-horizontal-end`, `between-vertical-end`, `gallery-horizontal-end`, `gallery-vertical-end`, `list-end`, `text-align-end`, `dot`, `line-dot-right-horizontal`
+- `ending`: `ease-out`
+- `energy`: `dam`, `house-plug`, `battery`, `battery-1`, `battery-2`, `battery-3`, `battery-4`, `solar-panel`, `battery-plus`, `battery-warning`, `cable`
+- `enforcement`: `columns-4`
+- `engine`: `engine`, `oil`
+- `engineering document`: `file-box`
+- `England`: `big-ben`
+- `enter`: `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `entrance`, `enter-door`
+- `entertainment`: `drama`
+- `entrance`: `bell-electric`, `door`, `entrance`, `open-door`, `enter-door`, `door-closed-locked`
+- `entries`: `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `book-heart`
+- `entry`: `coupon`, `ticket`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `bell-electric`, `book-heart`, `door-closed-locked`
+- `envelope`: `red-packet`, `red-packet-open`, `mail-badge`
+- `environment`: `container`
+- `ep`: `disc-album`, `circle-dot`
+- `equal`: `circle-equal`, `equal`, `equal-approximately`, `equal-not`
+- `equation`: `formula`
+- `equipment`: `ladder`, `alarm-smoke`, `cable`, `fire-extinguisher`, `fishing-rod`, `kayak`, `forklift`
+- `erase`: `clipboard-minus`, `file-minus`, `map-minus`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-x`, `map-pin-x-inside`, `bell-minus`, `badge-minus`
+- `eraser`: `eraser`, `eraser-ai`
+- `ergometer`: `indoor-rowing`
+- `erlenmeyer`: `flask-conical-off`
+- `error`: `banknote-x`, `bug`, `git-merge-conflict`, `copy-slash`, `circle-off`, `close-circle`, `close`, `close-square`, `fault`, `ban`, `cloud-alert`
+- `escalator`: `escalator-down`, `escalator-up`
+- `escape`: `circle-arrow-out-up-left`
+- `et cetera`: `message-square-more`
+- `etc`: `message-square-more`
+- `ETH`: `ethereum`
+- `ethereum`: `ethereum`
+- `Ethernet`: `ethernet-port`
+- `euro`: `currency-euro`, `currency-euro-2`, `badge-euro`
+- `even`: `columns-4`
+- `evening`: `moon-cloudy`, `moon-stars`, `sunset`
+- `evenly`: `align-horizontal-distribute-center`, `align-vertical-distribute-center`
+- `event`: `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `calendars`, `chart-no-axes-gantt`, `book-image`
+- `events`: `calendar-cog`, `calendar-search`, `calendars`
+- `examined`: `book-check`, `book-open-check`
+- `excel`: `between-horizontal-end`, `between-horizontal-start`, `xls`, `report-forms`
+- `exchange`: `exchange-baht`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `chart-candlestick`, `repeat`, `transformation`
+- `exchange-bitcoin`: `exchange-bitcoin`
+- `exchange-cny`: `exchange-cny`
+- `exchange-dollar`: `exchange-dollar`
+- `exchange-euro`: `exchange-euro`
+- `exclamation`: `cloud-alert`
+- `exclamation mark`: `mail-warning`, `message-circle-warning`, `message-square-warning`, `battery-warning`, `book-alert`
+- `exclude`: `exclude`
+- `executable`: `app-window`, `file-cog`, `file-sliders`, `file-terminal`
+- `exercise prep`: `warm-up`
+- `exit`: `fullscreen-exit-2`, `fullscreen-exit`, `door`, `exit`, `open-door`, `exit-door`, `door-closed-locked`
+- `exit button`: `close-medium`, `close-small`
+- `expand`: `chevrons-left-right`, `chevrons-up-down`, `layout-bottom-open`, `layout-leftbar-open`, `layout-rightbar-open`, `layout-top-open`, `list-chevrons-down-up`, `list-chevrons-up-down`, `copy-plus`, `fullscreen`, `expand-player`
+- `expansion`: `list-expansion`
+- `expense`: `banknote-arrow-down`
+- `experiment`: `microscope`, `test-tube`, `flask-conical-off`
+- `explosion`: `bomb`, `boom`
+- `explosive power`: `jump`
+- `export`: `file-export`, `folder-input`, `folder-output`, `image-down`, `share-forward`, `share-2`, `share-3`
+- `exposure`: `exposure`
+- `Express`: `american-express`
+- `extension`: `plugin`, `plugin-2`
+- `exterminate`: `bug-off`
+- `external`: `external-link`
+- `extinguisher`: `fire-extinguisher`
+- `extra`: `battery-plus`, `diamond-plus`
+- `extraterrestrial`: `ufo`, `ufo-2`
+- `eye`: `eye-2`, `eyebrow`, `eye-2-off`, `eye-close`, `eye`, `eye-off`, `user-hide`, `user-visible`
+- `eyebrow`: `eyebrow`
+- `eyeglass`: `eyeglass`, `lens-concave`, `lens-convex`
+### F
+
+- `face`: `beard`, `face`, `emoji`, `emoji-2`, `face-mask`
+- `facebook`: `facebook`, `meta`
+- `faceid`: `faceid`
+- `factory`: `factory`, `factory-2`
+- `fading`: `circle-fading-arrow-up`, `circle-fading-plus`
+- `fahrenheit`: `thermometer`, `fahrenheit`
+- `failed`: `banknote-x`
+- `failure`: `circle-off`, `ban`
+- `faith`: `pray`
+- `falling`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `clock-arrow-down`, `clock-arrow-up`
+- `fallout`: `biohazard`
+- `false`: `computer-camera-off`, `book-x`
+- `family`: `book-user`
+- `fan`: `folding-fan`, `fan-2`, `fan-direction-down`, `fan-direction-front`, `fan-direction-up`, `fan`, `pinwheel`, `pinwheel-2`
+- `farm`: `dutch-windmill`, `hoe`, `pickax`, `rake`, `shovel`
+- `fast`: `fast-forward`, `fast-rewind`, `rewind-backward-5`, `rewind-forward-5`, `rewind-backward-10`, `rewind-forward-10`, `rewind-backward-15`, `rewind-forward-15`, `rewind-backward-30`, `rewind-forward-30`, `rewind-backward-square-5`, `rewind-forward-square-5`, `rewind-backward-square-10`, `rewind-forward-square-10`, `rewind-backward-square-15`, `rewind-forward-square-15`, `rewind-backward-square-30`, `rewind-forward-square-30`
+- `faster`: `arrow-big-up-dash`
+- `father`: `father-christmas`
+- `fault`: `close-circle`, `close`, `close-square`, `fault`
+- `favorite`: `book-heart`, `heart-plus`
+- `favorites`: `file-star`, `folder-star`, `star-2`, `star`, `star-half`, `user-star`
+- `favourite`: `calendar-heart`, `book-heart`, `file-heart`, `folder-heart`
+- `fax`: `fax`
+- `feather`: `badminton`
+- `fediverse`: `misskey`
+- `feed`: `rss`, `rss-2`
+- `feedback`: `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`
+- `feeder`: `feeder`
+- `female`: `female`
+- `feminine`: `book-heart`, `female`
+- `fence`: `fence`
+- `ferris`: `ferris-wheel`
+- `ferry`: `ship`
+- `festival`: `lantern`, `chinese-knot`, `lantern-2`, `blessing`
+- `fewer`: `circle-chevron-left`, `decimals-arrow-left`
+- `fiction`: `book-alert`, `book-audio`, `book-headphones`, `book-open-text`, `book-text`, `book-type`, `library`
+- `field`: `playground`
+- `fight`: `hand-fist`
+- `figma`: `figma`
+- `figure`: `figure`
+- `file`: `file`, `doc`, `file-export`, `file-import`, `file-music`, `file-new`, `file-upload`, `pdf`, `ppt`, `save`, `xls`, `file-zip`, `document`, `document-2`, `document-3`, `documents`, `file-check`, `file-code`, `file-info`, `file-more`, `file-search`, `file-star`, `file-unknown`, `file-warning`, `profile`, `save-2`, `file-forbid`, `file-locked`, `file-ai`, `album-3`, `archive-restore`, `archive-x`, `clipboard-clock`, `clipboard-copy`, `clipboard-minus`, `clipboard-paste`, `clipboard-pen`, `clipboard-pen-line`, `clipboard-plus`, `clipboard-type`, `clipboard-x`, `container`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`, `file-axis-3d`, `file-box`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`, `file-check-corner`, `file-clock`, `file-code-corner`, `file-cog`, `file-diff`, `file-digit`, `file-headphone`, `file-heart`, `file-image`, `file-key`, `file-minus`, `file-minus-corner`, `file-pen`, `file-pen-line`, `file-play`, `file-scan`, `file-search-corner`, `file-signal`, `file-sliders`, `file-spreadsheet`, `file-symlink`, `file-terminal`, `file-type`, `file-type-corner`, `file-user`, `file-video-camera`, `file-volume`, `file-x-corner`, `folder-clock`, `folder-code`, `folder-cog`, `folder-git`, `folder-git-2`, `folder-heart`, `folder-input`, `folder-kanban`, `folder-key`, `folder-open-dot`, `folder-output`, `folder-pen`, `folder-root`, `folder-search`, `folder-search-2`, `folder-symlink`, `folder-sync`, `folder-tree`, `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`
+- `file management`: `folder-clock`, `folder-code`, `folder-cog`, `folder-git`, `folder-git-2`, `folder-heart`, `folder-input`, `folder-kanban`, `folder-key`, `folder-open-dot`, `folder-output`, `folder-pen`, `folder-root`, `folder-search`, `folder-search-2`, `folder-symlink`, `folder-sync`, `folder-tree`
+- `file operation`: `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`, `file-axis-3d`, `file-box`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`, `file-check-corner`, `file-clock`, `file-code-corner`, `file-cog`, `file-diff`, `file-digit`, `file-headphone`, `file-heart`, `file-image`, `file-key`, `file-minus`, `file-minus-corner`, `file-pen`, `file-pen-line`, `file-play`, `file-scan`, `file-search-corner`, `file-signal`, `file-sliders`, `file-spreadsheet`, `file-symlink`, `file-terminal`, `file-type`, `file-type-corner`, `file-user`, `file-video-camera`, `file-volume`, `file-x-corner`
+- `film`: `projector`, `cctv-off`, `file-play`, `file-video-camera`, `clapperboard`, `film`, `movie`, `video`, `video-ai`
+- `filter`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `filter`, `filter-3`, `funnel-plus`, `funnel-x`, `color-filter`, `cone`, `filter-2`, `list-filter-plus`
+- `filtration`: `filter`, `filter-3`, `filter-2`
+- `final`: `dot`
+- `finance`: `alipay`, `paypal`, `mastercard`, `stripe`, `visa`, `wechat-pay`, `coin-2`, `coin`, `copper-coin`, `currency-cny`, `currency-dollar`, `currency-euro`, `currency-cny-2`, `currency-dollar-2`, `currency-euro-2`, `stock`, `coin-3`, `cash`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `cash-2`, `currency`, `hand-coins`
+- `financial`: `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `chart-candlestick`
+- `find`: `brick-wall-shield`, `list-search`, `search`, `search-2`, `search-3`, `search-ai`, `search-2-ai`, `search-2-none`, `search-3-ai`, `search-none`, `file-search-corner`, `folder-search`, `folder-search-2`, `user-search`
+- `finding`: `book-search`
+- `finger`: `finger-press`, `finger-rock`, `finger-swipe`, `finger-tap`, `hand-finger-2`, `hand-finger`, `hand-two-fingers`, `middle-finger`
+- `Finger heart`: `finger-love`
+- `finger love`: `finger-love`
+- `finger victory`: `finger-victory`
+- `fingerprint`: `fingerprint`, `fingerprint-2`
+- `finish`: `dot`
+- `finished`: `book-check`, `book-open-check`, `bookmark-check`, `progress-100`
+- `fire`: `brick-wall-fire`, `alarm-smoke`, `heater`, `fire-extinguisher`, `air-balloon`, `fire`, `flame`
+- `fire alarm`: `bell-electric`
+- `firecracker`: `firecracker`
+- `firefighter`: `bell-electric`, `fire-extinguisher`
+- `firefox`: `firefox`
+- `fireman`: `bell-electric`, `fire-extinguisher`
+- `firewall`: `brick-wall-fire`, `brick-wall-shield`
+- `firework`: `firework`
+- `first`: `chevron-first`, `calendar-1`, `first-aid-kit`
+- `first aid`: `bandage`, `ambulance`
+- `fish`: `fish`, `fish-off`, `fish-symbol`, `fishing-hook`, `pisces`
+- `fishing`: `fishing-hook`, `fishing-rod`
+- `fist`: `hand-grab`, `hand-fist`
+- `fitness`: `barbell`, `fitness`, `bike`
+- `five`: `clock-5`
+- `fix`: `screwdriver`, `tool`
+- `fixed`: `bug-off`
+- `flag`: `flag-1`, `flag-2`, `flag-3`, `flag-4`, `flag-1-off`, `flag-4-off`, `flag-triangle-left`, `land-plot`
+- `flame`: `fire`, `flame`
+- `flames`: `bell-electric`, `fire-extinguisher`
+- `flash`: `flash`, `usb-flash-disk`, `flash-circle`, `card-sim`, `safe-flash`, `lightning`
+- `flashers`: `emergency-flashers`
+- `flashlight`: `flashlight`, `flashlight-off`
+- `flask`: `flask`, `flask-2`, `flask-3`, `flask-conical-off`, `bottle`
+- `flatware`: `utensils`
+- `flex`: `align-center-horizontal`, `align-center-vertical`, `align-end-horizontal`, `align-end-vertical`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-horizontal-justify-center`, `align-horizontal-justify-end`, `align-horizontal-justify-start`, `align-horizontal-space-between`, `align-start-horizontal`, `align-start-vertical`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`
+- `flexibility`: `flexibility`
+- `flight`: `airplane`, `flight-land`, `flight-takeoff`, `flight-inflight`
+- `flip`: `flip-horizontal`, `flip-vertical`, `mirror`
+- `float`: `decimals-arrow-left`, `decimals-arrow-right`
+- `floating`: `floating-dust`
+- `flood`: `wet`
+- `floor`: `lamp-floor`
+- `floral design`: `rose`
+- `flow state programming`: `vibe-coding`
+- `flower`: `lotus`, `flower`, `flower-2`, `flower-3`, `flower-4`, `sunflower`, `flower-5`
+- `flower icon`: `rose`
+- `flowerpot`: `flowerpot`
+- `fluid`: `droplet-off`, `droplets`
+- `fly`: `drone`, `kite`, `butterfly`, `dragonfly`, `butterfly-2`, `air-balloon`, `airplane`
+- `flyer`: `helicopter`
+- `flying`: `helicopter`
+- `foam`: `fire-extinguisher`
+- `focus`: `target`, `lens-concave`, `lens-convex`, `aiming`, `aiming-2`, `focus`, `focus-group`, `focus-square`
+- `fog`: `front-fog-lights`, `rare-fog-lights`, `fog`, `moon-fog`, `sun-fog`
+- `fold`: `chevrons-down-up`, `chevrons-right-left`, `calendar-fold`, `fold-horizontal`, `fold-vertical`, `columns-4`, `list-chevrons-down-up`, `list-chevrons-up-down`
+- `folder`: `folder-2`, `folder`, `folder-open`, `folder-open-2`, `album-2`, `folder-3`, `folder-check`, `folder-download`, `folder-forbid`, `folder-info`, `folder-locked`, `folder-locked-2`, `folder-more`, `folder-security`, `folder-star`, `folder-upload`, `folder-warning`, `new-folder`, `folders`, `folder-zip`, `folder-clock`, `folder-code`, `folder-cog`, `folder-git`, `folder-git-2`, `folder-heart`, `folder-input`, `folder-kanban`, `folder-key`, `folder-open-dot`, `folder-output`, `folder-pen`, `folder-root`, `folder-search`, `folder-search-2`, `folder-symlink`, `folder-sync`, `folder-tree`
+- `folding`: `folding-fan`
+- `follow`: `follow`, `user-follow`, `user-follow-2`, `user-heart`
+- `fondant`: `cake-slice`
+- `font`: `bold`, `font`, `font-size`, `letter-spacing`, `case-lower`, `case-upper`, `ligature`, `file-type`, `file-type-corner`, `dot`
+- `font size`: `a-arrow-down`, `a-arrow-up`, `a-large-small`
+- `fonts`: `book-type`
+- `food`: `chef-hat`, `chicken`, `cookie`, `cookie-man`, `cupcake`, `carrot`, `fries`, `hamburger`, `pizza`, `fried-egg`, `soup-pot`, `soup-pot-2`, `spatula`, `beef`, `beef-off`, `beer`, `beer-off`, `blender`, `bowl-2`, `broccoli`, `cake-slice`, `candy-off`, `croissant`, `drink-2`, `egg-off`, `fish-off`, `fish-symbol`, `ham`, `ice-cream-bowl`, `milk`, `utensils`, `pumpkin`, `mushroom`, `banana`, `bean`, `bean-off`, `cherry`, `grape`
+- `food illustration`: `apple-fruit`
+- `foot`: `foot`, `paw`
+- `foot soldier`: `brick-wall-shield`
+- `football`: `american-football`, `football`
+- `football game`: `play-football`
+- `footprint`: `foot`
+- `forbid`: `book-minus`, `file-forbid`, `folder-forbid`, `forbid-circle`, `user-forbid`
+- `forbidden`: `book-x`, `copy-slash`, `circle-off`, `ban`
+- `force`: `book-up-2`
+- `forefinger`: `hand-finger-2`, `hand-finger`
+- `forest`: `tree-2`, `tree-3`, `tree-4`
+- `forever`: `infinity`
+- `forge`: `anvil`
+- `fork`: `git-fork`, `book-copy`, `fork`, `fork-knife`, `fork-spoon`, `utensils`
+- `forklift`: `forklift`
+- `form`: `report-forms`, `ellipse`, `circle-pile`
+- `format`: `card-sim`, `text-color`, `clipboard-type`, `disc-album`, `circle-dot`
+- `formatting`: `a-arrow-down`, `a-arrow-up`, `a-large-small`
+- `formula`: `formula`
+- `fortress`: `castle`
+- `forward`: `forward-2`, `forward`, `arrow-big-right-dash`, `arrow-big-up-dash`, `message-square-share`, `bring-to-front`, `fast-forward`, `rewind-forward-5`, `rewind-forward-10`, `rewind-forward-15`, `rewind-forward-30`, `rewind-forward-square-5`, `rewind-forward-square-10`, `rewind-forward-square-15`, `rewind-forward-square-30`, `share-forward`, `share-2`, `share-3`
+- `four`: `dice-4`, `clock-4`
+- `fox`: `git-lab`
+- `fraction`: `decimals-arrow-left`, `decimals-arrow-right`
+- `fragile`: `arrows-up-from-line`, `wineglass-2`, `wineglass`, `bottle-glass`
+- `frame`: `layout`, `panoramas`, `frame`, `process`
+- `franc`: `badge-swiss-franc`
+- `France`: `eiffel-tower`, `pisa-tower`, `triumphal-arch`
+- `freestyle`: `swimming`
+- `freezer`: `fridge`
+- `freight`: `container`
+- `french`: `fries`
+- `frequency`: `antenna`, `boom-box`, `audio-waveform`
+- `fresh`: `broccoli`
+- `fridge`: `fridge`
+- `fried`: `fried-egg`
+- `friends`: `book-user`
+- `friendship`: `handshake`
+- `fries`: `fries`
+- `from`: `arrow-up-from-dot`, `arrows-up-from-line`
+- `front`: `bring-to-front`, `fan-direction-front`, `front-fog-lights`, `front-windshield-defroster`
+- `frowning`: `meh`
+- `frozen`: `ice-cream-2`, `ice-cream`
+- `fruit`: `banana`, `cherry`, `citrus`, `grape`
+- `fruit icon`: `apple-fruit`
+- `fu`: `blessing`
+- `fuel`: `gas-station`
+- `fujiyama`: `mountain`
+- `full`: `expand-player`, `moon`, `full-moon`, `moonlight`
+- `full stop`: `dot`
+- `fullscreen`: `fullscreen-2`, `fullscreen-exit-2`, `fullscreen-exit`, `fullscreen`
+- `function`: `chart-spline`, `ease-in-control-point`, `ease-in-out-control-point`
+- `function,`: `ease-out-control-point`
+- `funds`: `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`
+- `fungus`: `mushroom`
+- `funnel`: `filter`, `filter-3`, `funnel-plus`, `funnel-x`, `cone`, `filter-2`
+- `furniture`: `sofa`, `lamp-floor`, `lamp-wall-down`, `lamp-wall-up`, `bed-single`, `drawer-2`, `drawer`, `wardrobe-2`, `wardrobe`, `bedside-table`, `bedside-table-2`, `bottle`
+### G
+
+- `gallery`: `gallery`, `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`, `book-image`, `pic-2`, `pic`
+- `gamble`: `clubs`, `spade`
+- `gambling`: `random`, `diamond-square`
+- `game`: `nintendo-switch`, `xbox`, `game-1`, `game-2`, `gamepad-directional`, `joystick`, `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`, `dices`, `chess`, `sword`
+- `game launcher`: `steam`
+- `game store`: `steam`
+- `gamepad`: `game-1`, `game-2`, `gamepad-directional`
+- `gaming`: `twitch`, `gamepad-directional`
+- `gaming platform`: `roblox`
+- `gammon`: `ham`
+- `Gantt`: `chart-gantt`, `chart-no-axes-gantt`
+- `garbage`: `delete`, `delete-2`, `wastebasket`, `delete-3`
+- `garden`: `fence`, `flower`, `flower-2`, `flower-3`, `flower-4`, `sunflower`, `flower-5`
+- `garland`: `wreath`
+- `gas`: `gas-station`
+- `gate`: `door-closed-locked`
+- `gateaux`: `cake-slice`
+- `gateway`: `door-closed-locked`
+- `gauge`: `dashboard-2`, `dashboard`, `dashboard-3`, `dashboard-4`
+- `gb`: `memory-stick`
+- `gbp`: `badge-pound-sterling`
+- `gddr`: `gpu`
+- `gear`: `calendar-cog`, `file-cog`, `file-sliders`, `folder-cog`, `settings-1`, `settings-3`, `settings-4`, `settings-5`, `settings-7`, `helicopter`
+- `gel`: `shower-gel`
+- `gelato`: `ice-cream-bowl`
+- `gender`: `circle-small`, `female`, `male`, `mars-stroke`, `venus-and-mars`
+- `genderless`: `circle-small`
+- `gene`: `dna`, `dna-off`
+- `gentle`: `easy-in-out`
+- `geolocation`: `earth-lock`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`, `locate`, `locate-off`, `map-minus`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `map-plus`
+- `geometry`: `diameter`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `compass-2`, `file-box`, `cylinder`, `line`, `rectangle`, `rectangle-vertical`, `cylinder-2`, `hemisphere`, `hemisphere-2`, `cone`, `cuboid`, `ellipse`, `polygon`
+- `Georgian`: `georgian-lari`
+- `gesture`: `finger-press`, `finger-rock`, `finger-swipe`, `finger-tap`, `hand`, `line-squiggle`, `gesture-unlock`
+- `ghost`: `ghost`
+- `giddy`: `unhappy-dizzy`
+- `gif`: `image-play`
+- `gift`: `gift-2`, `gift`, `gift-card`
+- `gigabytes`: `memory-stick`
+- `girls`: `book-heart`
+- `Git`: `message-square-diff`, `git-branch-minus`, `git-branch-plus`, `git-commit-horizontal`, `git-compare-2`, `git-fork`, `git-graph`, `git-merge-conflict`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `book-copy`, `book-dashed`, `book-down`, `book-key`, `book-lock`, `book-minus`, `book-plus`, `book-up`, `book-up-2`, `book-x`, `folder-git`, `folder-git-2`, `folder-root`
+- `git`: `git-lab`, `message-square-diff`, `git-branch`, `git-commit`, `git-compare`, `git-merge`, `git-pull-request-close`, `git-pull-request`, `git-branch-2`, `git-merge-2`, `book-copy`, `book-dashed`, `book-down`, `book-key`, `book-lock`, `book-minus`, `book-plus`, `book-up`, `book-up-2`, `book-x`, `folder-git`, `folder-git-2`, `folder-root`
+- `github`: `github`, `github-2`
+- `gitlens`: `git-graph`
+- `gizmo`: `axis-3d`
+- `glass`: `champagne`
+- `glass cup`: `glass-cup`
+- `globe`: `globe`, `earth`, `world-2`, `world`, `earth-2`, `earth-latitude`, `earth-longitude`, `earth-3`, `globe-2`, `earth-4`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`
+- `globule`: `droplet-off`, `droplets`
+- `glory`: `laurel-wreath`
+- `glove`: `glove`
+- `gmo`: `dna`
+- `gmo free`: `dna-off`
+- `goal`: `flag-1`, `flag-2`, `flag-3`, `flag-4`
+- `goat`: `capricorn`
+- `goblet`: `wineglass-2`, `wineglass`, `bottle-glass`
+- `god`: `angel`
+- `gold`: `yuanbao`, `circle-star`
+- `golf course`: `land-plot`
+- `good`: `hands-clapping`, `thumb-up`, `thumb-up-2`
+- `goodbye icon`: `wave-hand`
+- `goods`: `gumroad`, `lemon-squeezy`
+- `google`: `google`, `drive`, `dropbox`
+- `Google AI`: `google-gemini`
+- `google-gemini`: `google-gemini`
+- `government`: `government`
+- `gps`: `locate`, `locate-off`
+- `GPU`: `gpu`
+- `grab`: `hand-grab`
+- `gradienter`: `gradienter`
+- `gradual`: `ease-in`, `ease-out`, `easy-in-out`
+- `graduate`: `mortarboard`, `book-plus`
+- `graduated`: `book-check`, `book-open-check`
+- `grape`: `grape`
+- `grapefruit`: `citrus`
+- `graph`: `axis-3d`, `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-scatter`, `chart-spline`, `git-graph`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`
+- `graphics`: `file-image`
+- `graphics processing unit`: `gpu`
+- `grass`: `grass`
+- `greater`: `circle-chevron-right`
+- `greatwall`: `greatwall`
+- `green`: `broccoli`, `flowerpot`, `leafy-green`
+- `greenery`: `leaf-2`, `leaf-3`, `leaf`, `tree-2`, `tree-3`, `tree-4`
+- `grid`: `layout-2`, `layout-3`, `layout-4`, `layout-5`, `layout-6`, `layout-7`, `layout-8`, `layout-9`, `layout-10`, `layout-11`, `layout-bottom`, `layout-grid`, `layout-left`, `layout-right`, `layout-top`, `table-2`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `grid-3x3`, `layout-panel-left`, `layout-panel-top`, `table`, `column`, `table-3`, `space`, `columns-3-cog`, `grid`, `grid-2`, `dot-grid`
+- `grieved`: `sad`, `unhappy`
+- `grill`: `columns-4`
+- `grin`: `laugh`
+- `grok`: `grok`, `grok-2`
+- `grok ai`: `grok-2`
+- `ground`: `playground`
+- `group`: `vector-group`, `department`, `circle-pile`, `focus-group`, `group`, `group-2`, `group-3`
+- `growth`: `banknote-arrow-up`
+- `gsm`: `signal`
+- `guangzhou`: `canton-tower`
+- `guardian`: `brick-wall-shield`
+- `guest`: `vip-1`, `vip-2`, `vip-3`, `vip-4`
+- `guitar`: `guitar`
+- `gumroad`: `gumroad`
+- `gutters`: `columns-4`
+- `gym`: `barbell`
+- `gym equipment`: `run-treadmill`
+- `gym workout`: `weightlifting`
+### H
+
+- `h1`: `heading-1`, `heading`
+- `h2`: `heading-2`
+- `h3`: `heading-3`
+- `h4`: `heading-4`
+- `h5`: `heading-5`
+- `h6`: `heading-6`
+- `hail`: `hail`
+- `hair`: `hair`, `hair-2`
+- `half`: `heart-half`, `star-half`, `circle-slash-2`
+- `half circle`: `semicircle-dash`
+- `half complete`: `progress-50`
+- `halloween`: `skull`, `pumpkin-lantern`
+- `halo`: `angel`
+- `ham`: `ham`
+- `hamburger`: `hamburger`
+- `hammer`: `auction`, `hammer`, `hammer-2`
+- `hand`: `finger-press`, `finger-rock`, `hand`, `hand-finger-2`, `hand-finger`, `hand-grab`, `hand-two-fingers`, `middle-finger`, `heart-hand`, `hand-fist`, `hand-helping`, `hand-card`, `hand-heart`, `hand-coins`, `hand-platter`
+- `hand gesture`: `finger-love`
+- `hand symbol`: `wave-hand`
+- `handicapped`: `disabled`, `disabled-2`, `wheelchair`
+- `handout`: `hand-coins`
+- `hands`: `hands-clapping`
+- `handshake`: `heart-hand`, `handshake`
+- `hanger`: `coathanger`
+- `happy`: `happy`, `laugh`
+- `harbor`: `anchor`
+- `hard`: `hard-drive-download`, `hard-drive-upload`
+- `hard disk`: `hard-drive-download`, `hard-drive-upload`
+- `hard of hearing`: `ear-off`
+- `hash`: `hashtag`
+- `hashtag`: `hashtag`
+- `hat`: `hat-2`, `hat`, `christmas-hat`, `chef-hat`, `magic-hat-2`, `magic-hat`
+- `hatched`: `egg-off`
+- `hatchet`: `axe`
+- `hate`: `heart-off`
+- `haws`: `sugar-coated-haws`
+- `haze`: `haze`
+- `HD`: `hd`
+- `HDMI`: `hdmi-port`
+- `head`: `face`, `head`, `drill`
+- `head ai`: `head-ai`
+- `Head and AI`: `head-ai`
+- `headgear`: `hat-2`, `hat`
+- `Heading`: `heading-1`, `heading-2`, `heading-3`
+- `heading`: `heading`, `heading-4`, `heading-5`, `heading-6`
+- `heading text`: `a-large-small`
+- `headlights`: `hight-beam-headlights`, `low-beam-headlights`
+- `headphone`: `airpods-2`, `file-headphone`, `headphone-2`, `headphone`, `airpods`, `headphone-off`
+- `headphones`: `book-headphones`, `file-headphone`
+- `headset`: `airpods-2`, `headphone-2`, `headphone`, `airpods`
+- `healing`: `bandage`
+- `health`: `battery-plus`, `bandage`, `heart-plus`
+- `healthcare`: `nurse`, `ambulance`
+- `healthy`: `broccoli`
+- `healthy living`: `house-heart`
+- `healthy snack`: `apple-fruit`
+- `hearing`: `ear`, `ear-off`, `audio-waveform`
+- `hearing loss`: `ear-off`
+- `heart`: `love`, `heart-hand`, `house-heart`, `anniversary`, `calendar-heart`, `message-circle-heart`, `message-square-heart`, `book-heart`, `file-heart`, `folder-heart`, `hand-heart`, `heart`, `heart-half`, `heart-crack`, `heart-check`, `heart-minus`, `heart-off`, `heart-plus`, `heart-x`, `user-heart`
+- `heartbeat`: `heartbeat-2`, `heartbeat`
+- `heartrate`: `heartbeat-2`, `heartbeat`
+- `heated`: `seat-heated`
+- `heater`: `heater`
+- `heating`: `heater`
+- `heavy`: `anvil`, `heavy-rain`, `heavy-snow`, `heavy-rainstorm`, `heavy-snowstorm`, `rainstorm`
+- `heavy-duty`: `forklift`
+- `hedge fund`: `chart-candlestick`
+- `heels`: `shoe-2`
+- `height`: `diameter`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `line-height`
+- `helicopter`: `helicopter`
+- `helipad`: `helicopter`
+- `helix`: `dna`, `dna-off`
+- `hello gesture`: `wave-hand`
+- `help`: `hand-helping`, `message-circle-question-mark`, `lifebuoy`, `information`, `question`, `question-2`, `badge-info`, `badge-question-mark`
+- `helping`: `hand-helping`
+- `hemisphere`: `hemisphere`, `hemisphere-2`
+- `heredity`: `dna`, `dna-off`
+- `hermaphrodite`: `venus-and-mars`
+- `hertz`: `audio-waveform`
+- `hexagon`: `hexagon`, `hexagons`, `hexagons-2`
+- `hexahedron`: `cuboid`
+- `hidden`: `book-key`, `book-lock`, `eye-off`
+- `hide`: `list-chevrons-down-up`, `list-chevrons-up-down`, `globe-off`, `eye-close`, `eye-off`, `user-hide`
+- `high`: `high-voltage-power`, `high-temperature`
+- `high definition`: `hd`
+- `high knees`: `high-knees`
+- `high school`: `book-alert`, `book-copy`, `book-heart`, `book-open-text`, `book-text`, `book-type`, `library`
+- `hight`: `hight-beam-headlights`
+- `hiking`: `mountain-2`, `hiking`
+- `history`: `sock`, `monument`, `gallery-horizontal-end`, `gallery-vertical-end`, `clipboard-clock`, `file-clock`, `folder-clock`, `history`, `history-2`, `history-anticlockwise`
+- `hobby`: `fishing-rod`
+- `hock`: `ham`
+- `hoe`: `hoe`
+- `hold`: `hand-grab`, `auto-hold`
+- `hole`: `drill`, `land-plot`
+- `holiday`: `airbnb`, `caravan`
+- `home`: `home-1`, `home-2`, `home-3`, `home-4`, `home-5`, `home-6`, `house`, `home-7`, `house-2`, `house-plug`, `house-plus`, `layout-panel-left`, `home-wifi`, `lamp-floor`, `lamp-wall-down`, `lamp-wall-up`, `map-pin-house`, `pentagon`
+- `home sweet home`: `house-heart`
+- `homepod`: `homepod`, `homepod-mini`
+- `homework`: `book-alert`, `book-check`, `book-open-check`, `book-open-text`, `book-text`, `book-type`
+- `honeycomb`: `hexagons`, `hexagons-2`
+- `hongkong`: `bank-of-china-tower`
+- `honor`: `laurel-wreath`
+- `honour`: `circle-star`
+- `hood`: `hood`
+- `hook`: `fishing-hook`
+- `hop`: `hop-2`, `hop-2-off`, `hop`
+- `hopper`: `filter`, `filter-3`, `funnel-plus`, `funnel-x`, `cone`, `filter-2`
+- `horizontal`: `selector-horizontal`, `transfer-horizontal`, `chevrons-left-right`, `chevrons-right-left`, `chart-horizontal`, `chart-horizontal-2`, `flip-horizontal`, `align-horizontal-center`, `border-horizontal`, `border-vertical`, `distribute-spacing-horizontal`, `fold-horizontal`, `unfold-horizontal`, `align-center-horizontal`, `align-end-horizontal`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-horizontal-justify-center`, `align-horizontal-justify-end`, `align-horizontal-justify-start`, `align-horizontal-space-between`, `align-start-horizontal`, `between-horizontal-end`, `between-horizontal-start`, `gallery-horizontal`, `gallery-horizontal-end`, `git-commit-horizontal`, `cellphone-2-horizontal`, `spacing-horizontal`, `columns-4`, `rotate-to-horizontal`, `dots-horizontal`, `line-dot-right-horizontal`, `settings-horizontal`
+- `horizontal rule`: `diamond-minus`
+- `horn`: `horn`, `horn-2`
+- `horoscope`: `aries`, `taurus`, `gemini`, `cancer`, `leo`, `virgo`, `libra`, `scorpio`, `sagittarius`, `capricorn`, `aquarius`, `pisces`
+- `horror`: `skull`, `ghost`
+- `horse`: `toy-horse`
+- `hose`: `fire-extinguisher`
+- `hospital`: `hospital`
+- `hosting`: `server`, `server-2`
+- `hot`: `high-temperature`
+- `hotel`: `building-1`, `building-3`, `building-4`, `building-5`, `burj-al-arab`, `marina-bay-sand`, `hotel`, `bed-single`
+- `hotkey`: `hotkey`
+- `hour`: `watch`, `watch-2`, `clipboard-clock`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`
+- `hourglass`: `sandglass`, `sandglass-2`
+- `house`: `home-1`, `home-2`, `home-3`, `home-4`, `school`, `home-5`, `temple-of-heaven`, `home-6`, `sydney-opera-house`, `house`, `shop`, `home-7`, `house-2`, `house-heart`, `house-plug`, `house-plus`, `map-pin-house`, `pentagon`
+- `household`: `lamp-floor`, `lamp-wall-down`, `lamp-wall-up`
+- `hr`: `diamond-minus`
+- `html`: `heading`, `heading-4`, `heading-5`, `heading-6`, `file-code-corner`, `diamond-minus`
+- `hub`: `chevrons-left-right-ellipsis`, `ethernet-port`
+- `hue`: `color-filter`
+- `humanoid robot`: `robot`
+### I
+
+- `ice`: `ice-cream-2`, `ice-cream`, `ice-cream-bowl`, `hail`
+- `icing sugar`: `cake-slice`
+- `icon`: `mingcute`
+- `ics`: `calendar-fold`
+- `ID`: `idcard`
+- `idea`: `thought`, `bubble`
+- `identify`: `fingerprint`, `fingerprint-2`
+- `illness`: `virus`
+- `imac`: `computer`, `imac`
+- `image`: `book-image`, `pic-2`, `pic`, `photo-album`, `photo-album-2`, `pic-ai`, `file-image`, `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`
+- `image management`: `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`
+- `images`: `pinterest`, `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`, `book-image`
+- `immunization`: `injection`
+- `import`: `file-import`, `folder-input`, `folder-output`, `image-up`
+- `improve`: `circle-fading-arrow-up`, `book-plus`
+- `in`: `banknote-arrow-up`, `zoom-in`
+- `inbox`: `mail`, `mail-open`, `mail-send`, `mail-ai`, `mailbox`, `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `inbox`, `inbox-2`
+- `incognito`: `incognito-mode`
+- `income`: `banknote-arrow-up`
+- `incorrect`: `circle-off`, `ban`
+- `increase`: `trending-up`, `chart-line`, `banknote-arrow-up`, `indent-increase`, `list-indent-increase`, `decimals-arrow-right`, `image-upscale`, `diamond-plus`, `layers-plus`
+- `increasing`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `chart-bar-increasing`, `chart-column-increasing`, `chart-no-axes-column-increasing`, `file-chart-column-increasing`, `clock-arrow-down`, `clock-arrow-up`
+- `increment`: `diamond-plus`
+- `indent`: `message-square-quote`, `indent-decrease`, `indent-increase`, `list-indent-decrease`, `list-indent-increase`
+- `index`: `archive-restore`, `archive-x`
+- `India`: `taj-mahal`
+- `indian`: `currency-rupee-2`, `currency-rupee`
+- `indicator`: `badge-cent`, `badge-cny`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `cursor`, `cursor-2`, `cursor-3`, `badge-octagram`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`
+- `indoor cardio`: `run-treadmill`
+- `indoor rowing`: `indoor-rowing`
+- `industrial`: `forklift`
+- `industry`: `factory`, `factory-2`
+- `infant`: `baby`, `baby-carriage`
+- `infantry`: `brick-wall-shield`
+- `infection`: `virus`
+- `infinity`: `infinity`, `infinity-2`
+- `inflight`: `flight-inflight`
+- `info`: `information`, `question`, `question-2`, `badge-info`, `user-info`
+- `inform`: `book-plus`
+- `information`: `book-alert`, `book-audio`, `book-copy`, `book-headphones`, `book-open-text`, `book-text`, `book-type`, `library`, `file-info`, `folder-info`, `information`
+- `informed`: `book-check`, `book-copy`, `book-open-check`
+- `ingredients`: `components`
+- `ingress`: `door-closed-locked`
+- `initiation`: `ease-in`
+- `injection`: `injection`
+- `injury`: `bandage`
+- `inline`: `line-height`
+- `inner`: `border-inner`
+- `input`: `chevrons-left-right-ellipsis`, `keyboard`, `keyboard-2`, `cable`, `ethernet-port`, `hdmi-port`, `cursor-text`, `textbox`, `textbox-ai`, `folder-input`
+- `inr`: `badge-indian-rupee`
+- `insect`: `bug`, `bug-off`, `bug-play`
+- `insert`: `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`
+- `inside`: `map-pin-minus-inside`, `map-pin-plus-inside`, `map-pin-x-inside`
+- `insignia`: `circle-star`
+- `inspect`: `inspect`, `zoom-in`, `zoom-out`
+- `inspection`: `inspection-panel`
+- `instagram`: `instagram`
+- `instrument`: `instrument`, `stethoscope`
+- `intellect`: `brain-circuit`, `brain-cog`
+- `intellectual`: `book-copy`
+- `intelligence`: `apple-intelligence`, `apple-intelligence-frame`, `siri-frame`, `copilot`, `mail-ai`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `magic-1`, `magic-2`, `magic-3`, `magic-hat-2`, `magic-hat`, `paint-brush-ai`, `quill-pen-ai`, `brush-2-ai`, `pen-ai`, `terminal-ai`, `terminal-box-ai`, `cellphone-2-ai`, `ai`, `bulb-ai`, `bulb-2-ai`, `pencil-2-ai`, `textbox-ai`, `content-ai`, `translate-2-ai`, `edit-2-ai`, `edit-3-ai`, `eraser-ai`, `pen-2-ai`, `pencil-3-ai`, `pencil-ai`, `signature-2-ai`, `book-ai`, `book-2-ai`, `book-6-ai`, `pic-ai`, `search-ai`, `file-ai`, `search-2-ai`, `search-3-ai`, `camera-2-ai`, `mic-ai`, `music-2-ai`, `camcorder-ai`, `video-ai`, `crystal-ball`, `refresh-4-ai`, `brush-3-ai`, `classify-ai`, `classify-2-ai`, `classify-3-ai`
+- `intelligent`: `book-copy`
+- `intentions`: `chart-no-axes-gantt`, `folder-kanban`
+- `interaction`: `webhook`
+- `interaction design`: `button`
+- `interest`: `message-circle-heart`, `message-square-heart`
+- `interface`: `chevrons-left-right-ellipsis`, `panoramas`, `cable`, `ethernet-port`, `hdmi-port`
+- `internet`: `chevrons-left-right-ellipsis`, `firefox`, `edge`, `safari`, `ethernet-port`, `globe-check`, `globe-off`, `globe-x`
+- `interpoint`: `dot`
+- `interpolation`: `chart-spline`
+- `interpunct`: `dot`
+- `intersect`: `intersect`
+- `intersex`: `venus-and-mars`
+- `interview`: `messages-square`
+- `into`: `arrow-down-to-dot`
+- `intolerance`: `candy-off`, `fish-off`, `bean-off`
+- `inventory`: `inventory`, `circle-pile`
+- `invert`: `flip-horizontal`, `flip-vertical`
+- `investment`: `stock`
+- `invincibility`: `brick-wall-shield`
+- `invincible`: `brick-wall-shield`
+- `invisible`: `eye-close`, `user-hide`
+- `invite`: `invite`
+- `invulnerable`: `brick-wall-shield`
+- `iOS`: `ios`
+- `iOS 18`: `ios`
+- `IoT`: `mqtt`
+- `iPad`: `pad`
+- `iPhone`: `ios`
+- `iphone`: `cellphone`, `cellphone-2`, `cellphone-2-horizontal`, `cellphone-2-ai`
+- `iPhone OS`: `ios`
+- `iq`: `brain`
+- `iron`: `magnet`, `anvil`
+- `isometric`: `land-plot`
+- `israel`: `currency-shekel-2`, `currency-shekel`
+- `issue`: `bug-off`, `bug-play`, `badge-alert`, `circle-dot`, `circle-dot-dashed`
+- `issues`: `folder-kanban`
+- `italic`: `italic`
+- `italy`: `pizza`
+- `items`: `align-center-horizontal`, `align-center-vertical`, `align-end-horizontal`, `align-end-vertical`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-horizontal-justify-center`, `align-horizontal-justify-end`, `align-horizontal-justify-start`, `align-horizontal-space-between`, `align-start-horizontal`, `align-start-vertical`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-todo`
+- `iteration`: `iteration-ccw`, `iteration-cw`
+### J
+
+- `jacket`: `coat`
+- `jail`: `columns-4`
+- `Japan`: `jcb-japan-credit-bureau`, `miyajima-torii`
+- `JCB`: `jcb-japan-credit-bureau`
+- `jeans`: `trouser`
+- `jeep`: `jeep`
+- `jewelry`: `diamond-2`
+- `join`: `merge`
+- `joining`: `union`
+- `joint mobilization`: `warm-up-2`
+- `joke`: `tongue`
+- `jot`: `diary`, `notebook`, `notebook-2`
+- `journal`: `book-heart`
+- `journey`: `sailboat`
+- `joyful`: `happy`
+- `joystick`: `joystick`
+- `juicer`: `blender`
+- `jump`: `jump`
+- `junk`: `archive-x`
+- `justice`: `columns-4`
+- `justified`: `text-align-justify`
+- `justify`: `align-center-horizontal`, `align-center-vertical`, `align-end-horizontal`, `align-end-vertical`, `align-horizontal-distribute-center`, `align-horizontal-distribute-end`, `align-horizontal-distribute-start`, `align-horizontal-justify-center`, `align-horizontal-justify-end`, `align-horizontal-justify-start`, `align-horizontal-space-between`, `align-start-horizontal`, `align-start-vertical`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`, `align-justify`, `text-align-justify`
+### K
+
+- `kakao`: `kakao-talk`
+- `kanban`: `folder-kanban`
+- `kayak`: `kayak`
+- `kettle`: `pot`
+- `key`: `book-key`, `file-key`, `folder-key`, `key-1`, `key-2`, `keyhole`, `key-3`, `key-4`, `key-square`
+- `keyboard`: `arrow-big-up-dash`, `circle-arrow-out-up-left`, `command`, `hotkey`, `keyboard`, `keyboard-2`, `keyboard-off`, `circle-power`, `diamond-minus`
+- `keyframe`: `diamond-minus`, `diamond-plus`
+- `keyhole`: `keyhole`
+- `keying`: `keying`
+- `khalifa`: `burj-khalifa-tower`
+- `kids`: `mickeymouse`, `bear`
+- `kill`: `bug-off`
+- `king`: `chess-king`
+- `kit`: `first-aid-kit`
+- `kitchen`: `chef-hat`, `fridge`, `fork`, `fork-knife`, `fork-spoon`, `spoon`, `dish-cover`, `blender`
+- `kite`: `kite`
+- `knife`: `knife`, `fork-knife`, `utensils`
+- `knight`: `brick-wall-shield`, `chess`
+- `knot`: `chinese-knot`
+- `knowledgable`: `book-copy`
+- `knowledge`: `book-alert`, `book-audio`, `book-copy`, `book-headphones`, `book-key`, `book-lock`, `book-open-text`, `book-plus`, `book-search`, `book-text`, `book-type`, `library`
+- `knowledgeable`: `book-check`, `book-copy`, `book-open-check`
+- `knuckle`: `ham`
+- `korea`: `currency-won-2`, `currency-won`
+- `korean love sign`: `finger-love`
+### L
+
+- `lab`: `git-lab`, `flask-conical-off`
+- `label`: `flag-1`, `flag-2`, `flag-3`, `tag`, `flag-4`, `tag-chevron`, `palette-3`, `tag-2`, `badge-cent`, `badge-cny`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `palette-2`, `paster`, `sticker`, `badge-octagram`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`
+- `laboratory`: `test-tube`
+- `labourer`: `brick-wall-fire`, `brick-wall-shield`
+- `lactose`: `milk`
+- `ladder`: `ladder`
+- `lake`: `kayak`
+- `lamp`: `ceiling-lamp`, `desk-lamp`, `desk-lamp-2`, `lamp-floor`, `lamp-wall-down`, `lamp-wall-up`
+- `lan`: `chevrons-left-right-ellipsis`, `ethernet-port`
+- `land`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `land-plot`, `parachute`
+- `landline`: `phone`, `phone-off`, `fax`
+- `landmark`: `map-pin-house`
+- `landscape`: `pic-2`, `pic`, `pic-ai`
+- `language`: `translate`, `translate-2`, `translate-2-ai`, `book-type`, `earth`, `world-2`, `world`, `earth-2`, `earth-latitude`, `earth-longitude`, `earth-3`, `globe-2`, `earth-4`, `globe-check`, `globe-off`
+- `lantern`: `lantern`, `lantern-2`, `pumpkin-lantern`
+- `laptop`: `laptop`, `laptop-2`, `laptop-minimal-check`
+- `large`: `arrow-big-down-dash`, `arrow-big-left-dash`, `arrow-big-right-dash`, `arrow-big-up-dash`, `chart-bar-big`, `chart-column-big`, `a-large-small`, `circle-check-big`
+- `large language model`: `claude`, `google-gemini`
+- `larger`: `a-arrow-up`
+- `lari`: `georgian-lari`
+- `lasso`: `lasso`, `lasso-2`, `lasso-select`
+- `last`: `chevron-last`, `line-dot-right-horizontal`
+- `latitude`: `earth-latitude`
+- `laugh`: `laugh`
+- `laurel`: `laurel-wreath`, `circle-star`
+- `law`: `columns-4`
+- `layer`: `layer`, `bring-to-front`, `circle-pile`
+- `layers`: `layers`, `layers-2`, `layers-minus`, `layers-plus`
+- `layout`: `layout`, `align-bottom`, `align-left-2`, `align-right-2`, `align-top`, `columns-2`, `columns-3`, `layout-2`, `layout-3`, `layout-4`, `layout-5`, `layout-6`, `layout-7`, `layout-8`, `layout-9`, `layout-10`, `layout-11`, `layout-bottom`, `layout-grid`, `layout-left`, `layout-right`, `layout-top`, `rows-2`, `rows-3`, `rows-4`, `table-2`, `layout-align-left`, `layout-align-right`, `layout-panel-left`, `layout-panel-top`, `keyboard-off`, `table`, `column`, `table-3`, `columns-3-cog`, `dot-grid`
+- `leaf`: `leaf-2`, `leaf-3`, `leaf`, `maple-leaf`, `cannabis-off`
+- `leaflet`: `book-alert`, `book-check`, `book-open-check`, `book-open-text`, `book-text`, `book-type`
+- `leafy`: `broccoli`, `leafy-green`
+- `learn`: `drawing-board`, `whiteboard`, `black-board-2`, `black-board`, `book-plus`
+- `learned`: `book-check`, `book-open-check`
+- `learning`: `backpack`, `book-alert`, `book-audio`, `book-check`, `book-copy`, `book-dashed`, `book-down`, `book-headphones`, `book-heart`, `book-image`, `book-key`, `book-lock`, `book-marked`, `book-minus`, `book-open-check`, `book-open-text`, `book-plus`, `book-search`, `book-text`, `book-type`, `book-up`, `book-up-2`, `book-user`, `book-x`, `bookmark-check`, `bookmark-off`, `bookmark-x`, `circle-divide`, `circle-equal`, `circle-percent`, `decimals-arrow-left`, `decimals-arrow-right`, `diff`, `divide`, `equal`, `equal-approximately`, `equal-not`, `flask-conical-off`, `infinity`, `infinity-2`, `lectern`, `lens-concave`, `lens-convex`, `library`
+- `lectern`: `lectern`
+- `left`: `arrow-left-down`, `arrow-left`, `left`, `transfer-3`, `transfer`, `align-arrow-left`, `arrow-to-left`, `arrow-left-circle`, `arrow-left-up-circle`, `arrow-left-up`, `large-arrow-left`, `left-small`, `square-arrow-left`, `arrows-left`, `corner-down-left`, `corner-up-left`, `arrow-big-left-dash`, `chevrons-left-right`, `chevrons-left-right-ellipsis`, `chevrons-right-left`, `circle-arrow-out-down-left`, `circle-arrow-out-up-left`, `circle-chevron-left`, `corner-left-down`, `corner-left-up`, `iteration-cw`, `flag-triangle-left`, `anticlockwise`, `align-left-2`, `border-left`, `anticlockwise-alt`, `layout-leftbar-close`, `layout-leftbar-open`, `align-horizontal-distribute-start`, `align-horizontal-justify-start`, `align-start-vertical`, `between-horizontal-end`, `layout-align-left`, `layout-panel-left`, `sidebar-left`, `sidebar-left-close`, `sidebar-left-collapse`, `sidebar-left-open`, `database-backup`, `align-left`, `quote-left`, `text-direction-left`, `text-direction-right`, `text-align-start`, `decimals-arrow-left`, `look-left`, `toggle-left-2`, `toggle-left`
+- `leg workout`: `squats`
+- `legume`: `bean`, `bean-off`
+- `lemon`: `lemon-squeezy`, `citrus`
+- `lens`: `calendar-search`, `mail-search`, `lens-concave`, `lens-convex`, `file-search-corner`, `folder-search`, `folder-search-2`, `camera-2`, `camera`, `camera-2-ai`, `focus`
+- `less`: `list-chevrons-down-up`, `list-chevrons-up-down`, `decimals-arrow-left`
+- `less than`: `circle-chevron-left`
+- `lesson`: `book-check`, `book-open-check`
+- `letter`: `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `text`, `letter-spacing`, `text-2`, `a-arrow-down`, `a-arrow-up`, `a-large-small`
+- `letter A`: `a-arrow-down`, `a-arrow-up`, `a-large-small`
+- `letters`: `mails`, `az-sort-ascending-letters`, `za-sort-descending-letters`, `az-sort-descending-letters`, `za-sort-ascending-letters`, `numbers-09-sort-ascending`, `numbers-90-sort-ascending`, `case-lower`, `case-upper`
+- `lettuce`: `leafy-green`
+- `level up`: `book-plus`
+- `levels`: `audio-waveform`
+- `liberty`: `statue-of-liberty`
+- `libra`: `balance`
+- `library`: `mingcute`, `react`, `vue`, `book-5`, `book-alert`, `book-check`, `book-copy`, `book-open-check`, `book-open-text`, `book-search`, `book-text`, `book-type`, `library`
+- `licence`: `copyleft`, `creative-commons`
+- `license`: `copyright`, `creative-commons`
+- `lie-down`: `lie-down`
+- `lies`: `book-x`
+- `lifebuoy`: `lifebuoy`
+- `lifeline`: `heartbeat-2`, `heartbeat`
+- `lifestyle`: `house-heart`
+- `lift`: `escalator-down`, `escalator-up`, `aerial-lift`
+- `lifting`: `forklift`
+- `ligature`: `ligature`
+- `light`: `lantern`, `candle`, `lantern-2`, `candles`, `bling`, `exposure`, `flashlight`, `desk-lamp`, `light`, `desk-lamp-2`, `flashlight-off`, `lens-concave`, `lens-convex`, `progress-50`, `park`, `parking-lights`, `traffic-lights`, `sun`, `sparkles`, `light-snow`, `sparkles-2`, `sun-2`, `sparkles-3`, `eclipse`
+- `lightbulb`: `lightbulb-off`
+- `lighthouse`: `lighthouse`
+- `lighting`: `lamp-floor`, `lamp-wall-down`, `lamp-wall-up`
+- `lightning`: `flash`, `flash-circle`, `cloud-lightning`, `lightning`
+- `lights`: `lightbulb-off`, `front-fog-lights`, `rare-fog-lights`
+- `like`: `message-circle-heart`, `message-square-heart`, `book-heart`, `heart-plus`, `thumb-up`, `thumb-up-2`
+- `line`: `arrows-up-from-line`, `line-app`, `chart-line`, `chart-decrease`, `chart-horizontal`, `chart-vertical`, `chart-horizontal-2`, `chart-vertical-2`, `check-line`, `border-bottom`, `border-horizontal`, `border-inner`, `border-left`, `border-right`, `border-outer`, `border-top`, `border-vertical`, `menu`, `line-height`, `line-squiggle`, `clipboard-pen-line`, `file-chart-line`, `file-pen-line`, `line`, `timeline`, `diamond-minus`, `line-dot-right-horizontal`
+- `linear`: `linear`
+- `lines`: `columns-4`
+- `link`: `cable`, `link-2`, `link`, `external-link`, `link-3`, `file-symlink`, `folder-symlink`
+- `linkedin`: `linkedin`
+- `Linux`: `ubuntu`
+- `linux`: `linux`
+- `lion`: `leo`
+- `lip`: `mouth`
+- `lippy`: `lipstick`
+- `lipstick`: `lipstick`
+- `liquid`: `droplet-off`, `droplets`, `blender`
+- `lira`: `currency-lira-2`, `currency-lira`, `badge-turkish-lira`
+- `list`: `directory`, `sitemap`, `list-check`, `list-ordered`, `menu`, `list-check-2`, `list-check-3`, `list-collapse`, `list-expansion`, `list-search`, `columns-4`, `list-check-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `list-end`, `list-indent-decrease`, `list-indent-increase`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-todo`, `list-x`, `logs`, `text-align-justify`, `text-align-start`, `inventory`, `playlist-2`, `playlist`, `list-filter-plus`
+- `list management`: `list-check-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `list-end`, `list-indent-decrease`, `list-indent-increase`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-todo`, `list-x`, `list-filter-plus`
+- `listen`: `audio-waveform`
+- `listening`: `book-audio`, `book-headphones`
+- `listing`: `book-user`, `file-user`
+- `lit`: `brick-wall-fire`
+- `live`: `antenna`, `boom-box`, `live-location`, `live-photo`, `live`
+- `live streaming`: `twitch`
+- `living`: `home-2`, `home-3`, `home-4`, `home-5`, `home-6`, `home-7`, `house-plug`, `house-plus`, `map-pin-house`
+- `LLM`: `claude`
+- `loader`: `loading`, `loading-2`, `loading-3`, `loading-4`
+- `loading`: `loading`, `loading-2`, `loading-3`, `loading-4`, `progress-25`, `progress-50`, `progress-75`, `progress-arc`
+- `loading indicator`: `quarter-circle-dash`
+- `loading state`: `circle-dash`
+- `locate`: `locate`, `locate-off`
+- `location`: `arrow-down-to-dot`, `location-2`, `location`, `navigation`, `clock`, `clock-time`, `live-location`, `map-pin`, `location-3`, `bed-single`, `circle-parking-off`, `earth-lock`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`, `land-plot`, `locate`, `locate-off`, `map-minus`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `map-plus`, `user-pin`
+- `lock`: `message-square-lock`, `book-lock`, `file-locked`, `folder-locked`, `folder-locked-2`, `earth-lock`, `globe-lock`, `lock`, `safe-lock`, `keyhole`, `door-closed-locked`, `lock-2`, `lock-open`, `user-lock`
+- `locked`: `door-closed-locked`
+- `log`: `clipboard-clock`, `file-clock`
+- `logbook`: `clipboard-clock`
+- `login`: `key-1`, `key-2`, `key-3`, `key-4`, `key-square`, `user-1`, `user-2`, `user-3`, `user-4`, `user-5`
+- `logistics`: `forklift`
+- `logo`: `amazon-pay`, `american-express`, `diners-club`, `jcb-japan-credit-bureau`
+- `logs`: `logs`
+- `lollipop`: `lollipop`
+- `long content`: `scrollable-list`
+- `longboard`: `surfboard`
+- `Longdon`: `big-ben`
+- `longitude`: `earth-longitude`
+- `look`: `look-down`, `look-left`, `look-right`, `look-up`
+- `lookup`: `book-search`
+- `loop`: `infinity`
+- `lost`: `banknote-x`, `file-search-corner`, `file-x-corner`, `folder-search`, `folder-search-2`, `badge-x`
+- `lotus`: `lotus`
+- `love`: `finger-rock`, `love`, `message-circle-heart`, `message-square-heart`, `book-heart`, `hand-heart`, `leaf-3`, `heart`, `heart-half`, `user-heart`
+- `love icon`: `finger-love`
+- `love symbol`: `rose`
+- `low`: `volume-low`, `low-beam-headlights`, `low-temperature`
+- `lowercase`: `case-lower`
+- `ltr`: `text-direction-right`
+- `lube`: `oil`
+- `luggage`: `luggage`, `baggage-claim`, `briefcase-conveyor-belt`
+- `lunar`: `eclipse`
+- `lungs`: `lungs`
+- `luxury`: `hand-platter`
+### M
+
+- `mac`: `arrow-big-up-dash`, `airdrop`
+- `machine`: `wash-machine`
+- `machine learning`: `head-ai`, `brain-circuit`, `brain-cog`
+- `machinery`: `file-sliders`, `forklift`
+- `mad`: `angry`
+- `magazine`: `book`, `book-6`, `book-ai`, `book-6-ai`, `book-alert`, `book-check`, `book-image`, `book-open-check`, `book-open-text`, `book-text`, `book-type`
+- `magic`: `magic-1`, `magic-2`, `magic-3`, `magic-hat-2`, `magic-hat`, `paint-brush-ai`, `quill-pen-ai`, `cellphone-2-ai`, `ai`, `pencil-2-ai`, `textbox-ai`, `content-ai`, `translate-2-ai`, `edit-2-ai`, `edit-3-ai`, `eraser-ai`, `pen-2-ai`, `pencil-3-ai`, `pencil-ai`, `signature-2-ai`, `book-ai`, `book-2-ai`, `book-6-ai`, `file-ai`, `camera-2-ai`, `mic-ai`, `music-2-ai`, `crystal-ball`
+- `magnet`: `magnet`
+- `magnification`: `lens-concave`, `lens-convex`
+- `magnifier`: `search`, `search-2`, `search-3`, `search-ai`, `search-2-ai`, `search-2-none`, `search-3-ai`, `search-none`
+- `magnifying`: `zoom-in`, `zoom-out`
+- `mahal`: `taj-mahal`
+- `mail`: `mail`, `mail-open`, `mail-send`, `mail-ai`, `invite`, `mailbox`, `send`, `send-plane`, `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `record-mail`
+- `mailbox`: `mailbox`, `inbox`, `inbox-2`
+- `mailing list`: `mails`
+- `mails`: `mails`
+- `maintenance`: `construction`
+- `major`: `heavy-snow`
+- `male`: `male`
+- `man`: `shoe`, `cookie-man`, `male`
+- `manage`: `chart-no-axes-gantt`, `folder-kanban`
+- `map`: `department`, `sitemap`, `location-2`, `location`, `map`, `map-pin`, `map-2`, `location-3`, `bed-single`, `circle-parking-off`, `earth-lock`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`, `land-plot`, `locate`, `locate-off`, `map-minus`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `map-plus`, `mind-map`
+- `map operation`: `earth-lock`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`, `locate`, `locate-off`, `map-minus`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `map-plus`
+- `maple`: `maple-leaf`
+- `marina`: `marina-bay-sand`
+- `marine`: `fish-off`, `fish-symbol`, `fishing-hook`
+- `mark`: `mail-question-mark`, `message-circle-question-mark`, `mark-pen`, `space`, `badge-question-mark`
+- `markdown`: `heading`, `heading-4`, `heading-5`, `heading-6`, `markdown`, `diamond-minus`
+- `marked`: `book-check`, `book-marked`, `book-open-check`
+- `marker`: `flag-triangle-left`, `bookmark-check`, `bookmark-off`, `bookmark-x`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`
+- `market`: `store`, `store-2`, `shop`, `ad-circle`, `ad-circle-off`, `ad-rectangle`, `ad-rectangle-off`
+- `marketing`: `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `circle-percent`, `diamond-percent`
+- `marketplace`: `gumroad`, `lemon-squeezy`
+- `markets`: `chart-candlestick`
+- `markup`: `markup`, `heading`, `heading-4`, `heading-5`, `heading-6`, `diamond-minus`
+- `marroon`: `firecracker`
+- `Mars`: `mars-stroke`, `venus-and-mars`
+- `mask`: `face-mask`, `eye-off`
+- `masks`: `drama`
+- `mastercard`: `mastercard`
+- `mastodon`: `mastodon`
+- `mat`: `mat`
+- `materials`: `brick-wall-fire`, `brick-wall-shield`, `inspection-panel`, `anvil`, `fence`, `circle-pile`
+- `math`: `message-square-diff`, `counter-2`, `counter`, `circle-divide`, `diff`, `divide`, `equal`, `equal-approximately`, `equal-not`, `infinity`, `circle-slash-2`
+- `mathematics`: `percentage`
+- `maths`: `ruler`
+- `maximize`: `fullscreen-2`, `expand-player`
+- `maximum`: `battery-plus`, `diamond-plus`
+- `maya`: `maya-pyramids`
+- `mcp`: `mcp`
+- `MCP client`: `mcp`
+- `MCP server`: `mcp`
+- `md`: `markdown`
+- `meal`: `bowl`, `dinner`, `dish-cover`, `electric-cooker`, `beef`, `beef-off`, `fish-off`, `fish-symbol`, `ice-cream-bowl`, `utensils`, `hand-platter`
+- `mean`: `circle-slash-2`
+- `measure`: `ruler`, `diameter`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `gradienter`, `pencil-ruler`, `land-plot`
+- `meat`: `beef`, `beef-off`, `ham`
+- `mechanical`: `file-sliders`
+- `medal`: `medal`, `circle-star`
+- `medallion`: `circle-star`
+- `media`: `medium`, `cast`, `news`, `news-2`, `paper`, `paper-2`, `pause-circle`, `pause`, `play-circle`, `play`, `repeat-one`, `shuffle`, `skip-forward`, `skip-previous`, `stop-circle`, `stop`, `shuffle-2`, `audio-waveform`, `bell-minus`, `bell-plus`, `captions`, `captions-off`, `disc-album`, `hd`, `headphone-off`, `movie-2`, `volume-low`
+- `media streaming`: `cast`
+- `median`: `circle-slash-2`
+- `medical`: `house-plus`, `clipboard-minus`, `clipboard-plus`, `face-mask`, `first-aid-kit`, `bandage`, `ambulance`
+- `medication`: `prescription`
+- `medicine`: `capsule`, `bottle`
+- `meditation`: `yoga`
+- `medium`: `medium`
+- `medium size`: `close-medium`
+- `meet`: `intersect`
+- `meh`: `meh`
+- `melody`: `music-2`, `music`, `music-3`, `music-2-ai`
+- `memo`: `diary`, `notebook`, `notebook-2`
+- `memorial`: `monument`
+- `memory`: `database-backup`, `database-search`, `database-zap`, `hard-drive-download`, `hard-drive-upload`, `memory-stick`, `cloud-backup`
+- `menu`: `circle-chevron-down`, `circle-chevron-left`, `circle-chevron-right`, `circle-chevron-up`, `menu`, `list-collapse`, `list-expansion`, `logs`, `text-align-justify`
+- `menu bar`: `app-window`
+- `merge`: `combine`, `union`, `git-merge`, `git-pull-request-close`, `git-pull-request`, `git-merge-2`, `git-merge-conflict`, `merge`
+- `mesh`: `file-box`
+- `message`: `chat-1`, `chat-2`, `mail`, `mail-open`, `mail-send`, `mail-ai`, `message-1`, `message-2`, `message-3`, `chat-3`, `message-4`, `chat-4`, `comment-2`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `bot-message-square`, `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `mails`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`
+- `message protocol`: `mqtt`
+- `messages`: `messenger`, `wechat`, `whatsapp`, `qq`, `kakao-talk`, `line-app`, `mails`, `messages-square`
+- `messenger`: `messenger`, `qq`, `viber-messenger`
+- `meta`: `meta`
+- `metal`: `inspection-panel`, `anvil`
+- `metaverse`: `roblox`
+- `meteorology`: `rain`
+- `metrics`: `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`, `chart-scatter`, `chart-spline`
+- `metro`: `train`, `train-2`, `train-3`, `train-4`
+- `mic`: `mic`, `microphone`, `mic-off`, `mic-2`, `mic-ai`
+- `mickey`: `mickeymouse`
+- `microphone`: `mic`, `microphone`, `mic-2`, `mic-ai`
+- `microscope`: `microscope`, `lens-concave`, `lens-convex`
+- `microsoft`: `vscode`, `copilot`
+- `Microsot`: `windows`
+- `middle`: `middle-finger`, `align-horizontal-center`, `align-vertical-center`, `columns-4`
+- `middot`: `dot`
+- `midi`: `midi`
+- `midnight`: `clock-12`
+- `military`: `brick-wall-shield`
+- `milk`: `feeder`, `milk`
+- `milkshake`: `blender`
+- `mind`: `brain`, `brain-circuit`, `brain-cog`, `department`, `sitemap`, `bulb`, `bulb-2`, `light`, `bulb-ai`, `bulb-2-ai`, `mind-map`
+- `mindfulness`: `yoga`, `zazen`
+- `mingcute`: `mingcute`
+- `minimal`: `laptop-minimal-check`
+- `minimize`: `fullscreen-exit-2`, `fullscreen-exit`, `miniplayer`, `minimize`
+- `minimum`: `diamond-minus`
+- `miniplayer`: `miniplayer`
+- `miniprogram`: `wechat-miniprogram`
+- `minor`: `light-snow`
+- `minus`: `calendar-minus`, `calendar-minus-2`, `mail-minus`, `message-square-diff`, `git-branch-minus`, `alarm-clock-minus`, `list-minus`, `book-minus`, `diff`, `folder-minus`, `clipboard-minus`, `copy-minus`, `file-minus`, `file-minus-corner`, `image-minus`, `map-minus`, `map-pin-minus`, `map-pin-minus-inside`, `bell-minus`, `heart-minus`, `minus-circle`, `minimize`, `minus-square`, `badge-minus`, `clock-minus`, `diamond-minus`, `layers-minus`, `user-remove`, `user-remove-2`, `user-x`
+- `minus circle dash`: `minus-circle-dash`
+- `minus icon`: `minus-circle-dash`
+- `minute`: `clipboard-clock`
+- `mirror`: `flip-horizontal`, `flip-vertical`, `mirror`
+- `mirroring`: `airplay`
+- `miscellaneous`: `anvil`, `bandage`, `barrel-2`, `biohazard`, `cigarette`, `cigarette-off`, `dices`, `dna`, `dna-off`, `drama`, `fence`, `fire-extinguisher`, `hammer-2`, `hand-coins`, `hand-platter`, `mat`, `vase`
+- `misinformation`: `book-x`
+- `misinformed`: `book-x`
+- `misskey`: `misskey`
+- `mist`: `floating-dust`, `fog`, `haze`, `moon-fog`, `sun-fog`
+- `mistake`: `circle-off`, `ban`
+- `miter`: `chess-bishop`
+- `mitre`: `chess-bishop`
+- `mix`: `blender`
+- `mixer`: `blender`
+- `miyajima`: `miyajima-torii`
+- `mobile`: `phone`, `cellphone`, `cellphone-2`, `cellphone-2-horizontal`, `cellphone-2-ai`, `card-sim`
+- `mobile home`: `caravan`
+- `mobility exercises`: `flexibility`
+- `mode`: `incognito-mode`, `eclipse`
+- `model`: `file-axis-3d`, `file-box`
+- `Model Context Protocol`: `mcp`
+- `modem`: `chevrons-left-right-ellipsis`, `router-modem`, `ethernet-port`
+- `moderate`: `message-circle-check`, `message-circle-off`, `message-circle-x`, `message-square-check`, `message-square-off`, `message-square-x`, `moderate-snow`, `showers`
+- `moisture`: `droplet-off`, `droplets`
+- `moment`: `moment`
+- `monero`: `monero`
+- `monetization`: `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`
+- `money`: `bank`, `bank-card`, `coin-2`, `coin`, `copper-coin`, `currency-cny`, `currency-dollar`, `currency-euro`, `currency-baht-2`, `currency-cny-2`, `currency-dollar-2`, `currency-euro-2`, `currency-lira-2`, `currency-lira`, `currency-pound-2`, `currency-pound`, `currency-ruble-2`, `currency-ruble`, `currency-rupee-2`, `currency-rupee`, `currency-shekel-2`, `currency-shekel`, `currency-won-2`, `currency-won`, `wallet-5`, `wallet`, `exchange-cny`, `exchange-dollar`, `exchange-euro`, `wallet-2`, `wallet-3`, `currency-baht`, `exchange-baht`, `wallet-4`, `pig-money`, `coin-3`, `yuanbao`, `refund-cny`, `refund-dollar`, `cash`, `currency-nigeria-2`, `currency-nigeria`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `cash-2`, `currency`, `georgian-lari`, `monero`, `currency-bitcoin`, `currency-bitcoin-2`, `exchange-bitcoin`, `hand-coins`
+- `monitor`: `performance`, `computer`, `imac`, `monitor`
+- `month`: `calendar-month`, `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `calendars`
+- `months`: `calendars`
+- `monument`: `monument`
+- `mood`: `emoji`, `emoji-2`
+- `moon`: `moon`, `moon-cloudy`, `moon-stars`, `moon-fog`, `full-moon`, `cloud-moon-rain`, `moon-sleep`
+- `moonlight`: `moonlight`
+- `more`: `message-square-more`, `list-chevrons-down-up`, `list-chevrons-up-down`, `decimals-arrow-right`, `file-more`, `folder-more`, `grid`, `grid-2`, `more-1`, `more-2`, `more-3`, `more-4`, `dot-grid`, `classify`, `classify-2`, `classify-3`, `dots`, `dots-horizontal`, `three-circles`, `classify-ai`, `classify-2-ai`, `classify-3-ai`
+- `more than`: `circle-chevron-right`
+- `morning`: `sunrise`
+- `mortar`: `brick-wall-fire`, `brick-wall-shield`
+- `mortarboard`: `mortarboard`
+- `mortgage`: `hand-coins`
+- `mosaic`: `mosaic`
+- `motion`: `run`
+- `motor`: `scooter`, `engine`
+- `mould`: `board`
+- `mountain`: `mountain`, `mountain-2`
+- `mouse`: `move`, `mouse`, `keyboard-off`, `mickeymouse`
+- `mouth`: `mouth`, `dental`
+- `move`: `move`, `direction-arrow`, `finger-swipe`, `bring-to-front`, `gamepad-directional`, `direction-dot`
+- `movie`: `file-play`, `file-video-camera`, `film`, `movie`, `movie-2`
+- `moving`: `forklift`
+- `MQTT`: `mqtt`
+- `mqtt`: `mqtt`
+- `multi`: `multiselect`
+- `multiple`: `mails`, `messages-square`, `layer`, `book-copy`, `copy-check`, `copy-minus`, `copy-plus`, `copy-slash`, `copy-x`
+- `multiple choice`: `circle-dot`
+- `multiplication`: `copy-x`
+- `multiply`: `copy-x`
+- `multivariate`: `chart-bar-stacked`, `chart-column-stacked`
+- `muscle activation`: `warm-up-3`
+- `mushroom`: `mushroom`
+- `music`: `chevron-first`, `chevron-last`, `spotify`, `netease-music`, `speaker`, `airpods-2`, `midi`, `guitar`, `boom-box`, `drum`, `library`, `file-music`, `file-headphone`, `file-signal`, `file-volume`, `album`, `disc`, `headphone-2`, `headphone`, `music-2`, `music`, `volume`, `music-3`, `announcement`, `airpods`, `playlist-2`, `playlist`, `music-2-ai`, `audio-waveform`, `disc-album`, `headphone-off`, `circle-dot`
+- `mustache`: `beard`
+- `mute`: `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `globe-off`, `volume-mute`, `volume-off`, `headphone-off`
+### N
+
+- `n\a`: `na`
+- `naira`: `currency-nigeria-2`, `currency-nigeria`
+- `narrow`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`
+- `nature`: `banana`, `bean`, `bean-off`, `cannabis-off`, `cherry`, `chess-bishop`, `chess-king`, `chess-pawn`, `chess-queen`, `chess-rook`, `citrus`, `citrus-2`, `grape`, `hop-2`, `hop-2-off`, `leafy-green`, `orange`
+- `naughty`: `tongue`
+- `navigation`: `gamepad-directional`, `compass`, `map`, `navigation`, `directions`, `live-location`, `map-2`, `directions-2`, `compass-3`, `earth-lock`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`, `locate`, `locate-off`, `map-minus`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `map-plus`
+- `nba`: `basketball`
+- `necktie`: `necktie`
+- `netdisk`: `drive`, `dropbox`
+- `netease`: `netease-music`
+- `network`: `chevrons-left-right-ellipsis`, `chart-network`, `message-square-share`, `card-sim`, `ethernet-port`, `signal`, `earth-lock`, `globe-lock`, `globe-off`, `globe-x`, `cloud-alert`, `cloud-check`, `cloud-cog`, `cloud-sync`
+- `network failure`: `globe-off`, `globe-x`
+- `networking`: `chevrons-left-right-ellipsis`, `ethernet-port`, `book-user`, `file-user`
+- `neutral`: `meh`
+- `new`: `house-plus`, `calendar-plus-2`, `funnel-plus`, `mail-plus`, `battery-plus`, `list-plus`, `file-new`, `new-folder`, `clipboard-plus`, `map-pin-plus`, `map-pin-plus-inside`, `map-plus`, `bell-plus`, `add-circle`, `add`, `add-square`, `badge-plus`, `clock-plus`, `diamond-plus`, `layers-plus`, `user-add`, `user-add-2`
+- `New Delhi`: `taj-mahal`
+- `new entry`: `add-circle-dash`
+- `New York`: `statue-of-liberty`
+- `news`: `news`, `news-2`, `paper`, `paper-2`
+- `newsletter`: `substack`, `mails`
+- `newspaper`: `news`, `news-2`, `paper`, `paper-2`
+- `next`: `arrow-right`, `right`, `forward-2`, `forward`, `align-arrow-right`, `arrow-to-right`, `arrow-right-circle`, `large-arrow-right`, `right-small`, `square-arrow-right`, `arrows-right`, `arrow-big-right-dash`, `chevron-last`, `list-start`, `skip-forward`
+- `nfc`: `nfc`
+- `nigeria`: `currency-nigeria-2`, `currency-nigeria`
+- `night`: `moon`, `moon-cloudy`, `moon-stars`, `full-moon`, `moonlight`, `partly-cloud-night`, `cloud-moon-rain`, `eclipse`
+- `nightcap`: `christmas-hat`
+- `nine`: `clock-9`
+- `nintendo`: `nintendo-switch`
+- `no`: `copy-slash`, `circle-off`, `ban`, `na`
+- `no connection`: `globe-off`, `globe-x`
+- `no parking`: `circle-parking-off`
+- `no-smoking`: `cigarette-off`
+- `nodes`: `chart-network`
+- `noise`: `ear-off`, `audio-waveform`
+- `nomadic`: `caravan`
+- `non toxic`: `flask-conical-off`
+- `none`: `border-blank`, `search-2-none`, `search-none`
+- `noon`: `clock-12`
+- `normal`: `circle-slash-2`
+- `north`: `arrow-big-up-dash`, `arrow-up-from-dot`, `circle-fading-arrow-up`, `look-up`
+- `north-east`: `circle-arrow-out-up-right`
+- `north-west`: `circle-arrow-out-up-left`
+- `nose`: `nose`
+- `not`: `equal-not`
+- `notation`: `percentage`
+- `note`: `notion`, `diary`, `notebook`, `notebook-2`
+- `notebook`: `laptop`, `laptop-2`
+- `notepad`: `book-heart`
+- `notes`: `book-heart`
+- `nothing`: `circle-off`, `circle-slash-2`
+- `noticeboard`: `pin`, `pin-2`
+- `notification`: `mail-badge`, `mail-check`, `mail-clock`, `mail-minus`, `mail-pen`, `mail-plus`, `mail-question-mark`, `mail-search`, `mail-warning`, `mail-x`, `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`, `notification`, `volume`, `notification-off`, `notification-newdot`, `horn`, `announcement`, `bell-ringing`, `horn-2`, `bell-minus`, `bell-plus`, `newdot`, `clock-alert`
+- `notion`: `notion`
+- `novel`: `book-2`, `book`, `book-4`, `book-6`, `book-ai`, `book-2-ai`, `book-6-ai`, `book-alert`, `book-audio`, `book-headphones`, `book-heart`, `book-open-text`, `book-text`, `book-type`
+- `novels`: `library`
+- `nozzle`: `watering-can`
+- `nucleic acid`: `dna`, `dna-off`
+- `null`: `circle-off`, `circle-slash-2`, `ban`
+- `number`: `numbers-09-sort-descending`, `numbers-90-sort-descending`, `decimals-arrow-left`, `decimals-arrow-right`, `file-digit`, `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`
+- `numerical`: `decimals-arrow-left`, `decimals-arrow-right`
+- `nurse`: `nurse`
+- `nutrition`: `broccoli`
+### O
+
+- `object`: `file-box`
+- `observation`: `telescope`, `telescope-2`
+- `ocean`: `kayak`
+- `octagon`: `octagon`, `alert-octagon`
+- `octagram`: `badge-octagram`
+- `odometer`: `dashboard-2`, `dashboard`, `dashboard-3`, `dashboard-4`
+- `off`: `ear-off`, `eye-2-off`, `ad-circle-off`, `ad-rectangle`, `calendar-off`, `flag-1-off`, `flag-4-off`, `phone-off`, `message-circle-off`, `message-square-off`, `droplet-off`, `bot-off`, `bug-off`, `stopwatch-2-off`, `cctv-off`, `flashlight-off`, `keyboard-off`, `lightbulb-off`, `bookmark-off`, `equal-not`, `flask-conical-off`, `file-forbid`, `folder-forbid`, `image-off`, `beef-off`, `beer-off`, `candy-off`, `egg-off`, `fish-off`, `circle-parking-off`, `globe-off`, `locate-off`, `map-pin-off`, `mic-off`, `notification-off`, `volume-mute`, `volume-off`, `camcorder-off`, `camera-2-off`, `danmaku-off`, `captions-off`, `headphone-off`, `cigarette-off`, `dna-off`, `bean-off`, `cannabis-off`, `hop-2-off`, `circle-off`, `heart-off`, `power`, `circle-pile`, `circle-power`, `eye-off`, `user-forbid`, `cloud-off`
+- `offense`: `message-circle-warning`, `message-square-warning`
+- `offer`: `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `circle-percent`, `diamond-percent`
+- `offers`: `hand-coins`
+- `office`: `dingtalk`, `building-1`, `building-2`, `building-3`, `building-4`, `building-5`, `building-6`, `hotel`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `briefcase-2`, `briefcase-conveyor-belt`, `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `calendars`, `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-gantt`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`, `chart-scatter`, `chart-spline`, `check-line`, `copyleft`, `creative-commons`, `currency`, `flag-1-off`, `flag-4-off`, `flag-triangle-left`, `funnel-plus`, `funnel-x`, `georgian-lari`, `print`, `desk`, `attachment-2`, `attachment`, `attachment-3`
+- `official`: `mail-badge`, `certificate`
+- `official correspondence`: `mail-badge`
+- `offline`: `globe-off`, `globe-x`
+- `oil`: `oil`
+- `omega`: `omega`
+- `omg`: `omg`, `surprise`
+- `omit`: `exclude`
+- `on`: `danmaku-on`, `power`, `circle-power`
+- `once`: `calendar-1`
+- `one`: `binary`, `repeat-one`, `dice-1`, `clock-1`
+- `online`: `chevrons-left-right-ellipsis`, `ethernet-port`, `globe-check`
+- `open`: `mail-open`, `layout-bottom-open`, `layout-leftbar-open`, `layout-rightbar-open`, `layout-top-open`, `sidebar-left-open`, `sidebar-right-open`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `air-condition-open`, `book-open-check`, `book-open-text`, `folder-open`, `folder-open-2`, `folder-open-dot`, `danmaku-on`, `open-door`, `unlock`, `lock-open`
+- `open source`: `misskey`, `ubuntu`
+- `openai`: `openai`
+- `opera`: `sydney-opera-house`
+- `operating system`: `ios`, `ubuntu`
+- `operator`: `ampersands`, `divide`, `equal`, `equal-approximately`, `equal-not`, `diamond-minus`
+- `optical`: `cable`
+- `optics`: `lens-concave`, `lens-convex`
+- `options`: `list-chevrons-down-up`, `list-chevrons-up-down`, `logs`, `list-filter-plus`
+- `or`: `copy-slash`
+- `orange`: `citrus`, `orange`
+- `order`: `calendar-arrow-down`, `calendar-arrow-up`, `bring-to-front`, `logs`, `prescription`, `circle-star`, `clock-arrow-down`, `clock-arrow-up`
+- `ordered`: `list-ordered`
+- `organiser`: `book-heart`
+- `organization`: `folder-clock`, `folder-code`, `folder-cog`, `folder-git`, `folder-git-2`, `folder-heart`, `folder-input`, `folder-kanban`, `folder-key`, `folder-open-dot`, `folder-output`, `folder-pen`, `folder-root`, `folder-search`, `folder-search-2`, `folder-symlink`, `folder-sync`, `folder-tree`, `group`, `group-2`, `group-3`
+- `organizer`: `book-heart`
+- `orientation`: `arrows-up-from-line`
+- `ornament`: `christmas-ball`
+- `OS`: `android`, `android-2`, `apple`, `windows`
+- `os`: `linux`
+- `out`: `arrow-up-from-dot`, `banknote-arrow-down`, `zoom-out`
+- `outdoor sports`: `hiking`
+- `outdoors`: `brick-wall-fire`, `fishing-hook`, `kayak`, `caravan`
+- `outer`: `border-outer`
+- `outgoing`: `mail-clock`
+- `outline`: `ellipse`
+- `output`: `chevrons-left-right-ellipsis`, `cable`, `ethernet-port`, `hdmi-port`, `folder-output`
+- `outward`: `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`
+- `outwards`: `circle-arrow-out-down-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`
+- `oval`: `ellipse`
+- `over`: `bring-to-front`
+- `overcoat`: `coat`
+- `overlap`: `intersect`, `bring-to-front`
+- `overview`: `chart-no-axes-gantt`, `folder-kanban`
+### P
+
+- `p2p`: `currency-bitcoin`, `currency-bitcoin-2`
+- `package`: `arrows-up-from-line`, `library`, `box`, `box-2`, `file-zip`, `box-3`, `package-2`, `package`, `folder-zip`, `box-4`, `file-box`, `cuboid`
+- `pad`: `pad`
+- `paddle`: `kayak`
+- `page`: `file`, `doc`, `document`, `document-2`, `document-3`, `documents`, `file-ai`, `file-box`
+- `pages`: `columns-4`, `book-open-check`, `book-open-text`, `layers-2`, `layers-minus`
+- `pagination`: `columns-4`
+- `paint`: `paint-2`, `palette`, `paint`
+- `painter`: `paint-2`, `paint-brush`, `brush-2`, `paint-brush-ai`, `brush-2-ai`, `brush`, `brush-3`, `brush-3-ai`
+- `paired`: `bluetooth-connected`
+- `pairing`: `bluetooth-searching`
+- `palace`: `pavilion`, `temple-of-heaven`, `palace`, `castle`
+- `palette`: `palette-3`, `palette`, `palette-2`
+- `palm`: `hand`
+- `pamphlet`: `book-alert`, `book-check`, `book-open-check`, `book-open-text`, `book-text`, `book-type`
+- `pane`: `app-window`
+- `panel`: `layout-panel-left`, `layout-panel-top`, `solar-panel`, `inspection-panel`, `columns-3-cog`
+- `panels`: `fence`
+- `panoramas`: `panoramas`
+- `pants`: `trouser`
+- `paper`: `medium`, `content-ai`, `file`, `news`, `news-2`, `paper`, `doc`, `document`, `document-2`, `document-3`, `documents`, `profile`, `paper-2`, `file-ai`, `toilet-paper`
+- `paperback`: `book-alert`
+- `paperclip`: `attachment-2`, `attachment`, `attachment-3`
+- `paperwork`: `layers-2`, `layers-minus`
+- `parachute`: `parachute`
+- `paragraph`: `paragraph`
+- `parallel`: `columns-4`
+- `parcel`: `land-plot`, `cuboid`
+- `parentheses`: `parentheses`
+- `parfum`: `parfum`
+- `Paris`: `eiffel-tower`, `triumphal-arch`
+- `park`: `park`
+- `parking`: `parking`, `circle-parking-off`, `parking-lights`
+- `parking lot`: `parking`, `circle-parking-off`
+- `part`: `section`
+- `partly`: `sun-cloudy`, `partly-cloud-daytime`, `partly-cloud-night`, `cloud-moon-rain`, `cloud-sun-rain`
+- `partnership`: `handshake`
+- `parts`: `components`
+- `party`: `celebrate`, `cake-slice`
+- `passed`: `book-check`, `book-open-check`
+- `password`: `lock`, `gesture-unlock`, `keyhole`, `key-square`
+- `past`: `brief`, `sock`, `history`, `history-2`, `history-anticlockwise`
+- `paste`: `paste`, `empty-box`, `clipboard-clock`, `clipboard-copy`, `clipboard-paste`, `clipboard-pen`, `clipboard-pen-line`, `clipboard-plus`, `clipboard-type`, `clipboard-x`
+- `paster`: `paster`, `sticker`
+- `pastry`: `croissant`
+- `patch`: `message-square-diff`, `diff`, `file-diff`, `bandage`
+- `path`: `route`
+- `pattern`: `background`, `background-base`
+- `pause`: `pause-circle`, `pause`
+- `pavilion`: `pavilion`
+- `paw`: `paw`
+- `pawn`: `brick-wall-shield`, `chess-pawn`
+- `pay`: `wechat-pay`, `currency-cny`, `currency-dollar`, `currency-euro`, `currency-baht-2`, `currency-cny-2`, `currency-dollar-2`, `currency-euro-2`, `currency-lira-2`, `currency-lira`, `currency-pound-2`, `currency-pound`, `currency-ruble-2`, `currency-ruble`, `currency-rupee-2`, `currency-rupee`, `currency-shekel-2`, `currency-shekel`, `currency-won-2`, `currency-won`, `wallet-5`, `wallet`, `wallet-2`, `receive-money`, `wallet-3`, `currency-baht`, `wallet-4`, `card-pay`, `cash`, `currency-nigeria-2`, `currency-nigeria`, `currency-bitcoin`, `currency-bitcoin-2`, `bill`, `bill-2`
+- `payment`: `alipay`, `paypal`, `mastercard`, `stripe`, `visa`, `wechat-pay`, `nfc`, `amazon-pay`, `coin-2`, `coin`, `copper-coin`, `wallet-5`, `wallet`, `wallet-2`, `wallet-3`, `wallet-4`, `coin-3`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`, `georgian-lari`, `hand-coins`
+- `payout`: `banknote-arrow-down`
+- `PayPal`: `paypal`
+- `payroll`: `hand-coins`
+- `PC gaming`: `steam`
+- `pdf`: `pdf`
+- `peace sign`: `finger-victory`
+- `peak`: `mountain`, `mountain-2`
+- `pen`: `mail-pen`, `pen`, `quill-pen`, `mark-pen`, `quill-pen-ai`, `pen-ai`, `pen-2`, `pen-2-ai`, `line-squiggle`, `clipboard-pen`, `clipboard-pen-line`, `file-pen`, `file-pen-line`, `folder-pen`, `map-pin-pen`
+- `pencil`: `edit`, `pencil`, `edit-2`, `edit-3`, `pencil-2`, `edit-4`, `pencil-ruler`, `pencil-3`, `pencil-2-ai`, `edit-2-ai`, `edit-3-ai`, `pencil-3-ai`, `pencil-ai`, `user-edit`
+- `pending`: `mail-clock`, `list-todo`, `clipboard-clock`, `circle-dot`, `circle-dot-dashed`
+- `pending email`: `mail-clock`
+- `penguin`: `qq`
+- `pennies`: `hand-coins`
+- `pentagon`: `pentagon`
+- `people`: `book-user`, `file-user`
+- `percent`: `circle-percent`, `diamond-percent`
+- `percent sign`: `percentage`
+- `percent symbol`: `percentage`
+- `performance`: `performance`
+- `perfume`: `parfum`
+- `period`: `calendar-range`, `chart-no-axes-gantt`, `dot`
+- `period break`: `bell-electric`
+- `perplexity`: `perplexity`
+- `perplexity ai`: `perplexity`
+- `persisted`: `cloud-check`
+- `person`: `head`, `book-user`, `file-user`, `user-1`, `user-2`, `user-3`, `user-4`, `user-5`, `circle-user`
+- `personal`: `book-heart`
+- `personal information`: `file-user`
+- `pest control`: `bug-off`
+- `pet`: `fish-off`, `fish-symbol`, `cat`, `dog`
+- `pets`: `paw`
+- `phablet`: `pad`
+- `phone`: `phone`, `phone-add`, `phone-off`, `cellphone`, `cellphone-2`, `cellphone-2-horizontal`, `device`, `fax`, `cellphone-2-ai`, `signal`
+- `phone book`: `card-sim`
+- `phone numbers`: `book-user`
+- `phone-add`: `phone-add`
+- `phone-block`: `phone-block`
+- `phone-call`: `phone-call`
+- `phone-incoming`: `phone-incoming`
+- `phone-outgoing`: `phone-outgoing`
+- `phone-success`: `phone-success`
+- `phonebook`: `contacts`, `contacts-2`, `contacts-3`, `contacts-4`
+- `photo`: `instagram`, `threads`, `pic-2`, `pic`, `photo-album`, `photo-album-2`, `pic-ai`, `file-image`, `image-down`, `image-edit`, `image-minus`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`, `live-photo`, `focus`
+- `photography`: `pic-2`, `pic`, `camera-2`, `camera`, `film`, `movie`, `camera-2-ai`
+- `photos`: `book-image`
+- `photovoltaic`: `solar-panel`
+- `physics`: `science`, `lens-concave`, `lens-convex`
+- `physique`: `figure`
+- `piano`: `midi`
+- `pickax`: `pickax`
+- `picker`: `paint-brush`, `palette`, `brush-2`, `paint-brush-ai`, `brush-2-ai`, `paint`, `brush`, `brush-3`, `brush-3-ai`
+- `picket`: `fence`
+- `picture`: `pic-2`, `pic`, `photo-album`, `photo-album-2`, `pic-ai`, `file-image`, `image-down`, `image-off`, `image-play`, `image-plus`, `image-up`, `image-upscale`
+- `picture puzzle`: `plugin-2`
+- `pictures`: `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`, `book-image`
+- `pie`: `chart-pie`, `chart-pie-2`, `chart-pie-3`, `file-chart-pie`, `sector`
+- `piece`: `chess-bishop`, `chess-king`, `chess-pawn`, `chess-queen`, `chess-rook`
+- `pig`: `pig-money`, `ham`, `pig`
+- `piggy`: `pig`
+- `pilcrow`: `paragraph`
+- `pile`: `circle-pile`, `layers-2`, `layers-minus`, `charging-pile`
+- `pin`: `flag-triangle-left`, `location-2`, `location`, `location-3`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `circle-star`, `user-pin`
+- `pine`: `tree`
+- `pingpong`: `pingpong`
+- `pinned`: `pin`, `pin-2`, `folder-open-dot`
+- `pinterest`: `pinterest`
+- `pinwheel`: `pinwheel`, `pinwheel-2`
+- `pipette`: `color-picker`
+- `pisa`: `pisa-tower`
+- `pit`: `campfire`
+- `pizza`: `pizza`
+- `place`: `map-pin-house`
+- `plagiarised`: `book-copy`
+- `plagiarism`: `book-copy`
+- `plagiarized`: `book-copy`
+- `plain language`: `book-check`, `book-open-check`
+- `plan`: `calendar`, `schedule`, `calendar-time-add`, `calendar-2`, `calendar-3`, `calendar-x`, `chart-no-axes-gantt`, `folder-kanban`
+- `plane`: `send`, `send-plane`, `land-plot`, `flight-land`, `flight-takeoff`, `flight-inflight`
+- `planet`: `planet`, `globe-off`, `eclipse`
+- `planner`: `book-heart`
+- `planning`: `chart-gantt`
+- `plant`: `broccoli`, `dandelion`, `flowerpot`, `grass`, `leaf-2`, `leaf`, `lotus`, `pumpkin`, `mushroom`
+- `plaster`: `bandage`
+- `platinum`: `disc-album`, `circle-dot`
+- `platter`: `hand-platter`
+- `play`: `bug-play`, `projector`, `projector-screen`, `file-play`, `image-play`, `play-circle`, `play`, `video`, `video-ai`
+- `play football`: `play-football`
+- `playback`: `audio-waveform`, `disc-album`, `circle-dot`
+- `playground`: `playground`
+- `playlist`: `list-end`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-x`, `playlist-2`, `playlist`
+- `playstation`: `game-1`, `game-2`
+- `plist`: `file-code-corner`
+- `plot`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `land-plot`
+- `plug`: `chevrons-left-right-ellipsis`, `house-plug`, `plugin`, `ethernet-port`, `hdmi-port`
+- `plugin`: `plugin`, `plugin-2`
+- `plugs`: `cable`
+- `plus`: `house-plus`, `calendar-plus-2`, `funnel-plus`, `mail-plus`, `message-circle-plus`, `message-square-diff`, `message-square-plus`, `grid-2x2-plus`, `git-branch-plus`, `git-pull-request-create`, `git-pull-request-create-arrow`, `alarm-clock-plus`, `battery-plus`, `list-plus`, `book-plus`, `diff`, `clipboard-plus`, `copy-plus`, `image-plus`, `map-pin-plus`, `map-pin-plus-inside`, `map-plus`, `bell-plus`, `heart-plus`, `add-circle`, `add`, `plus`, `add-square`, `badge-plus`, `circle-fading-plus`, `clock-plus`, `diamond-plus`, `layers-plus`, `list-filter-plus`, `user-add`, `user-add-2`
+- `plus-minus`: `message-square-diff`, `diff`
+- `plyometric training`: `hop`
+- `plyometrics`: `high-knees`, `jump`
+- `pocket money`: `hand-coins`
+- `podcast`: `mic`, `microphone`, `mic-2`, `mic-ai`
+- `podium`: `lectern`
+- `poi`: `map-pin-house`
+- `point`: `ease-in-control-point`, `ease-in-out-control-point`
+- `point,`: `ease-out-control-point`
+- `pointer`: `cursor`, `cursor-2`, `cursor-3`, `mouse`, `gamepad-directional`
+- `poker`: `clubs`, `spade`, `diamond-square`
+- `pole`: `magnet`
+- `police`: `columns-4`, `report`
+- `polkadot`: `polkadot-dot`
+- `polygons`: `hexagon`, `triangle`, `diamond`, `octagon`, `hexagons`, `hexagons-2`
+- `polynomial`: `chart-spline`
+- `pool`: `swimming-pool`
+- `pool workout`: `swimming`
+- `pork`: `ham`, `pig`
+- `port`: `chevrons-left-right-ellipsis`, `ethernet-port`, `hdmi-port`
+- `portfolio`: `chart-candlestick`, `gallery-horizontal`, `gallery-horizontal-end`, `gallery-thumbnails`, `gallery-vertical`, `gallery-vertical-end`
+- `position`: `align-bottom`, `align-horizontal-center`, `align-left-2`, `align-right-2`, `align-top`, `align-vertical-center`, `distribute-spacing-horizontal`, `distribute-spacing-vertical`, `location-2`, `location`, `map`, `map-2`, `location-3`
+- `positive`: `message-circle-heart`, `message-square-heart`, `diamond-plus`, `layers-plus`
+- `post`: `mail`, `mail-open`, `mail-send`, `mail-ai`, `mailbox`, `inbox`, `inbox-2`
+- `post-workout`: `cooldown`
+- `postage`: `arrows-up-from-line`
+- `postpone`: `clock-arrow-down`
+- `pot`: `database-search`, `soup-pot`, `soup-pot-2`, `pot`
+- `potato`: `fries`
+- `pound`: `currency-pound-2`, `currency-pound`, `badge-pound-sterling`
+- `power`: `hand-fist`, `flash`, `battery`, `light`, `battery-1`, `battery-2`, `battery-3`, `battery-4`, `high-voltage-power`, `flash-circle`, `battery-plus`, `battery-warning`, `cable`, `database-zap`, `drill`, `fitness`, `power`, `circle-power`
+- `powerlift`: `barbell`
+- `powerlifting`: `weightlifting`
+- `ppt`: `ppt`
+- `pray`: `pray`, `candle`, `candles`
+- `prayer`: `cross-2`
+- `pre-exercise routine`: `warm-up-2`
+- `pre-game prep`: `warm-up-3`
+- `pre-workout`: `warm-up`
+- `precision`: `decimals-arrow-left`, `decimals-arrow-right`
+- `preferences`: `file-sliders`, `folder-cog`, `settings-horizontal`, `settings-vertical`
+- `prepaid`: `banknote-arrow-up`
+- `prescription`: `prescription`
+- `present`: `gift-2`, `gift`
+- `presentation`: `trello-board`, `presentation-1`, `presentation-2`, `presentation-3`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`
+- `press`: `finger-press`
+- `prevent`: `forbid-circle`
+- `prevention`: `brick-wall-shield`
+- `preview`: `gallery-thumbnails`, `columns-4`
+- `previous`: `arrow-left`, `left`, `align-arrow-left`, `arrow-to-left`, `arrow-left-circle`, `large-arrow-left`, `left-small`, `square-arrow-left`, `arrows-left`, `arrow-big-left-dash`, `chevron-first`, `circle-chevron-left`
+- `price tag`: `circle-percent`, `diamond-percent`
+- `prices`: `chart-candlestick`
+- `print`: `print`
+- `printable asset`: `file-box`
+- `printer`: `print`
+- `prison`: `columns-4`
+- `privacy`: `earth-lock`, `globe-lock`
+- `private`: `book-heart`, `book-key`, `book-lock`, `file-key`, `folder-key`, `earth-lock`, `globe-lock`
+- `prize`: `award`, `medal`, `laurel-wreath`
+- `pro`: `vison-pro`
+- `process`: `loading`, `loading-2`, `loading-3`, `loading-4`, `process`
+- `processor`: `chip`, `gpu`, `blender`
+- `produce`: `broccoli`
+- `product`: `barcode`, `barcode-scan`
+- `productivity`: `chart-no-axes-gantt`, `folder-kanban`
+- `profile`: `profile`, `user-1`, `user-2`, `user-3`, `user-4`, `user-5`, `badge`, `idcard`, `circle-user`, `keying`, `mars-stroke`, `profile-2`, `venus-and-mars`
+- `program`: `github`, `github-2`, `vibe-coding`
+- `programing`: `codepen`
+- `programmer`: `vscode`, `code`
+- `programming`: `git-lab`
+- `progress`: `timeline`, `circle-dot`, `circle-dot-dashed`, `progress-100`, `progress-25`, `progress-50`, `progress-75`, `progress-arc`
+- `progress indicator`: `progress-100`, `progress-25`, `progress-50`, `progress-75`, `progress-arc`
+- `prohibit`: `book-minus`
+- `prohibited`: `book-x`, `copy-slash`, `circle-off`, `ban`
+- `Prohibition`: `silent`
+- `project`: `folder-git`, `folder-git-2`, `folder-kanban`, `folder-open-dot`, `folder-root`, `timeline`
+- `projector`: `projector`, `projector-screen`
+- `projects`: `chart-no-axes-gantt`, `folder-kanban`
+- `proof of delivery`: `mail-badge`
+- `propaganda`: `book-x`
+- `propeller`: `fan-2`
+- `property`: `land-plot`, `map-pin-house`, `fence`
+- `property list`: `file-code-corner`
+- `proposal`: `hand-helping`
+- `protect`: `certificate-2`, `file-certificate`, `file-security`, `folder-security`, `shield-shape`, `shield`, `safety-certificate`, `safe-shield`, `safe-shield-2`, `user-security`
+- `protected`: `message-circle-warning`, `message-square-warning`, `folder-key`
+- `protection`: `brick-wall-shield`, `earth-lock`, `globe-lock`, `bandage`
+- `provider`: `card-sim`
+- `public`: `book-key`, `file-key`
+- `public transit`: `bus`, `bus-2`
+- `publish`: `book-plus`
+- `publish-subscribe`: `mqtt`
+- `published`: `book-check`, `book-open-check`
+- `pull`: `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `book-down`
+- `pulmonary`: `lungs`
+- `pulpit`: `lectern`
+- `pulse`: `heartbeat-2`, `heartbeat`
+- `pumpkin`: `pumpkin-lantern`, `pumpkin`
+- `punctuation`: `dot`
+- `puppy`: `dog`
+- `purchase`: `bank-card`, `shopping-cart-1`, `shopping-cart-2`
+- `push`: `book-up`, `book-up-2`
+- `puzzle`: `hexagons`, `hexagons-2`
+- `puzzled`: `confused`, `puzzled`
+- `pyramids`: `egyptian-pyramids`, `maya-pyramids`
+### Q
+
+- `qr-code`: `file-scan`
+- `qrcode`: `qrcode`, `qrcode-2`
+- `quadratic`: `chart-spline`
+- `qualification`: `certificate-2`, `file-certificate`, `file-security`, `passport`, `certificate`, `safety-certificate`
+- `quantity surveyor`: `brick-wall-fire`, `brick-wall-shield`
+- `quarter circle`: `quarter-circle-dash`
+- `quarter circle dash`: `quarter-circle-dash`
+- `quarter complete`: `progress-25`
+- `queen`: `chess-queen`
+- `question`: `mail-question-mark`, `message-circle-question-mark`, `file-unknown`, `question`, `question-2`, `badge-question-mark`, `user-question`
+- `queue`: `columns-4`, `list-end`, `list-start`, `logs`
+- `quick link`: `file-heart`, `folder-heart`
+- `quill`: `quill-pen`, `quill-pen-ai`
+- `quite`: `silent`
+- `quotation`: `message-square-quote`, `blockquote`
+- `quote`: `message-square-quote`, `quote-left`, `quote-right`
+### R
+
+- `rabbit`: `rabbit`
+- `racket`: `pingpong`
+- `radar`: `radar`, `scan-2`, `scan`, `radar-2`
+- `radian`: `sector`
+- `radio`: `radio`, `boom-box`, `audio-waveform`, `radiobox`
+- `radio button`: `dot-circle`
+- `radiobox`: `radiobox`
+- `radius`: `border-radius`
+- `railway`: `train`, `train-2`, `train-3`, `train-4`
+- `rain`: `rain`, `umbrella`, `drizzle`, `heavy-rain`, `showers`, `snowstorm`, `thunderstorm`, `heavy-rainstorm`, `rainstorm`, `snowstorm-2`, `cloud-moon-rain`, `cloud-sun-rain`
+- `rainbow`: `rainbow`
+- `raindrop`: `drop`
+- `rainfall`: `heavy-rain`, `cloud-moon-rain`, `cloud-sun-rain`
+- `rainstorm`: `rain`
+- `rake`: `rake`
+- `ram`: `memory-stick`, `aries`
+- `random`: `shuffle`, `shuffle-2`, `random`, `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`, `dices`
+- `random access`: `memory-stick`
+- `range`: `calendar-range`, `chart-no-axes-gantt`
+- `range of motion`: `flexibility`
+- `rar`: `file-zip`, `folder-zip`
+- `rare`: `rare-fog-lights`
+- `ratio`: `aspect-ratio`
+- `rca`: `cable`
+- `re-educate`: `book-minus`, `book-plus`
+- `re-education`: `book-x`
+- `react`: `react`
+- `read`: `mail-check`, `book`, `bookmark`, `book-4`, `book-6`, `bookmarks`, `bookmark-add`, `bookmark-remove`, `bookmark-edit`, `book-ai`, `book-6-ai`, `book-check`, `book-open-check`, `book-plus`, `bookmark-check`, `bookmark-x`
+- `reader`: `follow`
+- `reading`: `book-alert`, `book-audio`, `book-headphones`, `book-heart`, `book-open-text`, `book-search`, `book-text`, `book-type`, `book-x`, `library`
+- `reading list`: `book-copy`
+- `real estate`: `map-pin-house`
+- `real-time AI`: `grok-2`
+- `rear`: `rear-windshield-defroster`
+- `rebellion`: `hand-fist`
+- `reboot`: `circle-power`
+- `receive`: `receive-money`, `bill`, `bill-2`
+- `received`: `hand-coins`
+- `receiver`: `radio`, `antenna`, `cast`
+- `reception`: `bell-electric`
+- `recess`: `bell-electric`
+- `recharging`: `cable`
+- `recipe`: `blender`
+- `reclining pose`: `lie-down`
+- `reconnect`: `calendar-sync`, `folder-sync`, `cloud-backup`, `cloud-sync`
+- `record`: `camcorder-2`, `camcorder`, `audio-tape`, `record-mail`, `camcorder-3`, `camcorder-off`, `video-camera`, `video-camera-2`, `camcorder-ai`, `circle-pile`
+- `recording`: `computer-camera`, `computer-camera-off`, `cctv-off`, `disc-album`, `circle-dot`
+- `records`: `library`, `archive-restore`, `archive-x`
+- `recovery`: `sock`, `cooldown`, `history`, `history-2`, `history-anticlockwise`
+- `recreation`: `kayak`
+- `rectangle`: `diamond`, `rectangle`, `rectangle-vertical`
+- `rectangles`: `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`
+- `rectangular`: `cuboid`
+- `recurring`: `calendar-sync`
+- `recycle`: `recycle`
+- `red`: `cross`
+- `red-packet`: `red-packet`
+- `red-packet-open`: `red-packet-open`
+- `reddit`: `reddit`
+- `reddot`: `notification-newdot`, `newdot`
+- `redeemer`: `christ-the-redeemer`
+- `redirect`: `external-link`
+- `reduce`: `diamond-minus`
+- `reduce schedule`: `clock-minus`
+- `reducution`: `sale`
+- `reel`: `fishing-hook`, `fishing-rod`
+- `referee`: `whistle`
+- `reflow`: `columns-4`
+- `refraction`: `lens-concave`, `lens-convex`
+- `refresh`: `calendar-sync`, `list-restart`, `folder-sync`, `refresh-1`, `refresh-2`, `refresh-3`, `refresh-4`, `refresh-anticlockwise-1`, `refresh-4-ai`, `cloud-backup`, `cloud-sync`
+- `refund`: `card-refund`, `refund-cny`, `refund-dollar`, `banknote-arrow-down`
+- `registered`: `registered`, `mail-badge`
+- `registered email`: `mail-badge`
+- `reject`: `heart-x`
+- `rejected`: `banknote-x`
+- `religion`: `chess-bishop`
+- `reload`: `list-restart`, `refresh-1`, `refresh-2`, `refresh-3`, `refresh-4`, `refresh-anticlockwise-1`, `refresh-4-ai`
+- `reminder`: `calendar-sync`, `mail-clock`, `clipboard-clock`, `notification-newdot`, `bell-minus`, `bell-plus`, `newdot`, `clock-alert`
+- `remote`: `remote`, `remote-control`, `laptop-minimal-check`, `cloud-backup`
+- `remote display`: `cast`
+- `remove`: `banknote-x`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-x-2`, `funnel-x`, `mail-minus`, `mail-x`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`, `exclude`, `subtract`, `git-branch-minus`, `alarm-clock-minus`, `eraser`, `eraser-ai`, `list-minus`, `list-x`, `book-minus`, `book-plus`, `book-x`, `bookmark-x`, `unlink-2`, `unlink`, `folder-delete`, `clipboard-minus`, `clipboard-x`, `copy-minus`, `copy-x`, `file-minus`, `file-x-corner`, `image-minus`, `map-minus`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-x`, `map-pin-x-inside`, `bell-minus`, `heart-minus`, `heart-x`, `delete`, `delete-back`, `delete-2`, `wastebasket`, `delete-3`, `badge-minus`, `badge-x`, `diamond-minus`, `layers-minus`, `user-remove`, `user-remove-2`, `user-x`
+- `remove time`: `clock-minus`
+- `removed`: `bookmark-off`
+- `remover`: `bookmark-remove`
+- `rename`: `folder-pen`
+- `rendering`: `gpu`
+- `renewable`: `solar-panel`
+- `renminbi`: `badge-cny`
+- `repeat`: `calendar-sync`, `repeat`, `repeat-one`, `transformation`
+- `replay`: `list-restart`
+- `reply`: `chat-1`, `chat-2`, `message-1`, `message-2`, `message-3`, `chat-3`, `message-4`, `chat-4`, `comment-2`, `chat-1-ai`, `chat-2-ai`, `chat-3-ai`, `chat-4-ai`, `message-1-ai`, `message-2-ai`, `message-3-ai`, `message-4-ai`, `mail-pen`, `message-circle-reply`, `message-square-quote`, `message-square-reply`
+- `repo`: `folder-git`, `folder-git-2`, `folder-root`
+- `report`: `flag-triangle-left`, `message-circle-warning`, `message-square-warning`, `speech`, `report-forms`, `clipboard-minus`, `clipboard-plus`, `report`
+- `repository`: `git-branch-minus`, `git-branch-plus`, `git-commit-horizontal`, `git-compare-2`, `git-fork`, `git-graph`, `git-merge-conflict`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `book-copy`, `book-dashed`, `book-down`, `book-key`, `book-lock`, `book-minus`, `book-plus`, `book-up`, `book-up-2`, `book-x`
+- `reproduce`: `bug-play`
+- `request`: `git-pull-request-close`, `git-pull-request`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`
+- `reschedule`: `clock-arrow-down`, `clock-arrow-up`
+- `rescue`: `cross`, `ambulance`
+- `research`: `book-alert`, `book-audio`, `book-copy`, `book-headphones`, `book-open-text`, `book-plus`, `book-search`, `book-text`, `book-type`, `library`
+- `researched`: `book-check`, `book-open-check`
+- `reset`: `list-restart`
+- `residence`: `house-heart`, `house-plug`, `house-plus`, `map-pin-house`
+- `resize`: `scale`, `image-upscale`, `fullscreen-exit`, `fullscreen`, `miniplayer`
+- `resolution`: `hd`
+- `resolved`: `bug-off`
+- `respiratory`: `lungs`
+- `responding`: `message-square-more`
+- `response`: `message-circle-reply`, `message-square-quote`, `message-square-reply`
+- `rest`: `rest-area`, `bed`, `bed-2`, `sleep`
+- `rest position`: `lie-down`
+- `restart`: `list-restart`, `refresh-1`, `refresh-2`, `refresh-3`, `refresh-4`, `refresh-anticlockwise-1`, `refresh-4-ai`, `circle-power`
+- `restaurant`: `fork`, `fork-knife`, `fork-spoon`, `spoon`, `dish-cover`, `beef`, `beef-off`, `blender`, `fish-off`, `fish-symbol`, `ice-cream-bowl`, `utensils`, `hand-platter`
+- `restore`: `archive-restore`, `restore`
+- `resume`: `file-user`
+- `retail`: `store`, `store-2`, `shop`
+- `reticule`: `diamond-plus`
+- `return`: `back`, `back-2`, `card-refund`, `refund-cny`, `refund-dollar`
+- `revealed`: `book-check`, `book-key`, `book-open-check`, `book-open-text`
+- `reverse`: `arrow-big-down-dash`
+- `revert`: `back`, `back-2`
+- `revolve`: `rotate-x`, `rotate-y`
+- `reward`: `award`
+- `rewind`: `fast-rewind`, `rewind-backward-5`, `rewind-backward-10`, `rewind-backward-15`, `rewind-backward-30`, `rewind-backward-square-5`, `rewind-backward-square-10`, `rewind-backward-square-15`, `rewind-backward-square-30`
+- `rice`: `bowl`, `dinner`, `electric-cooker`
+- `right`: `arrow-right`, `right`, `transfer-3`, `transfer`, `align-arrow-right`, `arrow-to-right`, `arrow-right-circle`, `arrow-right-down-circle`, `arrow-right-down`, `arrow-right-up-circle`, `arrow-right-up`, `large-arrow-right`, `right-small`, `square-arrow-right`, `arrows-right`, `corner-down-right`, `corner-up-right`, `arrow-big-right-dash`, `chevrons-left-right`, `chevrons-left-right-ellipsis`, `chevrons-right-left`, `circle-arrow-out-down-right`, `circle-arrow-out-up-right`, `circle-chevron-right`, `corner-right-down`, `corner-right-up`, `iteration-ccw`, `clockwise`, `align-right-2`, `border-right`, `clockwise-alt`, `layout-rightbar-close`, `layout-rightbar-open`, `align-end-vertical`, `align-horizontal-distribute-end`, `align-horizontal-justify-end`, `between-horizontal-start`, `layout-align-right`, `sidebar-right`, `sidebar-right-close`, `sidebar-right-collapse`, `sidebar-right-open`, `align-right`, `quote-right`, `text-direction-left`, `text-direction-right`, `text-align-end`, `decimals-arrow-right`, `look-right`, `toggle-right-2`, `toggle-right`, `line-dot-right-horizontal`
+- `rights`: `registered`
+- `ring`: `alarm-1`, `alarm-2`, `bell-electric`
+- `ringing`: `bell-ringing`
+- `Rio de Janeiro`: `christ-the-redeemer`
+- `ripple`: `xrp`
+- `rising`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `clock-arrow-down`, `clock-arrow-up`
+- `RMB`: `currency-cny`, `currency-cny-2`, `exchange-cny`, `refund-cny`
+- `road`: `line-squiggle`, `road`
+- `roadmap`: `chart-no-axes-gantt`, `sitemap`, `folder-kanban`
+- `roadwork`: `construction`
+- `roblox`: `roblox`
+- `robot`: `android`, `android-2`, `bot-message-square`, `robot`, `bot-off`
+- `robot arm`: `robot`
+- `robotics`: `robot`
+- `rock`: `finger-rock`
+- `rocket`: `rocket`, `rocket-2`
+- `rocking`: `toy-horse`
+- `rod`: `fishing-rod`
+- `roll`: `toilet-paper`
+- `romance`: `book-heart`
+- `romantic`: `love`
+- `rook`: `chess-rook`
+- `root`: `folder-git`, `folder-git-2`, `folder-kanban`, `folder-open-dot`, `folder-root`
+- `Rose`: `rose`
+- `rose`: `flower`, `flower-2`, `flower-3`, `flower-4`, `sunflower`, `rose`, `flower-5`
+- `rosette`: `mail-badge`
+- `rotate`: `iteration-ccw`, `iteration-cw`, `rotate-x`, `rotate-y`, `mirror`, `database-backup`, `camera-rotate`, `rotate-to-horizontal`, `rotate-to-vertical`, `disc-album`, `loading`, `loading-2`, `loading-3`, `loading-4`, `circle-dot`, `tornado-2`, `tornado`, `cloud-backup`
+- `rotor`: `helicopter`
+- `round`: `christmas-ball`, `parentheses`, `round`
+- `rounded`: `ellipse`
+- `rounderd`: `border-radius`
+- `rounding`: `decimals-arrow-left`, `decimals-arrow-right`
+- `route`: `route`
+- `router`: `chevrons-left-right-ellipsis`, `router-modem`, `ethernet-port`
+- `row`: `columns-2`, `columns-3`, `rows-2`, `rows-3`, `rows-4`
+- `rowing machine`: `indoor-rowing`
+- `rows`: `between-horizontal-end`, `between-horizontal-start`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `grid-3x3`
+- `rpm`: `disc-album`, `circle-dot`
+- `rss`: `rss`, `rss-2`
+- `rtl`: `text-direction-left`
+- `rub`: `badge-russian-ruble`
+- `ruble`: `currency-ruble-2`, `currency-ruble`, `badge-russian-ruble`
+- `rudder`: `rudder`
+- `ruler`: `ruler`, `pencil-ruler`, `chess-king`, `chess-queen`
+- `run`: `run`, `run-2`
+- `run treadmill`: `run-treadmill`
+- `running warm-up`: `high-knees`
+- `rupee`: `currency-rupee-2`, `currency-rupee`, `badge-indian-rupee`
+- `russian`: `currency-ruble-2`, `currency-ruble`
+### S
+
+- `sad`: `sad`, `unhappy`
+- `sadness`: `sad`
+- `safari`: `safari`
+- `safe`: `shield-shape`, `shield`, `safe-alert`, `safe-flash`, `safe-lock`, `safe-shield`, `safe-shield-2`, `user-security`
+- `safe-box`: `safe-box`
+- `safety`: `brick-wall-shield`, `alarm-smoke`, `bell-electric`, `flashlight-off`, `bandage`, `fire-extinguisher`, `safety-certificate`, `badge-alert`, `cloud-backup`
+- `sailboat`: `sailboat`
+- `sailing`: `ship`
+- `salad`: `leafy-green`
+- `salary`: `coin`, `copper-coin`, `currency-cny`, `currency-dollar`, `currency-euro`, `currency-cny-2`, `currency-dollar-2`, `currency-euro-2`, `yuanbao`, `cash`
+- `sale`: `auction`, `tag`, `trophy`, `sale`, `tag-chevron`, `tag-2`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `circle-percent`, `diamond-percent`
+- `sand`: `marina-bay-sand`
+- `sandbox game`: `roblox`
+- `sandglass`: `sandglass`, `sandglass-2`
+- `sandstorm`: `sandstorm`
+- `santa`: `sleigh`
+- `satellite`: `antenna`
+- `save`: `hard-drive-download`, `hard-drive-upload`, `download-2`, `download`, `file-download`, `save`, `download-3`, `save-2`, `folder-download`, `image-down`, `cloud-backup`
+- `saved`: `cloud-check`
+- `saving`: `pig-money`
+- `savings`: `hand-coins`
+- `scale`: `scale`, `instrument`, `balance`
+- `scales`: `libra`
+- `scan`: `brick-wall-shield`, `qrcode`, `scan-2`, `scan`, `qrcode-2`, `barcode`, `barcode-scan`, `antenna`, `file-scan`, `faceid`
+- `scanning`: `book-search`
+- `scare`: `terror`
+- `scarf`: `scarf`
+- `scart`: `cable`
+- `scatter`: `chart-scatter`
+- `scene`: `file-box`
+- `scenic`: `tower`
+- `schedule`: `calendar`, `schedule`, `calendar-2`, `calendar-3`, `calendar-x`, `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`
+- `scheduled`: `mail-clock`, `clipboard-clock`, `clock-check`
+- `scheduled communication`: `mail-clock`
+- `school`: `school`, `backpack`
+- `school bell`: `bell-electric`
+- `schooled`: `book-check`, `book-open-check`
+- `science`: `microscope`, `science`, `lens-concave`, `lens-convex`
+- `scissors`: `scissors-2`, `scissors`, `scissors-3`
+- `scooter`: `scooter`
+- `scope`: `diamond-plus`
+- `scorpion`: `scorpio`
+- `scout`: `brick-wall-shield`
+- `screen`: `display`, `monitor`, `projector-screen`, `cast`, `laptop-minimal-check`, `rotate-to-horizontal`, `rotate-to-vertical`, `danmaku`, `danmaku-on`, `danmaku-off`
+- `screen sharing`: `cast`
+- `screenplay`: `book-dashed`
+- `screenshot`: `screenshot`
+- `screwdriver`: `screwdriver`
+- `screws`: `inspection-panel`
+- `script`: `book-alert`, `book-dashed`, `book-open-text`, `book-text`, `book-type`, `file-code-corner`, `file-terminal`
+- `scroll`: `gallery-horizontal`, `gallery-horizontal-end`, `gallery-vertical`, `gallery-vertical-end`
+- `scroll list`: `scrollable-list`
+- `scrollable list`: `scrollable-list`
+- `sculpting`: `figure`
+- `sea`: `fish-off`, `fish-symbol`, `fishing-hook`, `wave`
+- `seafood`: `fish`, `fish-off`, `fish-symbol`
+- `seal`: `seal`, `mail-badge`
+- `search`: `calendar-search`, `mail-search`, `database-search`, `list-search`, `book-search`, `search`, `file-search`, `search-2`, `search-3`, `search-ai`, `search-2-ai`, `search-2-none`, `search-3-ai`, `search-none`, `file-search-corner`, `folder-search`, `folder-search-2`, `map-pin-search`, `user-search`
+- `search engine`: `perplexity`, `yahoo`
+- `searching`: `bluetooth-searching`
+- `searchlight`: `cone`
+- `seat`: `sofa`, `seat`, `seat-heated`
+- `secret`: `book-heart`, `book-key`, `book-lock`
+- `section`: `layer`, `section`, `layout-panel-top`
+- `sector`: `sector`
+- `secure`: `brick-wall-shield`, `message-square-lock`, `key-square`
+- `security`: `brick-wall-fire`, `brick-wall-shield`, `certificate-2`, `file-certificate`, `file-locked`, `file-security`, `folder-locked`, `folder-locked-2`, `folder-security`, `passport`, `file-key`, `folder-key`, `earth-lock`, `globe-lock`, `shield-shape`, `lock`, `shield`, `safety-certificate`, `fingerprint`, `fingerprint-2`, `keyhole`, `badge-alert`, `lock-open`, `user-lock`, `user-security`, `cloud-backup`
+- `see`: `eyeglass`, `eye-off`
+- `seed`: `bean`, `bean-off`
+- `segment`: `section`
+- `select`: `lasso`, `lasso-select`, `checkbox`, `choice`, `multiselect`
+- `select list`: `dropdown`
+- `selection`: `radiobox`
+- `selection control`: `dot-circle`
+- `selector`: `selector-horizontal`, `selector-vertical`
+- `selfie`: `camera-rotate`
+- `semicircle`: `semicircle-dash`
+- `semicircle dash`: `semicircle-dash`
+- `send`: `mail-send`, `invite`, `send`, `send-plane`, `bring-to-front`
+- `send later`: `mail-clock`
+- `sentence`: `columns-4`
+- `separator`: `dividing-line`, `diamond-minus`
+- `series`: `columns-4`
+- `served`: `hand-platter`
+- `server`: `server`, `server-2`, `hard-drive-download`, `hard-drive-upload`
+- `servers`: `database-backup`, `database-search`, `database-zap`, `cloud-backup`
+- `service`: `card-sim`, `hours`, `service`
+- `settings`: `brain-cog`, `calendar-cog`, `keyboard-off`, `columns-3-cog`, `file-cog`, `file-sliders`, `folder-cog`, `settings-1`, `settings-2`, `settings-3`, `settings-4`, `settings-5`, `switch`, `toggle-left-2`, `toggle-left`, `toggle-right-2`, `toggle-right`, `settings-6`, `settings-7`, `settings-horizontal`, `settings-vertical`, `user-setting`, `cloud-cog`
+- `seven`: `clock-7`
+- `sex`: `venus-and-mars`
+- `shade`: `eclipse`
+- `shadow`: `shadow`
+- `shampoo`: `shower-gel`
+- `shanghai`: `tv-tower`
+- `shape`: `diameter`, `circle-equal`, `rectangle`, `rectangle-vertical`, `hemisphere`, `hemisphere-2`, `badge-octagram`, `circle-off`, `circle-slash-2`, `circle-small`, `cone`, `cuboid`, `dot`, `ellipse`, `heart-check`, `heart-minus`, `heart-off`, `heart-plus`, `heart-x`, `circle-pile`
+- `shapes`: `hexagon`, `round`, `triangle`, `octagon`, `ellipse`, `hexagons`, `hexagons-2`
+- `share`: `message-square-share`, `share-forward`, `share-2`, `share-3`
+- `sharing`: `circle-fading-plus`
+- `sharpen`: `image-upscale`
+- `sheet`: `file-box`, `file-spreadsheet`
+- `sheets`: `layers-2`, `layers-minus`
+- `shekel`: `currency-shekel-2`, `currency-shekel`
+- `shell`: `terminal`, `terminal-ai`
+- `shenzhen`: `kingkey-100-tower`
+- `shield`: `brick-wall-shield`, `shield-shape`, `shield`, `safe-flash`, `safe-lock`, `safe-shield`, `safe-shield-2`
+- `shift`: `easy-in-out`
+- `ship`: `anchor`, `ship`
+- `shipping`: `arrows-up-from-line`, `container`, `cuboid`, `truck`
+- `shirt`: `shirt`, `t-shirt-2`, `t-shirt`
+- `shoe`: `shoe-2`, `shoe`
+- `shop`: `appstore`, `google-play`, `store`, `store-2`, `shop`, `shopping-bag-3`, `shopping-bag-1`, `shopping-bag-2`, `basket`, `basket-2`
+- `shopping`: `shopping-bag-3`, `shopping-bag-1`, `shopping-bag-2`, `shopping-cart-1`, `shopping-cart-2`, `sale`
+- `shortcut`: `command`, `hotkey`
+- `shortcuts`: `layers-2`
+- `shorts`: `shorts`
+- `shovel`: `shovel`
+- `show`: `list-chevrons-down-up`, `list-chevrons-up-down`, `drama`
+- `shower`: `shower`, `shower-gel`, `bath`
+- `showers`: `showers`
+- `shredder`: `blender`
+- `shrink`: `fullscreen-exit`
+- `shuffle`: `shuffle`, `shuffle-2`
+- `shut`: `camcorder-off`, `camera-2-off`, `danmaku-off`
+- `sick`: `sick`
+- `sickness`: `hospital`
+- `sidebar`: `layout-left`, `layout-right`, `sidebar-left`, `sidebar-left-close`, `sidebar-left-collapse`, `sidebar-left-open`, `sidebar-right`, `sidebar-right-close`, `sidebar-right-collapse`, `sidebar-right-open`
+- `sidebars`: `columns-4`
+- `sight`: `eyeglass`, `diamond-plus`
+- `signal`: `chevrons-left-right-ellipsis`, `base-station`, `base-station-2`, `antenna`, `cable`, `card-sim`, `ethernet-port`, `hdmi-port`, `signal`, `file-signal`
+- `signal off`: `globe-off`, `globe-x`
+- `signature`: `signature`, `signature-2`, `signature-2-ai`, `clipboard-pen`, `file-pen`
+- `signed`: `mail-badge`
+- `signed message`: `mail-badge`
+- `silence`: `ear-off`, `message-circle-off`, `message-circle-x`, `message-square-off`, `message-square-x`
+- `silent`: `silent`, `bell-minus`, `bell-plus`
+- `silver`: `circle-star`
+- `silverware`: `utensils`
+- `SIM`: `card-sim`
+- `sine`: `audio-waveform`
+- `Singapore`: `marina-bay-sand`
+- `singer`: `audio-waveform`
+- `single`: `calendar-1`, `bed-single`
+- `single leg jump`: `hop`
+- `singular`: `calendar-1`
+- `siren`: `ambulance`
+- `siri`: `siri`, `siri-frame`
+- `sitemap`: `sitemap`
+- `sitting practice`: `zazen`
+- `six`: `dice-6`, `clock-6`
+- `size`: `diameter`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `aspect-ratio`, `font-size`
+- `skateboard`: `skateboard`, `skateboarding`
+- `skateboarding`: `skateboarding`
+- `skeleton`: `skull`, `bone`
+- `sketch`: `diamond-2`
+- `sketchbook`: `book-heart`
+- `skew`: `x-skew`, `y-skew`
+- `skin`: `t-shirt-2`, `t-shirt`
+- `skip`: `chevron-last`, `fast-forward`, `fast-rewind`, `rewind-backward-5`, `rewind-forward-5`, `rewind-backward-10`, `rewind-forward-10`, `rewind-backward-15`, `rewind-forward-15`, `rewind-backward-30`, `rewind-forward-30`, `rewind-backward-square-5`, `rewind-forward-square-5`, `rewind-backward-square-10`, `rewind-forward-square-10`, `rewind-backward-square-15`, `rewind-forward-square-15`, `rewind-backward-square-30`, `rewind-forward-square-30`
+- `skip-forward`: `skip-forward`
+- `skip-previous`: `skip-previous`
+- `skirt`: `skirt`, `dress`
+- `skull`: `skull`
+- `skyscraper`: `building-2`, `building-3`, `building-4`, `building-6`
+- `slash`: `copy-slash`, `circle-slash-2`, `ban`
+- `sleep`: `bed`, `bed-2`, `bed-single`, `sleep`, `moon-stars`, `moon-sleep`
+- `sleeve`: `disc-album`, `circle-dot`
+- `sleeveless`: `vest`
+- `sleigh`: `sleigh`
+- `slice`: `knife`, `cake-slice`
+- `sliders`: `file-sliders`
+- `slideshow`: `presentation-1`, `presentation-2`, `presentation-3`
+- `slope riding`: `snowboarding`
+- `slot`: `chevrons-left-right-ellipsis`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `ethernet-port`, `hdmi-port`
+- `slow`: `arrow-big-down-dash`, `ease-in`, `ease-out`
+- `small`: `a-large-small`, `circle-small`
+- `small size`: `close-small`
+- `smaller`: `a-arrow-down`
+- `smart`: `book-copy`
+- `smartphone`: `cellphone`, `cellphone-2`, `cellphone-2-horizontal`, `cellphone-2-ai`, `card-sim`
+- `smoke`: `alarm-smoke`, `bell-electric`, `fire-extinguisher`
+- `smoking`: `cigarette`, `cigarette-off`
+- `smooth`: `chart-spline`, `ease-in`, `ease-out`, `easy-in-out`, `ellipse`
+- `smoothie`: `blender`
+- `snakes`: `line-squiggle`
+- `snapchat`: `snapchat`
+- `snip`: `scissors-2`, `scissors`, `scissors-3`
+- `snippet`: `code`
+- `snooze`: `sleep`
+- `snow`: `mountain`, `sleigh`, `cloud-snow`, `snow`, `snowman`, `heavy-snow`, `light-snow`, `moderate-snow`, `heavy-snowstorm`, `snowflake`
+- `snowboard`: `snowboarding`
+- `snowboarding`: `snowboarding`
+- `snowflake`: `snow`, `snowflake`
+- `snowman`: `snowman`
+- `snowstorm`: `cloud-snow`, `snowstorm`, `snowstorm-2`
+- `soap`: `cuboid`
+- `sob`: `sob`
+- `soccer`: `american-football`, `football`, `play-football`
+- `social`: `facebook`, `snapchat`, `twitter`, `wechat`, `whatsapp`, `weibo`, `discord`, `vkontakte`, `kakao-talk`, `line-app`, `mastodon`, `social-x`, `bluesky-social`
+- `social media`: `circle-fading-plus`
+- `socket`: `chevrons-left-right-ellipsis`, `ethernet-port`, `hdmi-port`
+- `sofa`: `sofa`
+- `software`: `android`, `android-2`, `apple`, `chrome`, `windows`, `arc-browser`, `vscode`, `folder-code`
+- `SOL`: `solana-sol`
+- `solana`: `solana-sol`
+- `solar`: `solar-panel`, `eclipse`
+- `solid`: `cuboid`
+- `solidarity`: `hand-fist`
+- `song`: `netease-music`, `list-minus`, `list-plus`, `audio-waveform`
+- `songs`: `disc-album`, `circle-dot`
+- `sophistry`: `book-x`
+- `sort`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `calendar-arrow-down`, `calendar-arrow-up`, `az-sort-ascending-letters`, `sort-ascending`, `sort-descending`, `za-sort-descending-letters`, `az-sort-descending-letters`, `za-sort-ascending-letters`, `numbers-09-sort-descending`, `numbers-09-sort-ascending`, `numbers-90-sort-descending`, `numbers-90-sort-ascending`, `clock-arrow-down`, `clock-arrow-up`
+- `sound`: `speaker`, `homepod`, `homepod-mini`, `boom-box`, `book-audio`, `book-headphones`, `file-headphone`, `music-2`, `music`, `volume`, `horn`, `music-3`, `voice`, `announcement`, `voice-2`, `horn-2`, `sound-line`, `music-2-ai`, `audio-waveform`, `headphone-off`
+- `soup`: `soup-pot`, `soup-pot-2`
+- `source code`: `git-branch-minus`, `git-branch-plus`, `git-commit-horizontal`, `git-compare-2`, `git-fork`, `git-graph`, `git-merge-conflict`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`
+- `south`: `arrow-big-down-dash`, `arrow-down-to-dot`, `look-down`
+- `south-east`: `circle-arrow-out-down-right`
+- `south-west`: `circle-arrow-out-down-left`
+- `soy`: `bean`, `bean-off`
+- `soy free`: `bean-off`
+- `space`: `align-horizontal-distribute-center`, `align-horizontal-space-between`, `align-vertical-distribute-center`, `align-vertical-space-between`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `storage`, `line-height`, `space`, `planet`, `rocket`, `rocket-2`, `eclipse`
+- `spaceship`: `rocket`, `rocket-2`
+- `spacing`: `distribute-spacing-horizontal`, `distribute-spacing-vertical`, `letter-spacing`, `spacing-horizontal`, `spacing-vertical`
+- `spade`: `spade`
+- `spark`: `boom`
+- `sparkles`: `bling`, `sparkles`, `sparkles-2`, `sparkles-3`
+- `spatula`: `spatula`
+- `speaker`: `speaker`, `homepod`, `homepod-mini`
+- `speakers`: `boom-box`
+- `specs`: `gpu`, `memory-stick`
+- `speech`: `presentation-1`, `presentation-2`, `presentation-3`, `speech`
+- `speech bubble`: `message-circle-check`, `message-circle-code`, `message-circle-dashed`, `message-circle-heart`, `message-circle-off`, `message-circle-plus`, `message-circle-question-mark`, `message-circle-reply`, `message-circle-warning`, `message-circle-x`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`
+- `speech bubbles`: `messages-square`
+- `speed`: `arrow-big-up-dash`, `dashboard-2`, `dashboard`, `dashboard-3`, `dashboard-4`
+- `spell`: `keyboard-off`
+- `spending`: `banknote-arrow-down`
+- `sphere`: `cube-3d`
+- `spin`: `disc-album`, `circle-dot`
+- `spinner`: `progress-arc`
+- `spirit`: `ghost`
+- `spit`: `light-snow`
+- `spline`: `chart-spline`
+- `split`: `columns-4`, `copy-slash`, `circle-slash-2`
+- `spoon`: `fork-spoon`, `spoon`
+- `sport`: `shoe`, `badminton`, `baseball`, `basketball`, `football`, `skateboard`, `surfboard`, `volleyball`, `baseball-2`, `whistle`, `kayak`
+- `sports`: `stopwatch`, `stopwatch-2`, `stopwatch-2-off`, `chess`, `fishing-hook`, `fishing-rod`, `kayak`, `run-2`
+- `spot`: `tower`, `temple-of-heaven`, `palace`, `tv-tower`, `canton-tower`
+- `spotify`: `spotify`
+- `spotlight`: `cone`
+- `spray`: `parfum`, `watering-can`, `fire-extinguisher`
+- `spreadsheet`: `between-horizontal-end`, `between-horizontal-start`, `table`, `file-spreadsheet`
+- `spreedsheet`: `table-2`, `table-3`
+- `sprint`: `run`
+- `spy`: `incognito-mode`
+- `square`: `bot-message-square`, `message-square-check`, `message-square-code`, `message-square-dashed`, `message-square-diff`, `message-square-dot`, `message-square-heart`, `message-square-lock`, `message-square-more`, `message-square-off`, `message-square-plus`, `message-square-quote`, `message-square-reply`, `message-square-share`, `message-square-text`, `message-square-warning`, `message-square-x`, `messages-square`, `brackets`, `square`, `diamond-square`, `polygon`, `process`, `cube`, `add-square`, `focus-square`, `key-square`
+- `square meter`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`
+- `square metres`: `land-plot`
+- `squats`: `squats`
+- `squeeze`: `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`
+- `squeezy`: `lemon-squeezy`
+- `squiggle`: `line-squiggle`
+- `ssd`: `hard-drive-download`, `hard-drive-upload`
+- `stack`: `circle-pile`, `layers-2`, `layers-minus`, `layers-plus`
+- `stacked`: `chart-bar-stacked`, `chart-column-stacked`
+- `stair climber`: `stair-stepper`
+- `stair stepper`: `stair-stepper`
+- `stalemate`: `chess-king`, `chess-queen`
+- `stamp`: `mail-badge`, `sticker`
+- `stand`: `lectern`
+- `star`: `bling`, `ai`, `file-star`, `folder-star`, `star-2`, `star-topper`, `star`, `star-half`, `circle-star`, `user-star`, `sparkles`, `sparkles-2`, `sparkles-3`
+- `stars`: `moon-stars`
+- `start`: `ease-in`, `align-horizontal-distribute-start`, `align-horizontal-justify-start`, `align-start-horizontal`, `align-start-vertical`, `align-vertical-distribute-start`, `align-vertical-justify-start`, `between-horizontal-start`, `between-vertical-start`, `layout-panel-left`, `list-start`, `text-align-start`, `play-circle`, `play`
+- `static stretching`: `warm-up-3`
+- `station`: `git-commit-horizontal`, `base-station`, `base-station-2`, `bell-electric`, `fire-extinguisher`, `line-dot-right-horizontal`, `gas-station`
+- `stationery`: `pencil-ruler`, `book-heart`
+- `statistics`: `chart-bar`, `chart-line`, `chart-pie`, `chart-bar-2`, `chart-decrease`, `chart-horizontal`, `chart-pie-2`, `chart-vertical`, `chart-horizontal-2`, `chart-pie-3`, `chart-vertical-2`, `chart-area`, `chart-bar-big`, `chart-bar-decreasing`, `chart-bar-increasing`, `chart-bar-stacked`, `chart-candlestick`, `chart-column-big`, `chart-column-decreasing`, `chart-column-increasing`, `chart-column-stacked`, `chart-network`, `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-scatter`, `chart-spline`, `file-chart-column`, `file-chart-column-increasing`, `file-chart-line`, `file-chart-pie`
+- `statue`: `statue-of-liberty`
+- `status`: `badge-cent`, `badge-cny`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `globe-check`, `badge-octagram`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`
+- `status indicator`: `check-circle-dash`
+- `steak`: `beef`, `beef-off`
+- `steam`: `steam`
+- `steering`: `steering-wheel`, `rudder`
+- `step`: `arrow-down-to-dot`, `arrow-up-from-dot`, `dot`, `walk`
+- `stepper machine`: `stair-stepper`
+- `stethoscope`: `stethoscope`
+- `stick`: `memory-stick`, `chopsticks`
+- `sticker`: `paster`, `sticker`, `circle-percent`, `diamond-percent`
+- `sticks`: `brick-wall-fire`
+- `stock`: `stock`, `circle-pile`
+- `stocks`: `chart-candlestick`
+- `stone`: `brick-wall-fire`, `brick-wall-shield`
+- `stop`: `hand`, `git-commit-horizontal`, `copy-slash`, `pause-circle`, `pause`, `stop-circle`, `stop`, `circle-off`, `forbid-circle`, `ban`, `line-dot-right-horizontal`
+- `stopwatch`: `stopwatch`, `stopwatch-2`, `stopwatch-2-off`
+- `storage`: `drive`, `dropbox`, `server`, `server-2`, `storage`, `card-sim`, `database-backup`, `database-search`, `database-zap`, `archive-restore`, `archive-x`, `container`, `cuboid`, `forklift`, `cloud-alert`, `cloud-backup`, `cloud-check`, `cloud-cog`, `cloud-moon-rain`, `cloud-off`, `cloud-sun-rain`, `cloud-sync`
+- `store`: `store`, `store-2`, `shop`, `shopping-bag-3`, `shopping-bag-1`, `shopping-bag-2`, `shopping-cart-1`, `shopping-cart-2`, `basket`, `basket-2`
+- `stories`: `library`, `circle-fading-plus`
+- `storm`: `typhoon`, `tornado-2`, `tornado`, `heavy-rainstorm`, `heavy-snowstorm`, `rainstorm`
+- `stormy`: `wind`
+- `story`: `book-alert`, `book-audio`, `book-headphones`, `book-open-text`, `book-text`, `book-type`
+- `stove`: `heater`
+- `straight`: `line`
+- `stream`: `cast`
+- `streamers`: `twitch`
+- `streaming`: `spotify`, `cast`
+- `street skating`: `skateboarding`
+- `strength`: `hand-fist`, `brick-wall-shield`, `signal`
+- `strength training`: `squats`, `weightlifting`
+- `stretching`: `cooldown`, `flexibility`, `warm-up`
+- `strikethrough`: `strikethrough`
+- `stripe`: `stripe`
+- `stroke`: `line-squiggle`, `mars-stroke`
+- `strokes`: `markup`
+- `stroller`: `baby-carriage`
+- `strong`: `brick-wall-shield`
+- `strongbox`: `safe-box`
+- `stronghold`: `castle`
+- `structure`: `layout-panel-top`, `circle-pile`
+- `student`: `book-alert`, `book-audio`, `book-copy`, `book-headphones`, `book-open-text`, `book-text`, `book-type`
+- `studied`: `book-check`, `book-open-check`
+- `study`: `book-alert`, `book-audio`, `book-copy`, `book-headphones`, `book-open-text`, `book-plus`, `book-search`, `book-text`, `book-type`, `library`
+- `styles`: `eclipse`
+- `subhead`: `captions`, `captions-off`
+- `subscribe`: `follow`, `calendar-check-2`, `calendar-heart`, `calendar-plus-2`, `calendar-sync`, `mail-check`, `rss`, `rss-2`
+- `subscription platform`: `substack`
+- `substack`: `substack`
+- `subtitle`: `subtitle`
+- `subtitles`: `captions`, `captions-off`
+- `subtract`: `subtract`, `counter-2`, `list-minus`, `list-x`, `counter`, `copy-minus`, `diamond-minus`
+- `subtraction`: `minus-circle`, `minus-square`
+- `suburban`: `fence`
+- `subway`: `train`, `train-2`, `train-3`, `train-4`
+- `success`: `trophy`, `mail-check`, `laptop-minimal-check`, `file-check`, `folder-check`, `globe-check`, `check-circle`, `check`, `check-2`, `checks`, `progress-100`, `user-follow`, `user-follow-2`, `cloud-check`
+- `suffering`: `sick`
+- `sugar`: `candy`, `candy-2`, `sugar-coated-haws`
+- `sugar free`: `candy-off`
+- `suit`: `coat`
+- `suitcase`: `suitcase-2`, `suitcase`, `baggage-claim`, `briefcase-conveyor-belt`
+- `sum`: `formula`
+- `summit`: `mountain`, `mountain-2`
+- `sun`: `brightness`, `sun`, `sun-cloudy`, `sun-fog`, `sun-2`, `cloud-sun-rain`, `eclipse`
+- `sunflower`: `sunflower`
+- `sunny`: `sun`, `sun-cloudy`, `sun-2`
+- `sunrise`: `sunrise`
+- `sunset`: `sunset`
+- `supermarket`: `shopping-cart-1`, `shopping-cart-2`
+- `supine`: `lie-down`
+- `supper`: `utensils`
+- `supply`: `cable`
+- `supply chain`: `container`
+- `support`: `hand-fist`, `lifebuoy`, `heart-plus`, `information`, `question`, `question-2`
+- `suppress`: `fire-extinguisher`
+- `surface`: `land-plot`
+- `surface area`: `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`
+- `surfboard`: `surfboard`
+- `surprise`: `omg`, `surprise`, `cake-slice`
+- `surveillance`: `cctv-off`
+- `swap`: `repeat`, `transformation`
+- `sweats`: `sweats`
+- `sweep`: `broom`
+- `sweet`: `lollipop`, `candy`, `candy-2`, `cake-slice`, `candy-off`
+- `swimming`: `swimming-pool`, `swimming`
+- `swipe`: `finger-swipe`, `gallery-horizontal`, `gallery-horizontal-end`, `gallery-vertical`, `gallery-vertical-end`, `hand-card`
+- `switch`: `chevrons-left-right-ellipsis`, `nintendo-switch`, `game-1`, `game-2`, `ethernet-port`, `power`, `switch`, `toggle-left-2`, `toggle-left`, `toggle-right-2`, `toggle-right`, `circle-power`, `eclipse`
+- `sword`: `sword`
+- `Sydney`: `sydney-opera-house`
+- `symbol`: `at`, `hashtag`, `fish-symbol`
+- `symbolic`: `file-symlink`, `folder-symlink`
+- `symlink`: `file-symlink`, `folder-symlink`
+- `sync`: `calendar-sync`, `folder-sync`, `cloud-alert`, `cloud-backup`, `cloud-check`, `cloud-cog`, `cloud-moon-rain`, `cloud-off`, `cloud-sun-rain`, `cloud-sync`
+- `synchronise`: `folder-sync`, `cloud-backup`, `cloud-sync`
+- `synchronization`: `refresh-1`, `refresh-2`, `refresh-3`, `refresh-4`, `refresh-anticlockwise-1`, `refresh-4-ai`
+- `synchronize`: `folder-sync`, `cloud-backup`, `cloud-sync`
+- `synonym`: `book-type`
+- `synthesiser`: `audio-waveform`
+- `synthesizer`: `audio-waveform`
+- `syringe`: `injection`
+- `system`: `file-sliders`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`, `ban`, `circle-check-big`, `circle-dot`, `circle-dot-dashed`, `circle-fading-plus`, `circle-pile`, `circle-power`, `circle-star`, `diamond-minus`, `diamond-percent`, `diamond-plus`, `door-closed-locked`, `eye-off`, `focus`, `focus-group`, `focus-square`, `key-square`, `layers-2`, `layers-minus`, `layers-plus`, `line-dot-right-horizontal`, `list-filter-plus`, `lock-2`, `lock-open`, `settings-horizontal`, `settings-vertical`, `webhook-2`
+### T
+
+- `t`: `t-shirt-2`, `t-shirt`
+- `tab`: `list-indent-decrease`, `list-indent-increase`
+- `table`: `border-blank`, `border-bottom`, `border-horizontal`, `border-inner`, `border-left`, `border-right`, `border-outer`, `border-top`, `border-vertical`, `layout-grid`, `table-2`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`, `grid-3x3`, `table`, `table-3`, `columns-3-cog`, `desk`, `file-spreadsheet`, `bedside-table`, `bedside-table-2`, `pingpong`
+- `table service`: `hand-platter`
+- `tablet`: `device`, `pad`
+- `tabletop`: `dice-1`, `dice-2`, `dice-3`, `dice-4`, `dice-6`, `dices`
+- `tableware`: `utensils`
+- `tackle`: `fishing-hook`
+- `tag`: `tag`, `tag-chevron`, `palette-3`, `tag-2`, `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `palette-2`, `bookmark`, `bookmarks`, `bookmark-add`, `bookmark-remove`, `bookmark-edit`, `bookmark-check`, `bookmark-x`
+- `taichi`: `yinyang`
+- `Taipei`: `taipei101`
+- `taj`: `taj-mahal`
+- `talk`: `kakao-talk`, `dingtalk`
+- `talks`: `discord`
+- `tank`: `fire-extinguisher`, `tank`
+- `tap`: `finger-tap`
+- `tape`: `audio-tape`
+- `target`: `flag-1`, `flag-2`, `flag-3`, `target`, `flag-4`, `aiming`, `aiming-2`, `diamond-plus`
+- `task`: `calendar-check-2`, `check-line`, `mail-check`, `alarm-clock-check`, `laptop-minimal-check`, `list-check-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `list-end`, `list-indent-decrease`, `list-indent-increase`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-todo`, `list-x`, `book-check`, `book-open-check`, `bookmark-check`, `clipboard`, `task-2`, `task`, `file-check-corner`, `map-pin-check`, `circle-check-big`, `list-filter-plus`
+- `task status`: `progress-100`, `progress-25`, `progress-50`, `progress-75`
+- `tasks`: `list-todo`, `logs`
+- `tation`: `hail`
+- `teach`: `black-board-2`, `black-board`, `speech`
+- `teacup`: `teacup`
+- `team`: `group`, `group-2`, `group-3`
+- `team sport`: `play-football`
+- `teardrop`: `drop`
+- `technology`: `gpu`, `memory-stick`, `helicopter`
+- `technology icon`: `head-ai`
+- `teddy`: `bear`
+- `teenager`: `book-heart`
+- `teens`: `book-heart`
+- `telegram`: `telegram`
+- `telescope`: `telescope`, `telescope-2`, `lens-concave`, `lens-convex`
+- `television`: `antenna`, `cable`
+- `temperature`: `celsius`, `fahrenheit`, `high-temperature`, `low-temperature`
+- `template`: `layout-panel-top`, `book-dashed`
+- `temple`: `temple-of-heaven`
+- `ten`: `clock-10`
+- `tennis`: `pingpong`
+- `tent`: `campground`, `tent`
+- `terminal`: `terminal`, `terminal-box`, `terminal-ai`, `terminal-box-ai`, `file-terminal`
+- `termination`: `ease-out`
+- `terms`: `hand-helping`, `handshake`
+- `terrestrial`: `antenna`
+- `territory`: `fence`
+- `terror`: `terror`
+- `test`: `flask-conical-off`
+- `tested`: `book-check`, `book-open-check`
+- `testing`: `bug-off`, `bug-play`
+- `tether`: `tether-usdt`
+- `text`: `message-square-text`, `align-right`, `align-center`, `align-left`, `font`, `font-size`, `heading-1`, `heading-2`, `heading-3`, `italic`, `strikethrough`, `text`, `underline`, `text-color`, `cursor-text`, `textbox`, `text-2`, `blockquote`, `text-area`, `text-direction-left`, `text-direction-right`, `textbox-ai`, `content-ai`, `a-arrow-down`, `a-arrow-up`, `a-large-small`, `ampersands`, `case-lower`, `case-upper`, `columns-3-cog`, `columns-4`, `edit-5`, `heading`, `heading-4`, `heading-5`, `heading-6`, `ligature`, `line-squiggle`, `list-check-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `list-collapse-2`, `list-end`, `list-indent-decrease`, `list-indent-increase`, `list-minus`, `list-plus`, `list-restart`, `list-start`, `list-todo`, `list-x`, `logs`, `text-align-center`, `text-align-end`, `text-align-justify`, `text-align-start`, `typography`, `book-open-text`, `book-text`, `clipboard-type`, `file-type`, `file-type-corner`
+- `text size`: `a-large-small`
+- `texture`: `background`, `background-base`
+- `Thailand`: `currency-baht-2`, `currency-baht`, `exchange-baht`
+- `theater`: `drama`
+- `theatre`: `drama`
+- `theme`: `progress-50`
+- `then`: `ampersands`
+- `therapeutic`: `book-heart`
+- `therapist`: `book-heart`
+- `therapy`: `book-heart`
+- `thermometer`: `thermometer`
+- `thesaurus`: `book-type`
+- `thirds`: `columns-4`
+- `this way up`: `arrows-up-from-line`
+- `thought`: `bulb`, `bulb-2`, `light`, `bulb-ai`, `bulb-2-ai`, `thought`, `bubble`, `mind-map`
+- `threads`: `threads`
+- `threat`: `brick-wall-shield`
+- `three`: `dice-3`, `hexagons`, `hexagons-2`, `clock-3`
+- `three quarter circle`: `three-quarters-circle-dash`
+- `three quarters circle dash`: `three-quarters-circle-dash`
+- `three quarters complete`: `progress-75`
+- `thumb-down`: `thumb-down`, `thumb-down-2`
+- `thumb-up`: `thumb-up`, `thumb-up-2`
+- `thumbnails`: `gallery-thumbnails`
+- `thunder`: `thunderstorm`
+- `thunderbolt`: `flash`, `flash-circle`, `lightning`
+- `thunderstorm`: `cloud-lightning`, `thunderstorm`
+- `tick`: `calendar-check-2`, `check-line`, `mail-check`, `alarm-clock-check`, `laptop-minimal-check`, `list-todo`, `file-check-corner`, `map-pin-check`, `check-circle`, `check`, `check-2`, `checks`, `circle-check-big`
+- `ticked`: `book-check`, `book-open-check`
+- `ticket`: `coupon`, `ticket`
+- `tickets`: `folder-kanban`
+- `tie`: `bow-tie`, `necktie`, `bowknot`
+- `tiktok`: `tiktok`
+- `tile`: `inspection-panel`
+- `time`: `calendar-time-add`, `alarm-1`, `alarm-2`, `to-do`, `clipboard-clock`, `hours`, `time`, `time-duration`, `timeline`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`, `clock-alert`, `clock-arrow-down`, `clock-arrow-up`, `clock-check`, `clock-minus`, `clock-plus`, `clock-x`
+- `time machine`: `gallery-horizontal-end`, `gallery-vertical-end`
+- `time picker`: `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`
+- `time tracking`: `clipboard-clock`
+- `time unavailable`: `clock-x`
+- `time warning`: `clock-alert`
+- `timeline`: `chart-gantt`, `chart-no-axes-gantt`, `flag-triangle-left`
+- `timemachine`: `database-backup`, `cloud-backup`
+- `timer`: `mail-clock`, `stopwatch`, `watch`, `watch-2`, `stopwatch-2`, `stopwatch-2-off`, `time`, `time-duration`
+- `times`: `copy-x`
+- `timesheets`: `clipboard-clock`
+- `tin`: `database-search`
+- `to`: `arrow-down-to-dot`, `bring-to-front`
+- `to-do`: `list-check-2`, `list-todo`
+- `todo`: `calendar-check-2`, `check-line`, `mail-check`, `message-circle-check`, `message-square-check`, `alarm-clock-check`, `laptop-minimal-check`, `list-todo`, `book-check`, `book-open-check`, `bookmark-check`, `clipboard`, `inventory`, `task-2`, `task`, `to-do`, `file-check-corner`, `circle-check-big`
+- `tofu`: `cuboid`
+- `toggle`: `list-chevrons-down-up`, `list-chevrons-up-down`, `switch`, `toggle-left-2`, `toggle-left`, `toggle-right-2`, `toggle-right`, `circle-power`, `eclipse`
+- `toilet`: `rest-area`, `toilet-paper`
+- `tome`: `book-alert`, `book-text`, `book-type`
+- `tongue`: `translate`, `translate-2`, `translate-2-ai`, `tongue`
+- `tool`: `flashlight-off`, `line-squiggle`, `fork`, `fork-knife`, `fork-spoon`, `spoon`, `spatula`, `axe`, `hammer`, `screwdriver`, `tool`
+- `toolbar`: `diamond-minus`, `diamond-plus`
+- `toolbox`: `drill`
+- `tooth`: `dental`
+- `top`: `arrow-up`, `up`, `align-arrow-up`, `arrow-to-up`, `arrow-up-circle`, `large-arrow-up`, `square-arrow-up`, `up-small`, `arrows-up`, `align-top`, `border-top`, `layout-top-close`, `layout-top-open`, `align-start-horizontal`, `align-vertical-distribute-start`, `align-vertical-justify-start`, `between-vertical-end`, `layout-panel-top`, `list-start`
+- `topbar`: `layout-top`
+- `topic`: `presentation-1`, `presentation-2`, `presentation-3`
+- `topology`: `chart-network`
+- `topper`: `star-topper`
+- `torch`: `flashlight`, `flashlight-off`
+- `torii`: `miyajima-torii`
+- `tornado`: `tornado-2`, `tornado`
+- `tough`: `brick-wall-shield`
+- `tow`: `caravan`
+- `tower`: `school`, `lighthouse`, `tower`, `tv-tower`, `canton-tower`, `bank-of-china-tower`, `kingkey-100-tower`, `big-ben`, `burj-khalifa-tower`, `eiffel-tower`, `pisa-tower`, `tower-crane`
+- `toxophily`: `toxophily`
+- `toy`: `crystal-ball`, `bear`, `toy-horse`
+- `track`: `list-plus`, `audio-waveform`
+- `trademark`: `registered`
+- `trader`: `chart-candlestick`
+- `trading`: `chart-candlestick`
+- `traffic`: `road`, `traffic-cone`, `traffic-lights`
+- `trail walking`: `hiking`
+- `trailer`: `caravan`
+- `train`: `tunnel`, `train`, `train-2`, `train-3`, `train-4`
+- `tramway`: `aerial-lift`
+- `transaction`: `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`, `banknote-arrow-down`, `banknote-arrow-up`, `banknote-x`
+- `transcribe`: `captions`, `captions-off`
+- `transcription`: `captions`, `captions-off`
+- `transducer`: `antenna`
+- `transfer`: `transfer-2`, `transfer-3`, `transfer-4`, `transfer`, `transfer-horizontal`, `transfer-vertical`, `card-pay`, `calendar-sync`, `folder-sync`, `cloud-backup`, `cloud-sync`
+- `transformation`: `repeat`, `transformation`
+- `transgender`: `mars-stroke`
+- `transition`: `ease-in-control-point`, `ease-in-out-control-point`, `ease-out-control-point`, `easy-in-out`
+- `translate`: `translate`, `translate-2`, `translate-2-ai`, `book-type`, `globe-check`, `globe-off`
+- `transmission`: `antenna`
+- `transmit`: `cast`
+- `transport`: `airdrop`, `forklift`, `helicopter`
+- `transportation`: `ambulance`, `caravan`, `forklift`, `helicopter`
+- `trapezoid`: `x-skew`, `y-skew`
+- `trash`: `recycle`
+- `travel`: `campground`, `tent`, `luggage`, `baggage-claim`, `briefcase-conveyor-belt`, `backpack`, `route`, `road`, `umbrella-2`, `map-minus`, `map-pin-search`, `map-plus`, `air-balloon`, `fishing-hook`
+- `tray`: `inbox`, `inbox-2`
+- `treadmill running`: `run-treadmill`
+- `treat`: `hospital`
+- `treatment`: `bandage`
+- `tree`: `folder-tree`, `star-topper`, `maple-leaf`, `tree`, `tree-2`, `tree-3`, `tree-4`
+- `trekking`: `hiking`
+- `trello`: `trello-board`
+- `trending down`: `chart-bar-decreasing`, `chart-column-decreasing`, `chart-no-axes-column-decreasing`
+- `trending up`: `chart-bar-increasing`, `chart-column-increasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `file-chart-column-increasing`
+- `triangle`: `flag-triangle-left`, `triangle`, `cone`, `polygon`, `emergency-flashers`
+- `triangular`: `cone`
+- `trigonometry`: `diameter`
+- `triple`: `columns-4`
+- `triumph`: `hand-fist`
+- `triumphal`: `triumphal-arch`
+- `trolley`: `baggage-claim`
+- `trooper`: `brick-wall-shield`
+- `trophy`: `trophy`, `circle-star`
+- `troubleshoot`: `circle-power`
+- `trouser`: `shorts`
+- `trousers`: `trouser`
+- `truck`: `truck`
+- `true`: `book-check`, `book-open-check`
+- `trunk`: `luggage`, `tree-2`, `tree-3`, `tree-4`, `trunk`
+- `truth`: `book-check`, `book-open-check`
+- `try`: `badge-turkish-lira`
+- `tub`: `shower`, `bath`
+- `tube`: `test-tube`, `cylinder`, `cylinder-2`
+- `tune`: `antenna`
+- `tunnel`: `tunnel`
+- `turn`: `forward-2`, `forward`, `arrow-big-left-dash`, `arrow-big-right-dash`
+- `tv`: `tv-1`, `tv-2`, `antenna`, `cable`, `live`, `hd`
+- `twelve`: `clock-12`
+- `twigs`: `brick-wall-fire`
+- `twins`: `gemini`
+- `twitch`: `twitch`
+- `twitter`: `twitter`, `social-x`
+- `two`: `hand-two-fingers`, `dice-2`, `clock-2`
+- `type`: `cursor-text`, `space`, `book-type`, `clipboard-type`, `file-type`, `file-type-corner`, `dot`
+- `typeface`: `bold`, `font`, `font-size`
+- `typhoon`: `typhoon`
+- `typing`: `message-square-more`, `keyboard`, `keyboard-2`
+- `typography`: `align-right`, `align-center`, `align-left`, `font`, `font-size`, `heading-1`, `heading-2`, `heading-3`, `italic`, `strikethrough`, `underline`, `case-lower`, `case-upper`, `columns-4`, `ligature`, `typography`, `book-type`, `file-type`, `file-type-corner`, `dot`
+- `tyre`: `tyre`, `wheel`
+### U
+
+- `ubuntu`: `ubuntu`
+- `UFO`: `ufo`, `ufo-2`
+- `ui`: `figma`, `layers`
+- `UI action`: `add-circle-dash`
+- `UI component`: `button`
+- `UI container`: `scrollable-list`
+- `UI control`: `dropdown`
+- `UI shape`: `circle-dash`
+- `ukulele`: `guitar`
+- `umbrella`: `umbrella-2`, `umbrella`
+- `unarchive`: `unarchive`, `archive-restore`
+- `unclip`: `bookmark-off`
+- `unconnected`: `unlink-2`, `unlink`
+- `undamaged`: `brick-wall-shield`
+- `undelivered`: `mail-question-mark`
+- `underground`: `tunnel`
+- `underline`: `underline`
+- `underpants`: `brief`, `shorts`
+- `uneducated`: `book-minus`, `book-x`
+- `unfavorite`: `bookmark-off`, `heart-minus`, `heart-x`
+- `unfold`: `chevrons-left-right`, `chevrons-up-down`, `unfold-horizontal`, `unfold-vertical`, `list-chevrons-down-up`, `list-chevrons-up-down`
+- `unhappy`: `unhappy`
+- `unhealthy`: `sick`
+- `uninstall`: `delete`, `delete-2`, `delete-3`
+- `union`: `handshake`, `union`
+- `unite`: `combine`, `merge`
+- `unity`: `hand-fist`
+- `universe`: `rocket`, `rocket-2`, `ufo`, `ufo-2`
+- `university`: `book-alert`, `book-copy`, `book-open-text`, `book-text`, `book-type`, `library`
+- `unkeys`: `keyboard-off`
+- `unknown`: `file-unknown`
+- `unlabel`: `bookmark-off`
+- `unlearn`: `book-minus`, `book-x`
+- `unlike`: `heart-minus`, `heart-off`, `heart-x`
+- `unlimited`: `infinity`
+- `unlink`: `unlink-2`, `unlink`
+- `unlock`: `unlock`, `gesture-unlock`, `key-square`
+- `unlocked`: `book-key`
+- `unmarked`: `bookmark-off`
+- `unpin`: `bookmark-off`
+- `unplugged`: `cable`
+- `unpublished`: `book-dashed`
+- `unqueue`: `list-minus`, `list-x`
+- `unread`: `mail-clock`, `message-square-dot`, `bookmark-off`
+- `unresolved`: `message-square-dot`
+- `unsaved`: `bookmark-off`
+- `untag`: `bookmark-off`
+- `untold`: `book-dashed`
+- `untruth`: `book-x`
+- `unverified`: `circle-percent`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`, `diamond-percent`
+- `unwritten`: `book-dashed`
+- `up`: `arrow-up`, `up`, `transfer-2`, `transfer-4`, `align-arrow-up`, `arrow-to-up`, `arrow-left-up-circle`, `arrow-left-up`, `arrow-right-up-circle`, `arrow-right-up`, `arrow-up-circle`, `large-arrow-up`, `square-arrow-up`, `up-small`, `arrows-up`, `trending-up`, `corner-up-left`, `corner-up-right`, `arrow-big-up-dash`, `arrow-up-from-dot`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`, `arrows-up-from-line`, `chevrons-down-up`, `chevrons-up-down`, `circle-arrow-out-up-left`, `circle-arrow-out-up-right`, `circle-chevron-up`, `circle-fading-arrow-up`, `corner-left-up`, `corner-right-up`, `banknote-arrow-up`, `calendar-arrow-up`, `escalator-up`, `lamp-wall-up`, `az-sort-descending-letters`, `za-sort-ascending-letters`, `numbers-09-sort-ascending`, `numbers-90-sort-ascending`, `a-arrow-up`, `list-chevrons-down-up`, `list-chevrons-up-down`, `book-up`, `book-up-2`, `look-up`, `image-up`, `fan-direction-up`
+- `upgrade`: `circle-fading-arrow-up`, `battery-plus`, `book-plus`, `diamond-plus`, `layers-plus`
+- `upload`: `hard-drive-upload`, `file-upload`, `upload-2`, `upload-3`, `upload`, `folder-upload`, `image-up`, `cloud-backup`, `cloud-sync`
+- `uppercase`: `case-upper`
+- `upscale`: `image-upscale`
+- `urban`: `bridge`, `bridge-2`
+- `urgent`: `ambulance`
+- `USB`: `usb`, `usb-flash-disk`
+- `usd`: `badge-cent`, `badge-dollar-sign`, `usd-coin-usdc`
+- `USDC`: `usd-coin-usdc`
+- `USDT`: `tether-usdt`
+- `user`: `book-user`, `file-user`, `user-1`, `user-2`, `user-3`, `user-4`, `user-5`, `user-add`, `user-follow`, `user-remove`, `user-add-2`, `user-edit`, `user-follow-2`, `user-forbid`, `user-heart`, `user-hide`, `user-info`, `user-lock`, `user-security`, `user-pin`, `user-question`, `user-remove-2`, `user-search`, `user-setting`, `user-star`, `user-visible`, `user-warning`, `user-x`, `circle-user`, `keying`, `mars-stroke`, `profile-2`, `venus-and-mars`
+- `users`: `group`, `group-2`, `group-3`
+- `utensils`: `utensils`
+- `utility`: `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`, `ban`, `circle-check-big`, `circle-dot`, `circle-dot-dashed`, `circle-fading-plus`, `circle-pile`, `circle-power`, `circle-star`, `diamond-minus`, `diamond-percent`, `diamond-plus`, `door-closed-locked`, `eye-off`, `focus`, `focus-group`, `focus-square`, `key-square`, `layers-2`, `layers-minus`, `layers-plus`, `line-dot-right-horizontal`, `list-filter-plus`, `lock-2`, `lock-open`, `settings-horizontal`, `settings-vertical`, `webhook-2`
+### V
+
+- `V sign`: `finger-victory`
+- `vacation`: `swimming-pool`
+- `vaccine`: `injection`
+- `valentine`: `love`, `message-circle-heart`, `message-square-heart`
+- `valentines day`: `calendar-heart`
+- `valid`: `globe-check`
+- `valuation`: `chart-candlestick`
+- `value`: `chart-candlestick`
+- `valve`: `steam`
+- `variant`: `version`
+- `vase`: `vase`
+- `vcs`: `git-branch-minus`, `git-branch-plus`
+- `vector`: `vector-bezier-2`, `vector-bezier-3`, `vector-bezier`, `vector-group`
+- `vegan`: `broccoli`, `egg-off`
+- `vegetable`: `carrot`, `broccoli`, `leafy-green`
+- `vegetarian`: `beef-off`, `broccoli`
+- `vegetation`: `broccoli`
+- `vehicle`: `car-2`, `car`, `car-3`, `ambulance`, `caravan`, `forklift`, `helicopter`
+- `vehicles`: `bus`, `bus-2`, `truck`
+- `Venus`: `venus-and-mars`
+- `venus`: `female`
+- `verification`: `brick-wall-shield`
+- `verified`: `mail-badge`, `book-check`, `book-open-check`, `circle-percent`, `globe-check`, `badge-alert`, `badge-info`, `badge-minus`, `badge-plus`, `badge-question-mark`, `badge-x`, `diamond-percent`
+- `version`: `git-branch`, `git-commit`, `git-compare`, `git-merge`, `git-pull-request-close`, `git-pull-request`, `git-branch-2`, `git-merge-2`, `version`
+- `version control`: `message-square-diff`, `git-branch-minus`, `git-branch-plus`, `git-commit-horizontal`, `git-compare-2`, `git-fork`, `git-graph`, `git-merge-conflict`, `git-pull-request-2`, `git-pull-request-create`, `git-pull-request-create-arrow`, `git-pull-request-draft`, `book-copy`, `book-dashed`, `book-down`, `book-key`, `book-lock`, `book-minus`, `book-plus`, `book-up`, `book-up-2`, `book-x`, `circle-dot`, `circle-dot-dashed`, `line-dot-right-horizontal`
+- `versions`: `gallery-horizontal-end`, `gallery-vertical-end`
+- `vertical`: `selector-vertical`, `transfer-vertical`, `arrows-up-from-line`, `chevrons-down-up`, `chevrons-up-down`, `chart-vertical`, `chart-vertical-2`, `flip-vertical`, `align-vertical-center`, `distribute-spacing-vertical`, `fold-vertical`, `unfold-vertical`, `align-center-vertical`, `align-end-vertical`, `align-start-vertical`, `align-vertical-distribute-center`, `align-vertical-distribute-end`, `align-vertical-distribute-start`, `align-vertical-justify-center`, `align-vertical-justify-end`, `align-vertical-justify-start`, `align-vertical-space-between`, `between-horizontal-end`, `between-horizontal-start`, `between-vertical-end`, `between-vertical-start`, `gallery-vertical`, `gallery-vertical-end`, `spacing-vertical`, `columns-4`, `list-chevrons-down-up`, `list-chevrons-up-down`, `rotate-to-vertical`, `rectangle-vertical`, `dots`, `settings-vertical`
+- `vertical jump`: `jump`
+- `vest`: `vest`
+- `vibe coding`: `vibe-coding`
+- `vibe-coding`: `vibe-coding`
+- `viber`: `viber-messenger`
+- `vibrate`: `audio-waveform`
+- `vibration`: `cellphone-vibration`
+- `victory`: `hand-fist`, `laurel-wreath`
+- `victory gesture`: `finger-victory`
+- `video`: `tiktok`, `youtube`, `bilibili`, `tv-1`, `tv-2`, `computer-camera`, `computer-camera-off`, `hdmi-port`, `file-play`, `file-video-camera`, `video`, `video-ai`, `hd`
+- `video card`: `gpu`
+- `videogame`: `xbox`
+- `videotape`: `cctv-off`
+- `view`: `eye-2`, `eye`, `eye-off`, `user-visible`
+- `vigilance`: `brick-wall-shield`
+- `vigilant`: `brick-wall-shield`
+- `vinyl`: `library`, `disc-album`, `circle-dot`
+- `vip`: `vip-1`, `vip-2`, `vip-3`, `vip-4`
+- `virgin`: `virgo`
+- `virtual`: `cardboard-vr`
+- `virus`: `face-mask`, `virus`
+- `visa`: `visa`, `passport`
+- `visibility`: `eye-off`
+- `visible`: `user-visible`
+- `vision`: `telescope`, `telescope-2`, `eye-off`
+- `vison`: `vison-pro`
+- `visual`: `hdmi-port`
+- `vitamizer`: `blender`
+- `vk`: `vkontakte`
+- `vkontakte`: `vkontakte`
+- `vocals`: `audio-waveform`
+- `voice`: `voice`, `voice-2`, `sound-line`, `audio-waveform`
+- `voicemail`: `record-mail`
+- `void`: `circle-off`, `circle-slash-2`, `ban`
+- `volleyball`: `volleyball`
+- `voltage`: `high-voltage-power`
+- `volume`: `file-signal`, `file-volume`, `volume`, `volume-mute`, `volume-off`, `announcement`, `volume-low`, `cuboid`
+- `voucher`: `badge-cent`, `badge-dollar-sign`, `badge-euro`, `badge-indian-rupee`, `badge-pound-sterling`, `badge-russian-ruble`, `badge-swiss-franc`, `badge-turkish-lira`
+- `vpn`: `earth-lock`, `globe-lock`
+- `VR`: `cardboard-vr`
+- `vr`: `vison-pro`
+- `vscode`: `vscode`
+- `vue`: `vue`
+### W
+
+- `wage`: `hand-coins`
+- `waist`: `body`
+- `wait`: `to-do`
+- `waiter`: `hand-platter`
+- `waitress`: `hand-platter`
+- `walk`: `walk`
+- `wall`: `greatwall`, `brick-wall-fire`, `brick-wall-shield`, `lamp-wall-down`, `lamp-wall-up`
+- `wallet`: `wallet-5`, `wallet`, `wallet-2`, `wallet-3`, `wallet-4`
+- `wallpaper`: `pic-2`, `pic`
+- `wand`: `magic-2`, `magic-3`
+- `war`: `brick-wall-shield`, `sword`
+- `wardrobe`: `wardrobe-2`, `wardrobe`
+- `warehouse`: `circle-pile`, `forklift`
+- `warm`: `glove`, `scarf`
+- `warm up`: `warm-up`, `warm-up-2`, `warm-up-3`
+- `warmth`: `brick-wall-fire`, `heater`
+- `warning`: `mail-warning`, `message-circle-warning`, `message-square-warning`, `alarm-smoke`, `battery-warning`, `book-alert`, `file-warning`, `folder-warning`, `traffic-cone`, `alert`, `warning`, `alert-octagon`, `safe-alert`, `alert-diamond`, `clock-alert`, `emergency-flashers`, `user-warning`, `cloud-alert`
+- `wash`: `wash-machine`
+- `washroom`: `rest-area`
+- `waste`: `biohazard`, `recycle`
+- `wastebasket`: `wastebasket`
+- `watch`: `eye-2`, `tv-1`, `tv-2`, `watch`, `watch-2`, `clipboard-clock`, `live`, `eye`, `time`, `time-duration`, `clock-1`, `clock-10`, `clock-11`, `clock-12`, `clock-2`, `clock-3`, `clock-4`, `clock-5`, `clock-6`, `clock-7`, `clock-8`, `clock-9`, `clock-alert`, `clock-arrow-down`, `clock-arrow-up`, `clock-check`, `clock-plus`, `eye-off`, `user-visible`
+- `watching`: `cctv-off`
+- `water`: `dam`, `drop`, `droplet-off`, `droplets`, `milk`, `pot`, `watering-can`, `fire-extinguisher`, `kayak`, `wave`
+- `wave`: `line-squiggle`, `voice`, `voice-2`, `sound-line`, `wave`
+- `wave hand`: `wave-hand`
+- `waveform`: `audio-waveform`
+- `wavelength`: `audio-waveform`
+- `Waving hand`: `wave-hand`
+- `waypoint`: `arrow-down-to-dot`, `git-commit-horizontal`, `map-pin-check`, `map-pin-house`, `map-pin-minus`, `map-pin-minus-inside`, `map-pin-off`, `map-pin-pen`, `map-pin-plus`, `map-pin-plus-inside`, `map-pin-search`, `map-pin-x`, `map-pin-x-inside`, `line-dot-right-horizontal`
+- `weapon`: `bomb`, `sword`
+- `weather`: `droplet-off`, `droplets`, `cloud`, `clouds`, `cloud-2`, `partly-cloud-daytime`, `partly-cloud-night`, `cloud-alert`, `cloud-backup`, `cloud-check`, `cloud-cog`, `cloud-moon-rain`, `cloud-off`, `cloud-sun-rain`, `cloud-sync`, `eclipse`, `moon-sleep`
+- `web`: `chevrons-left-right-ellipsis`, `chart-network`, `web`, `ethernet-port`, `globe-check`
+- `web portal`: `yahoo`
+- `webhook`: `webhook`, `webhook-2`
+- `webpage`: `layout-panel-top`, `web`
+- `website`: `reddit`, `codepen`, `web`
+- `WeChat`: `wechat`
+- `wechat`: `wechat-pay`, `wechat-miniprogram`
+- `weed`: `cannabis-off`
+- `week`: `calendar-week`
+- `weep`: `sob`
+- `weibo`: `weibo`
+- `weight`: `balance`, `anvil`
+- `weightlifting`: `weightlifting`
+- `welcome`: `hands-clapping`
+- `west`: `arrow-big-left-dash`, `look-left`
+- `wet`: `droplet-off`, `droplets`, `wet`
+- `whatsapp`: `whatsapp`
+- `wheel`: `ferris-wheel`, `four-wheel-drive`, `steering-wheel`, `tyre`, `wheel`
+- `wheelchair`: `disabled`, `disabled-2`, `wheelchair`
+- `whistle`: `whistle`
+- `whiteboard`: `whiteboard`
+- `wide`: `arrow-down-narrow-wide`, `arrow-down-wide-narrow`, `arrow-up-narrow-wide`, `arrow-up-wide-narrow`
+- `width`: `diameter`, `grid-2x2-check`, `grid-2x2-plus`, `grid-2x2-x`
+- `wifi`: `wifi`, `router-modem`, `home-wifi`
+- `wifi-off`: `wifi-off`
+- `wilderness`: `brick-wall-fire`, `caravan`
+- `win`: `trophy`, `award`, `medal`
+- `wind`: `fan-2`, `fan`, `pinwheel`, `pinwheel-2`, `cloud`, `wind`, `sandstorm`, `tornado-2`, `tornado`, `clouds`, `cloud-2`
+- `windmill`: `dutch-windmill`
+- `window`: `layout-panel-top`, `web`, `app-window`, `curtain`, `square`, `restore`, `car-window`
+- `windshield`: `front-windshield-defroster`, `rear-windshield-defroster`
+- `windy`: `cloud-windy`
+- `wine`: `champagne`, `wine`, `bottle-glass`, `grape`
+- `wineglass`: `wineglass-2`, `wineglass`, `bottle-glass`
+- `wings`: `butterfly`, `dragonfly`, `butterfly-2`
+- `winter`: `snow`, `snowman`, `snowflake`
+- `winter sports`: `snowboarding`
+- `wipe-out`: `eraser`, `eraser-ai`
+- `wiper`: `wiper`
+- `wire`: `cable`
+- `wireless`: `bluetooth`, `bluetooth-off`, `radar`, `wifi`, `wifi-off`, `radar-2`, `home-wifi`, `cast`, `signal`
+- `wish`: `gift-2`, `gift`, `cake-slice`
+- `wishes`: `blessing`
+- `withdraw`: `banknote-arrow-down`
+- `without`: `chart-no-axes-column-decreasing`, `chart-no-axes-column-increasing`, `chart-no-axes-combined`, `chart-no-axes-gantt`
+- `woman`: `hair`, `hair-2`, `shoe-2`, `female`
+- `won`: `currency-won-2`, `currency-won`
+- `wood`: `brick-wall-fire`
+- `woodwork`: `fence`
+- `word`: `file`, `doc`, `document`, `document-2`, `document-3`, `documents`, `file-ai`
+- `words`: `text`, `text-2`, `text-area`
+- `work`: `linkedin`, `briefcase-2`, `chart-no-axes-gantt`, `folder-kanban`
+- `workplace`: `building-1`, `building-2`, `building-3`, `building-4`, `building-5`, `building-6`
+- `worktile`: `trello-board`
+- `world`: `globe`, `earth`, `world-2`, `world`, `earth-2`, `earth-latitude`, `earth-longitude`, `earth-3`, `globe-2`, `earth-4`, `earth-lock`, `globe-check`, `globe-lock`, `globe-off`, `globe-x`
+- `wound`: `bandage`
+- `wreath`: `laurel-wreath`, `wreath`
+- `write`: `mail-pen`, `pen`, `quill-pen`, `quill-pen-ai`, `pen-ai`, `edit`, `pencil`, `text`, `pen-2`, `edit-2`, `edit-3`, `pencil-2`, `signature`, `text-2`, `edit-4`, `pencil-3`, `text-area`, `pencil-2-ai`, `edit-2-ai`, `edit-3-ai`, `pen-2-ai`, `pencil-3-ai`, `pencil-ai`, `signature-2`, `signature-2-ai`, `book-plus`, `user-edit`
+- `writer`: `book-alert`, `book-dashed`, `book-open-text`, `book-text`, `book-type`
+- `writers`: `substack`
+- `writing`: `mail-pen`, `message-square-more`, `book-alert`, `book-dashed`, `book-heart`, `book-open-text`, `book-text`, `book-type`
+- `written`: `book-alert`, `book-check`, `book-heart`, `book-open-check`, `book-open-text`, `book-text`, `book-type`, `library`
+- `wrong`: `circle-off`, `ban`, `clock-alert`
+### X
+
+- `X`: `social-x`, `rotate-x`
+- `x`: `banknote-x`, `calendar-x-2`, `funnel-x`, `mail-x`, `message-circle-x`, `message-square-x`, `x-skew`, `grid-2x2-x`, `list-x`, `book-x`, `bookmark-x`, `archive-x`, `clipboard-x`, `copy-x`, `file-x-corner`, `globe-x`, `map-pin-x`, `map-pin-x-inside`, `heart-x`, `close-circle`, `close`, `close-square`, `fault`, `badge-x`
+- `xAI`: `grok-2`
+- `xbox`: `xbox`, `game-1`, `game-2`
+- `xls`: `report-forms`
+- `xml`: `file-code-corner`
+- `XMR`: `monero`
+- `XRP`: `xrp`
+### Y
+
+- `Y`: `rotate-y`
+- `y`: `y-skew`
+- `yahoo`: `yahoo`
+- `yahoo mail`: `yahoo`
+- `year`: `calendar-1`, `calendar-arrow-down`, `calendar-arrow-up`, `calendar-check-2`, `calendar-cog`, `calendar-fold`, `calendar-heart`, `calendar-minus`, `calendar-minus-2`, `calendar-off`, `calendar-plus-2`, `calendar-range`, `calendar-search`, `calendar-sync`, `calendar-x-2`, `calendars`
+- `years`: `calendars`
+- `yinyang`: `yinyang`
+- `yoga`: `yoga`
+- `yoga pose`: `yoga`
+- `YouTube`: `youtube`
+- `youtuber`: `youtube`
+- `yuanbao`: `yuanbao`
+### Z
+
+- `zazen`: `zazen`
+- `Zen meditation`: `zazen`
+- `zero`: `binary`, `circle-off`, `circle-slash-2`, `circle-pile`
+- `zip`: `file-zip`, `folder-zip`
+- `zodiac`: `aries`, `taurus`, `gemini`, `cancer`, `leo`, `virgo`, `libra`, `scorpio`, `sagittarius`, `capricorn`, `aquarius`, `pisces`
+- `zoom`: `scale`, `zoom-in`, `zoom-out`
+- `zz`: `sleep`
+### #
+
+- `¢`: `badge-cent`
+- `£`: `badge-pound-sterling`
+- `°F`: `fahrenheit`
+- `÷`: `circle-divide`, `divide`
+- `Ø`: `circle-off`
+- `ø`: `circle-slash-2`
+- `Ω`: `omega`
+- `…`: `message-square-more`
+- `₣`: `badge-swiss-franc`
+- `€`: `badge-euro`
+- `₹`: `badge-indian-rupee`
+- `₺`: `badge-turkish-lira`
+- `₽`: `badge-russian-ruble`
+- `℃`: `celsius`
+- `√`: `check-circle`, `check`, `check-2`, `checks`
+- `≠`: `equal-not`
+
+## Catalogue
+
+Each icon keeps its English keywords and lists the component names for both styles.
+
+### arrow (100)
+
+- `arrow-down`: `ArrowDownRegular` / `ArrowDownFilled`. arrow, down, below, bottom
+- `arrow-left-down`: `ArrowLeftDownRegular` / `ArrowLeftDownFilled`. arrow, left, bottom
+- `arrow-left`: `ArrowLeftRegular` / `ArrowLeftFilled`. arrow, left, back, previous
+- `arrow-right`: `ArrowRightRegular` / `ArrowRightFilled`. arrow, right, next
+- `arrow-up`: `ArrowUpRegular` / `ArrowUpFilled`. arrow, up, top
+- `back`: `BackRegular` / `BackFilled`. arrow, back, return, revert
+- `down`: `DownRegular` / `DownFilled`. arrow, down, below, bottom
+- `left`: `LeftRegular` / `LeftFilled`. arrow, left, back, previous
+- `right`: `RightRegular` / `RightFilled`. arrow, right, next
+- `up`: `UpRegular` / `UpFilled`. arrow, up, top
+- `back-2`: `Back2Regular` / `Back2Filled`. arrow, back, return, revert
+- `forward-2`: `Forward2Regular` / `Forward2Filled`. forward, next, turn, arrow
+- `forward`: `ForwardRegular` / `ForwardFilled`. forward, next, turn, arrow
+- `fullscreen-2`: `Fullscreen2Regular` / `Fullscreen2Filled`. fullscreen, maximize, arrow
+- `fullscreen-exit-2`: `FullscreenExit2Regular` / `FullscreenExit2Filled`. fullscreen, minimize, arrow, exit
+- `move`: `MoveRegular` / `MoveFilled`. move, mouse, arrow
+- `transfer-2`: `Transfer2Regular` / `Transfer2Filled`. transfer, up, down, arrow
+- `transfer-3`: `Transfer3Regular` / `Transfer3Filled`. transfer, left, right, arrow
+- `transfer-4`: `Transfer4Regular` / `Transfer4Filled`. transfer, up, down, arrow
+- `transfer`: `TransferRegular` / `TransferFilled`. transfer, left, right, arrow
+- `align-arrow-down`: `AlignArrowDownRegular` / `AlignArrowDownFilled`. arrow, down, below, bottom
+- `align-arrow-left`: `AlignArrowLeftRegular` / `AlignArrowLeftFilled`. arrow, left, back, previous
+- `align-arrow-right`: `AlignArrowRightRegular` / `AlignArrowRightFilled`. arrow, right, next
+- `align-arrow-up`: `AlignArrowUpRegular` / `AlignArrowUpFilled`. arrow, up, top
+- `arrow-to-down`: `ArrowToDownRegular` / `ArrowToDownFilled`. arrow, down, below, bottom
+- `arrow-to-left`: `ArrowToLeftRegular` / `ArrowToLeftFilled`. arrow, left, back, previous
+- `arrow-to-right`: `ArrowToRightRegular` / `ArrowToRightFilled`. arrow, right, next
+- `arrow-to-up`: `ArrowToUpRegular` / `ArrowToUpFilled`. arrow, up, top
+- `arrow-down-circle`: `ArrowDownCircleRegular` / `ArrowDownCircleFilled`. arrow, down, below, bottom
+- `arrow-left-circle`: `ArrowLeftCircleRegular` / `ArrowLeftCircleFilled`. arrow, left, back, previous
+- `arrow-left-down-circle`: `ArrowLeftDownCircleRegular` / `ArrowLeftDownCircleFilled`. arrow, down, below, bottom
+- `arrow-left-up-circle`: `ArrowLeftUpCircleRegular` / `ArrowLeftUpCircleFilled`. arrow, left, up
+- `arrow-left-up`: `ArrowLeftUpRegular` / `ArrowLeftUpFilled`. arrow, left, up
+- `arrow-right-circle`: `ArrowRightCircleRegular` / `ArrowRightCircleFilled`. arrow, right, next
+- `arrow-right-down-circle`: `ArrowRightDownCircleRegular` / `ArrowRightDownCircleFilled`. arrow, right, down
+- `arrow-right-down`: `ArrowRightDownRegular` / `ArrowRightDownFilled`. arrow, right, down
+- `arrow-right-up-circle`: `ArrowRightUpCircleRegular` / `ArrowRightUpCircleFilled`. arrow, right, up
+- `arrow-right-up`: `ArrowRightUpRegular` / `ArrowRightUpFilled`. arrow, right, up
+- `arrow-up-circle`: `ArrowUpCircleRegular` / `ArrowUpCircleFilled`. arrow, up, top
+- `down-small`: `DownSmallRegular` / `DownSmallFilled`. arrow, down, below, bottom
+- `large-arrow-down`: `LargeArrowDownRegular` / `LargeArrowDownFilled`. arrow, down, below, bottom
+- `large-arrow-left`: `LargeArrowLeftRegular` / `LargeArrowLeftFilled`. arrow, left, back, previous
+- `large-arrow-right`: `LargeArrowRightRegular` / `LargeArrowRightFilled`. arrow, right, next
+- `large-arrow-up`: `LargeArrowUpRegular` / `LargeArrowUpFilled`. arrow, up, top
+- `left-small`: `LeftSmallRegular` / `LeftSmallFilled`. arrow, left, back, previous
+- `right-small`: `RightSmallRegular` / `RightSmallFilled`. arrow, right, next
+- `selector-horizontal`: `SelectorHorizontalRegular` / `SelectorHorizontalFilled`. arrow, selector, horizontal
+- `selector-vertical`: `SelectorVerticalRegular` / `SelectorVerticalFilled`. arrow, selector, vertical
+- `square-arrow-down`: `SquareArrowDownRegular` / `SquareArrowDownFilled`. arrow, down, below, bottom
+- `square-arrow-left`: `SquareArrowLeftRegular` / `SquareArrowLeftFilled`. arrow, left, back, previous
+- `square-arrow-right`: `SquareArrowRightRegular` / `SquareArrowRightFilled`. arrow, right, next
+- `square-arrow-up`: `SquareArrowUpRegular` / `SquareArrowUpFilled`. arrow, up, top
+- `up-small`: `UpSmallRegular` / `UpSmallFilled`. arrow, up, top
+- `arrows-down`: `ArrowsDownRegular` / `ArrowsDownFilled`. arrows, down, below, bottom
+- `arrows-left`: `ArrowsLeftRegular` / `ArrowsLeftFilled`. arrows, left, back, previous
+- `arrows-right`: `ArrowsRightRegular` / `ArrowsRightFilled`. arrows, right, next
+- `arrows-up`: `ArrowsUpRegular` / `ArrowsUpFilled`. arrows, up, top
+- `trending-up`: `TrendingUpRegular` / `TrendingUpFilled`. arrows, up, increase
+- `trending-down`: `TrendingDownRegular` / `TrendingDownFilled`. arrows, down, below, decrease
+- `direction-arrow`: `DirectionArrowRegular` / `DirectionArrowFilled`. direction, arrow, move
+- `transfer-horizontal`: `TransferHorizontalRegular` / `TransferHorizontalFilled`. transfer, horizontal, convert, arrow
+- `transfer-vertical`: `TransferVerticalRegular` / `TransferVerticalFilled`. transfer, vertical, convert, arrow
+- `corner-down-left`: `CornerDownLeftRegular` / `CornerDownLeftFilled`. arrow, corner, down, left, bottom
+- `corner-down-right`: `CornerDownRightRegular` / `CornerDownRightFilled`. arrow, corner, right, down
+- `corner-up-left`: `CornerUpLeftRegular` / `CornerUpLeftFilled`. arrow, corner, left, up
+- `corner-up-right`: `CornerUpRightRegular` / `CornerUpRightFilled`. arrow, corner, right, up
+- `arrow-big-down-dash`: `ArrowBigDownDashRegular` / `ArrowBigDownDashFilled`. arrow, large, down, dashed, direction, backwards, reverse, slow, south, download
+- `arrow-big-left-dash`: `ArrowBigLeftDashRegular` / `ArrowBigLeftDashFilled`. arrow, large, left, dashed, direction, previous, back, west, turn, corner
+- `arrow-big-right-dash`: `ArrowBigRightDashRegular` / `ArrowBigRightDashFilled`. arrow, large, right, dashed, direction, next, forward, east, turn, corner
+- `arrow-big-up-dash`: `ArrowBigUpDashRegular` / `ArrowBigUpDashFilled`. arrow, large, up, dashed, direction, caps lock, capitals, keyboard, button, mac, forward, north, faster, speed, boost
+- `arrow-down-narrow-wide`: `ArrowDownNarrowWideRegular` / `ArrowDownNarrowWideFilled`. arrow, down, narrow, wide, direction, filter, sort, ascending, descending, increasing, decreasing, rising, falling
+- `arrow-down-to-dot`: `ArrowDownToDotRegular` / `ArrowDownToDotFilled`. arrow, down, to, dot, direction, south, waypoint, location, step, into
+- `arrow-down-wide-narrow`: `ArrowDownWideNarrowRegular` / `ArrowDownWideNarrowFilled`. arrow, down, wide, narrow, direction, filter, sort, ascending, descending, increasing, decreasing, rising, falling
+- `arrow-up-from-dot`: `ArrowUpFromDotRegular` / `ArrowUpFromDotFilled`. arrow, up, from, dot, direction, north, step, out
+- `arrow-up-narrow-wide`: `ArrowUpNarrowWideRegular` / `ArrowUpNarrowWideFilled`. arrow, up, narrow, wide, direction, filter, sort, ascending, descending, increasing, decreasing, rising, falling
+- `arrow-up-wide-narrow`: `ArrowUpWideNarrowRegular` / `ArrowUpWideNarrowFilled`. arrow, up, wide, narrow, direction, filter, sort, ascending, descending, increasing, decreasing, rising, falling
+- `arrows-up-from-line`: `ArrowsUpFromLineRegular` / `ArrowsUpFromLineFilled`. arrows, up, from, line, arrow, direction, orientation, this way up, vertical, package, box, fragile, postage, shipping
+- `chevron-first`: `ChevronFirstRegular` / `ChevronFirstFilled`. chevron, first, arrow, direction, previous, music
+- `chevron-last`: `ChevronLastRegular` / `ChevronLastFilled`. chevron, last, arrow, direction, skip, next, music
+- `chevrons-down-up`: `ChevronsDownUpRegular` / `ChevronsDownUpFilled`. chevrons, down, up, arrow, direction, collapse, fold, vertical
+- `chevrons-left-right`: `ChevronsLeftRightRegular` / `ChevronsLeftRightFilled`. chevrons, left, right, arrow, direction, expand, horizontal, unfold
+- `chevrons-left-right-ellipsis`: `ChevronsLeftRightEllipsisRegular` / `ChevronsLeftRightEllipsisFilled`. chevrons, left, right, ellipsis, internet, network, connection, cable, lan, port, router, switch, hub, modem, web, online, networking, communication, socket, plug, slot, controller, connector, interface, console, signal, data, input, output
+- `chevrons-right-left`: `ChevronsRightLeftRegular` / `ChevronsRightLeftFilled`. chevrons, right, left, arrow, direction, collapse, fold, horizontal
+- `chevrons-up-down`: `ChevronsUpDownRegular` / `ChevronsUpDownFilled`. chevrons, up, down, arrow, direction, expand, unfold, vertical
+- `circle-arrow-out-down-left`: `CircleArrowOutDownLeftRegular` / `CircleArrowOutDownLeftFilled`. circle, arrow, outward, down, left, direction, outwards, south-west, diagonal
+- `circle-arrow-out-down-right`: `CircleArrowOutDownRightRegular` / `CircleArrowOutDownRightFilled`. circle, arrow, outward, down, right, direction, outwards, south-east, diagonal
+- `circle-arrow-out-up-left`: `CircleArrowOutUpLeftRegular` / `CircleArrowOutUpLeftFilled`. circle, arrow, outward, up, left, direction, outwards, north-west, diagonal, keyboard, button, escape
+- `circle-arrow-out-up-right`: `CircleArrowOutUpRightRegular` / `CircleArrowOutUpRightFilled`. circle, arrow, outward, up, right, direction, outwards, north-east, diagonal
+- `circle-chevron-down`: `CircleChevronDownRegular` / `CircleChevronDownFilled`. circle, chevron, down, arrow, direction, back, menu
+- `circle-chevron-left`: `CircleChevronLeftRegular` / `CircleChevronLeftFilled`. circle, chevron, left, arrow, direction, back, previous, less than, fewer, menu, <
+- `circle-chevron-right`: `CircleChevronRightRegular` / `CircleChevronRightFilled`. circle, chevron, right, arrow, direction, back, more than, greater, menu, >
+- `circle-chevron-up`: `CircleChevronUpRegular` / `CircleChevronUpFilled`. circle, chevron, up, arrow, direction, caret, ahead, menu, ^
+- `circle-fading-arrow-up`: `CircleFadingArrowUpRegular` / `CircleFadingArrowUpFilled`. circle, fading, arrow, up, north, upgrade, improve, button
+- `corner-left-down`: `CornerLeftDownRegular` / `CornerLeftDownFilled`. corner, left, down, arrow, direction
+- `corner-left-up`: `CornerLeftUpRegular` / `CornerLeftUpFilled`. corner, left, up, arrow, direction
+- `corner-right-down`: `CornerRightDownRegular` / `CornerRightDownFilled`. corner, right, down, arrow, direction
+- `corner-right-up`: `CornerRightUpRegular` / `CornerRightUpFilled`. corner, right, up, arrow, direction
+- `diagonal`: `DiagonalRegular` / `DiagonalFilled`. diagonal, arrow, direction
+- `iteration-ccw`: `IterationCcwRegular` / `IterationCcwFilled`. iteration, rotate, counterclockwise, arrow, right
+- `iteration-cw`: `IterationCwRegular` / `IterationCwFilled`. iteration, rotate, clockwise, arrow, left
+
+### body (66)
+
+- `beard`: `BeardRegular` / `BeardFilled`. beard, mustache, face
+- `body`: `BodyRegular` / `BodyFilled`. body, waist
+- `ear`: `EarRegular` / `EarFilled`. ear, hearing
+- `eye-2`: `Eye2Regular` / `Eye2Filled`. eye, watch, view
+- `eyebrow`: `EyebrowRegular` / `EyebrowFilled`. eyebrow, eye
+- `face`: `FaceRegular` / `FaceFilled`. face, head
+- `hair`: `HairRegular` / `HairFilled`. hair, woman
+- `hair-2`: `Hair2Regular` / `Hair2Filled`. hair, woman
+- `mouth`: `MouthRegular` / `MouthFilled`. mouth, lip
+- `nose`: `NoseRegular` / `NoseFilled`. nose
+- `bow-tie`: `BowTieRegular` / `BowTieFilled`. bow, bowknot, tie, accessories
+- `brief`: `BriefRegular` / `BriefFilled`. briefs, past, underpants, diapers
+- `coat`: `CoatRegular` / `CoatFilled`. coat, jacket, overcoat, suit
+- `dental`: `DentalRegular` / `DentalFilled`. dental, tooth, mouth
+- `finger-press`: `FingerPressRegular` / `FingerPressFilled`. finger, press, hand, gesture
+- `finger-rock`: `FingerRockRegular` / `FingerRockFilled`. finger, rock, hand, love, gesture
+- `finger-swipe`: `FingerSwipeRegular` / `FingerSwipeFilled`. finger, swipe, move, gesture
+- `finger-tap`: `FingerTapRegular` / `FingerTapFilled`. finger, tap, click, gesture
+- `glove`: `GloveRegular` / `GloveFilled`. glove, warm, christmas
+- `hand`: `HandRegular` / `HandFilled`. hand, palm, gesture, stop
+- `hand-finger-2`: `HandFinger2Regular` / `HandFinger2Filled`. hand, finger, forefinger
+- `hand-finger`: `HandFingerRegular` / `HandFingerFilled`. hand, finger, forefinger
+- `hand-grab`: `HandGrabRegular` / `HandGrabFilled`. hand, grab, hold, fist
+- `hand-two-fingers`: `HandTwoFingersRegular` / `HandTwoFingersFilled`. hand, finger, two
+- `hat-2`: `Hat2Regular` / `Hat2Filled`. cap, hat, headgear
+- `hat`: `HatRegular` / `HatFilled`. cap, hat, headgear
+- `middle-finger`: `MiddleFingerRegular` / `MiddleFingerFilled`. hand, finger, middle
+- `necktie`: `NecktieRegular` / `NecktieFilled`. necktie, business, tie
+- `scarf`: `ScarfRegular` / `ScarfFilled`. scarf, warm, accessories
+- `shirt`: `ShirtRegular` / `ShirtFilled`. shirt, clothes, blouse
+- `shoe-2`: `Shoe2Regular` / `Shoe2Filled`. shoe, heels, woman
+- `shoe`: `ShoeRegular` / `ShoeFilled`. shoe, sport, man
+- `shorts`: `ShortsRegular` / `ShortsFilled`. shorts, trouser, underpants
+- `skirt`: `SkirtRegular` / `SkirtFilled`. skirt, dress, clothes
+- `sock`: `SockRegular` / `SockFilled`. history, past, recovery, christmas
+- `t-shirt-2`: `TShirt2Regular` / `TShirt2Filled`. t, shirt, skin, clothes
+- `trouser`: `TrouserRegular` / `TrouserFilled`. trousers, jeans, pants
+- `vest`: `VestRegular` / `VestFilled`. vest, sleeveless, clothes
+- `bowknot`: `BowknotRegular` / `BowknotFilled`. bow, bowknot, tie, accessories, christmas
+- `christmas-hat`: `ChristmasHatRegular` / `ChristmasHatFilled`. christmas, hat, nightcap, cap
+- `deer`: `DeerRegular` / `DeerFilled`. deer, antler, christmas
+- `father-christmas`: `FatherChristmasRegular` / `FatherChristmasFilled`. father, christmas
+- `head`: `HeadRegular` / `HeadFilled`. head, person, brain
+- `incognito-mode`: `IncognitoModeRegular` / `IncognitoModeFilled`. incognito, mode, spy
+- `skull`: `SkullRegular` / `SkullFilled`. skull, halloween, skeleton, horror
+- `baby`: `BabyRegular` / `BabyFilled`. baby, infant, child
+- `brain`: `BrainRegular` / `BrainFilled`. brain, mind, iq
+- `hands-clapping`: `HandsClappingRegular` / `HandsClappingFilled`. hands, clapping, welcome, good
+- `dress`: `DressRegular` / `DressFilled`. skirt, dress, clothes
+- `heartbeat-2`: `Heartbeat2Regular` / `Heartbeat2Filled`. heartbeat, pulse, lifeline, heartrate
+- `love`: `LoveRegular` / `LoveFilled`. heart, love, valentine, romantic
+- `pray`: `PrayRegular` / `PrayFilled`. pray, blessing, faith
+- `lungs`: `LungsRegular` / `LungsFilled`. lungs, respiratory, pulmonary
+- `finger-love`: `FingerLoveRegular` / `FingerLoveFilled`. finger love, Finger heart, korean love sign, hand gesture, love icon
+- `finger-victory`: `FingerVictoryRegular` / `FingerVictoryFilled`. finger victory, V sign, peace sign, victory gesture
+- `head-ai`: `HeadAIRegular` / `HeadAIFilled`. head ai, Head and AI, artificial intelligence, technology icon, machine learning
+- `wave-hand`: `WaveHandRegular` / `WaveHandFilled`. wave hand, Waving hand, hello gesture, goodbye icon, hand symbol
+- `chef-hat`: `ChefHatRegular` / `ChefHatFilled`. chef, hat, cooking, kitchen, food
+- `heart-hand`: `HeartHandRegular` / `HeartHandFilled`. heart, hand, handshake, care
+- `brain-circuit`: `BrainCircuitRegular` / `BrainCircuitFilled`. brain, circuit, body, mind, intellect, artificial intelligence, ai, deep learning, machine learning, computing
+- `brain-cog`: `BrainCogRegular` / `BrainCogFilled`. brain, settings, body, mind, intellect, artificial intelligence, ai, deep learning, machine learning, computing
+- `ear-off`: `EarOffRegular` / `EarOffFilled`. ear, off, body, hearing, hard of hearing, hearing loss, deafness, noise, silence, audio, accessibility
+- `eye-2-off`: `Eye2OffRegular` / `Eye2OffFilled`. eye, off, body
+- `hand-fist`: `HandFistRegular` / `HandFistFilled`. hand, fist, body, clench, strength, power, unity, solidarity, rebellion, victory, triumph, support, fight, combat, brawl
+- `hand-helping`: `HandHelpingRegular` / `HandHelpingFilled`. hand, helping, body, agreement, help, proposal, charity, begging, terms
+- `handshake`: `HandshakeRegular` / `HandshakeFilled`. handshake, body, agreement, partnership, deal, business, assistance, cooperation, friendship, union, terms
+
+### brands (102)
+
+- `airbnb`: `AirbnbRegular` / `AirbnbFilled`. airbnb, apartment, holiday
+- `alipay`: `AlipayRegular` / `AlipayFilled`. Alipay, payment, finance
+- `android`: `AndroidRegular` / `AndroidFilled`. android, OS, software, robot
+- `android-2`: `Android2Regular` / `Android2Filled`. android, OS, software, robot
+- `apple`: `AppleRegular` / `AppleFilled`. apple, OS, software
+- `appstore`: `AppstoreRegular` / `AppstoreFilled`. appstore, shop, application
+- `facebook`: `FacebookRegular` / `FacebookFilled`. facebook, social, app
+- `instagram`: `InstagramRegular` / `InstagramFilled`. instagram, photo, community
+- `linkedin`: `LinkedinRegular` / `LinkedinFilled`. linkedin, work, corporation
+- `medium`: `MediumRegular` / `MediumFilled`. medium, article, paper, media
+- `messenger`: `MessengerRegular` / `MessengerFilled`. messenger, communication, messages
+- `meta`: `MetaRegular` / `MetaFilled`. meta, facebook
+- `paypal`: `PaypalRegular` / `PaypalFilled`. PayPal, payment, finance
+- `pinterest`: `PinterestRegular` / `PinterestFilled`. pinterest, images
+- `snapchat`: `SnapchatRegular` / `SnapchatFilled`. snapchat, app, social
+- `telegram`: `TelegramRegular` / `TelegramFilled`. telegram, communication, app
+- `tiktok`: `TiktokRegular` / `TiktokFilled`. tiktok, video, app
+- `twitter`: `TwitterRegular` / `TwitterFilled`. twitter, communication, social, app, bird
+- `wechat`: `WechatRegular` / `WechatFilled`. WeChat, communication, social, messages
+- `whatsapp`: `WhatsappRegular` / `WhatsappFilled`. whatsapp, communication, social, messages
+- `youtube`: `YoutubeRegular` / `YoutubeFilled`. YouTube, video, youtuber, channel
+- `chrome`: `ChromeRegular` / `ChromeFilled`. chrome, browser, software
+- `dribbble`: `DribbbleRegular` / `DribbbleFilled`. dribbble, design
+- `github`: `GithubRegular` / `GithubFilled`. github, code, program, cat
+- `google`: `GoogleRegular` / `GoogleFilled`. google, alphabet
+- `google-play`: `GooglePlayRegular` / `GooglePlayFilled`. appstore, shop, application
+- `moment`: `MomentRegular` / `MomentFilled`. moment, aperture
+- `qq`: `QqRegular` / `QqFilled`. messenger, chat, messages, penguin
+- `weibo`: `WeiboRegular` / `WeiboFilled`. weibo, communication, social, app
+- `windows`: `WindowsRegular` / `WindowsFilled`. Microsot, OS, software
+- `discord`: `DiscordRegular` / `DiscordFilled`. discord, communication, social, talks
+- `git-lab`: `GitLabRegular` / `GitLabFilled`. git, lab, code, programming, fox
+- `mingcute`: `MingcuteRegular` / `MingcuteFilled`. mingcute, icon, library
+- `react`: `ReactRegular` / `ReactFilled`. react, library
+- `reddit`: `RedditRegular` / `RedditFilled`. reddit, website
+- `spotify`: `SpotifyRegular` / `SpotifyFilled`. spotify, music, streaming
+- `vkontakte`: `VkontakteRegular` / `VkontakteFilled`. vkontakte, communication, social, app, vk
+- `vue`: `VueRegular` / `VueFilled`. vue, library
+- `kakao-talk`: `KakaoTalkRegular` / `KakaoTalkFilled`. kakao, talk, communication, social, messages
+- `line-app`: `LineAppRegular` / `LineAppFilled`. line, communication, social, messages
+- `carplay`: `CarplayRegular` / `CarplayFilled`. carplay, apple, control
+- `trello-board`: `TrelloBoardRegular` / `TrelloBoardFilled`. trello, presentation, card, worktile
+- `mastercard`: `MastercardRegular` / `MastercardFilled`. mastercard, payment, finance, card
+- `stripe`: `StripeRegular` / `StripeFilled`. stripe, payment, finance
+- `visa`: `VisaRegular` / `VisaFilled`. visa, payment, finance, card
+- `codepen`: `CodepenRegular` / `CodepenFilled`. codepen, codes, programing, website
+- `dingtalk`: `DingtalkRegular` / `DingtalkFilled`. dingding, talk, office
+- `firefox`: `FirefoxRegular` / `FirefoxFilled`. firefox, browser, internet
+- `mastodon`: `MastodonRegular` / `MastodonFilled`. mastodon, social, app
+- `figma`: `FigmaRegular` / `FigmaFilled`. figma, design, ui
+- `nintendo-switch`: `NintendoSwitchRegular` / `NintendoSwitchFilled`. nintendo, switch, game
+- `openai`: `OpenaiRegular` / `OpenaiFilled`. openai, chatgpt, ai
+- `xbox`: `XboxRegular` / `XboxFilled`. xbox, game, videogame
+- `airdrop`: `AirdropRegular` / `AirdropFilled`. airdrop, mac, transport
+- `edge`: `EdgeRegular` / `EdgeFilled`. edge, browser, internet
+- `linux`: `LinuxRegular` / `LinuxFilled`. linux, os, computer
+- `safari`: `SafariRegular` / `SafariFilled`. safari, browser, internet
+- `linear`: `LinearRegular` / `LinearFilled`. linear, app
+- `notion`: `NotionRegular` / `NotionFilled`. notion, note, app
+- `viber-messenger`: `ViberMessengerRegular` / `ViberMessengerFilled`. viber, messenger, app
+- `wechat-pay`: `WechatPayRegular` / `WechatPayFilled`. wechat, pay, payment, finance
+- `social-x`: `SocialXRegular` / `SocialXFilled`. twitter, communication, social, app, X
+- `drive`: `DriveRegular` / `DriveFilled`. drive, disk, google, netdisk, storage
+- `dropbox`: `DropboxRegular` / `DropboxFilled`. dropbox, disk, google, netdisk, storage
+- `wechat-miniprogram`: `WechatMiniprogramRegular` / `WechatMiniprogramFilled`. wechat, miniprogram, code, app
+- `github-2`: `Github2Regular` / `Github2Filled`. github, code, program, cat
+- `gumroad`: `GumroadRegular` / `GumroadFilled`. gumroad, digital, goods, marketplace
+- `lemon-squeezy`: `LemonSqueezyRegular` / `LemonSqueezyFilled`. lemon, squeezy, digital, goods, marketplace
+- `arc-browser`: `ArcBrowserRegular` / `ArcBrowserFilled`. arc, browser, software
+- `behance`: `BehanceRegular` / `BehanceFilled`. behance, design, be
+- `bluesky-social`: `BlueskySocialRegular` / `BlueskySocialFilled`. bluesky, communication, social, app, butterfly
+- `grok`: `GrokRegular` / `GrokFilled`. grok, chat, ai
+- `nfc`: `NfcRegular` / `NfcFilled`. nfc, payment, chip, contactless
+- `threads`: `ThreadsRegular` / `ThreadsFilled`. threads, photo, community
+- `layers`: `LayersRegular` / `LayersFilled`. layers, design, ui
+- `siri`: `SiriRegular` / `SiriFilled`. siri, apple, assistant, ai
+- `vscode`: `VscodeRegular` / `VscodeFilled`. vscode, microsoft, software, programmer
+- `bilibili`: `BilibiliRegular` / `BilibiliFilled`. bilibili, video, channel
+- `netease-music`: `NeteaseMusicRegular` / `NeteaseMusicFilled`. netease, music, song
+- `follow`: `FollowRegular` / `FollowFilled`. follow, reader, subscribe
+- `apple-intelligence`: `AppleIntelligenceRegular` / `AppleIntelligenceFilled`. intelligence, artificial, apple, assistant, ai
+- `apple-intelligence-frame`: `AppleIntelligenceFrameRegular` / `AppleIntelligenceFrameFilled`. intelligence, artificial, apple, assistant, ai
+- `siri-frame`: `SiriFrameRegular` / `SiriFrameFilled`. intelligence, artificial, siri, apple, assistant, ai
+- `copilot`: `CopilotRegular` / `CopilotFilled`. intelligence, artificial, copilot, microsoft, assistant, ai
+- `claude`: `ClaudeRegular` / `ClaudeFilled`. claude, Anthropic, claude 3, large language model, AI chatbot, LLM
+- `deepseek`: `DeepseekRegular` / `DeepseekFilled`. deepseek, deepseek coder, AI, coding model
+- `google-gemini`: `GoogleGeminiRegular` / `GoogleGeminiFilled`. google-gemini, Google AI, large language model, AI chatbot
+- `grok-2`: `Grok2Regular` / `Grok2Filled`. grok, xAI, grok ai, elon musk, chatbot, real-time AI
+- `ios`: `IOSRegular` / `IOSFilled`. iOS, iPhone, Apple, iOS 18, operating system, iPhone OS
+- `misskey`: `MisskeyRegular` / `MisskeyFilled`. misskey, fediverse, decentralized social media, open source
+- `mqtt`: `MqttRegular` / `MqttFilled`. mqtt, MQTT, IoT, message protocol, publish-subscribe
+- `perplexity`: `PerplexityRegular` / `PerplexityFilled`. perplexity, perplexity ai, AI search, answer engine, search engine
+- `roblox`: `RobloxRegular` / `RobloxFilled`. roblox, metaverse, gaming platform, sandbox game
+- `steam`: `SteamRegular` / `SteamFilled`. steam, valve, game store, PC gaming, game launcher
+- `substack`: `SubstackRegular` / `SubstackFilled`. substack, newsletter, subscription platform, writers
+- `twitch`: `TwitchRegular` / `TwitchFilled`. twitch, live streaming, gaming, streamers
+- `ubuntu`: `UbuntuRegular` / `UbuntuFilled`. ubuntu, Linux, operating system, open source, desktop OS
+- `yahoo`: `YahooRegular` / `YahooFilled`. yahoo, search engine, web portal, yahoo mail
+- `amazon-pay`: `AmazonPayRegular` / `AmazonPayFilled`. Amazon, payment, brand, logo
+- `american-express`: `AmericanExpressRegular` / `AmericanExpressFilled`. American, Express, brand, logo
+- `diners-club`: `DinersClubRegular` / `DinersClubFilled`. Diners, club, brand, logo
+- `jcb-japan-credit-bureau`: `JcbJapanCreditBureauRegular` / `JcbJapanCreditBureauFilled`. JCB, Japan, credit, bureau, brand, logo
+
+### buildings (68)
+
+- `bank`: `BankRegular` / `BankFilled`. bank, building, city, money, credit
+- `building-1`: `Building1Regular` / `Building1Filled`. building, office, city, hotel, workplace, architecture
+- `building-2`: `Building2Regular` / `Building2Filled`. building, office, city, workplace, skyscraper, corporation, apartments
+- `building-3`: `Building3Regular` / `Building3Filled`. building, office, city, hotel, workplace, skyscraper, corporation, apartments
+- `home-1`: `Home1Regular` / `Home1Filled`. home, house, dashboard
+- `home-2`: `Home2Regular` / `Home2Filled`. home, house, living, dashboard
+- `home-3`: `Home3Regular` / `Home3Filled`. home, house, living, dashboard
+- `home-4`: `Home4Regular` / `Home4Filled`. home, house, living, dashboard
+- `hospital`: `HospitalRegular` / `HospitalFilled`. building, hospital, doctor, sickness, treat
+- `school`: `SchoolRegular` / `SchoolFilled`. building, house, school, castle, tower
+- `bridge`: `BridgeRegular` / `BridgeFilled`. bridge, building, urban
+- `building-4`: `Building4Regular` / `Building4Filled`. building, office, city, hotel, workplace, skyscraper, corporation, apartments
+- `campground`: `CampgroundRegular` / `CampgroundFilled`. camping, tent, travel
+- `factory`: `FactoryRegular` / `FactoryFilled`. factory, industry, chimney
+- `greatwall`: `GreatwallRegular` / `GreatwallFilled`. greatwall, wall, castle
+- `lighthouse`: `LighthouseRegular` / `LighthouseFilled`. lighthouse, tower, beacon
+- `monument`: `MonumentRegular` / `MonumentFilled`. monument, history, memorial
+- `pavilion`: `PavilionRegular` / `PavilionFilled`. pavilion, palace
+- `store`: `StoreRegular` / `StoreFilled`. store, shop, market, retail
+- `tower`: `TowerRegular` / `TowerFilled`. tower, scenic, spot
+- `bridge-2`: `Bridge2Regular` / `Bridge2Filled`. bridge, building, urban
+- `home-5`: `Home5Regular` / `Home5Filled`. home, house, living, dashboard
+- `temple-of-heaven`: `TempleOfHeavenRegular` / `TempleOfHeavenFilled`. palace, temple, house, beijing, spot
+- `palace`: `PalaceRegular` / `PalaceFilled`. palace, castle, spot
+- `tv-tower`: `TVTowerRegular` / `TVTowerFilled`. tower, shanghai, spot
+- `canton-tower`: `CantonTowerRegular` / `CantonTowerFilled`. tower, guangzhou, spot
+- `bank-of-china-tower`: `BankOfChinaTowerRegular` / `BankOfChinaTowerFilled`. tower, hongkong, building
+- `kingkey-100-tower`: `Kingkey100TowerRegular` / `Kingkey100TowerFilled`. tower, shenzhen, building
+- `home-6`: `Home6Regular` / `Home6Filled`. home, house, living, dashboard
+- `store-2`: `Store2Regular` / `Store2Filled`. store, shop, market, retail
+- `big-ben`: `BigBenRegular` / `BigBenFilled`. big, ben, clock, tower, England, Longdon
+- `building-5`: `Building5Regular` / `Building5Filled`. building, office, city, hotel, workplace, architecture
+- `building-6`: `Building6Regular` / `Building6Filled`. building, office, city, workplace, skyscraper, corporation, apartments
+- `burj-al-arab`: `BurjAlArabRegular` / `BurjAlArabFilled`. burj, al, arab, Dubai, hotel
+- `burj-khalifa-tower`: `BurjKhalifaTowerRegular` / `BurjKhalifaTowerFilled`. burj, khalifa, tower, Dubai, building
+- `christ-the-redeemer`: `ChristTheRedeemerRegular` / `ChristTheRedeemerFilled`. christ, redeemer, Brazil, Rio de Janeiro
+- `dutch-windmill`: `DutchWindmillRegular` / `DutchWindmillFilled`. dutch, windmill, farm
+- `egyptian-pyramids`: `EgyptianPyramidsRegular` / `EgyptianPyramidsFilled`. egyptian, pyramids
+- `eiffel-tower`: `EiffelTowerRegular` / `EiffelTowerFilled`. eiffel, tower, France, Paris
+- `government`: `GovernmentRegular` / `GovernmentFilled`. government, building
+- `marina-bay-sand`: `MarinaBaySandRegular` / `MarinaBaySandFilled`. marina, bay, sand, Singapore, hotel
+- `maya-pyramids`: `MayaPyramidsRegular` / `MayaPyramidsFilled`. maya, pyramids
+- `miyajima-torii`: `MiyajimaToriiRegular` / `MiyajimaToriiFilled`. miyajima, torii, Japan
+- `moai`: `MoaiRegular` / `MoaiFilled`. Chile, Easter Island
+- `pisa-tower`: `PisaTowerRegular` / `PisaTowerFilled`. France, pisa, tower
+- `statue-of-liberty`: `StatueOfLibertyRegular` / `StatueOfLibertyFilled`. New York, statue, liberty, America
+- `sydney-opera-house`: `SydneyOperaHouseRegular` / `SydneyOperaHouseFilled`. Sydney, opera, house, Australia
+- `taipei101`: `Taipei101Regular` / `Taipei101Filled`. Taipei, 101, building
+- `taj-mahal`: `TajMahalRegular` / `TajMahalFilled`. India, taj, mahal, New Delhi
+- `triumphal-arch`: `TriumphalArchRegular` / `TriumphalArchFilled`. triumphal, arch, France, Paris
+- `tent`: `TentRegular` / `TentFilled`. camping, tent, travel
+- `church`: `ChurchRegular` / `ChurchFilled`. church, building, chapel
+- `ferris-wheel`: `FerrisWheelRegular` / `FerrisWheelFilled`. ferris, wheel, carnie
+- `factory-2`: `Factory2Regular` / `Factory2Filled`. factory, industry, chimney
+- `hotel`: `HotelRegular` / `HotelFilled`. building, office, hotel, architecture
+- `house`: `HouseRegular` / `HouseFilled`. home, house, dashboard
+- `shop`: `ShopRegular` / `ShopFilled`. store, shop, market, retail, house
+- `home-7`: `Home7Regular` / `Home7Filled`. home, house, living, dashboard
+- `house-2`: `House2Regular` / `House2Filled`. home, house, dashboard
+- `brick-wall-fire`: `BrickWallFireRegular` / `BrickWallFireFilled`. brick, wall, fire, building, firewall, security, bricks, mortar, cement, materials, construction, builder, labourer, quantity surveyor, blocks, stone, campfire, camping, wilderness, outdoors, lit, warmth, wood, twigs, sticks
+- `brick-wall-shield`: `BrickWallShieldRegular` / `BrickWallShieldFilled`. brick, wall, shield, building, firewall, security, bricks, mortar, cement, materials, construction, builder, labourer, quantity surveyor, blocks, stone, cybersecurity, secure, safety, protection, guardian, armored, armoured, defense, defence, defender, block, threat, prevention, antivirus, vigilance, vigilant, detection, scan, find, strength, strong, tough, invincible, invincibility, invulnerable, undamaged, audit, admin, verification, crest, bravery, knight, foot soldier, infantry, trooper, pawn, battle, war, military, army, cadet, scout
+- `bricks`: `BricksRegular` / `BricksFilled`. bricks, building
+- `castle`: `CastleRegular` / `CastleFilled`. castle, building, fortress, stronghold, palace, chateau
+- `construction`: `ConstructionRegular` / `ConstructionFilled`. construction, building, roadwork, maintenance, blockade, barricade
+- `dam`: `DamRegular` / `DamFilled`. dam, building, electricity, energy, water
+- `house-heart`: `HouseHeartRegular` / `HouseHeartFilled`. house, heart, building, home sweet home, abode, residence, healthy living, lifestyle
+- `house-plug`: `HousePlugRegular` / `HousePlugFilled`. house, plug, building, home, living, residence, architecture, autarky, energy
+- `house-plus`: `HousePlusRegular` / `HousePlusFilled`. house, plus, building, home, living, medical, new, addition, residence, architecture
+
+### business (189)
+
+- `auction`: `AuctionRegular` / `AuctionFilled`. auction, hammer, sale
+- `bank-card`: `BankCardRegular` / `BankCardFilled`. bank, card, credit, money, purchase
+- `briefcase`: `BriefcaseRegular` / `BriefcaseFilled`. briefcase, bag, documents, baggage
+- `calendar`: `CalendarRegular` / `CalendarFilled`. calendar, date, plan, schedule, day
+- `chart-bar`: `ChartBarRegular` / `ChartBarFilled`. chart, bar, data, analysis, statistics, diagram
+- `chart-line`: `ChartLineRegular` / `ChartLineFilled`. chart, line, data, analysis, statistics, diagram, increase
+- `chart-pie`: `ChartPieRegular` / `ChartPieFilled`. chart, pie, data, analysis, statistics, diagram
+- `coin-2`: `Coin2Regular` / `Coin2Filled`. coin, money, payment, finance, data
+- `coin`: `CoinRegular` / `CoinFilled`. coin, money, payment, finance, salary
+- `copper-coin`: `CopperCoinRegular` / `CopperCoinFilled`. copper, coin, money, payment, finance, salary
+- `coupon`: `CouponRegular` / `CouponFilled`. coupon, ticket, entry, cinema
+- `currency-cny`: `CurrencyCnyRegular` / `CurrencyCnyFilled`. currency, cny, money, pay, finance, salary, RMB
+- `currency-dollar`: `CurrencyDollarRegular` / `CurrencyDollarFilled`. currency, dollar, money, pay, finance, salary
+- `currency-euro`: `CurrencyEuroRegular` / `CurrencyEuroFilled`. currency, euro, money, pay, finance, salary
+- `currency-baht-2`: `CurrencyBaht2Regular` / `CurrencyBaht2Filled`. currency, baht, money, pay, Thailand
+- `currency-cny-2`: `CurrencyCny2Regular` / `CurrencyCny2Filled`. currency, cny, money, pay, finance, salary, RMB
+- `currency-dollar-2`: `CurrencyDollar2Regular` / `CurrencyDollar2Filled`. currency, dollar, money, pay, finance, salary
+- `currency-euro-2`: `CurrencyEuro2Regular` / `CurrencyEuro2Filled`. currency, euro, money, pay, finance, salary
+- `currency-lira-2`: `CurrencyLira2Regular` / `CurrencyLira2Filled`. currency, lira, money, pay
+- `currency-lira`: `CurrencyLiraRegular` / `CurrencyLiraFilled`. currency, lira, money, pay
+- `currency-pound-2`: `CurrencyPound2Regular` / `CurrencyPound2Filled`. currency, pound, money, pay, britain
+- `currency-pound`: `CurrencyPoundRegular` / `CurrencyPoundFilled`. currency, pound, money, pay, britain
+- `currency-ruble-2`: `CurrencyRuble2Regular` / `CurrencyRuble2Filled`. currency, ruble, money, pay, russian
+- `currency-ruble`: `CurrencyRubleRegular` / `CurrencyRubleFilled`. currency, ruble, money, pay, russian
+- `currency-rupee-2`: `CurrencyRupee2Regular` / `CurrencyRupee2Filled`. currency, rupee, money, pay, indian
+- `currency-rupee`: `CurrencyRupeeRegular` / `CurrencyRupeeFilled`. currency, rupee, money, pay, indian
+- `currency-shekel-2`: `CurrencyShekel2Regular` / `CurrencyShekel2Filled`. currency, shekel, money, pay, israel
+- `currency-shekel`: `CurrencyShekelRegular` / `CurrencyShekelFilled`. currency, shekel, money, pay, israel
+- `currency-won-2`: `CurrencyWon2Regular` / `CurrencyWon2Filled`. currency, won, money, pay, korea
+- `currency-won`: `CurrencyWonRegular` / `CurrencyWonFilled`. currency, won, money, pay, korea
+- `diamond-2`: `Diamond2Regular` / `Diamond2Filled`. diamond, jewelry, crystal, sketch
+- `gift-2`: `Gift2Regular` / `Gift2Filled`. gift, present, wish, christmas
+- `shopping-bag-3`: `ShoppingBag3Regular` / `ShoppingBag3Filled`. shopping, bag, shop, store
+- `wallet-5`: `Wallet5Regular` / `Wallet5Filled`. wallet, money, pay, cash, payment
+- `filter`: `FilterRegular` / `FilterFilled`. filter, funnel, hopper, filtration
+- `flag-1`: `Flag1Regular` / `Flag1Filled`. flag, destination, label, activity, goal, target
+- `flag-2`: `Flag2Regular` / `Flag2Filled`. flag, destination, label, activity, goal, target
+- `flag-3`: `Flag3Regular` / `Flag3Filled`. flag, destination, label, activity, goal, target
+- `presentation-1`: `Presentation1Regular` / `Presentation1Filled`. presentation, slideshow, display, speech, topic
+- `presentation-2`: `Presentation2Regular` / `Presentation2Filled`. presentation, slideshow, display, speech, topic
+- `presentation-3`: `Presentation3Regular` / `Presentation3Filled`. presentation, slideshow, display, speech, topic
+- `schedule`: `ScheduleRegular` / `ScheduleFilled`. calendar, date, plan, schedule, day
+- `shopping-bag-1`: `ShoppingBag1Regular` / `ShoppingBag1Filled`. shopping, bag, shop, store
+- `shopping-bag-2`: `ShoppingBag2Regular` / `ShoppingBag2Filled`. shopping, bag, shop, store
+- `shopping-cart-1`: `ShoppingCart1Regular` / `ShoppingCart1Filled`. shopping, cart, buy, purchase, store, supermarket
+- `shopping-cart-2`: `ShoppingCart2Regular` / `ShoppingCart2Filled`. shopping, cart, buy, purchase, store, supermarket
+- `stock`: `StockRegular` / `StockFilled`. stock, investment, finance
+- `wallet`: `WalletRegular` / `WalletFilled`. wallet, money, pay, cash, payment
+- `tag`: `TagRegular` / `TagFilled`. tag, label, sale
+- `trophy`: `TrophyRegular` / `TrophyFilled`. trophy, win, success, sale
+- `basket`: `BasketRegular` / `BasketFilled`. basket, store, shop
+- `copyright`: `CopyrightRegular` / `CopyrightFilled`. copyright, license
+- `exchange-cny`: `ExchangeCnyRegular` / `ExchangeCnyFilled`. exchange-cny, money, RMB
+- `exchange-dollar`: `ExchangeDollarRegular` / `ExchangeDollarFilled`. exchange-dollar, money
+- `exchange-euro`: `ExchangeEuroRegular` / `ExchangeEuroFilled`. exchange-euro, money
+- `gift`: `GiftRegular` / `GiftFilled`. gift, present, wish, christmas
+- `red-packet`: `RedPacketRegular` / `RedPacketFilled`. red-packet, envelope
+- `red-packet-open`: `RedPacketOpenRegular` / `RedPacketOpenFilled`. red-packet-open, envelope
+- `safe-box`: `SafeBoxRegular` / `SafeBoxFilled`. safe-box, strongbox
+- `wallet-2`: `Wallet2Regular` / `Wallet2Filled`. wallet, money, pay, cash, payment
+- `award`: `AwardRegular` / `AwardFilled`. award, reward, prize, win
+- `medal`: `MedalRegular` / `MedalFilled`. medal, champion, prize, win
+- `vip-1`: `VIP1Regular` / `VIP1Filled`. vip, guest
+- `vip-2`: `VIP2Regular` / `VIP2Filled`. vip, guest
+- `vip-3`: `VIP3Regular` / `VIP3Filled`. vip, guest
+- `vip-4`: `VIP4Regular` / `VIP4Filled`. vip, guest
+- `lantern`: `LanternRegular` / `LanternFilled`. lantern, festival, light
+- `luggage`: `LuggageRegular` / `LuggageFilled`. luggage, travel, trunk
+- `receive-money`: `ReceiveMoneyRegular` / `ReceiveMoneyFilled`. receive, pay, bill
+- `wallet-3`: `Wallet3Regular` / `Wallet3Filled`. wallet, money, pay, cash, payment
+- `currency-baht`: `CurrencyBahtRegular` / `CurrencyBahtFilled`. currency, baht, money, pay, Thailand
+- `exchange-baht`: `ExchangeBahtRegular` / `ExchangeBahtFilled`. exchange, baht, money, Thailand
+- `seal`: `SealRegular` / `SealFilled`. seal, auditing
+- `target`: `TargetRegular` / `TargetFilled`. target, focus, aim
+- `wallet-4`: `Wallet4Regular` / `Wallet4Filled`. wallet, money, pay, cash, payment
+- `candle`: `CandleRegular` / `CandleFilled`. candle, light, pray, christmas
+- `filter-3`: `Filter3Regular` / `Filter3Filled`. filter, funnel, hopper, filtration
+- `flag-4`: `Flag4Regular` / `Flag4Filled`. flag, destination, label, activity, goal, target
+- `sale`: `SaleRegular` / `SaleFilled`. sale, discount, reducution, shopping
+- `pig-money`: `PigMoneyRegular` / `PigMoneyFilled`. pig, money, coin, saving
+- `celebrate`: `CelebrateRegular` / `CelebrateFilled`. celebrate, party, confetti, christmas
+- `christmas-ball`: `ChristmasBallRegular` / `ChristmasBallFilled`. christmas, ball, ornament, round
+- `gift-card`: `GiftCardRegular` / `GiftCardFilled`. gift, card, christmas, coupon
+- `ladder`: `LadderRegular` / `LadderFilled`. ladder, climb, equipment
+- `sofa`: `SofaRegular` / `SofaFilled`. sofa, chair, seat, furniture
+- `chinese-knot`: `ChineseKnotRegular` / `ChineseKnotFilled`. chinese, knot, festival
+- `coin-3`: `Coin3Regular` / `Coin3Filled`. coin, money, payment, finance, data
+- `lantern-2`: `Lantern2Regular` / `Lantern2Filled`. lantern, festival, light
+- `pumpkin-lantern`: `PumpkinLanternRegular` / `PumpkinLanternFilled`. pumpkin, lantern, halloween
+- `yuanbao`: `YuanbaoRegular` / `YuanbaoFilled`. yuanbao, money, gold, salary
+- `registered`: `RegisteredRegular` / `RegisteredFilled`. registered, copyrigth, trademark, rights
+- `suitcase-2`: `Suitcase2Regular` / `Suitcase2Filled`. suitcase, briefcase, bag, documents, baggage
+- `suitcase`: `SuitcaseRegular` / `SuitcaseFilled`. suitcase, briefcase, bag, documents, baggage
+- `tag-chevron`: `TagChevronRegular` / `TagChevronFilled`. chevron, tag, label, sale
+- `anniversary`: `AnniversaryRegular` / `AnniversaryFilled`. anniversary, calendar, date, heart
+- `calendar-add`: `CalendarAddRegular` / `CalendarAddFilled`. calendar, add, date
+- `calendar-day`: `CalendarDayRegular` / `CalendarDayFilled`. calendar, date, day
+- `calendar-month`: `CalendarMonthRegular` / `CalendarMonthFilled`. calendar, date, month
+- `calendar-time-add`: `CalendarTimeAddRegular` / `CalendarTimeAddFilled`. calendar, plan, time
+- `calendar-week`: `CalendarWeekRegular` / `CalendarWeekFilled`. calendar, date, week
+- `ticket`: `TicketRegular` / `TicketFilled`. coupon, ticket, entry, cinema
+- `calendar-2`: `Calendar2Regular` / `Calendar2Filled`. calendar, date, plan, schedule, day
+- `basket-2`: `Basket2Regular` / `Basket2Filled`. basket, store, shop
+- `calendar-3`: `Calendar3Regular` / `Calendar3Filled`. calendar, date, plan, schedule, day
+- `card-pay`: `CardPayRegular` / `CardPayFilled`. card, pay, transfer, bank
+- `card-refund`: `CardRefundRegular` / `CardRefundFilled`. card, return, refund, bank
+- `chart-bar-2`: `ChartBar2Regular` / `ChartBar2Filled`. chart, bar, data, analysis, statistics, diagram
+- `chart-decrease`: `ChartDecreaseRegular` / `ChartDecreaseFilled`. chart, line, data, analysis, statistics, diagram, decrease
+- `chart-horizontal`: `ChartHorizontalRegular` / `ChartHorizontalFilled`. chart, line, data, analysis, statistics, horizontal
+- `chart-pie-2`: `ChartPie2Regular` / `ChartPie2Filled`. chart, pie, data, analysis, statistics, diagram
+- `chart-vertical`: `ChartVerticalRegular` / `ChartVerticalFilled`. chart, line, data, analysis, statistics, vertical
+- `refund-cny`: `RefundCnyRegular` / `RefundCnyFilled`. refund, money, return, RMB, cny
+- `refund-dollar`: `RefundDollarRegular` / `RefundDollarFilled`. refund, money, return, dollar, $
+- `ad-circle`: `AdCircleRegular` / `AdCircleFilled`. ad, advertisement, market, commerce
+- `ad-circle-off`: `AdCircleOffRegular` / `AdCircleOffFilled`. ad, advertisement, market, commerce, off
+- `ad-rectangle`: `AdRectangleRegular` / `AdRectangleFilled`. ad, advertisement, market, commerce, off
+- `ad-rectangle-off`: `AdRectangleOffRegular` / `AdRectangleOffFilled`. ad, advertisement, market, commerce
+- `cash`: `CashRegular` / `CashFilled`. currency, dollar, money, pay, finance, salary
+- `palette-3`: `Palette3Regular` / `Palette3Filled`. palette, color, tag, label
+- `candles`: `CandlesRegular` / `CandlesFilled`. candles, light, pray, christmas
+- `currency-nigeria-2`: `CurrencyNigeria2Regular` / `CurrencyNigeria2Filled`. currency, naira, money, pay, nigeria
+- `currency-nigeria`: `CurrencyNigeriaRegular` / `CurrencyNigeriaFilled`. currency, naira, money, pay, nigeria
+- `laurel-wreath`: `LaurelWreathRegular` / `LaurelWreathFilled`. laurel, wreath, victory, honor, prize, glory
+- `calendar-x`: `CalendarXRegular` / `CalendarXFilled`. calendar, date, plan, schedule, day, close, delete, cancel
+- `chart-horizontal-2`: `ChartHorizontal2Regular` / `ChartHorizontal2Filled`. chart, line, data, analysis, statistics, horizontal
+- `chart-pie-3`: `ChartPie3Regular` / `ChartPie3Filled`. chart, pie, data, analysis, statistics, diagram
+- `chart-vertical-2`: `ChartVertical2Regular` / `ChartVertical2Filled`. chart, line, data, analysis, statistics, vertical
+- `tag-2`: `Tag2Regular` / `Tag2Filled`. tag, label, sale
+- `axis-3d`: `Axis3DRegular` / `Axis3DFilled`. axis, 3D, chart, graph, gizmo, coordinates
+- `badge-cent`: `BadgeCentRegular` / `BadgeCentFilled`. badge, cent, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, cents, dollar, usd, $, ¢
+- `badge-cny`: `BadgeCnyRegular` / `BadgeCnyFilled`. badge, CNY, currency, renminbi, status, label, indicator
+- `badge-dollar-sign`: `BadgeDollarSignRegular` / `BadgeDollarSignFilled`. badge, dollar, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, usd, $
+- `badge-euro`: `BadgeEuroRegular` / `BadgeEuroFilled`. badge, euro, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, €
+- `badge-indian-rupee`: `BadgeIndianRupeeRegular` / `BadgeIndianRupeeFilled`. badge, rupee, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, inr, ₹
+- `badge-pound-sterling`: `BadgePoundSterlingRegular` / `BadgePoundSterlingFilled`. badge, pound, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, british, gbp, £
+- `badge-russian-ruble`: `BadgeRussianRubleRegular` / `BadgeRussianRubleFilled`. badge, ruble, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, rub, ₽
+- `badge-swiss-franc`: `BadgeSwissFrancRegular` / `BadgeSwissFrancFilled`. badge, franc, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, chf, ₣
+- `badge-turkish-lira`: `BadgeTurkishLiraRegular` / `BadgeTurkishLiraFilled`. badge, lira, currency, money, status, label, indicator, discount, offer, sale, voucher, tag, monetization, marketing, finance, financial, exchange, transaction, payment, try, ₺
+- `baggage-claim`: `BaggageClaimRegular` / `BaggageClaimFilled`. baggage, claim, luggage, travel, cart, trolley, suitcase
+- `banknote-arrow-down`: `BanknoteArrowDownRegular` / `BanknoteArrowDownFilled`. banknote, arrow, down, business, office, bill, currency, money, payment, funds, transaction, cash, finance, withdraw, expense, out, payout, refund, debit, spending, decrease
+- `banknote-arrow-up`: `BanknoteArrowUpRegular` / `BanknoteArrowUpFilled`. banknote, arrow, up, business, office, bill, currency, money, payment, funds, transaction, cash, finance, deposit, earnings, income, in, credit, prepaid, growth, increase
+- `banknote-x`: `BanknoteXRegular` / `BanknoteXFilled`. banknote, x, business, office, bill, currency, money, payment, funds, transaction, cash, finance, error, failed, rejected, canceled, declined, lost, delete, remove
+- `briefcase-2`: `Briefcase2Regular` / `Briefcase2Filled`. briefcase, business, work, office
+- `briefcase-conveyor-belt`: `BriefcaseConveyorBeltRegular` / `BriefcaseConveyorBeltFilled`. briefcase, conveyor, belt, business, office, baggage, luggage, travel, suitcase, carousel
+- `calendar-1`: `Calendar1Regular` / `Calendar1Filled`. calendar, business, office, schedule, event, appointment, date, month, year, single, singular, once, 1, first
+- `calendar-arrow-down`: `CalendarArrowDownRegular` / `CalendarArrowDownFilled`. calendar, arrow, down, business, office, schedule, event, appointment, date, month, year, sort, order, ascending, descending, increasing, decreasing, rising, falling
+- `calendar-arrow-up`: `CalendarArrowUpRegular` / `CalendarArrowUpFilled`. calendar, arrow, up, business, office, schedule, event, appointment, date, month, year, sort, order, ascending, descending, increasing, decreasing, rising, falling
+- `calendar-check-2`: `CalendarCheck2Regular` / `CalendarCheck2Filled`. calendar, check, business, office, schedule, event, appointment, date, day, month, year, confirm, subscribe, done, todo, tick, complete, task
+- `calendar-cog`: `CalendarCogRegular` / `CalendarCogFilled`. calendar, settings, business, office, schedule, event, appointment, date, day, month, year, events, gear, cog
+- `calendar-fold`: `CalendarFoldRegular` / `CalendarFoldFilled`. calendar, fold, business, office, schedule, event, appointment, date, month, year, birthday, birthdate, ics
+- `calendar-heart`: `CalendarHeartRegular` / `CalendarHeartFilled`. calendar, heart, business, office, schedule, event, appointment, date, month, year, favourite, subscribe, valentines day
+- `calendar-minus`: `CalendarMinusRegular` / `CalendarMinusFilled`. calendar, minus, business, office, schedule, event, appointment, date, day, month, year, delete, remove
+- `calendar-minus-2`: `CalendarMinus2Regular` / `CalendarMinus2Filled`. calendar, minus, business, office, schedule, event, appointment, date, day, month, year, delete, remove
+- `calendar-off`: `CalendarOffRegular` / `CalendarOffFilled`. calendar, off, business, office, schedule, event, appointment, date, day, month, year, delete, remove
+- `calendar-plus-2`: `CalendarPlus2Regular` / `CalendarPlus2Filled`. calendar, plus, business, office, schedule, event, appointment, date, day, month, year, add, subscribe, create, new
+- `calendar-range`: `CalendarRangeRegular` / `CalendarRangeFilled`. calendar, range, business, office, schedule, event, appointment, date, day, month, year, period
+- `calendar-search`: `CalendarSearchRegular` / `CalendarSearchFilled`. calendar, search, business, office, schedule, event, appointment, date, day, month, year, events, lens
+- `calendar-sync`: `CalendarSyncRegular` / `CalendarSyncFilled`. calendar, sync, business, office, schedule, event, appointment, date, repeat, refresh, reconnect, transfer, backup, month, year, subscribe, recurring, reminder, automatic, auto
+- `calendar-x-2`: `CalendarX2Regular` / `CalendarX2Filled`. calendar, x, business, office, schedule, event, appointment, date, day, month, year, remove
+- `calendars`: `CalendarsRegular` / `CalendarsFilled`. calendars, business, office, date, month, year, event, dates, months, years, events
+- `cash-2`: `Cash2Regular` / `Cash2Filled`. cash, money, currency, finance
+- `chart-area`: `ChartAreaRegular` / `ChartAreaFilled`. chart, area, business, office, analytics, metrics, data visualization, statistics, diagram, graph
+- `chart-bar-big`: `ChartBarBigRegular` / `ChartBarBigFilled`. chart, bar, large, business, office, analytics, metrics, data visualization, statistics, diagram, graph
+- `chart-bar-decreasing`: `ChartBarDecreasingRegular` / `ChartBarDecreasingFilled`. chart, bar, decreasing, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending down
+- `chart-bar-increasing`: `ChartBarIncreasingRegular` / `ChartBarIncreasingFilled`. chart, bar, increasing, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending up
+- `chart-bar-stacked`: `ChartBarStackedRegular` / `ChartBarStackedFilled`. chart, bar, stacked, business, office, analytics, metrics, data visualization, statistics, diagram, graph, multivariate, categorical, comparison
+- `chart-candlestick`: `ChartCandlestickRegular` / `ChartCandlestickFilled`. chart, candlestick, business, office, analytics, metrics, data visualization, trading, trader, financial, markets, portfolio, assets, prices, value, valuation, commodities, currencies, currency, stocks, exchange, hedge fund, statistics, diagram, graph
+- `chart-column-big`: `ChartColumnBigRegular` / `ChartColumnBigFilled`. chart, column, large, business, office, analytics, metrics, data visualization, statistics, diagram, graph
+- `chart-column-decreasing`: `ChartColumnDecreasingRegular` / `ChartColumnDecreasingFilled`. chart, column, decreasing, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending down
+- `chart-column-increasing`: `ChartColumnIncreasingRegular` / `ChartColumnIncreasingFilled`. chart, column, increasing, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending up
+- `chart-column-stacked`: `ChartColumnStackedRegular` / `ChartColumnStackedFilled`. chart, column, stacked, business, office, analytics, metrics, data visualization, statistics, diagram, graph, multivariate, categorical, comparison
+- `chart-gantt`: `ChartGanttRegular` / `ChartGanttFilled`. chart, Gantt, business, office, analytics, metrics, data visualization, diagram, graph, timeline, planning
+- `chart-network`: `ChartNetworkRegular` / `ChartNetworkFilled`. chart, network, business, office, analytics, metrics, data visualization, statistics, diagram, graph, topology, cluster, web, nodes, connections, edges
+- `chart-no-axes-column-decreasing`: `ChartNoAxesColumnDecreasingRegular` / `ChartNoAxesColumnDecreasingFilled`. chart, without, axes, column, decreasing, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending down
+- `chart-no-axes-column-increasing`: `ChartNoAxesColumnIncreasingRegular` / `ChartNoAxesColumnIncreasingFilled`. chart, without, axes, column, increasing, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending up
+- `chart-no-axes-combined`: `ChartNoAxesCombinedRegular` / `ChartNoAxesCombinedFilled`. chart, without, axes, combined, business, office, analytics, metrics, data visualization, statistics, diagram, graph, trending up
+- `chart-no-axes-gantt`: `ChartNoAxesGanttRegular` / `ChartNoAxesGanttFilled`. chart, without, axes, Gantt, business, office, analytics, metrics, data visualization, projects, manage, overview, roadmap, plan, intentions, timeline, deadline, date, event, range, period, productivity, work, agile, code, coding
+- `chart-scatter`: `ChartScatterRegular` / `ChartScatterFilled`. chart, scatter, business, office, analytics, metrics, data visualization, statistics, diagram, graph
+- `chart-spline`: `ChartSplineRegular` / `ChartSplineFilled`. chart, spline, business, office, analytics, metrics, data visualization, statistics, diagram, graph, curve, continuous, smooth, polynomial, quadratic, function, interpolation
+- `check-line`: `CheckLineRegular` / `CheckLineFilled`. check, line, business, office, done, todo, tick, complete, task
+- `copyleft`: `CopyleftRegular` / `CopyleftFilled`. copyleft, business, office, licence
+- `creative-commons`: `CreativeCommonsRegular` / `CreativeCommonsFilled`. creative, commons, business, office, licence, license
+- `currency`: `CurrencyRegular` / `CurrencyFilled`. currency, business, office, finance, money
+- `flag-1-off`: `Flag1OffRegular` / `Flag1OffFilled`. flag, off, business, office
+- `flag-4-off`: `Flag4OffRegular` / `Flag4OffFilled`. flag, off, business, office
+- `flag-triangle-left`: `FlagTriangleLeftRegular` / `FlagTriangleLeftFilled`. flag, triangle, left, business, office, report, timeline, marker, pin
+- `funnel-plus`: `FunnelPlusRegular` / `FunnelPlusFilled`. funnel, plus, business, office, filter, hopper, add, create, new
+- `funnel-x`: `FunnelXRegular` / `FunnelXFilled`. funnel, x, business, office, filter, hopper, remove, delete
+- `georgian-lari`: `GeorgianLariRegular` / `GeorgianLariFilled`. Georgian, lari, business, office, currency, money, payment
+
+### communication (73)
+
+- `chat-1`: `Chat1Regular` / `Chat1Filled`. chat, message, reply, communication
+- `chat-2`: `Chat2Regular` / `Chat2Filled`. chat, message, reply, communication
+- `comment`: `CommentRegular` / `CommentFilled`. comment
+- `mail`: `MailRegular` / `MailFilled`. mail, inbox, post, message
+- `mail-open`: `MailOpenRegular` / `MailOpenFilled`. mail, inbox, post, message, open
+- `mail-send`: `MailSendRegular` / `MailSendFilled`. mail, inbox, post, message, send
+- `mail-ai`: `MailAIRegular` / `MailAIFilled`. mail, inbox, post, message, ai, artificial, intelligence
+- `message-1`: `Message1Regular` / `Message1Filled`. chat, message, reply, communication
+- `message-2`: `Message2Regular` / `Message2Filled`. chat, message, reply, communication
+- `message-3`: `Message3Regular` / `Message3Filled`. chat, message, reply, communication
+- `phone`: `PhoneRegular` / `PhoneFilled`. phone, call, mobile, landline
+- `phone-add`: `PhoneAddRegular` / `PhoneAddFilled`. phone, phone-add
+- `phone-block`: `PhoneBlockRegular` / `PhoneBlockFilled`. phone-block
+- `phone-call`: `PhoneCallRegular` / `PhoneCallFilled`. phone-call
+- `phone-incoming`: `PhoneIncomingRegular` / `PhoneIncomingFilled`. phone-incoming
+- `phone-outgoing`: `PhoneOutgoingRegular` / `PhoneOutgoingFilled`. phone-outgoing
+- `phone-success`: `PhoneSuccessRegular` / `PhoneSuccessFilled`. phone-success
+- `chat-3`: `Chat3Regular` / `Chat3Filled`. chat, message, reply, communication
+- `message-4`: `Message4Regular` / `Message4Filled`. chat, message, reply, communication
+- `invite`: `InviteRegular` / `InviteFilled`. invite, send, mail
+- `mailbox`: `MailboxRegular` / `MailboxFilled`. mailbox, inbox, mail, post
+- `send`: `SendRegular` / `SendFilled`. send, plane, mail
+- `phone-off`: `PhoneOffRegular` / `PhoneOffFilled`. phone, off, call, landline
+- `chat-4`: `Chat4Regular` / `Chat4Filled`. chat, message, reply, communication
+- `comment-2`: `Comment2Regular` / `Comment2Filled`. chat, message, reply, dialogue, communication
+- `chat-1-ai`: `Chat1AIRegular` / `Chat1AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `chat-2-ai`: `Chat2AIRegular` / `Chat2AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `chat-3-ai`: `Chat3AIRegular` / `Chat3AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `chat-4-ai`: `Chat4AIRegular` / `Chat4AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `message-1-ai`: `Message1AIRegular` / `Message1AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `message-2-ai`: `Message2AIRegular` / `Message2AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `message-3-ai`: `Message3AIRegular` / `Message3AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `message-4-ai`: `Message4AIRegular` / `Message4AIFilled`. chat, message, reply, communication, AI, artificial, intelligence
+- `send-plane`: `SendPlaneRegular` / `SendPlaneFilled`. send, plane, mail
+- `bot-message-square`: `BotMessageSquareRegular` / `BotMessageSquareFilled`. bot, message, square, communication, robot, ai, chat, assistant
+- `mail-badge`: `MailBadgeRegular` / `MailBadgeFilled`. mail, badge, communication, message, email, inbox, notification, letter, certified, registered, seal, stamp, verified, envelope, rosette, signed, official, delivery, certified email, registered email, proof of delivery, signed message, official correspondence
+- `mail-check`: `MailCheckRegular` / `MailCheckFilled`. mail, check, communication, message, email, inbox, notification, letter, subscribe, delivered, success, read, done, todo, tick, complete, task
+- `mail-clock`: `MailClockRegular` / `MailClockFilled`. mail, clock, communication, message, email, inbox, notification, letter, unread, scheduled, delayed, send later, delivery, reminder, pending, outgoing, timer, scheduled communication, delayed delivery, pending email, email reminder
+- `mail-minus`: `MailMinusRegular` / `MailMinusFilled`. mail, minus, communication, message, email, inbox, notification, letter, remove, delete
+- `mail-pen`: `MailPenRegular` / `MailPenFilled`. mail, pen, communication, message, email, inbox, notification, letter, edit, compose, draft, write, writing, create, reply, compose email, edit email, draft letter, edit email address
+- `mail-plus`: `MailPlusRegular` / `MailPlusFilled`. mail, plus, communication, message, email, inbox, notification, letter, add, create, new, compose
+- `mail-question-mark`: `MailQuestionMarkRegular` / `MailQuestionMarkFilled`. mail, question, mark, communication, message, email, inbox, notification, letter, delivery, undelivered
+- `mail-search`: `MailSearchRegular` / `MailSearchFilled`. mail, search, communication, message, email, inbox, notification, letter, lens
+- `mail-warning`: `MailWarningRegular` / `MailWarningFilled`. mail, warning, communication, message, email, inbox, notification, letter, delivery error, exclamation mark
+- `mail-x`: `MailXRegular` / `MailXFilled`. mail, x, communication, message, email, inbox, notification, letter, remove, delete
+- `mails`: `MailsRegular` / `MailsFilled`. mails, communication, message, emails, messages, letters, multiple, mailing list, newsletter, copy
+- `message-circle-check`: `MessageCircleCheckRegular` / `MessageCircleCheckFilled`. message, circle, check, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, moderate, done, todo, complete
+- `message-circle-code`: `MessageCircleCodeRegular` / `MessageCircleCodeFilled`. message, circle, code, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, code review, coding
+- `message-circle-dashed`: `MessageCircleDashedRegular` / `MessageCircleDashedFilled`. message, circle, dashed, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, draft
+- `message-circle-heart`: `MessageCircleHeartRegular` / `MessageCircleHeartFilled`. message, circle, heart, communication, chat, conversation, comment, notification, dialog, feedback, positive, like, love, interest, valentine, dating, date, speech bubble
+- `message-circle-off`: `MessageCircleOffRegular` / `MessageCircleOffFilled`. message, circle, off, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate
+- `message-circle-plus`: `MessageCirclePlusRegular` / `MessageCirclePlusFilled`. message, circle, plus, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, add
+- `message-circle-question-mark`: `MessageCircleQuestionMarkRegular` / `MessageCircleQuestionMarkFilled`. message, circle, question, mark, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, help
+- `message-circle-reply`: `MessageCircleReplyRegular` / `MessageCircleReplyFilled`. message, circle, reply, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, response
+- `message-circle-warning`: `MessageCircleWarningRegular` / `MessageCircleWarningFilled`. message, circle, warning, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, report, abuse, offense, alert, danger, caution, protected, exclamation mark
+- `message-circle-x`: `MessageCircleXRegular` / `MessageCircleXFilled`. message, circle, x, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate
+- `message-square-check`: `MessageSquareCheckRegular` / `MessageSquareCheckFilled`. message, square, check, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, moderate, done, todo, complete
+- `message-square-code`: `MessageSquareCodeRegular` / `MessageSquareCodeFilled`. message, square, code, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, code review, coding
+- `message-square-dashed`: `MessageSquareDashedRegular` / `MessageSquareDashedFilled`. message, square, dashed, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, draft
+- `message-square-diff`: `MessageSquareDiffRegular` / `MessageSquareDiffFilled`. message, square, difference, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, add, patch, plus, minus, plus-minus, math, code review, coding, version control, git, Git
+- `message-square-dot`: `MessageSquareDotRegular` / `MessageSquareDotFilled`. message, square, dot, communication, chat, conversation, comment, notification, unread, unresolved, dialog, feedback, speech bubble
+- `message-square-heart`: `MessageSquareHeartRegular` / `MessageSquareHeartFilled`. message, square, heart, communication, chat, conversation, comment, notification, dialog, feedback, positive, like, love, interest, valentine, dating, date, speech bubble
+- `message-square-lock`: `MessageSquareLockRegular` / `MessageSquareLockFilled`. message, square, lock, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, secure, encrypted
+- `message-square-more`: `MessageSquareMoreRegular` / `MessageSquareMoreFilled`. message, square, more, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, typing, writing, responding, ellipsis, etc, et cetera, ..., …
+- `message-square-off`: `MessageSquareOffRegular` / `MessageSquareOffFilled`. message, square, off, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate
+- `message-square-plus`: `MessageSquarePlusRegular` / `MessageSquarePlusFilled`. message, square, plus, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, add
+- `message-square-quote`: `MessageSquareQuoteRegular` / `MessageSquareQuoteFilled`. message, square, quote, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, blockquote, quotation, indent, reply, response
+- `message-square-reply`: `MessageSquareReplyRegular` / `MessageSquareReplyFilled`. message, square, reply, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, response
+- `message-square-share`: `MessageSquareShareRegular` / `MessageSquareShareFilled`. message, square, share, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, network, forward
+- `message-square-text`: `MessageSquareTextRegular` / `MessageSquareTextFilled`. message, square, text, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble
+- `message-square-warning`: `MessageSquareWarningRegular` / `MessageSquareWarningFilled`. message, square, warning, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, report, abuse, offense, alert, danger, caution, protected, exclamation mark
+- `message-square-x`: `MessageSquareXRegular` / `MessageSquareXFilled`. message, square, x, communication, chat, conversation, comment, notification, dialog, feedback, speech bubble, clear, close, delete, remove, cancel, silence, mute, moderate
+- `messages-square`: `MessagesSquareRegular` / `MessagesSquareFilled`. messages, square, communication, message, chat, conversation, comment, notification, dialog, feedback, speech bubbles, copy, multiple, discussion, interview, debate
+
+### cryptocurrency (16)
+
+- `avalanche-avax`: `AvalancheAvaxRegular` / `AvalancheAvaxFilled`. avalanche, AVAX, crypto, currency
+- `binance-coin-bnb`: `BinanceCoinBnbRegular` / `BinanceCoinBnbFilled`. binance, BNB, crypto, currency
+- `binance-usd-busd`: `BinanceUsdBusdRegular` / `BinanceUsdBusdFilled`. binance, BNB, crypto, currency
+- `bnb`: `BnbRegular` / `BnbFilled`. binance, BNB, crypto, currency
+- `cardano-ada`: `CardanoAdaRegular` / `CardanoAdaFilled`. cardano, ADA, crypto, currency
+- `dogecoin-doge`: `DogecoinDogeRegular` / `DogecoinDogeFilled`. dogecoi, DOGE, crypto, currency
+- `ethereum`: `EthereumRegular` / `EthereumFilled`. ethereum, crypto, currency, ETH
+- `polkadot-dot`: `PolkadotDotRegular` / `PolkadotDotFilled`. polkadot, DOT, crypto, currency
+- `solana-sol`: `SolanaSolRegular` / `SolanaSolFilled`. solana, SOL, crypto, currency
+- `tether-usdt`: `TetherUsdtRegular` / `TetherUsdtFilled`. tether, USDT, crypto, currency
+- `usd-coin-usdc`: `UsdCoinUsdcRegular` / `UsdCoinUsdcFilled`. usd, USDC, crypto, currency
+- `xrp`: `XrpRegular` / `XrpFilled`. ripple, XRP, crypto, currency
+- `monero`: `MoneroRegular` / `MoneroFilled`. monero, money, XMR, crypto, currency
+- `currency-bitcoin`: `CurrencyBitcoinRegular` / `CurrencyBitcoinFilled`. currency, bitcoin, money, pay, p2p
+- `currency-bitcoin-2`: `CurrencyBitcoin2Regular` / `CurrencyBitcoin2Filled`. currency, bitcoin, money, pay, p2p
+- `exchange-bitcoin`: `ExchangeBitcoinRegular` / `ExchangeBitcoinFilled`. exchange-bitcoin, money
+
+### design (178)
+
+- `brightness`: `BrightnessRegular` / `BrightnessFilled`. brightness, sun, dark
+- `color-filter`: `ColorFilterRegular` / `ColorFilterFilled`. color, hue, effects, filter
+- `drop`: `DropRegular` / `DropFilled`. water, droplet, teardrop, raindrop
+- `flip-horizontal`: `FlipHorizontalRegular` / `FlipHorizontalFilled`. flip, horizontal, mirror, invert
+- `flip-vertical`: `FlipVerticalRegular` / `FlipVerticalFilled`. flip, vertical, mirror, invert
+- `mosaic`: `MosaicRegular` / `MosaicFilled`. mosaic, blur
+- `paint-2`: `Paint2Regular` / `Paint2Filled`. paint, brush, painter, color
+- `paint-brush`: `PaintBrushRegular` / `PaintBrushFilled`. brush, painter, color, picker
+- `palette`: `PaletteRegular` / `PaletteFilled`. palette, color, paint, picker
+- `pen`: `PenRegular` / `PenFilled`. edit, pen, write
+- `quill-pen`: `QuillPenRegular` / `QuillPenFilled`. quill, pen, write, edit
+- `scissors-2`: `Scissors2Regular` / `Scissors2Filled`. scissors, cut, snip, clipboard
+- `scissors`: `ScissorsRegular` / `ScissorsFilled`. scissors, cut, snip, clipboard
+- `screenshot`: `ScreenshotRegular` / `ScreenshotFilled`. screenshot, clip, cut
+- `vector-bezier-2`: `VectorBezier2Regular` / `VectorBezier2Filled`. vector, bezier, curve
+- `vector-bezier-3`: `VectorBezier3Regular` / `VectorBezier3Filled`. vector, bezier, curve
+- `bling`: `BlingRegular` / `BlingFilled`. bling, sparkles, star, light, ai
+- `magic-1`: `Magic1Regular` / `Magic1Filled`. magic, AI, christmas, artificial, intelligence
+- `magic-2`: `Magic2Regular` / `Magic2Filled`. magic, AI, wand, artificial, intelligence
+- `vector-bezier`: `VectorBezierRegular` / `VectorBezierFilled`. vector, bezier, curve
+- `knife`: `KnifeRegular` / `KnifeFilled`. knife, slice, cut
+- `palette-2`: `Palette2Regular` / `Palette2Filled`. palette, color, tag, label
+- `paster`: `PasterRegular` / `PasterFilled`. paster, sticker, label
+- `ruler`: `RulerRegular` / `RulerFilled`. ruler, measure, maths
+- `scale`: `ScaleRegular` / `ScaleFilled`. scale, resize, zoom
+- `anticlockwise`: `AnticlockwiseRegular` / `AnticlockwiseFilled`. anticlockwise, left
+- `clockwise`: `ClockwiseRegular` / `ClockwiseFilled`. clockwise, right
+- `color-picker`: `ColorPickerRegular` / `ColorPickerFilled`. color-picker, pipette
+- `layout`: `LayoutRegular` / `LayoutFilled`. layout, frame
+- `mark-pen`: `MarkPenRegular` / `MarkPenFilled`. mark, pen
+- `markup`: `MarkupRegular` / `MarkupFilled`. markup, strokes
+- `scissors-3`: `Scissors3Regular` / `Scissors3Filled`. scissors, cut, snip, clipboard
+- `brush-2`: `Brush2Regular` / `Brush2Filled`. brush, painter, color, picker
+- `align-bottom`: `AlignBottomRegular` / `AlignBottomFilled`. bottom, align, position, layout
+- `align-horizontal-center`: `AlignHorizontalCenterRegular` / `AlignHorizontalCenterFilled`. middle, align, center, horizontal, position
+- `align-left-2`: `AlignLeft2Regular` / `AlignLeft2Filled`. left, align, position, layout
+- `align-right-2`: `AlignRight2Regular` / `AlignRight2Filled`. right, align, position, layout
+- `align-top`: `AlignTopRegular` / `AlignTopFilled`. top, align, position, layout
+- `align-vertical-center`: `AlignVerticalCenterRegular` / `AlignVerticalCenterFilled`. middle, align, center, vertical, position
+- `border-blank`: `BorderBlankRegular` / `BorderBlankFilled`. border, none, table, blank
+- `border-bottom`: `BorderBottomRegular` / `BorderBottomFilled`. border, bottom, table, line
+- `border-horizontal`: `BorderHorizontalRegular` / `BorderHorizontalFilled`. border, horizontal, table, line
+- `border-inner`: `BorderInnerRegular` / `BorderInnerFilled`. border, inner, table, line
+- `border-left`: `BorderLeftRegular` / `BorderLeftFilled`. border, left, table, line
+- `border-right`: `BorderRightRegular` / `BorderRightFilled`. border, right, table, line
+- `border-outer`: `BorderOuterRegular` / `BorderOuterFilled`. border, outer, table, line
+- `border-radius`: `BorderRadiusRegular` / `BorderRadiusFilled`. border, radius, rounderd, corner
+- `border-top`: `BorderTopRegular` / `BorderTopFilled`. border, top, table, line
+- `border-vertical`: `BorderVerticalRegular` / `BorderVerticalFilled`. border, horizontal, table, line
+- `columns-2`: `Columns2Regular` / `Columns2Filled`. columns, layout, row
+- `columns-3`: `Columns3Regular` / `Columns3Filled`. columns, layout, row
+- `distribute-spacing-horizontal`: `DistributeSpacingHorizontalRegular` / `DistributeSpacingHorizontalFilled`. distribute, spacing, horizontal, position
+- `distribute-spacing-vertical`: `DistributeSpacingVerticalRegular` / `DistributeSpacingVerticalFilled`. distribute, spacing, vertical, position
+- `layout-2`: `Layout2Regular` / `Layout2Filled`. layout, columns, grid
+- `layout-3`: `Layout3Regular` / `Layout3Filled`. layout, columns, grid
+- `layout-4`: `Layout4Regular` / `Layout4Filled`. layout, columns, grid
+- `layout-5`: `Layout5Regular` / `Layout5Filled`. layout, columns, grid
+- `layout-6`: `Layout6Regular` / `Layout6Filled`. layout, columns, grid
+- `layout-7`: `Layout7Regular` / `Layout7Filled`. layout, columns, grid
+- `layout-8`: `Layout8Regular` / `Layout8Filled`. layout, columns, grid
+- `layout-9`: `Layout9Regular` / `Layout9Filled`. layout, columns, grid
+- `layout-10`: `Layout10Regular` / `Layout10Filled`. layout, columns, grid
+- `layout-11`: `Layout11Regular` / `Layout11Filled`. layout, columns, grid
+- `layout-bottom`: `LayoutBottomRegular` / `LayoutBottomFilled`. layout, bottombar, grid
+- `layout-grid`: `LayoutGridRegular` / `LayoutGridFilled`. layout, table, border, grid
+- `layout-left`: `LayoutLeftRegular` / `LayoutLeftFilled`. layout, sidebar, grid
+- `layout-right`: `LayoutRightRegular` / `LayoutRightFilled`. layout, sidebar, grid
+- `layout-top`: `LayoutTopRegular` / `LayoutTopFilled`. layout, topbar, grid
+- `rows-2`: `Rows2Regular` / `Rows2Filled`. layout, row, collage
+- `rows-3`: `Rows3Regular` / `Rows3Filled`. layout, row, collage
+- `rows-4`: `Rows4Regular` / `Rows4Filled`. layout, row, collage
+- `table-2`: `Table2Regular` / `Table2Filled`. table, spreedsheet, layout, grid
+- `anticlockwise-alt`: `AnticlockwiseAltRegular` / `AnticlockwiseAltFilled`. anticlockwise, left
+- `clockwise-alt`: `ClockwiseAltRegular` / `ClockwiseAltFilled`. clockwise, right
+- `rotate-x`: `RotateXRegular` / `RotateXFilled`. rotate, X, revolve
+- `rotate-y`: `RotateYRegular` / `RotateYFilled`. rotate, Y, revolve
+- `drawing-board`: `DrawingBoardRegular` / `DrawingBoardFilled`. drawing, board, learn
+- `sticker`: `StickerRegular` / `StickerFilled`. sticker, paster, label, stamp
+- `artboard`: `ArtboardRegular` / `ArtboardFilled`. drawing, board, art
+- `background`: `BackgroundRegular` / `BackgroundFilled`. background, texture, pattern
+- `board`: `BoardRegular` / `BoardFilled`. mould, board, art
+- `vector-group`: `VectorGroupRegular` / `VectorGroupFilled`. vector, group, curve
+- `exposure`: `ExposureRegular` / `ExposureFilled`. exposure, bright, light
+- `layer`: `LayerRegular` / `LayerFilled`. layer, multiple, section
+- `shadow`: `ShadowRegular` / `ShadowFilled`. shadow, dark, dim
+- `x-skew`: `XSkewRegular` / `XSkewFilled`. x, skew, trapezoid
+- `y-skew`: `YSkewRegular` / `YSkewFilled`. y, skew, trapezoid
+- `fold-horizontal`: `FoldHorizontalRegular` / `FoldHorizontalFilled`. fold, horizontal, arrow
+- `fold-vertical`: `FoldVerticalRegular` / `FoldVerticalFilled`. fold, vertical, arrow
+- `layout-bottom-close`: `LayoutBottomCloseRegular` / `LayoutBottomCloseFilled`. bottom, bar, close, collapse
+- `layout-bottom-open`: `LayoutBottomOpenRegular` / `LayoutBottomOpenFilled`. bottom, bar, open, expand
+- `layout-leftbar-close`: `LayoutLeftbarCloseRegular` / `LayoutLeftbarCloseFilled`. left, bar, close, collapse
+- `layout-leftbar-open`: `LayoutLeftbarOpenRegular` / `LayoutLeftbarOpenFilled`. left, bar, open, expand
+- `layout-rightbar-close`: `LayoutRightbarCloseRegular` / `LayoutRightbarCloseFilled`. right, bar, close, collapse
+- `layout-rightbar-open`: `LayoutRightbarOpenRegular` / `LayoutRightbarOpenFilled`. right, bar, open, expand
+- `layout-top-close`: `LayoutTopCloseRegular` / `LayoutTopCloseFilled`. top, bar, close, collapse
+- `layout-top-open`: `LayoutTopOpenRegular` / `LayoutTopOpenFilled`. top, bar, open, expand
+- `magic-3`: `Magic3Regular` / `Magic3Filled`. magic, AI, wand, artificial, intelligence
+- `magic-hat-2`: `MagicHat2Regular` / `MagicHat2Filled`. magic, hat, AI, artificial, intelligence
+- `magic-hat`: `MagicHatRegular` / `MagicHatFilled`. magic, hat, AI, artificial, intelligence
+- `mirror`: `MirrorRegular` / `MirrorFilled`. flip, mirror, rotate
+- `unfold-horizontal`: `UnfoldHorizontalRegular` / `UnfoldHorizontalFilled`. unfold, horizontal, arrow
+- `unfold-vertical`: `UnfoldVerticalRegular` / `UnfoldVerticalFilled`. unfold, vertical, arrow
+- `combine`: `CombineRegular` / `CombineFilled`. combine, merge, amalgamate, unite
+- `components`: `ComponentsRegular` / `ComponentsFilled`. parts, components, elements, ingredients
+- `ease-in-control-point`: `EaseInControlPointRegular` / `EaseInControlPointFilled`. ease, function, transition, point, animation, control
+- `ease-in`: `EaseInRegular` / `EaseInFilled`. ease, gradual, start, smooth, beginning, slow, initiation
+- `ease-in-out-control-point`: `EaseInOutControlPointRegular` / `EaseInOutControlPointFilled`. ease, function, transition, point, animation, control
+- `ease-out-control-point`: `EaseOutControlPointRegular` / `EaseOutControlPointFilled`. ease, function,, transition, point,, animation, control
+- `ease-out`: `EaseOutRegular` / `EaseOutFilled`. gradual, ease, end, smooth, ending, slow, termination
+- `easy-in-out`: `EasyInOutRegular` / `EasyInOutFilled`. smooth, ease, transition, gradual, change, gentle, shift
+- `exclude`: `ExcludeRegular` / `ExcludeFilled`. exclude, omit, remove, disregard
+- `intersect`: `IntersectRegular` / `IntersectFilled`. intersect, overlap, cross, meet
+- `section`: `SectionRegular` / `SectionFilled`. section, part, segment, division
+- `subtract`: `SubtractRegular` / `SubtractFilled`. subtract, deduct, remove, decrease
+- `union`: `UnionRegular` / `UnionFilled`. union, merge, combination, joining
+- `paint-brush-ai`: `PaintBrushAIRegular` / `PaintBrushAIFilled`. brush, painter, color, picker, ai, magic, artificial, intelligence
+- `quill-pen-ai`: `QuillPenAIRegular` / `QuillPenAIFilled`. quill, pen, write, edit, magic, artificial, intelligence
+- `background-base`: `BackgroundBaseRegular` / `BackgroundBaseFilled`. background, texture, pattern
+- `brush-2-ai`: `Brush2AIRegular` / `Brush2AIFilled`. brush, painter, color, picker, AI, artificial, intelligence
+- `pen-ai`: `PenAIRegular` / `PenAIFilled`. edit, pen, write, AI, artificial, intelligence
+- `whiteboard`: `WhiteboardRegular` / `WhiteboardFilled`. drawing, whiteboard, board, learn
+- `align-center-horizontal`: `AlignCenterHorizontalRegular` / `AlignCenterHorizontalFilled`. align, center, horizontal, design, items, flex, justify
+- `align-center-vertical`: `AlignCenterVerticalRegular` / `AlignCenterVerticalFilled`. align, center, vertical, design, items, flex, justify
+- `align-end-horizontal`: `AlignEndHorizontalRegular` / `AlignEndHorizontalFilled`. align, end, horizontal, design, items, bottom, flex, justify
+- `align-end-vertical`: `AlignEndVerticalRegular` / `AlignEndVerticalFilled`. align, end, vertical, design, items, right, flex, justify
+- `align-horizontal-distribute-center`: `AlignHorizontalDistributeCenterRegular` / `AlignHorizontalDistributeCenterFilled`. align, horizontal, distribute, center, design, items, flex, justify, space, evenly, around
+- `align-horizontal-distribute-end`: `AlignHorizontalDistributeEndRegular` / `AlignHorizontalDistributeEndFilled`. align, horizontal, distribute, end, design, right, items, flex, justify
+- `align-horizontal-distribute-start`: `AlignHorizontalDistributeStartRegular` / `AlignHorizontalDistributeStartFilled`. align, horizontal, distribute, start, design, left, items, flex, justify
+- `align-horizontal-justify-center`: `AlignHorizontalJustifyCenterRegular` / `AlignHorizontalJustifyCenterFilled`. align, horizontal, justify, center, design, items, flex
+- `align-horizontal-justify-end`: `AlignHorizontalJustifyEndRegular` / `AlignHorizontalJustifyEndFilled`. align, horizontal, justify, end, design, right, items, flex
+- `align-horizontal-justify-start`: `AlignHorizontalJustifyStartRegular` / `AlignHorizontalJustifyStartFilled`. align, horizontal, justify, start, design, left, items, flex
+- `align-horizontal-space-between`: `AlignHorizontalSpaceBetweenRegular` / `AlignHorizontalSpaceBetweenFilled`. align, horizontal, space, between, design, around, items, bottom, flex, justify
+- `align-start-horizontal`: `AlignStartHorizontalRegular` / `AlignStartHorizontalFilled`. align, start, horizontal, design, top, items, flex, justify
+- `align-start-vertical`: `AlignStartVerticalRegular` / `AlignStartVerticalFilled`. align, start, vertical, design, left, items, flex, justify
+- `align-vertical-distribute-center`: `AlignVerticalDistributeCenterRegular` / `AlignVerticalDistributeCenterFilled`. align, vertical, distribute, center, design, items, flex, justify, space, evenly, around
+- `align-vertical-distribute-end`: `AlignVerticalDistributeEndRegular` / `AlignVerticalDistributeEndFilled`. align, vertical, distribute, end, design, bottom, items, flex, justify
+- `align-vertical-distribute-start`: `AlignVerticalDistributeStartRegular` / `AlignVerticalDistributeStartFilled`. align, vertical, distribute, start, design, top, items, flex, justify
+- `align-vertical-justify-center`: `AlignVerticalJustifyCenterRegular` / `AlignVerticalJustifyCenterFilled`. align, vertical, justify, center, design, items, flex, distribute, between
+- `align-vertical-justify-end`: `AlignVerticalJustifyEndRegular` / `AlignVerticalJustifyEndFilled`. align, vertical, justify, end, design, bottom, items, flex, distribute, between
+- `align-vertical-justify-start`: `AlignVerticalJustifyStartRegular` / `AlignVerticalJustifyStartFilled`. align, vertical, justify, start, design, top, items, flex, distribute, between
+- `align-vertical-space-between`: `AlignVerticalSpaceBetweenRegular` / `AlignVerticalSpaceBetweenFilled`. align, vertical, space, between, design, center, items, flex, justify, distribute
+- `between-horizontal-end`: `BetweenHorizontalEndRegular` / `BetweenHorizontalEndFilled`. between, horizontal, end, design, insert, add, left, slot, squeeze, space, vertical, grid, table, rows, cells, excel, spreadsheet, accountancy, data, enter, entry, entries, blocks, rectangles, chevron
+- `between-horizontal-start`: `BetweenHorizontalStartRegular` / `BetweenHorizontalStartFilled`. between, horizontal, start, design, insert, add, right, slot, squeeze, space, vertical, grid, table, rows, cells, excel, spreadsheet, accountancy, data, enter, entry, entries, blocks, rectangles, chevron
+- `between-vertical-end`: `BetweenVerticalEndRegular` / `BetweenVerticalEndFilled`. between, vertical, end, design, insert, add, top, slot, squeeze, space, grid, table, columns, cells, data, enter, entry, entries, blocks, rectangles, chevron
+- `between-vertical-start`: `BetweenVerticalStartRegular` / `BetweenVerticalStartFilled`. between, vertical, start, design, insert, add, bottom, slot, squeeze, space, grid, table, columns, cells, data, enter, entry, entries, blocks, rectangles, chevron
+- `bring-to-front`: `BringToFrontRegular` / `BringToFrontFilled`. bring, to, front, design, send, move, over, forward, overlap, layer, order
+- `combine-2`: `Combine2Regular` / `Combine2Filled`. combine, design
+- `contrast`: `ContrastRegular` / `ContrastFilled`. contrast, design, display, accessibility
+- `diameter`: `DiameterRegular` / `DiameterFilled`. diameter, design, shape, circle, geometry, trigonometry, width, height, size, calculate, measure
+- `drop-2`: `Drop2Regular` / `Drop2Filled`. drop, design
+- `droplet-off`: `DropletOffRegular` / `DropletOffFilled`. droplet, off, design, water, weather, liquid, fluid, wet, moisture, damp, bead, globule
+- `droplets`: `DropletsRegular` / `DropletsFilled`. droplets, design, water, weather, liquid, fluid, wet, moisture, damp, bead, globule
+- `gallery`: `GalleryRegular` / `GalleryFilled`. gallery, design
+- `gallery-horizontal`: `GalleryHorizontalRegular` / `GalleryHorizontalFilled`. gallery, horizontal, design, carousel, pictures, images, scroll, swipe, album, portfolio
+- `gallery-horizontal-end`: `GalleryHorizontalEndRegular` / `GalleryHorizontalEndFilled`. gallery, horizontal, end, design, carousel, pictures, images, scroll, swipe, album, portfolio, history, versions, backup, time machine
+- `gallery-thumbnails`: `GalleryThumbnailsRegular` / `GalleryThumbnailsFilled`. gallery, thumbnails, design, carousel, pictures, images, album, portfolio, preview
+- `gallery-vertical`: `GalleryVerticalRegular` / `GalleryVerticalFilled`. gallery, vertical, design, carousel, pictures, images, scroll, swipe, album, portfolio
+- `gallery-vertical-end`: `GalleryVerticalEndRegular` / `GalleryVerticalEndFilled`. gallery, vertical, end, design, carousel, pictures, images, scroll, swipe, album, portfolio, history, versions, backup, time machine
+- `grid-2x2-check`: `Grid2x2CheckRegular` / `Grid2x2CheckFilled`. grid, 2x2, check, design, table, rows, columns, blocks, plot, land, geometry, measure, data, size, width, height, distance, surface area, square meter, acre
+- `grid-2x2-plus`: `Grid2x2PlusRegular` / `Grid2x2PlusFilled`. grid, 2x2, plus, design, table, rows, columns, blocks, plot, land, geometry, measure, data, size, width, height, distance, surface area, square meter, acre
+- `grid-2x2-x`: `Grid2x2XRegular` / `Grid2x2XFilled`. grid, 2x2, x, design, table, rows, columns, data, blocks, plot, land, geometry, measure, size, width, height, distance, surface area, square meter, acre
+- `grid-3x3`: `Grid3x3Regular` / `Grid3x3Filled`. grid, 3x3, design, table, rows, columns
+- `lasso`: `LassoRegular` / `LassoFilled`. lasso, design, select, cursor
+- `lasso-2`: `Lasso2Regular` / `Lasso2Filled`. lasso, design
+- `lasso-select`: `LassoSelectRegular` / `LassoSelectFilled`. lasso, select, design, cursor
+- `layout-align-left`: `LayoutAlignLeftRegular` / `LayoutAlignLeftFilled`. layout, align, left, design
+- `layout-align-right`: `LayoutAlignRightRegular` / `LayoutAlignRightFilled`. layout, align, right, design
+- `layout-panel-left`: `LayoutPanelLeftRegular` / `LayoutPanelLeftFilled`. layout, panel, left, design, app, home, start, grid
+- `layout-panel-top`: `LayoutPanelTopRegular` / `LayoutPanelTopFilled`. layout, panel, top, design, window, webpage, block, section, grid, template, structure
+- `sidebar-left`: `SidebarLeftRegular` / `SidebarLeftFilled`. sidebar, left, design
+- `sidebar-left-close`: `SidebarLeftCloseRegular` / `SidebarLeftCloseFilled`. sidebar, left, close, design
+- `sidebar-left-collapse`: `SidebarLeftCollapseRegular` / `SidebarLeftCollapseFilled`. sidebar, left, collapse, design
+- `sidebar-left-open`: `SidebarLeftOpenRegular` / `SidebarLeftOpenFilled`. sidebar, left, open, design
+- `sidebar-right`: `SidebarRightRegular` / `SidebarRightFilled`. sidebar, right, design
+- `sidebar-right-close`: `SidebarRightCloseRegular` / `SidebarRightCloseFilled`. sidebar, right, close, design
+- `sidebar-right-collapse`: `SidebarRightCollapseRegular` / `SidebarRightCollapseFilled`. sidebar, right, collapse, design
+- `sidebar-right-open`: `SidebarRightOpenRegular` / `SidebarRightOpenFilled`. sidebar, right, open, design
+
+### development (49)
+
+- `brackets`: `BracketsRegular` / `BracketsFilled`. brackets, square, array
+- `braces`: `BracesRegular` / `BracesFilled`. braces, curly, code
+- `bug`: `BugRegular` / `BugFilled`. bug, error, insect
+- `code`: `CodeRegular` / `CodeFilled`. code, programmer, snippet, editor
+- `command`: `CommandRegular` / `CommandFilled`. command, keyboard, shortcut
+- `cursor`: `CursorRegular` / `CursorFilled`. pointer, indicator, cursor
+- `git-branch`: `GitBranchRegular` / `GitBranchFilled`. git, branch, version, control
+- `parentheses`: `ParenthesesRegular` / `ParenthesesFilled`. parentheses, round, bracket
+- `terminal`: `TerminalRegular` / `TerminalFilled`. terminal, shell, console
+- `web`: `WebRegular` / `WebFilled`. web, window, webpage, website, browser
+- `department`: `DepartmentRegular` / `DepartmentFilled`. department, branch, group, mind, map
+- `directory`: `DirectoryRegular` / `DirectoryFilled`. directory, catalogue, list
+- `git-commit`: `GitCommitRegular` / `GitCommitFilled`. git, commit, code, version
+- `git-compare`: `GitCompareRegular` / `GitCompareFilled`. git, compare, code, version
+- `git-merge`: `GitMergeRegular` / `GitMergeFilled`. git, merge, version
+- `git-pull-request-close`: `GitPullRequestCloseRegular` / `GitPullRequestCloseFilled`. git, merge, request, version
+- `git-pull-request`: `GitPullRequestRegular` / `GitPullRequestFilled`. git, merge, request, version
+- `hotkey`: `HotkeyRegular` / `HotkeyFilled`. hotkey, keyboard, shortcut
+- `performance`: `PerformanceRegular` / `PerformanceFilled`. performance, monitor
+- `terminal-box`: `TerminalBoxRegular` / `TerminalBoxFilled`. terminal, box, console, command
+- `sitemap`: `SitemapRegular` / `SitemapFilled`. sitemap, roadmap, list, mind, map
+- `brackets-angle`: `BracketsAngleRegular` / `BracketsAngleFilled`. brackets, angle, code
+- `inspect`: `InspectRegular` / `InspectFilled`. inspect, code
+- `cursor-2`: `Cursor2Regular` / `Cursor2Filled`. pointer, indicator, cursor
+- `cursor-3`: `Cursor3Regular` / `Cursor3Filled`. pointer, indicator, cursor
+- `git-branch-2`: `GitBranch2Regular` / `GitBranch2Filled`. git, branch, version, control
+- `git-merge-2`: `GitMerge2Regular` / `GitMerge2Filled`. git, merge, version
+- `mcp`: `McpRegular` / `McpFilled`. mcp, Model Context Protocol, MCP server, MCP client
+- `robot`: `RobotRegular` / `RobotFilled`. robot, robotics, robot arm, humanoid robot
+- `terminal-ai`: `TerminalAIRegular` / `TerminalAIFilled`. terminal, shell, console, AI, artificial, intelligence
+- `terminal-box-ai`: `TerminalBoxAIRegular` / `TerminalBoxAIFilled`. terminal, box, console, command, AI, artificial, intelligence
+- `vibe-coding`: `VibeCodingRegular` / `VibeCodingFilled`. vibe-coding, vibe coding, flow state programming, program
+- `app-window`: `AppWindowRegular` / `AppWindowFilled`. app, window, development, code, application, menu bar, pane, executable
+- `binary`: `BinaryRegular` / `BinaryFilled`. binary, development, code, digits, computer, zero, one, boolean
+- `bot-off`: `BotOffRegular` / `BotOffFilled`. bot, off, development, code, robot, ai, chat, assistant
+- `bug-off`: `BugOffRegular` / `BugOffFilled`. bug, off, development, code, issue, fixed, resolved, testing, debug, insect, kill, exterminate, pest control
+- `bug-play`: `BugPlayRegular` / `BugPlayFilled`. bug, play, development, code, issue, testing, debug, reproduce, insect
+- `git-branch-minus`: `GitBranchMinusRegular` / `GitBranchMinusFilled`. Git, branch, minus, development, code, version control, repository, source code, vcs, delete, remove, -
+- `git-branch-plus`: `GitBranchPlusRegular` / `GitBranchPlusFilled`. Git, branch, plus, development, code, version control, repository, source code, vcs, add, create, +
+- `git-commit-horizontal`: `GitCommitHorizontalRegular` / `GitCommitHorizontalFilled`. Git, commit, horizontal, development, code, version control, repository, source code, waypoint, stop, station
+- `git-compare-2`: `GitCompare2Regular` / `GitCompare2Filled`. Git, compare, development, code, version control, repository, source code
+- `git-fork`: `GitForkRegular` / `GitForkFilled`. Git, fork, development, code, version control, repository, source code
+- `git-graph`: `GitGraphRegular` / `GitGraphFilled`. Git, graph, development, code, version control, repository, source code, commit graph, commits, gitlens
+- `git-merge-conflict`: `GitMergeConflictRegular` / `GitMergeConflictFilled`. Git, merge, conflict, development, code, version control, repository, source code, commits, diff, error
+- `git-pull-request-2`: `GitPullRequest2Regular` / `GitPullRequest2Filled`. Git, pull, request, development, code, version control, repository, source code
+- `git-pull-request-create`: `GitPullRequestCreateRegular` / `GitPullRequestCreateFilled`. Git, pull, request, create, development, code, version control, repository, source code, open, plus, add, +
+- `git-pull-request-create-arrow`: `GitPullRequestCreateArrowRegular` / `GitPullRequestCreateArrowFilled`. Git, pull, request, create, arrow, development, code, version control, repository, source code, open, plus, add, +
+- `git-pull-request-draft`: `GitPullRequestDraftRegular` / `GitPullRequestDraftFilled`. Git, pull, request, draft, development, code, version control, repository, source code, open, dashed
+- `merge`: `MergeRegular` / `MergeFilled`. merge, development, code, combine, join, unite
+
+### devices (155)
+
+- `airplay`: `AirplayRegular` / `AirplayFilled`. airplay, cast, broadcast, mirroring
+- `alarm-1`: `Alarm1Regular` / `Alarm1Filled`. alarm, time, clock, ring
+- `alarm-2`: `Alarm2Regular` / `Alarm2Filled`. alarm, time, clock, ring
+- `bulb`: `BulbRegular` / `BulbFilled`. bulb, mind, thought
+- `bulb-2`: `Bulb2Regular` / `Bulb2Filled`. bulb, mind, thought
+- `cellphone`: `CellphoneRegular` / `CellphoneFilled`. cellphone, mobile, phone, iphone, smartphone
+- `cellphone-2`: `Cellphone2Regular` / `Cellphone2Filled`. cellphone, mobile, phone, iphone, smartphone
+- `cellphone-2-horizontal`: `Cellphone2HorizontalRegular` / `Cellphone2HorizontalFilled`. cellphone, mobile, phone, iphone, smartphone, horizontal
+- `computer`: `ComputerRegular` / `ComputerFilled`. computer, desktop, monitor, imac
+- `device`: `DeviceRegular` / `DeviceFilled`. device, computer, tablet, phone
+- `flash`: `FlashRegular` / `FlashFilled`. flash, lightning, thunderbolt, charger, power
+- `flashlight`: `FlashlightRegular` / `FlashlightFilled`. flashlight, torch, light
+- `game-1`: `Game1Regular` / `Game1Filled`. game, switch, playstation, xbox, gamepad
+- `game-2`: `Game2Regular` / `Game2Filled`. game, switch, playstation, xbox, gamepad
+- `imac`: `ImacRegular` / `ImacFilled`. computer, desktop, monitor, imac
+- `keyboard`: `KeyboardRegular` / `KeyboardFilled`. keyboard, typing, input
+- `laptop`: `LaptopRegular` / `LaptopFilled`. laptop, notebook, computer
+- `mouse`: `MouseRegular` / `MouseFilled`. mouse, click, pointer
+- `pad`: `PadRegular` / `PadFilled`. pad, iPad, phablet, tablet
+- `print`: `PrintRegular` / `PrintFilled`. print, printer, office
+- `radio`: `RadioRegular` / `RadioFilled`. radio, broadcast, receiver
+- `stopwatch`: `StopwatchRegular` / `StopwatchFilled`. stopwatch, timer, sports
+- `tv-1`: `TV1Regular` / `TV1Filled`. tv, display, watch, video
+- `tv-2`: `TV2Regular` / `TV2Filled`. tv, display, watch, video
+- `watch`: `WatchRegular` / `WatchFilled`. watch, timer, hour, clock
+- `battery-charging`: `BatteryChargingRegular` / `BatteryChargingFilled`. battery, charging
+- `battery`: `BatteryRegular` / `BatteryFilled`. battery, energy, power, electricity
+- `bluetooth`: `BluetoothRegular` / `BluetoothFilled`. bluetooth, wireless, connect
+- `bluetooth-off`: `BluetoothOffRegular` / `BluetoothOffFilled`. bluetooth, wireless, connect
+- `ceiling-lamp`: `CeilingLampRegular` / `CeilingLampFilled`. ceiling, lamp
+- `desk-lamp`: `DeskLampRegular` / `DeskLampFilled`. light, lamp
+- `qrcode`: `QrcodeRegular` / `QrcodeFilled`. qrcode, scan, data
+- `radar`: `RadarRegular` / `RadarFilled`. radar, wireless
+- `remote`: `RemoteRegular` / `RemoteFilled`. remote, control, device
+- `sandglass`: `SandglassRegular` / `SandglassFilled`. sandglass, hourglass
+- `scan-2`: `Scan2Regular` / `Scan2Filled`. scan, code, radar
+- `scan`: `ScanRegular` / `ScanFilled`. scan, code, radar
+- `telescope`: `TelescopeRegular` / `TelescopeFilled`. telescope, observation, vision
+- `wifi`: `WIFIRegular` / `WIFIFilled`. wifi, connect, wireless
+- `wifi-off`: `WIFIOffRegular` / `WIFIOffFilled`. wifi-off, connect, wireless
+- `chip`: `ChipRegular` / `ChipFilled`. chip, processor, cpu
+- `fridge`: `FridgeRegular` / `FridgeFilled`. fridge, cooler, freezer, kitchen
+- `microscope`: `MicroscopeRegular` / `MicroscopeFilled`. microscope, experiment, science
+- `cellphone-vibration`: `CellphoneVibrationRegular` / `CellphoneVibrationFilled`. cellphone, vibration
+- `computer-camera`: `ComputerCameraRegular` / `ComputerCameraFilled`. camera, video, recording
+- `computer-camera-off`: `ComputerCameraOffRegular` / `ComputerCameraOffFilled`. camera, video, recording, false
+- `dashboard-2`: `Dashboard2Regular` / `Dashboard2Filled`. dashboard, gauge, speed, odometer
+- `dashboard`: `DashboardRegular` / `DashboardFilled`. dashboard, gauge, speed, odometer
+- `radar-2`: `Radar2Regular` / `Radar2Filled`. radar, wireless
+- `speaker`: `SpeakerRegular` / `SpeakerFilled`. speaker, sound, music
+- `plugin`: `PluginRegular` / `PluginFilled`. plugin, plug, charger, extension
+- `plugin-2`: `Plugin2Regular` / `Plugin2Filled`. plugin, picture puzzle, extension
+- `server`: `ServerRegular` / `ServerFilled`. server, storage, hosting
+- `server-2`: `Server2Regular` / `Server2Filled`. server, storage, hosting, disk
+- `battery-automotive`: `BatteryAutomotiveRegular` / `BatteryAutomotiveFilled`. automotive, battery, charging
+- `dashboard-3`: `Dashboard3Regular` / `Dashboard3Filled`. dashboard, gauge, speed, odometer
+- `dashboard-4`: `Dashboard4Regular` / `Dashboard4Filled`. dashboard, gauge, speed, odometer
+- `display`: `DisplayRegular` / `DisplayFilled`. display, screen
+- `light`: `LightRegular` / `LightFilled`. light, bulb, power, mind, thought
+- `qrcode-2`: `Qrcode2Regular` / `Qrcode2Filled`. qrcode, scan, data
+- `router-modem`: `RouterModemRegular` / `RouterModemFilled`. router, modem, wifi
+- `usb`: `USBRegular` / `USBFilled`. USB, drive, connect
+- `usb-flash-disk`: `USBFlashDiskRegular` / `USBFlashDiskFilled`. USB, flash, disk
+- `air-condition`: `AirConditionRegular` / `AirConditionFilled`. air, condition, air-conditioner
+- `air-condition-open`: `AirConditionOpenRegular` / `AirConditionOpenFilled`. air, condition, open, air-conditioner
+- `base-station`: `BaseStationRegular` / `BaseStationFilled`. base, station, broadcast, signal
+- `base-station-2`: `BaseStation2Regular` / `BaseStation2Filled`. base, station, broadcast, signal
+- `rss`: `RSSRegular` / `RSSFilled`. rss, feed, subscribe
+- `rss-2`: `RSS2Regular` / `RSS2Filled`. rss, feed, subscribe
+- `wash-machine`: `WashMachineRegular` / `WashMachineFilled`. wash, machine, clean
+- `camcorder-2`: `Camcorder2Regular` / `Camcorder2Filled`. camera, camcorder, record
+- `drone`: `DroneRegular` / `DroneFilled`. drone, craft, fly
+- `laptop-2`: `Laptop2Regular` / `Laptop2Filled`. laptop, notebook, computer
+- `battery-1`: `Battery1Regular` / `Battery1Filled`. battery, energy, power, electricity
+- `battery-2`: `Battery2Regular` / `Battery2Filled`. battery, energy, power, electricity
+- `battery-3`: `Battery3Regular` / `Battery3Filled`. battery, energy, power, electricity
+- `battery-4`: `Battery4Regular` / `Battery4Filled`. battery, energy, power, electricity
+- `cube-3d`: `Cube3DRegular` / `Cube3DFilled`. 3d, cube, sphere
+- `airpods-2`: `Airpods2Regular` / `Airpods2Filled`. airpods, headphone, headset, music, audio
+- `barcode`: `BarcodeRegular` / `BarcodeFilled`. barcode, scan, product
+- `barcode-scan`: `BarcodeScanRegular` / `BarcodeScanFilled`. barcode, scan, product
+- `cardboard-vr`: `CardboardVRRegular` / `CardboardVRFilled`. cardboard, VR, virtual
+- `escalator-down`: `EscalatorDownRegular` / `EscalatorDownFilled`. escalator, down, elevator, lift
+- `escalator-up`: `EscalatorUpRegular` / `EscalatorUpFilled`. escalator, up, elevator, lift
+- `midi`: `MidiRegular` / `MidiFilled`. midi, piano, music
+- `watch-2`: `Watch2Regular` / `Watch2Filled`. watch, timer, hour, clock
+- `aspect-ratio`: `AspectRatioRegular` / `AspectRatioFilled`. aspect, ratio, dimension, size
+- `home-wifi`: `HomeWIFIRegular` / `HomeWIFIFilled`. home, wifi, connect, wireless
+- `keyboard-2`: `Keyboard2Regular` / `Keyboard2Filled`. keyboard, typing, input
+- `gradienter`: `GradienterRegular` / `GradienterFilled`. gradienter, measure, apparatus
+- `panoramas`: `PanoramasRegular` / `PanoramasFilled`. panoramas, interface, frame
+- `vison-pro`: `VisonProRegular` / `VisonProFilled`. vison, pro, cephalic, vr, apple
+- `guitar`: `GuitarRegular` / `GuitarFilled`. guitar, music, ukulele
+- `instrument`: `InstrumentRegular` / `InstrumentFilled`. instrument, dashboard, scale
+- `telescope-2`: `Telescope2Regular` / `Telescope2Filled`. telescope, observation, vision
+- `high-voltage-power`: `HighVoltagePowerRegular` / `HighVoltagePowerFilled`. high, voltage, power, electric
+- `homepod`: `HomepodRegular` / `HomepodFilled`. homepod, speaker, sound, apple
+- `homepod-mini`: `HomepodMiniRegular` / `HomepodMiniFilled`. homepod, speaker, sound, apple
+- `tower-crane`: `TowerCraneRegular` / `TowerCraneFilled`. tower, crane, construct
+- `desk-lamp-2`: `DeskLamp2Regular` / `DeskLamp2Filled`. light, lamp
+- `monitor`: `MonitorRegular` / `MonitorFilled`. display, screen, monitor
+- `sandglass-2`: `Sandglass2Regular` / `Sandglass2Filled`. sandglass, hourglass
+- `solar-panel`: `SolarPanelRegular` / `SolarPanelFilled`. solar, energy, photovoltaic, panel, renewable
+- `storage`: `StorageRegular` / `StorageFilled`. storage, space, capacity, data
+- `fax`: `FaxRegular` / `FaxFilled`. fax, phone, call, landline
+- `projector`: `ProjectorRegular` / `ProjectorFilled`. projector, play, film
+- `projector-screen`: `ProjectorScreenRegular` / `ProjectorScreenFilled`. projector, play, screen, cast
+- `remote-control`: `RemoteControlRegular` / `RemoteControlFilled`. remote, control, device
+- `shower`: `ShowerRegular` / `ShowerFilled`. shower, bath, bathroom, tub
+- `cellphone-2-ai`: `Cellphone2AIRegular` / `Cellphone2AIFilled`. cellphone, mobile, phone, iphone, smartphone, ai, magic, artificial, intelligence
+- `ai`: `AIRegular` / `AIFilled`. star, ai, magic, artificial, intelligence
+- `flash-circle`: `FlashCircleRegular` / `FlashCircleFilled`. flash, lightning, thunderbolt, charger, power, circle
+- `bulb-ai`: `BulbAIRegular` / `BulbAIFilled`. bulb, mind, thought, AI, artificial, intelligence
+- `bulb-2-ai`: `Bulb2AIRegular` / `Bulb2AIFilled`. bulb, mind, thought, AI, artificial, intelligence
+- `stopwatch-2`: `Stopwatch2Regular` / `Stopwatch2Filled`. stopwatch, timer, sports
+- `stopwatch-2-off`: `Stopwatch2OffRegular` / `Stopwatch2OffFilled`. stopwatch, timer, sports, off
+- `counter-2`: `Counter2Regular` / `Counter2Filled`. counter, calculator, subtract, math
+- `alarm-clock-check`: `AlarmClockCheckRegular` / `AlarmClockCheckFilled`. alarm, clock, check, device, done, todo, tick, complete, task
+- `alarm-clock-minus`: `AlarmClockMinusRegular` / `AlarmClockMinusFilled`. alarm, clock, minus, device, remove
+- `alarm-clock-plus`: `AlarmClockPlusRegular` / `AlarmClockPlusFilled`. alarm, clock, plus, device, add
+- `alarm-smoke`: `AlarmSmokeRegular` / `AlarmSmokeFilled`. alarm, smoke, device, fire, alert, warning, detector, carbon monoxide, safety, equipment, amenities
+- `antenna`: `AntennaRegular` / `AntennaFilled`. antenna, device, signal, connection, connectivity, tv, television, broadcast, live, frequency, tune, scan, channels, aerial, receiver, transmission, transducer, terrestrial, satellite, cable
+- `battery-plus`: `BatteryPlusRegular` / `BatteryPlusFilled`. battery, plus, device, power, electricity, energy, accumulator, charge, economy, health, add, new, maximum, upgrade, extra, +
+- `battery-warning`: `BatteryWarningRegular` / `BatteryWarningFilled`. battery, warning, device, power, electricity, energy, accumulator, charge, exclamation mark
+- `bell-electric`: `BellElectricRegular` / `BellElectricFilled`. bell, electric, device, fire alarm, flames, smoke, firefighter, fireman, department, brigade, station, emergency, alert, safety, school bell, period break, recess, doorbell, entrance, entry, ring, reception
+- `bluetooth-connected`: `BluetoothConnectedRegular` / `BluetoothConnectedFilled`. Bluetooth, connected, device, paired
+- `bluetooth-searching`: `BluetoothSearchingRegular` / `BluetoothSearchingFilled`. Bluetooth, searching, device, pairing
+- `boom-box`: `BoomBoxRegular` / `BoomBoxFilled`. boom, box, device, radio, speakers, audio, music, sound, broadcast, live, frequency
+- `cable`: `CableRegular` / `CableFilled`. cable, device, cord, wire, connector, connection, link, signal, console, computer, equipment, electricity, energy, electronics, recharging, charger, power, supply, disconnected, unplugged, plugs, interface, input, output, audio video, av, rca, scart, tv, television, optical
+- `card-sim`: `CardSimRegular` / `CardSimFilled`. card, SIM, device, cellphone, smartphone, mobile, network, cellular, service, provider, signal, coverage, disk, data, format, storage, flash, digital, contacts, phone book, contractual, circuit board, chip
+- `cast`: `CastRegular` / `CastFilled`. cast, device, stream, streaming, screen, display, wireless, broadcast, transmit, media, receiver, remote display, screen sharing, media streaming
+- `cctv-off`: `CctvOffRegular` / `CctvOffFilled`. CCTV, off, device, camera, surveillance, recording, film, videotape, crime, watching
+- `circuit-board`: `CircuitBoardRegular` / `CircuitBoardFilled`. circuit, board, device, computing, electricity, electronics
+- `database-backup`: `DatabaseBackupRegular` / `DatabaseBackupFilled`. database, backup, device, data, storage, backend, memory, bytes, servers, timemachine, rotate, arrow, left
+- `database-search`: `DatabaseSearchRegular` / `DatabaseSearchFilled`. database, search, device, data, storage, backend, memory, container, tin, pot, bytes, servers
+- `database-zap`: `DatabaseZapRegular` / `DatabaseZapFilled`. database, power, device, data, storage, backend, cache busting, memory, bytes, servers, crash
+- `drill`: `DrillRegular` / `DrillFilled`. drill, device, power, bit, head, hole, diy, toolbox, build, construction
+- `ethernet-port`: `EthernetPortRegular` / `EthernetPortFilled`. Ethernet, port, device, internet, network, connection, cable, lan, router, switch, hub, modem, web, online, networking, communication, socket, plug, slot, controller, connector, interface, console, signal, data, input, output
+- `flashlight-off`: `FlashlightOffRegular` / `FlashlightOffFilled`. flashlight, off, device, torch, light, beam, emergency, safety, tool, bright
+- `gamepad-directional`: `GamepadDirectionalRegular` / `GamepadDirectionalFilled`. gamepad, directional, device, direction, arrow, controller, navigation, button, move, pointer, arrowhead, console, game, gaming
+- `gpu`: `GpuRegular` / `GpuFilled`. GPU, device, processor, cores, technology, computer, chip, circuit, specs, graphics processing unit, video card, display adapter, gddr, rendering, digital image processing, crypto mining
+- `hard-drive-download`: `HardDriveDownloadRegular` / `HardDriveDownloadFilled`. hard, drive, download, device, computer, server, memory, data, ssd, disk, hard disk, save
+- `hard-drive-upload`: `HardDriveUploadRegular` / `HardDriveUploadFilled`. hard, drive, upload, device, computer, server, memory, data, ssd, disk, hard disk, save
+- `hdmi-port`: `HdmiPortRegular` / `HdmiPortFilled`. HDMI, port, device, socket, plug, slot, controller, connector, interface, console, signal, audio, video, visual, av, data, input, output
+- `heater`: `HeaterRegular` / `HeaterFilled`. heater, device, heating, warmth, comfort, fire, stove, electric, electronics, amenities
+- `inspection-panel`: `InspectionPanelRegular` / `InspectionPanelFilled`. inspection, panel, device, access, cover, tile, metal, materials, screws
+- `joystick`: `JoystickRegular` / `JoystickFilled`. joystick, device, game, console, control stick
+- `keyboard-off`: `KeyboardOffRegular` / `KeyboardOffFilled`. keyboard, off, device, unkeys, layout, spell, settings, mouse
+- `lamp-floor`: `LampFloorRegular` / `LampFloorFilled`. lamp, floor, device, lighting, household, home, furniture
+- `lamp-wall-down`: `LampWallDownRegular` / `LampWallDownFilled`. lamp, wall, down, device, lighting, household, home, furniture
+- `lamp-wall-up`: `LampWallUpRegular` / `LampWallUpFilled`. lamp, wall, up, device, lighting, household, home, furniture
+- `laptop-minimal-check`: `LaptopMinimalCheckRegular` / `LaptopMinimalCheckFilled`. laptop, minimal, check, device, computer, screen, remote, success, done, todo, tick, complete, task
+- `lightbulb-off`: `LightbulbOffRegular` / `LightbulbOffFilled`. lightbulb, off, device, lights
+- `memory-stick`: `MemoryStickRegular` / `MemoryStickFilled`. memory, stick, device, ram, random access, technology, computer, chip, circuit, specs, capacity, gigabytes, gb
+- `signal`: `SignalRegular` / `SignalFilled`. signal, wireless, strength, network, connection, gsm, phone, 2g, 3g, 4g, 5g, 2G, 3G, 4G, 5G
+
+### editing (124)
+
+- `align-right`: `AlignRightRegular` / `AlignRightFilled`. align, right, typography, text, editor
+- `align-center`: `AlignCenterRegular` / `AlignCenterFilled`. align, center, typography, text, editor
+- `align-left`: `AlignLeftRegular` / `AlignLeftFilled`. align, left, typography, text, editor
+- `at`: `AtRegular` / `AtFilled`. at, @, email, symbol
+- `bold`: `BoldRegular` / `BoldFilled`. bold, typeface, font
+- `edit`: `EditRegular` / `EditFilled`. edit, pencil, write
+- `font`: `FontRegular` / `FontFilled`. font, typography, typeface, text
+- `font-size`: `FontSizeRegular` / `FontSizeFilled`. font, size, typography, typeface, text
+- `hashtag`: `HashtagRegular` / `HashtagFilled`. hashtag, #, hash, symbol
+- `heading-1`: `Heading1Regular` / `Heading1Filled`. Heading, h1, typography, text
+- `heading-2`: `Heading2Regular` / `Heading2Filled`. Heading, h2, typography, text
+- `heading-3`: `Heading3Regular` / `Heading3Filled`. Heading, h3, typography, text
+- `indent-decrease`: `IndentDecreaseRegular` / `IndentDecreaseFilled`. indent, decrease
+- `indent-increase`: `IndentIncreaseRegular` / `IndentIncreaseFilled`. indent, increase
+- `italic`: `ItalicRegular` / `ItalicFilled`. italic, typography, text
+- `list-check`: `ListCheckRegular` / `ListCheckFilled`. list, check
+- `list-ordered`: `ListOrderedRegular` / `ListOrderedFilled`. list, ordered
+- `menu`: `MenuRegular` / `MenuFilled`. menu, list, line
+- `paint`: `PaintRegular` / `PaintFilled`. paint, color, picker
+- `pencil`: `PencilRegular` / `PencilFilled`. edit, pencil, write
+- `strikethrough`: `StrikethroughRegular` / `StrikethroughFilled`. strikethrough, typography, text
+- `table`: `TableRegular` / `TableFilled`. table, spreadsheet, layout, grid
+- `text`: `TextRegular` / `TextFilled`. text, letter, words, write
+- `underline`: `UnderlineRegular` / `UnderlineFilled`. underline, typography, text
+- `translate`: `TranslateRegular` / `TranslateFilled`. translate, language, tongue
+- `az-sort-ascending-letters`: `AzSortAscendingLettersRegular` / `AzSortAscendingLettersFilled`. sort, ascending, letters, down
+- `and`: `AndRegular` / `AndFilled`. and, &
+- `asterisk`: `AsteriskRegular` / `AsteriskFilled`. asterisk, *
+- `dividing-line`: `DividingLineRegular` / `DividingLineFilled`. divider, separator
+- `eraser`: `EraserRegular` / `EraserFilled`. eraser, remove, wipe-out
+- `formula`: `FormulaRegular` / `FormulaFilled`. formula, sum, equation
+- `omega`: `OmegaRegular` / `OmegaFilled`. omega, Ω
+- `paragraph`: `ParagraphRegular` / `ParagraphFilled`. paragraph, pilcrow, editor
+- `pen-2`: `Pen2Regular` / `Pen2Filled`. edit, pen, write
+- `quote-left`: `QuoteLeftRegular` / `QuoteLeftFilled`. quote, left
+- `quote-right`: `QuoteRightRegular` / `QuoteRightFilled`. quote, right
+- `sort-ascending`: `SortAscendingRegular` / `SortAscendingFilled`. sort, ascending
+- `sort-descending`: `SortDescendingRegular` / `SortDescendingFilled`. sort, descending
+- `za-sort-descending-letters`: `ZaSortDescendingLettersRegular` / `ZaSortDescendingLettersFilled`. sort, descending, letters, down
+- `line-height`: `LineHeightRegular` / `LineHeightFilled`. line, height, space, inline
+- `list-check-2`: `ListCheck2Regular` / `ListCheck2Filled`. list, check, to-do, agenda
+- `list-check-3`: `ListCheck3Regular` / `ListCheck3Filled`. list, check, checklist
+- `edit-2`: `Edit2Regular` / `Edit2Filled`. edit, pencil, write
+- `edit-3`: `Edit3Regular` / `Edit3Filled`. edit, pencil, write
+- `column`: `ColumnRegular` / `ColumnFilled`. column, layout, grid
+- `frame`: `FrameRegular` / `FrameFilled`. frame, artboard
+- `letter-spacing`: `LetterSpacingRegular` / `LetterSpacingFilled`. letter, spacing, font, character
+- `spacing-horizontal`: `SpacingHorizontalRegular` / `SpacingHorizontalFilled`. spacing, horizontal
+- `spacing-vertical`: `SpacingVerticalRegular` / `SpacingVerticalFilled`. spacing, vertical
+- `pencil-2`: `Pencil2Regular` / `Pencil2Filled`. edit, pencil, write
+- `list-collapse`: `ListCollapseRegular` / `ListCollapseFilled`. list, collapse, menu
+- `list-expansion`: `ListExpansionRegular` / `ListExpansionFilled`. list, expansion, menu
+- `align-justify`: `AlignJustifyRegular` / `AlignJustifyFilled`. align, justify, alignment
+- `signature`: `SignatureRegular` / `SignatureFilled`. signature, certificate, write
+- `list-search`: `ListSearchRegular` / `ListSearchFilled`. list, search, find
+- `text-color`: `TextColorRegular` / `TextColorFilled`. text, color, format
+- `cursor-text`: `CursorTextRegular` / `CursorTextFilled`. cursor, text, input, type
+- `textbox`: `TextboxRegular` / `TextboxFilled`. cursor, text, input, box
+- `translate-2`: `Translate2Regular` / `Translate2Filled`. translate, language, tongue
+- `asterisk-2`: `Asterisk2Regular` / `Asterisk2Filled`. asterisk, *
+- `table-3`: `Table3Regular` / `Table3Filled`. table, spreedsheet, layout, grid
+- `space`: `SpaceRegular` / `SpaceFilled`. space, type, mark, grid
+- `az-sort-descending-letters`: `AzSortDescendingLettersRegular` / `AzSortDescendingLettersFilled`. sort, descending, letters, up
+- `za-sort-ascending-letters`: `ZaSortAscendingLettersRegular` / `ZaSortAscendingLettersFilled`. sort, ascending, letters, up
+- `numbers-09-sort-descending`: `Numbers09SortDescendingRegular` / `Numbers09SortDescendingFilled`. sort, descending, number, down
+- `numbers-09-sort-ascending`: `Numbers09SortAscendingRegular` / `Numbers09SortAscendingFilled`. sort, ascending, letters, up
+- `numbers-90-sort-descending`: `Numbers90SortDescendingRegular` / `Numbers90SortDescendingFilled`. sort, descending, number, down
+- `numbers-90-sort-ascending`: `Numbers90SortAscendingRegular` / `Numbers90SortAscendingFilled`. sort, ascending, letters, up
+- `text-2`: `Text2Regular` / `Text2Filled`. text, letter, words, write
+- `blockquote`: `BlockquoteRegular` / `BlockquoteFilled`. blockquote, quotation, citation, text
+- `edit-4`: `Edit4Regular` / `Edit4Filled`. edit, pencil, write
+- `pencil-ruler`: `PencilRulerRegular` / `PencilRulerFilled`. pencil, ruler, stationery, measure
+- `pencil-3`: `Pencil3Regular` / `Pencil3Filled`. edit, pencil, write
+- `subtitle`: `SubtitleRegular` / `SubtitleFilled`. subtitle, badge, caption
+- `text-area`: `TextAreaRegular` / `TextAreaFilled`. text, area, words, write
+- `text-direction-left`: `TextDirectionLeftRegular` / `TextDirectionLeftFilled`. text, direction, left, right, rtl
+- `text-direction-right`: `TextDirectionRightRegular` / `TextDirectionRightFilled`. text, direction, left, right, ltr
+- `pencil-2-ai`: `Pencil2AIRegular` / `Pencil2AIFilled`. edit, pencil, write, ai, magic, artificial, intelligence
+- `textbox-ai`: `TextboxAIRegular` / `TextboxAIFilled`. cursor, text, input, box, ai, magic, artificial, intelligence
+- `content-ai`: `ContentAIRegular` / `ContentAIFilled`. content, text, paper, ai, magic, artificial, intelligence
+- `translate-2-ai`: `Translate2AIRegular` / `Translate2AIFilled`. translate, language, tongue, ai, magic, artificial, intelligence
+- `edit-2-ai`: `Edit2AIRegular` / `Edit2AIFilled`. edit, pencil, write, ai, magic, artificial, intelligence
+- `edit-3-ai`: `Edit3AIRegular` / `Edit3AIFilled`. edit, pencil, write, ai, magic, artificial, intelligence
+- `eraser-ai`: `EraserAIRegular` / `EraserAIFilled`. eraser, remove, wipe-out, ai, magic, artificial, intelligence
+- `pen-2-ai`: `Pen2AIRegular` / `Pen2AIFilled`. edit, pen, write, ai, magic, artificial, intelligence
+- `pencil-3-ai`: `Pencil3AIRegular` / `Pencil3AIFilled`. edit, pencil, write, ai, magic, artificial, intelligence
+- `percentage`: `PercentageRegular` / `PercentageFilled`. percent sign, percent symbol, mathematics, notation
+- `pencil-ai`: `PencilAIRegular` / `PencilAIFilled`. edit, pencil, write, ai, magic, artificial, intelligence
+- `signature-2`: `Signature2Regular` / `Signature2Filled`. signature, certificate, write
+- `signature-2-ai`: `Signature2AIRegular` / `Signature2AIFilled`. signature, certificate, write, ai, magic, artificial, intelligence
+- `a-arrow-down`: `AArrowDownRegular` / `AArrowDownFilled`. letter A, arrow, down, editing, text, letter, font size, formatting, smaller
+- `a-arrow-up`: `AArrowUpRegular` / `AArrowUpFilled`. letter A, arrow, up, editing, text, letter, font size, formatting, larger, bigger
+- `a-large-small`: `ALargeSmallRegular` / `ALargeSmallFilled`. letter A, large, small, editing, text, letter, font size, formatting, text size, heading text, body text
+- `ampersands`: `AmpersandsRegular` / `AmpersandsFilled`. ampersand, editing, text, and, operator, then, code, &&
+- `case-lower`: `CaseLowerRegular` / `CaseLowerFilled`. case, lowercase, editing, text, letters, characters, font, typography
+- `case-upper`: `CaseUpperRegular` / `CaseUpperFilled`. case, uppercase, editing, text, letters, characters, font, typography
+- `columns-3-cog`: `Columns3CogRegular` / `Columns3CogFilled`. columns, settings, editing, text, customize, table, grid, adjust, configuration, panel, layout
+- `columns-4`: `Columns4Regular` / `Columns4Filled`. columns, editing, text, lines, list, queue, preview, parallel, series, split, vertical, horizontal, thirds, triple, center, middle, alignment, even, sidebars, drawers, gutters, fold, reflow, typography, pagination, pages, prison, jail, bars, sentence, police, cops, cell, crime, criminal, justice, law, enforcement, grill
+- `edit-5`: `Edit5Regular` / `Edit5Filled`. edit, editing, text
+- `heading`: `HeadingRegular` / `HeadingFilled`. heading, editing, text, h1, html, markup, markdown
+- `heading-4`: `Heading4Regular` / `Heading4Filled`. heading, editing, text, h4, html, markup, markdown
+- `heading-5`: `Heading5Regular` / `Heading5Filled`. heading, editing, text, h5, html, markup, markdown
+- `heading-6`: `Heading6Regular` / `Heading6Filled`. heading, editing, text, h6, html, markup, markdown
+- `ligature`: `LigatureRegular` / `LigatureFilled`. ligature, editing, text, font, typography, alternates, alternatives
+- `line-squiggle`: `LineSquiggleRegular` / `LineSquiggleFilled`. line, squiggle, editing, text, snakes, annotate, curve, doodle, stroke, pen, tool, gesture, draw, wave, art, road
+- `list-check-4`: `ListCheck4Regular` / `ListCheck4Filled`. list, check, editing, text, list management, checklist, task
+- `list-chevrons-down-up`: `ListChevronsDownUpRegular` / `ListChevronsDownUpFilled`. list, chevrons, down, up, editing, text, list management, checklist, task, options, items, collapse, expand, details, disclosure, show, hide, toggle, accordion, more, less, fold, unfold, vertical
+- `list-chevrons-up-down`: `ListChevronsUpDownRegular` / `ListChevronsUpDownFilled`. list, chevrons, up, down, editing, text, list management, checklist, task, options, items, collapse, expand, details, disclosure, show, hide, toggle, accordion, more, less, fold, unfold, vertical
+- `list-collapse-2`: `ListCollapse2Regular` / `ListCollapse2Filled`. list, collapse, editing, text, list management, checklist, task
+- `list-end`: `ListEndRegular` / `ListEndFilled`. list, end, editing, text, list management, checklist, task, queue, bottom, playlist
+- `list-indent-decrease`: `ListIndentDecreaseRegular` / `ListIndentDecreaseFilled`. list, indent, decrease, editing, text, list management, checklist, task, tab
+- `list-indent-increase`: `ListIndentIncreaseRegular` / `ListIndentIncreaseFilled`. list, indent, increase, editing, text, list management, checklist, task, tab
+- `list-minus`: `ListMinusRegular` / `ListMinusFilled`. list, minus, editing, text, list management, checklist, task, playlist, remove, song, subtract, delete, unqueue
+- `list-plus`: `ListPlusRegular` / `ListPlusFilled`. list, plus, editing, text, list management, checklist, task, playlist, add, song, track, new
+- `list-restart`: `ListRestartRegular` / `ListRestartFilled`. list, restart, editing, text, list management, checklist, task, reset, refresh, reload, playlist, replay
+- `list-start`: `ListStartRegular` / `ListStartFilled`. list, start, editing, text, list management, checklist, task, queue, top, next, playlist
+- `list-todo`: `ListTodoRegular` / `ListTodoFilled`. list, to-do, editing, text, list management, checklist, task, todo, done, check, tick, complete, tasks, items, pending
+- `list-x`: `ListXRegular` / `ListXFilled`. list, x, editing, text, list management, checklist, task, playlist, subtract, remove, delete, unqueue
+- `logs`: `LogsRegular` / `LogsFilled`. logs, editing, text, options, list, menu, order, queue, tasks
+- `text-align-center`: `TextAlignCenterRegular` / `TextAlignCenterFilled`. text, align, center, editing, alignment
+- `text-align-end`: `TextAlignEndRegular` / `TextAlignEndFilled`. text, align, end, editing, alignment, right
+- `text-align-justify`: `TextAlignJustifyRegular` / `TextAlignJustifyFilled`. text, align, justify, editing, alignment, justified, menu, list
+- `text-align-start`: `TextAlignStartRegular` / `TextAlignStartFilled`. text, align, start, editing, alignment, left, list
+- `typography`: `TypographyRegular` / `TypographyFilled`. typography, editing, text
+
+### education (80)
+
+- `book-3`: `Book3Regular` / `Book3Filled`. book, dictionary, booklet
+- `book-2`: `Book2Regular` / `Book2Filled`. book, dictionary, novel
+- `book`: `BookRegular` / `BookFilled`. book, read, magazine, novel
+- `bookmark`: `BookmarkRegular` / `BookmarkFilled`. bookmark, read, tag, clip
+- `counter`: `CounterRegular` / `CounterFilled`. counter, calculator, subtract, math
+- `diary`: `DiaryRegular` / `DiaryFilled`. note, jot, diary, memo
+- `globe`: `GlobeRegular` / `GlobeFilled`. world, earth, globe
+- `mortarboard`: `MortarboardRegular` / `MortarboardFilled`. mortarboard, degree, graduate
+- `notebook`: `NotebookRegular` / `NotebookFilled`. note, jot, diary, memo
+- `science`: `ScienceRegular` / `ScienceFilled`. science, physics, atomic
+- `eyeglass`: `EyeglassRegular` / `EyeglassFilled`. eyeglass, sight, see
+- `flask`: `FlaskRegular` / `FlaskFilled`. flask, chemistry
+- `flask-2`: `Flask2Regular` / `Flask2Filled`. flask, chemistry
+- `book-4`: `Book4Regular` / `Book4Filled`. book, read, dictionary, novel
+- `book-5`: `Book5Regular` / `Book5Filled`. book, library, booklet
+- `desk`: `DeskRegular` / `DeskFilled`. desk, office, table, bureau
+- `notebook-2`: `Notebook2Regular` / `Notebook2Filled`. note, jot, diary, memo
+- `book-6`: `Book6Regular` / `Book6Filled`. book, read, magazine, novel
+- `certificate-2`: `Certificate2Regular` / `Certificate2Filled`. certificate, security, qualification, protect
+- `balance`: `BalanceRegular` / `BalanceFilled`. balance, scale, weight, libra
+- `drum`: `DrumRegular` / `DrumFilled`. drum, music
+- `folding-fan`: `FoldingFanRegular` / `FoldingFanFilled`. folding, fan
+- `bookmarks`: `BookmarksRegular` / `BookmarksFilled`. bookmark, read, tag, clip
+- `black-board-2`: `BlackBoard2Regular` / `BlackBoard2Filled`. blackboard, teach, chalkboard, learn
+- `black-board`: `BlackBoardRegular` / `BlackBoardFilled`. blackboard, teach, chalkboard, learn
+- `magnet`: `MagnetRegular` / `MagnetFilled`. magnet, pole, iron, attract
+- `speech`: `SpeechRegular` / `SpeechFilled`. speech, teach, report
+- `backpack`: `BackpackRegular` / `BackpackFilled`. backpack, school, learning, travel
+- `compass-2`: `Compass2Regular` / `Compass2Filled`. compass, geometry, architecture
+- `flask-3`: `Flask3Regular` / `Flask3Filled`. flask, chemistry
+- `test-tube`: `TestTubeRegular` / `TestTubeFilled`. laboratory, experiment, tube
+- `bookmark-add`: `BookmarkAddRegular` / `BookmarkAddFilled`. bookmark, read, tag, clip, add
+- `bookmark-remove`: `BookmarkRemoveRegular` / `BookmarkRemoveFilled`. bookmark, read, tag, clip, remover, delete
+- `bookmark-edit`: `BookmarkEditRegular` / `BookmarkEditFilled`. bookmark, read, tag, clip, edit
+- `book-ai`: `BookAIRegular` / `BookAIFilled`. book, read, magazine, novel, ai, magic, artificial, intelligence
+- `book-2-ai`: `Book2AIRegular` / `Book2AIFilled`. book, dictionary, novel, ai, magic, artificial, intelligence
+- `book-6-ai`: `Book6AIRegular` / `Book6AIFilled`. book, read, magazine, novel, ai, magic, artificial, intelligence
+- `book-alert`: `BookAlertRegular` / `BookAlertFilled`. book, alert, education, learning, reading, paperback, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, high school, university, college, academy, student, study, homework, research, documentation, warning, danger, exclamation mark
+- `book-audio`: `BookAudioRegular` / `BookAudioFilled`. book, audio, education, learning, audiobook, reading, listening, sound, story, fiction, novel, information, knowledge, student, study, research
+- `book-check`: `BookCheckRegular` / `BookCheckFilled`. book, check, education, learning, read, booklet, magazine, leaflet, pamphlet, library, written, authored, published, informed, knowledgeable, educated, schooled, homework, examined, tested, marked, passed, graduated, studied, learned, lesson, researched, documented, revealed, blank, plain language, true, truth, verified, corrected, task, todo, done, completed, finished, ticked
+- `book-copy`: `BookCopyRegular` / `BookCopyFilled`. book, copy, education, learning, code, coding, version control, git, repository, clone, fork, duplicate, multiple, books, library, copies, copied, plagiarism, plagiarised, plagiarized, reading list, information, informed, knowledge, knowledgeable, knowledgable, high school, university, college, academy, student, study, research, smart, intelligent, intellectual, Git
+- `book-dashed`: `BookDashedRegular` / `BookDashedFilled`. book, dashed, education, learning, code, coding, version control, git, repository, template, draft, script, screenplay, writing, writer, author, unwritten, unpublished, untold, Git
+- `book-down`: `BookDownRegular` / `BookDownFilled`. book, down, education, learning, code, coding, version control, git, repository, pull, Git
+- `book-headphones`: `BookHeadphonesRegular` / `BookHeadphonesFilled`. book, headphones, education, learning, audiobook, reading, listening, sound, story, fiction, novel, information, knowledge, student, study, research
+- `book-heart`: `BookHeartRegular` / `BookHeartFilled`. book, heart, education, learning, diary, romance, novel, journal, entry, entries, personal, private, secret, crush, like, love, emotion, feminine, girls, teens, teenager, therapy, therapeutic, therapist, planner, organizer, organiser, notes, notepad, stationery, sketchbook, writing, written, reading, favorite, favourite, high school
+- `book-image`: `BookImageRegular` / `BookImageFilled`. book, image, education, learning, images, pictures, photos, album, collection, event, magazine, catalog, catalogue, brochure, browse, gallery
+- `book-key`: `BookKeyRegular` / `BookKeyFilled`. book, key, education, learning, code, coding, version control, git, repository, private, public, secret, unlocked, hidden, revealed, knowledge, Git
+- `book-lock`: `BookLockRegular` / `BookLockFilled`. book, lock, education, learning, code, coding, version control, git, repository, private, secret, hidden, knowledge, Git
+- `book-marked`: `BookMarkedRegular` / `BookMarkedFilled`. book, marked, education, learning
+- `book-minus`: `BookMinusRegular` / `BookMinusFilled`. book, minus, education, learning, code, coding, version control, git, repository, remove, delete, censor, cancel, forbid, prohibit, ban, uneducated, re-educate, unlearn, downgrade, Git
+- `book-open-check`: `BookOpenCheckRegular` / `BookOpenCheckFilled`. book, open, check, education, learning, read, pages, booklet, magazine, leaflet, pamphlet, library, written, authored, published, informed, knowledgeable, educated, schooled, homework, examined, tested, marked, passed, graduated, studied, learned, lesson, researched, documented, revealed, blank, plain language, true, truth, verified, corrected, task, todo, done, completed, finished, ticked
+- `book-open-text`: `BookOpenTextRegular` / `BookOpenTextFilled`. book, open, text, education, learning, reading, pages, booklet, magazine, leaflet, pamphlet, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, high school, university, college, academy, student, study, homework, research, documentation, revealed
+- `book-plus`: `BookPlusRegular` / `BookPlusFilled`. book, plus, education, learning, code, coding, version control, git, repository, remove, delete, read, write, author, publish, inform, graduate, re-educate, study, learn, research, knowledge, improve, upgrade, level up, Git
+- `book-search`: `BookSearchRegular` / `BookSearchFilled`. book, search, education, learning, reading, library, study, research, knowledge, discover, browsing, lookup, finding, scanning
+- `book-text`: `BookTextRegular` / `BookTextFilled`. book, text, education, learning, reading, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, high school, university, college, academy, student, study, homework, research, documentation
+- `book-type`: `BookTypeRegular` / `BookTypeFilled`. book, type, education, learning, thesaurus, synonym, reading, booklet, magazine, leaflet, pamphlet, tome, library, writing, written, writer, author, story, script, fiction, novel, information, knowledge, high school, university, college, academy, student, study, homework, research, language, translate, typography, fonts, collection
+- `book-up`: `BookUpRegular` / `BookUpFilled`. book, up, education, learning, code, coding, version control, git, repository, push, Git
+- `book-up-2`: `BookUp2Regular` / `BookUp2Filled`. book, up, education, learning, code, coding, version control, git, repository, push, force, Git
+- `book-user`: `BookUserRegular` / `BookUserFilled`. book, user, education, learning, person, people, family, friends, acquaintances, contacts, details, addresses, phone numbers, directory, listing, networking
+- `book-x`: `BookXRegular` / `BookXFilled`. book, x, education, learning, code, coding, version control, git, repository, remove, delete, reading, misinformation, disinformation, misinformed, charlatan, sophistry, false, lies, untruth, propaganda, censored, cancelled, forbidden, prohibited, banned, uneducated, re-education, unlearn, Git
+- `bookmark-check`: `BookmarkCheckRegular` / `BookmarkCheckFilled`. bookmark, check, education, learning, read, finished, complete, clip, marker, tag, task, todo
+- `bookmark-off`: `BookmarkOffRegular` / `BookmarkOffFilled`. bookmark, off, education, learning, unsaved, unfavorite, unmarked, unlabel, disabled, removed, unpin, unread, unclip, marker, untag
+- `bookmark-x`: `BookmarkXRegular` / `BookmarkXFilled`. bookmark, x, education, learning, read, clip, marker, tag, cancel, close, delete, remove, clear
+- `circle-divide`: `CircleDivideRegular` / `CircleDivideFilled`. circle, divide, education, learning, calculate, math, ÷, /
+- `circle-equal`: `CircleEqualRegular` / `CircleEqualFilled`. circle, equal, education, learning, calculate, shape, =
+- `circle-percent`: `CirclePercentRegular` / `CirclePercentFilled`. circle, percent, education, learning, verified, unverified, sale, discount, offer, marketing, sticker, price tag
+- `decimals-arrow-left`: `DecimalsArrowLeftRegular` / `DecimalsArrowLeftFilled`. decimals, arrow, left, education, learning, numerical, decimal, decrease, less, fewer, precision, rounding, digits, fraction, float, number
+- `decimals-arrow-right`: `DecimalsArrowRightRegular` / `DecimalsArrowRightFilled`. decimals, arrow, right, education, learning, numerical, decimal, increase, more, precision, rounding, digits, fraction, float, number
+- `diff`: `DiffRegular` / `DiffFilled`. difference, education, learning, patch, compare, plus, minus, plus-minus, math
+- `divide`: `DivideRegular` / `DivideFilled`. divide, education, learning, calculate, math, division, operator, code, ÷, /
+- `equal`: `EqualRegular` / `EqualFilled`. equal, education, learning, calculate, math, operator, assignment, code, =
+- `equal-approximately`: `EqualApproximatelyRegular` / `EqualApproximatelyFilled`. equal, approximately, education, learning, about, calculate, math, operator
+- `equal-not`: `EqualNotRegular` / `EqualNotFilled`. equal, not, education, learning, calculate, off, math, operator, code, ≠
+- `flask-conical-off`: `FlaskConicalOffRegular` / `FlaskConicalOffFilled`. flask, conical, off, education, learning, beaker, erlenmeyer, non toxic, lab, chemistry, experiment, test
+- `infinity`: `InfinityRegular` / `InfinityFilled`. infinity, education, learning, unlimited, forever, loop, math
+- `infinity-2`: `Infinity2Regular` / `Infinity2Filled`. infinity, education, learning
+- `lectern`: `LecternRegular` / `LecternFilled`. lectern, education, learning, pulpit, podium, stand
+- `lens-concave`: `LensConcaveRegular` / `LensConcaveFilled`. lens, concave, education, learning, optics, light, magnification, curved, focus, refraction, science, physics, eyeglass, telescope, microscope
+- `lens-convex`: `LensConvexRegular` / `LensConvexFilled`. lens, convex, education, learning, optics, magnification, focus, light, refraction, physics, eyeglass, telescope, microscope, curved, science
+- `library`: `LibraryRegular` / `LibraryFilled`. library, education, learning, books, reading, written, authors, stories, fiction, novels, information, knowledge, high school, university, college, academy, study, research, collection, vinyl, records, albums, music, package
+
+### emoji (25)
+
+- `angel`: `AngelRegular` / `AngelFilled`. angel, halo, god
+- `angry`: `AngryRegular` / `AngryFilled`. angry, mad, emoji
+- `confused`: `ConfusedRegular` / `ConfusedFilled`. confused, puzzled, emoji
+- `happy`: `HappyRegular` / `HappyFilled`. happy, joyful, emoji
+- `look-down`: `LookDownRegular` / `LookDownFilled`. look, down, south
+- `look-left`: `LookLeftRegular` / `LookLeftFilled`. look, left, west
+- `look-right`: `LookRightRegular` / `LookRightFilled`. look, right, east
+- `look-up`: `LookUpRegular` / `LookUpFilled`. look, up, north
+- `omg`: `OmgRegular` / `OmgFilled`. omg, surprise, amazed
+- `puzzled`: `PuzzledRegular` / `PuzzledFilled`. confused, puzzled, ask
+- `sad`: `SadRegular` / `SadFilled`. sad, sadness, grieved
+- `sick`: `SickRegular` / `SickFilled`. sick, suffering, unhealthy
+- `silent`: `SilentRegular` / `SilentFilled`. silent, quite, Prohibition
+- `sob`: `SobRegular` / `SobFilled`. sob, cry, weep
+- `surprise`: `SurpriseRegular` / `SurpriseFilled`. omg, surprise, amazed
+- `sweats`: `SweatsRegular` / `SweatsFilled`. sweats, embarrassed, emoji
+- `terror`: `TerrorRegular` / `TerrorFilled`. terror, scare, emoji
+- `tongue`: `TongueRegular` / `TongueFilled`. tongue, joke, naughty
+- `unhappy-dizzy`: `UnhappyDizzyRegular` / `UnhappyDizzyFilled`. giddy, dizzy, displeased
+- `unhappy`: `UnhappyRegular` / `UnhappyFilled`. unhappy, sad, grieved
+- `laugh`: `LaughRegular` / `LaughFilled`. laugh, happy, grin
+- `meh`: `MehRegular` / `MehFilled`. meh, neutral, frowning
+- `emoji`: `EmojiRegular` / `EmojiFilled`. emoji, mood, face, emotion
+- `emoji-2`: `Emoji2Regular` / `Emoji2Filled`. emoji, mood, face, emotion
+- `annoyed`: `AnnoyedRegular` / `AnnoyedFilled`. annoyed, emoji, emotion
+
+### files (193)
+
+- `box`: `BoxRegular` / `BoxFilled`. box, collection, package, delivery
+- `attachment-2`: `Attachment2Regular` / `Attachment2Filled`. attachment, paperclip, office
+- `attachment`: `AttachmentRegular` / `AttachmentFilled`. attachment, paperclip, office
+- `box-2`: `Box2Regular` / `Box2Filled`. box, collection, package, delivery
+- `clipboard`: `ClipboardRegular` / `ClipboardFilled`. clipboard, copy, task, checklist, bill, todo
+- `copy`: `CopyRegular` / `CopyFilled`. copy, clipboard, clone, duplicate
+- `download-2`: `Download2Regular` / `Download2Filled`. download, save, archive
+- `download`: `DownloadRegular` / `DownloadFilled`. download, save, archive
+- `file`: `FileRegular` / `FileFilled`. file, paper, document, page, word
+- `folder-2`: `Folder2Regular` / `Folder2Filled`. folder, directory
+- `folder`: `FolderRegular` / `FolderFilled`. folder, directory
+- `folder-open`: `FolderOpenRegular` / `FolderOpenFilled`. folder, open, directory
+- `inbox`: `InboxRegular` / `InboxFilled`. inbox, mailbox, post, tray
+- `link-2`: `Link2Regular` / `Link2Filled`. link, chain, connect
+- `link`: `LinkRegular` / `LinkFilled`. link, chain, connect
+- `news`: `NewsRegular` / `NewsFilled`. news, newspaper, article, paper, media
+- `news-2`: `News2Regular` / `News2Filled`. news, newspaper, article, paper, media
+- `paper`: `PaperRegular` / `PaperFilled`. news, newspaper, article, paper, media
+- `pic-2`: `Pic2Regular` / `Pic2Filled`. picture, photo, image, landscape, photography, wallpaper, gallery
+- `pic`: `PicRegular` / `PicFilled`. picture, photo, image, landscape, photography, wallpaper, gallery
+- `pin`: `PinRegular` / `PinFilled`. pinned, noticeboard, clip
+- `search`: `SearchRegular` / `SearchFilled`. search, find, magnifier
+- `doc`: `DocRegular` / `DocFilled`. file, paper, document, page, word
+- `file-download`: `FileDownloadRegular` / `FileDownloadFilled`. download, save, archive
+- `file-export`: `FileExportRegular` / `FileExportFilled`. file, export
+- `file-import`: `FileImportRegular` / `FileImportFilled`. file, import
+- `file-music`: `FileMusicRegular` / `FileMusicFilled`. file, music
+- `file-new`: `FileNewRegular` / `FileNewFilled`. file, new, add
+- `file-upload`: `FileUploadRegular` / `FileUploadFilled`. file, upload
+- `folder-open-2`: `FolderOpen2Regular` / `FolderOpen2Filled`. folder, open, directory
+- `pdf`: `PDFRegular` / `PDFFilled`. file, pdf, document
+- `ppt`: `PPTRegular` / `PPTFilled`. file, ppt, document
+- `save`: `SaveRegular` / `SaveFilled`. file, save, check
+- `xls`: `XLSRegular` / `XLSFilled`. file, document, excel
+- `unlink-2`: `Unlink2Regular` / `Unlink2Filled`. unlink, unconnected, remove
+- `unlink`: `UnlinkRegular` / `UnlinkFilled`. unlink, unconnected, remove
+- `file-zip`: `FileZIPRegular` / `FileZIPFilled`. file, zip, rar, package
+- `zoom-in`: `ZoomInRegular` / `ZoomInFilled`. zoom, in, magnifying, inspect
+- `zoom-out`: `ZoomOutRegular` / `ZoomOutFilled`. zoom, out, magnifying, inspect
+- `download-3`: `Download3Regular` / `Download3Filled`. cloud, download, save, archive
+- `upload-2`: `Upload2Regular` / `Upload2Filled`. upload, arrow
+- `upload-3`: `Upload3Regular` / `Upload3Filled`. cloud, upload
+- `upload`: `UploadRegular` / `UploadFilled`. upload, arrow
+- `box-3`: `Box3Regular` / `Box3Filled`. box, collection, package, delivery
+- `inbox-2`: `Inbox2Regular` / `Inbox2Filled`. inbox, mailbox, post, tray
+- `album-2`: `Album2Regular` / `Album2Filled`. album, folder
+- `bill`: `BillRegular` / `BillFilled`. receive, pay, bill
+- `bill-2`: `Bill2Regular` / `Bill2Filled`. receive, pay, bill
+- `document`: `DocumentRegular` / `DocumentFilled`. file, paper, document, page, word, copy
+- `document-2`: `Document2Regular` / `Document2Filled`. file, paper, document, page, word
+- `document-3`: `Document3Regular` / `Document3Filled`. file, paper, document, page, word
+- `documents`: `DocumentsRegular` / `DocumentsFilled`. file, paper, document, page, word, copy
+- `external-link`: `ExternalLinkRegular` / `ExternalLinkFilled`. external, link, connect, redirect
+- `file-certificate`: `FileCertificateRegular` / `FileCertificateFilled`. certificate, security, qualification, protect
+- `file-check`: `FileCheckRegular` / `FileCheckFilled`. file, check, choice, success
+- `file-code`: `FileCodeRegular` / `FileCodeFilled`. file, code
+- `file-info`: `FileInfoRegular` / `FileInfoFilled`. file, information
+- `file-more`: `FileMoreRegular` / `FileMoreFilled`. file, more
+- `file-search`: `FileSearchRegular` / `FileSearchFilled`. file, search
+- `file-star`: `FileStarRegular` / `FileStarFilled`. file, star, favorites
+- `file-unknown`: `FileUnknownRegular` / `FileUnknownFilled`. file, unknown, question
+- `file-warning`: `FileWarningRegular` / `FileWarningFilled`. file, warning, alert
+- `profile`: `ProfileRegular` / `ProfileFilled`. file, profile, document, paper
+- `save-2`: `Save2Regular` / `Save2Filled`. file, save, check
+- `copy-2`: `Copy2Regular` / `Copy2Filled`. copy, clipboard, clone, duplicate
+- `copy-3`: `Copy3Regular` / `Copy3Filled`. copy, clipboard, clone, duplicate
+- `pin-2`: `Pin2Regular` / `Pin2Filled`. pinned, noticeboard, clip
+- `search-2`: `Search2Regular` / `Search2Filled`. search, find, magnifier
+- `search-3`: `Search3Regular` / `Search3Filled`. search, find, magnifier
+- `folder-3`: `Folder3Regular` / `Folder3Filled`. folder, directory
+- `photo-album`: `PhotoAlbumRegular` / `PhotoAlbumFilled`. picture, photo, image, album
+- `photo-album-2`: `PhotoAlbum2Regular` / `PhotoAlbum2Filled`. picture, photo, image, album
+- `file-forbid`: `FileForbidRegular` / `FileForbidFilled`. file, forbid, off
+- `file-locked`: `FileLockedRegular` / `FileLockedFilled`. file, encryption, lock, security
+- `file-security`: `FileSecurityRegular` / `FileSecurityFilled`. certificate, security, qualification, protect
+- `folder-check`: `FolderCheckRegular` / `FolderCheckFilled`. folder, check, choice, success
+- `folder-delete`: `FolderDeleteRegular` / `FolderDeleteFilled`. delete, back, backspace, remove
+- `folder-download`: `FolderDownloadRegular` / `FolderDownloadFilled`. folder, download, save
+- `folder-forbid`: `FolderForbidRegular` / `FolderForbidFilled`. folder, forbid, off
+- `folder-info`: `FolderInfoRegular` / `FolderInfoFilled`. folder, information
+- `folder-locked`: `FolderLockedRegular` / `FolderLockedFilled`. folder, encryption, lock, security
+- `folder-locked-2`: `FolderLocked2Regular` / `FolderLocked2Filled`. folder, encryption, lock, security
+- `folder-minus`: `FolderMinusRegular` / `FolderMinusFilled`. delete, back, backspace, minus
+- `folder-more`: `FolderMoreRegular` / `FolderMoreFilled`. folder, more
+- `folder-security`: `FolderSecurityRegular` / `FolderSecurityFilled`. certificate, security, folder, protect
+- `folder-star`: `FolderStarRegular` / `FolderStarFilled`. folder, star, favorites
+- `folder-upload`: `FolderUploadRegular` / `FolderUploadFilled`. folder, upload, arrow
+- `folder-warning`: `FolderWarningRegular` / `FolderWarningFilled`. folder, warning, alert
+- `new-folder`: `NewFolderRegular` / `NewFolderFilled`. folder, new, add
+- `passport`: `PassportRegular` / `PassportFilled`. certificate, security, qualification, visa
+- `markdown`: `MarkdownRegular` / `MarkdownFilled`. markdown, md
+- `folders`: `FoldersRegular` / `FoldersFilled`. folder, directory
+- `archive`: `ArchiveRegular` / `ArchiveFilled`. archive, box, collect
+- `inventory`: `InventoryRegular` / `InventoryFilled`. inventory, bill, list, todo
+- `link-3`: `Link3Regular` / `Link3Filled`. link, chain, connect
+- `package-2`: `Package2Regular` / `Package2Filled`. package, box, collection
+- `package`: `PackageRegular` / `PackageFilled`. package, box, collection
+- `task-2`: `Task2Regular` / `Task2Filled`. clipboard, copy, task, checklist, bill, todo
+- `task`: `TaskRegular` / `TaskFilled`. clipboard, copy, task, checklist, bill, todo
+- `to-do`: `ToDoRegular` / `ToDoFilled`. todo, wait, time, document
+- `unarchive`: `UnarchiveRegular` / `UnarchiveFilled`. unarchive, box, collect
+- `report-forms`: `ReportFormsRegular` / `ReportFormsFilled`. report, form, excel, xls
+- `folder-zip`: `FolderZIPRegular` / `FolderZIPFilled`. folder, zip, rar, package
+- `paper-2`: `Paper2Regular` / `Paper2Filled`. news, newspaper, article, paper, media
+- `pic-ai`: `PicAIRegular` / `PicAIFilled`. picture, photo, image, landscape, ai, artificial, intelligence
+- `search-ai`: `SearchAIRegular` / `SearchAIFilled`. search, find, magnifier, ai, artificial, intelligence
+- `paste`: `PasteRegular` / `PasteFilled`. copy, clipboard, clone, duplicate, paste
+- `empty-box`: `EmptyBoxRegular` / `EmptyBoxFilled`. copy, clipboard, clone, duplicate, paste
+- `attachment-3`: `Attachment3Regular` / `Attachment3Filled`. attachment, paperclip, office
+- `box-4`: `Box4Regular` / `Box4Filled`. box, collection, package, delivery
+- `file-ai`: `FileAIRegular` / `FileAIFilled`. file, paper, document, page, word, ai, magic, artificial, intelligence
+- `search-2-ai`: `Search2AIRegular` / `Search2AIFilled`. search, find, magnifier, ai, artificial, intelligence
+- `search-2-none`: `Search2NoneRegular` / `Search2NoneFilled`. search, find, magnifier, none
+- `search-3-ai`: `Search3AIRegular` / `Search3AIFilled`. search, find, magnifier, ai, artificial, intelligence
+- `search-none`: `SearchNoneRegular` / `SearchNoneFilled`. search, find, magnifier, none
+- `album-3`: `Album3Regular` / `Album3Filled`. album, file, document
+- `archive-restore`: `ArchiveRestoreRegular` / `ArchiveRestoreFilled`. archive, restore, file, document, unarchive, index, backup, box, storage, records
+- `archive-x`: `ArchiveXRegular` / `ArchiveXFilled`. archive, x, file, document, index, backup, box, storage, records, junk
+- `clipboard-clock`: `ClipboardClockRegular` / `ClipboardClockFilled`. clipboard, clock, file, document, copy, paste, history, log, time, watch, alarm, hour, minute, reminder, scheduled, deadline, pending, time tracking, timesheets, appointment, logbook
+- `clipboard-copy`: `ClipboardCopyRegular` / `ClipboardCopyFilled`. clipboard, copy, file, document, paste
+- `clipboard-minus`: `ClipboardMinusRegular` / `ClipboardMinusFilled`. clipboard, minus, file, document, copy, delete, remove, erase, medical, report, doctor
+- `clipboard-paste`: `ClipboardPasteRegular` / `ClipboardPasteFilled`. clipboard, paste, file, document, copy
+- `clipboard-pen`: `ClipboardPenRegular` / `ClipboardPenFilled`. clipboard, pen, file, document, paste, signature
+- `clipboard-pen-line`: `ClipboardPenLineRegular` / `ClipboardPenLineFilled`. clipboard, pen, line, file, document, paste
+- `clipboard-plus`: `ClipboardPlusRegular` / `ClipboardPlusFilled`. clipboard, plus, file, document, copy, paste, add, create, new, medical, report, doctor
+- `clipboard-type`: `ClipboardTypeRegular` / `ClipboardTypeFilled`. clipboard, type, file, document, paste, format, text
+- `clipboard-x`: `ClipboardXRegular` / `ClipboardXFilled`. clipboard, x, file, document, copy, paste, discard, remove
+- `container`: `ContainerRegular` / `ContainerFilled`. container, file, document, storage, shipping, freight, supply chain, environment, devops, code, coding
+- `copy-check`: `CopyCheckRegular` / `CopyCheckFilled`. copy, check, file, document, duplicate, clipboard, file operation, clone, done, multiple
+- `copy-minus`: `CopyMinusRegular` / `CopyMinusFilled`. copy, minus, file, document, duplicate, clipboard, file operation, clone, remove, delete, collapse, subtract, multiple, -
+- `copy-plus`: `CopyPlusRegular` / `CopyPlusFilled`. copy, plus, file, document, duplicate, clipboard, file operation, clone, add, multiple, expand, +
+- `copy-slash`: `CopySlashRegular` / `CopySlashFilled`. copy, slash, file, document, duplicate, clipboard, file operation, clone, cancel, ban, no, stop, forbidden, prohibited, error, multiple, divide, division, split, or, /
+- `copy-x`: `CopyXRegular` / `CopyXFilled`. copy, x, file, document, duplicate, clipboard, file operation, cancel, close, delete, remove, clear, multiple, multiply, multiplication, times
+- `file-axis-3d`: `FileAxis3DRegular` / `FileAxis3DFilled`. file, axis, 3D, document, document management, attachment, file operation, model, 3d, coordinates
+- `file-box`: `FileBoxRegular` / `FileBoxFilled`. file, box, document, document management, attachment, file operation, page, sheet, cube, 3d, model, asset, object, geometry, mesh, ar, augmented reality, cad, design, blueprint, draft, package, scene, 3D model file, CAD document, engineering document, printable asset, digital product model, CAD
+- `file-chart-column`: `FileChartColumnRegular` / `FileChartColumnFilled`. file, chart, column, document, document management, attachment, file operation, statistics, analytics, diagram, graph, presentation
+- `file-chart-column-increasing`: `FileChartColumnIncreasingRegular` / `FileChartColumnIncreasingFilled`. file, chart, column, increasing, document, document management, attachment, file operation, statistics, analytics, diagram, graph, presentation, trending up
+- `file-chart-line`: `FileChartLineRegular` / `FileChartLineFilled`. file, chart, line, document, document management, attachment, file operation, statistics, analytics, diagram, graph, presentation
+- `file-chart-pie`: `FileChartPieRegular` / `FileChartPieFilled`. file, chart, pie, document, document management, attachment, file operation, statistics, analytics, diagram, graph, presentation
+- `file-check-corner`: `FileCheckCornerRegular` / `FileCheckCornerFilled`. file, check, corner, document, document management, attachment, file operation, done, todo, tick, complete, task
+- `file-clock`: `FileClockRegular` / `FileClockFilled`. file, clock, document, document management, attachment, file operation, history, log
+- `file-code-corner`: `FileCodeCornerRegular` / `FileCodeCornerFilled`. file, code, corner, document, document management, attachment, file operation, script, html, xml, property list, plist
+- `file-cog`: `FileCogRegular` / `FileCogFilled`. file, settings, document, document management, attachment, file operation, executable, cog, edit, gear
+- `file-diff`: `FileDiffRegular` / `FileDiffFilled`. file, difference, document, document management, attachment, file operation, diff, patch
+- `file-digit`: `FileDigitRegular` / `FileDigitFilled`. file, digit, document, document management, attachment, file operation, number
+- `file-headphone`: `FileHeadphoneRegular` / `FileHeadphoneFilled`. file, headphone, document, document management, attachment, file operation, music, audio, sound, headphones
+- `file-heart`: `FileHeartRegular` / `FileHeartFilled`. file, heart, document, document management, attachment, file operation, favourite, bookmark, quick link
+- `file-image`: `FileImageRegular` / `FileImageFilled`. file, image, document, document management, attachment, file operation, graphics, photo, picture
+- `file-key`: `FileKeyRegular` / `FileKeyFilled`. file, key, document, document management, attachment, file operation, private, public, security
+- `file-minus`: `FileMinusRegular` / `FileMinusFilled`. file, minus, document, document management, attachment, file operation, delete, remove, erase
+- `file-minus-corner`: `FileMinusCornerRegular` / `FileMinusCornerFilled`. file, minus, corner, document, document management, attachment, file operation
+- `file-pen`: `FilePenRegular` / `FilePenFilled`. file, pen, document, document management, attachment, file operation, signature
+- `file-pen-line`: `FilePenLineRegular` / `FilePenLineFilled`. file, pen, line, document, document management, attachment, file operation, edit
+- `file-play`: `FilePlayRegular` / `FilePlayFilled`. file, play, document, document management, attachment, file operation, movie, video, film
+- `file-scan`: `FileScanRegular` / `FileScanFilled`. file, scan, document, document management, attachment, file operation, code, qr-code
+- `file-search-corner`: `FileSearchCornerRegular` / `FileSearchCornerFilled`. file, search, corner, document, document management, attachment, file operation, lost, find, browser, lens
+- `file-signal`: `FileSignalRegular` / `FileSignalFilled`. file, signal, document, document management, attachment, file operation, audio, music, volume
+- `file-sliders`: `FileSlidersRegular` / `FileSlidersFilled`. file, sliders, document, document management, attachment, file operation, cogged, gear, mechanical, machinery, configuration, controls, preferences, settings, system, admin, edit, executable
+- `file-spreadsheet`: `FileSpreadsheetRegular` / `FileSpreadsheetFilled`. file, spreadsheet, document, document management, attachment, file operation, sheet, table
+- `file-symlink`: `FileSymlinkRegular` / `FileSymlinkFilled`. file, symlink, document, document management, attachment, file operation, symbolic, link
+- `file-terminal`: `FileTerminalRegular` / `FileTerminalFilled`. file, terminal, document, document management, attachment, file operation, bash, script, executable
+- `file-type`: `FileTypeRegular` / `FileTypeFilled`. file, type, document, document management, attachment, file operation, font, text, typography
+- `file-type-corner`: `FileTypeCornerRegular` / `FileTypeCornerFilled`. file, type, corner, document, document management, attachment, file operation, font, text, typography
+- `file-user`: `FileUserRegular` / `FileUserFilled`. file, user, document, document management, attachment, file operation, person, personal information, people, listing, networking, contact, cover letter, resume, cv, curriculum vitae, application form
+- `file-video-camera`: `FileVideoCameraRegular` / `FileVideoCameraFilled`. file, video, camera, document, document management, attachment, file operation, movie, film
+- `file-volume`: `FileVolumeRegular` / `FileVolumeFilled`. file, volume, document, document management, attachment, file operation, audio, music
+- `file-x-corner`: `FileXCornerRegular` / `FileXCornerFilled`. file, x, corner, document, document management, attachment, file operation, lost, delete, remove
+- `folder-clock`: `FolderClockRegular` / `FolderClockFilled`. folder, clock, file, document, directory, organization, file management, history
+- `folder-code`: `FolderCodeRegular` / `FolderCodeFilled`. folder, code, file, document, directory, organization, file management, coding, develop, software
+- `folder-cog`: `FolderCogRegular` / `FolderCogFilled`. folder, settings, file, document, directory, organization, file management, control, preferences, cog, edit, gear
+- `folder-git`: `FolderGitRegular` / `FolderGitFilled`. folder, Git, file, document, directory, organization, file management, root, project, git, repo
+- `folder-git-2`: `FolderGit2Regular` / `FolderGit2Filled`. folder, Git, file, document, directory, organization, file management, root, project, git, repo
+- `folder-heart`: `FolderHeartRegular` / `FolderHeartFilled`. folder, heart, file, document, directory, organization, file management, favourite, bookmark, quick link
+- `folder-input`: `FolderInputRegular` / `FolderInputFilled`. folder, input, file, document, directory, organization, file management, import, export
+- `folder-kanban`: `FolderKanbanRegular` / `FolderKanbanFilled`. folder, kanban, file, document, directory, organization, file management, projects, manage, overview, board, tickets, issues, roadmap, plan, intentions, productivity, work, agile, code, coding, project, root
+- `folder-key`: `FolderKeyRegular` / `FolderKeyFilled`. folder, key, file, document, directory, organization, file management, private, security, protected
+- `folder-open-dot`: `FolderOpenDotRegular` / `FolderOpenDotFilled`. folder, open, dot, file, document, directory, organization, file management, root, project, active, current, pinned
+- `folder-output`: `FolderOutputRegular` / `FolderOutputFilled`. folder, output, file, document, directory, organization, file management, import, export
+- `folder-pen`: `FolderPenRegular` / `FolderPenFilled`. folder, pen, file, document, directory, organization, file management, rename
+- `folder-root`: `FolderRootRegular` / `FolderRootFilled`. folder, root, file, document, directory, organization, file management, project, git, repo, Git
+- `folder-search`: `FolderSearchRegular` / `FolderSearchFilled`. folder, search, file, document, directory, organization, file management, find, lost, browser, lens
+- `folder-search-2`: `FolderSearch2Regular` / `FolderSearch2Filled`. folder, search, file, document, directory, organization, file management, find, lost, browser, lens
+- `folder-symlink`: `FolderSymlinkRegular` / `FolderSymlinkFilled`. folder, symlink, file, document, directory, organization, file management, symbolic, link
+- `folder-sync`: `FolderSyncRegular` / `FolderSyncFilled`. folder, sync, file, document, directory, organization, file management, synchronize, synchronise, refresh, reconnect, transfer, backup
+- `folder-tree`: `FolderTreeRegular` / `FolderTreeFilled`. folder, tree, file, document, directory, organization, file management, browser
+- `image-down`: `ImageDownRegular` / `ImageDownFilled`. image, down, file, document, image management, photo, asset, picture, download, save, export
+- `image-edit`: `ImageEditRegular` / `ImageEditFilled`. image, edit, file, document, image management, photo, asset
+- `image-minus`: `ImageMinusRegular` / `ImageMinusFilled`. image, minus, file, document, image management, photo, asset, remove, delete
+- `image-off`: `ImageOffRegular` / `ImageOffFilled`. image, off, file, document, image management, photo, asset, picture
+- `image-play`: `ImagePlayRegular` / `ImagePlayFilled`. image, play, file, document, image management, photo, asset, picture, gif
+- `image-plus`: `ImagePlusRegular` / `ImagePlusFilled`. image, plus, file, document, image management, photo, asset, add, create, picture
+- `image-up`: `ImageUpRegular` / `ImageUpFilled`. image, up, file, document, image management, photo, asset, picture, upload, import
+- `image-upscale`: `ImageUpscaleRegular` / `ImageUpscaleFilled`. image, upscale, file, document, image management, photo, asset, resize, picture, sharpen, increase
+
+### food (62)
+
+- `bowl`: `BowlRegular` / `BowlFilled`. dinner, rice, bowl, meal
+- `bread`: `BreadRegular` / `BreadFilled`. bread, donut, cake, baking
+- `cake`: `CakeRegular` / `CakeFilled`. birthday, cake, baking
+- `drink`: `DrinkRegular` / `DrinkFilled`. drink, bubble tea, coke
+- `fish`: `FishRegular` / `FishFilled`. fish, animal, seafood
+- `glass-cup`: `GlassCupRegular` / `GlassCupFilled`. drink, glass cup
+- `lollipop`: `LollipopRegular` / `LollipopFilled`. lollipop, christmas, candy, sweet
+- `teacup`: `TeacupRegular` / `TeacupFilled`. teacup, coffee
+- `wineglass-2`: `Wineglass2Regular` / `Wineglass2Filled`. wineglass, goblet, fragile
+- `wineglass`: `WineglassRegular` / `WineglassFilled`. wineglass, goblet, fragile
+- `candy`: `CandyRegular` / `CandyFilled`. candy, sweet, christmas, sugar
+- `candy-2`: `Candy2Regular` / `Candy2Filled`. candy, sweet, christmas, sugar
+- `champagne`: `ChampagneRegular` / `ChampagneFilled`. champagne, wine, glass, christmas
+- `chicken`: `ChickenRegular` / `ChickenFilled`. chicken, food, christmas
+- `cookie`: `CookieRegular` / `CookieFilled`. cookie, food, christmas
+- `cookie-man`: `CookieManRegular` / `CookieManFilled`. cookie, man, food, christmas
+- `cupcake`: `CupcakeRegular` / `CupcakeFilled`. cupcake, food, christmas
+- `fork`: `ForkRegular` / `ForkFilled`. fork, tool, kitchen, restaurant
+- `fork-knife`: `ForkKnifeRegular` / `ForkKnifeFilled`. fork, knife, tool, kitchen, restaurant
+- `fork-spoon`: `ForkSpoonRegular` / `ForkSpoonFilled`. fork, spoon, tool, kitchen, restaurant
+- `spoon`: `SpoonRegular` / `SpoonFilled`. spoon, tool, kitchen, restaurant
+- `wine`: `WineRegular` / `WineFilled`. wine, bottle, drink
+- `sugar-coated-haws`: `SugarCoatedHawsRegular` / `SugarCoatedHawsFilled`. sugar, coated, haws
+- `carrot`: `CarrotRegular` / `CarrotFilled`. carrot, vegetable, food
+- `chopsticks`: `ChopsticksRegular` / `ChopsticksFilled`. chopsticks, stick
+- `egg-crack`: `EggCrackRegular` / `EggCrackFilled`. egg, crack, broken
+- `egg`: `EggRegular` / `EggFilled`. egg, chicken, easter
+- `ice-cream-2`: `IceCream2Regular` / `IceCream2Filled`. ice, cream, candy, frozen
+- `ice-cream`: `IceCreamRegular` / `IceCreamFilled`. ice, cream, candy, frozen
+- `bone`: `BoneRegular` / `BoneFilled`. bone, dog, skeleton
+- `birthday-2`: `Birthday2Regular` / `Birthday2Filled`. birthday, cake, baking
+- `feeder`: `FeederRegular` / `FeederFilled`. feeder, baby, milk
+- `fries`: `FriesRegular` / `FriesFilled`. fries, potato, french, food
+- `hamburger`: `HamburgerRegular` / `HamburgerFilled`. hamburger, burger, cheeseburger, food
+- `pizza`: `PizzaRegular` / `PizzaFilled`. pizza, cheese, italy, food
+- `bottle-glass`: `BottleGlassRegular` / `BottleGlassFilled`. wineglass, goblet, wine, fragile
+- `dinner`: `DinnerRegular` / `DinnerFilled`. dinner, rice, bowl, meal
+- `dish-cover`: `DishCoverRegular` / `DishCoverFilled`. dinner, dish, cover, meal, kitchen, restaurant
+- `donut`: `DonutRegular` / `DonutFilled`. bread, donut, cake, baking
+- `electric-cooker`: `ElectricCookerRegular` / `ElectricCookerFilled`. cooker, rice, meal, baking
+- `fried-egg`: `FriedEggRegular` / `FriedEggFilled`. fried, egg, breakfast, food
+- `soup-pot`: `SoupPotRegular` / `SoupPotFilled`. soup, pot, cooking, food
+- `soup-pot-2`: `SoupPot2Regular` / `SoupPot2Filled`. soup, pot, cooking, food
+- `spatula`: `SpatulaRegular` / `SpatulaFilled`. spatula, tool, cooking, food
+- `beef`: `BeefRegular` / `BeefFilled`. beef, food, dish, restaurant, course, meal, meat, bbq, steak
+- `beef-off`: `BeefOffRegular` / `BeefOffFilled`. beef, off, food, dish, restaurant, course, meal, meat, bbq, steak, vegetarian
+- `beer`: `BeerRegular` / `BeerFilled`. beer, food, alcohol, bar, beverage, brewery, drink
+- `beer-off`: `BeerOffRegular` / `BeerOffFilled`. beer, off, food, alcohol, bar, beverage, brewery, drink
+- `blender`: `BlenderRegular` / `BlenderFilled`. blender, food, mixer, appliances, liquid, juicer, vitamizer, mix, emulsify, smoothie, drink, blade, container, kitchen, milkshake, cocktail, beverage, culinary, shredder, processor, cooking, recipe, chef, restaurant
+- `bowl-2`: `Bowl2Regular` / `Bowl2Filled`. bowl, food
+- `broccoli`: `BroccoliRegular` / `BroccoliFilled`. broccoli, food, leafy, crisp, fresh, culinary, vegetation, vegetable, healthy, vegan, vegetarian, nutrition, diet, plant, green, produce
+- `cake-slice`: `CakeSliceRegular` / `CakeSliceFilled`. cake, slice, food, birthday, birthdate, celebration, party, surprise, gateaux, dessert, candles, wish, fondant, icing sugar, sweet, baking
+- `candy-off`: `CandyOffRegular` / `CandyOffFilled`. candy, off, food, sugar free, sweet, allergy, intolerance, diet
+- `croissant`: `CroissantRegular` / `CroissantFilled`. croissant, food, bakery, cooking, pastry
+- `drink-2`: `Drink2Regular` / `Drink2Filled`. drink, food
+- `egg-off`: `EggOffRegular` / `EggOffFilled`. egg, off, food, egg free, vegan, hatched, bad egg
+- `fish-off`: `FishOffRegular` / `FishOffFilled`. fish, off, food, dish, restaurant, course, meal, seafood, animal, pet, sea, marine, allergy, intolerance, diet
+- `fish-symbol`: `FishSymbolRegular` / `FishSymbolFilled`. fish, symbol, food, dish, restaurant, course, meal, seafood, pet, sea, marine
+- `ham`: `HamRegular` / `HamFilled`. ham, food, pork, pig, meat, bone, hock, knuckle, gammon, cured
+- `ice-cream-bowl`: `IceCreamBowlRegular` / `IceCreamBowlFilled`. ice, cream, bowl, food, gelato, dessert, dish, restaurant, course, meal
+- `milk`: `MilkRegular` / `MilkFilled`. milk, food, lactose, bottle, beverage, drink, water, diet
+- `utensils`: `UtensilsRegular` / `UtensilsFilled`. utensils, food, fork, knife, cutlery, flatware, tableware, silverware, restaurant, meal, breakfast, dinner, supper
+
+### locations (62)
+
+- `earth`: `EarthRegular` / `EarthFilled`. world, earth, globe, language
+- `compass`: `CompassRegular` / `CompassFilled`. compass, navigation, direction, discover
+- `location-2`: `Location2Regular` / `Location2Filled`. location, map, position, pin
+- `location`: `LocationRegular` / `LocationFilled`. location, map, position, pin
+- `map`: `MapRegular` / `MapFilled`. map, navigation, position
+- `navigation`: `NavigationRegular` / `NavigationFilled`. location, navigation
+- `planet`: `PlanetRegular` / `PlanetFilled`. planet, space, astronomy
+- `route`: `RouteRegular` / `RouteFilled`. route, path, travel
+- `world-2`: `World2Regular` / `World2Filled`. world, earth, globe, language
+- `world`: `WorldRegular` / `WorldFilled`. world, earth, globe, language
+- `aiming`: `AimingRegular` / `AimingFilled`. aiming, focus, target
+- `aiming-2`: `Aiming2Regular` / `Aiming2Filled`. aiming, focus, target
+- `anchor`: `AnchorRegular` / `AnchorFilled`. anchor, ship, harbor
+- `clock`: `ClockRegular` / `ClockFilled`. clock, location
+- `clock-time`: `ClockTimeRegular` / `ClockTimeFilled`. clock, location
+- `directions`: `DirectionsRegular` / `DirectionsFilled`. directions, navigation, discover
+- `foot`: `FootRegular` / `FootFilled`. foot, footprint
+- `lifebuoy`: `LifebuoyRegular` / `LifebuoyFilled`. lifebuoy, help, support
+- `live-location`: `LiveLocationRegular` / `LiveLocationFilled`. live, location, navigation
+- `map-pin`: `MapPinRegular` / `MapPinFilled`. location, map
+- `road`: `RoadRegular` / `RoadFilled`. road, traffic, travel
+- `traffic-cone`: `TrafficConeRegular` / `TrafficConeFilled`. cone, traffic, warning
+- `map-2`: `Map2Regular` / `Map2Filled`. map, navigation, position
+- `parking`: `ParkingRegular` / `ParkingFilled`. parking, area, car, parking lot
+- `rest-area`: `RestAreaRegular` / `RestAreaFilled`. rest, area, washroom, toilet
+- `directions-2`: `Directions2Regular` / `Directions2Filled`. directions, navigation, discover
+- `location-3`: `Location3Regular` / `Location3Filled`. location, map, position, pin
+- `umbrella-2`: `Umbrella2Regular` / `Umbrella2Filled`. umbrella, beach, travel
+- `bed`: `BedRegular` / `BedFilled`. bed, sleep, bedroom, rest
+- `bed-2`: `Bed2Regular` / `Bed2Filled`. bed, sleep, bedroom, rest
+- `earth-2`: `Earth2Regular` / `Earth2Filled`. world, earth, globe, language
+- `earth-latitude`: `EarthLatitudeRegular` / `EarthLatitudeFilled`. latitude, world, earth, globe, language
+- `earth-longitude`: `EarthLongitudeRegular` / `EarthLongitudeFilled`. longitude, world, earth, globe, language
+- `hours`: `HoursRegular` / `HoursFilled`. 24, time, day, service
+- `tunnel`: `TunnelRegular` / `TunnelFilled`. tunnel, train, underground
+- `compass-3`: `Compass3Regular` / `Compass3Filled`. compass, navigation, direction, discover
+- `earth-3`: `Earth3Regular` / `Earth3Filled`. world, earth, globe, language
+- `globe-2`: `Globe2Regular` / `Globe2Filled`. world, earth, globe, language
+- `earth-4`: `Earth4Regular` / `Earth4Filled`. world, earth, globe, language
+- `bed-single`: `BedSingleRegular` / `BedSingleFilled`. bed, single, location, map, sleep, hotel, furniture
+- `circle-parking-off`: `CircleParkingOffRegular` / `CircleParkingOffFilled`. circle, parking, off, location, map, parking lot, car park, no parking
+- `earth-lock`: `EarthLockRegular` / `EarthLockFilled`. earth, lock, location, map, navigation, geolocation, map operation, vpn, private, privacy, network, world, browser, security, encryption, protection, connection
+- `globe-check`: `GlobeCheckRegular` / `GlobeCheckFilled`. globe, check, location, map, navigation, geolocation, map operation, world, browser, language, translate, internet, web, verified, success, valid, available, online, status
+- `globe-lock`: `GlobeLockRegular` / `GlobeLockFilled`. globe, lock, location, map, navigation, geolocation, map operation, vpn, private, privacy, network, world, browser, security, encryption, protection, connection
+- `globe-off`: `GlobeOffRegular` / `GlobeOffFilled`. globe, off, location, map, navigation, geolocation, map operation, earth, planet, disable, mute, hide, avoid, world, browser, language, translate, internet, offline, disconnected, network, connection, no connection, network failure, signal off
+- `globe-x`: `GlobeXRegular` / `GlobeXFilled`. globe, x, location, map, navigation, geolocation, map operation, internet, offline, disconnected, network, connection, world, no connection, network failure, signal off
+- `land-plot`: `LandPlotRegular` / `LandPlotFilled`. land, plot, location, map, area, surface, square metres, allotment, parcel, property, plane, acres, measure, distance, isometric, flag, golf course, hole
+- `locate`: `LocateRegular` / `LocateFilled`. locate, location, map, navigation, geolocation, map operation, gps, cross
+- `locate-off`: `LocateOffRegular` / `LocateOffFilled`. locate, off, location, map, navigation, geolocation, map operation, gps, cross
+- `map-minus`: `MapMinusRegular` / `MapMinusFilled`. map, minus, location, navigation, geolocation, map operation, travel, drop, delete, remove, erase
+- `map-pin-check`: `MapPinCheckRegular` / `MapPinCheckFilled`. map, pin, check, location, navigation, geolocation, map operation, waypoint, marker, drop, done, tick, complete, task, added
+- `map-pin-house`: `MapPinHouseRegular` / `MapPinHouseFilled`. map, pin, house, location, navigation, geolocation, map operation, waypoint, marker, drop, home, living, building, residence, architecture, address, poi, real estate, property, destination, place, landmark
+- `map-pin-minus`: `MapPinMinusRegular` / `MapPinMinusFilled`. map, pin, minus, location, navigation, geolocation, map operation, waypoint, marker, drop, delete, remove, erase
+- `map-pin-minus-inside`: `MapPinMinusInsideRegular` / `MapPinMinusInsideFilled`. map, pin, minus, inside, location, navigation, geolocation, map operation, waypoint, marker, drop, delete, remove, erase
+- `map-pin-off`: `MapPinOffRegular` / `MapPinOffFilled`. map, pin, off, location, navigation, geolocation, map operation, waypoint, marker, remove
+- `map-pin-pen`: `MapPinPenRegular` / `MapPinPenFilled`. map, pin, pen, location, navigation, geolocation, map operation, waypoint, marker, drop, edit
+- `map-pin-plus`: `MapPinPlusRegular` / `MapPinPlusFilled`. map, pin, plus, location, navigation, geolocation, map operation, waypoint, marker, drop, add, create, new
+- `map-pin-plus-inside`: `MapPinPlusInsideRegular` / `MapPinPlusInsideFilled`. map, pin, plus, inside, location, navigation, geolocation, map operation, waypoint, marker, drop, add, create, new
+- `map-pin-search`: `MapPinSearchRegular` / `MapPinSearchFilled`. map, pin, search, location, navigation, geolocation, map operation, travel, waypoint, marker, drop
+- `map-pin-x`: `MapPinXRegular` / `MapPinXFilled`. map, pin, x, location, navigation, geolocation, map operation, waypoint, marker, drop, delete, remove, erase
+- `map-pin-x-inside`: `MapPinXInsideRegular` / `MapPinXInsideFilled`. map, pin, x, inside, location, navigation, geolocation, map operation, waypoint, marker, drop, delete, remove, erase
+- `map-plus`: `MapPlusRegular` / `MapPlusFilled`. map, plus, location, navigation, geolocation, map operation, travel, new, add, create
+
+### media (99)
+
+- `camera-2`: `Camera2Regular` / `Camera2Filled`. camera, photography, lens
+- `album`: `AlbumRegular` / `AlbumFilled`. album, music
+- `camcorder`: `CamcorderRegular` / `CamcorderFilled`. camera, camcorder, record
+- `camera`: `CameraRegular` / `CameraFilled`. camera, photography, lens
+- `clapperboard`: `ClapperboardRegular` / `ClapperboardFilled`. clapperboard, film
+- `disc`: `DiscRegular` / `DiscFilled`. disc, music
+- `fast-forward`: `FastForwardRegular` / `FastForwardFilled`. fast, forward, ahead, skip
+- `fast-rewind`: `FastRewindRegular` / `FastRewindFilled`. fast, rewind, backwards, skip
+- `film`: `FilmRegular` / `FilmFilled`. movie, film, photography
+- `fullscreen-exit`: `FullscreenExitRegular` / `FullscreenExitFilled`. fullscreen, exit, shrink, minimize, resize
+- `fullscreen`: `FullscreenRegular` / `FullscreenFilled`. fullscreen, expand, resize
+- `headphone-2`: `Headphone2Regular` / `Headphone2Filled`. headphone, headset, music, audio
+- `headphone`: `HeadphoneRegular` / `HeadphoneFilled`. headphone, headset, music, audio
+- `mic`: `MicRegular` / `MicFilled`. mic, microphone, audio, podcast
+- `microphone`: `MicrophoneRegular` / `MicrophoneFilled`. mic, microphone, audio, podcast
+- `movie`: `MovieRegular` / `MovieFilled`. movie, film, photography
+- `music-2`: `Music2Regular` / `Music2Filled`. music, sound, album, melody
+- `music`: `MusicRegular` / `MusicFilled`. music, sound, album, melody
+- `notification`: `NotificationRegular` / `NotificationFilled`. notification, alarm, bell, christmas
+- `pause-circle`: `PauseCircleRegular` / `PauseCircleFilled`. pause, audio, stop, media
+- `pause`: `PauseRegular` / `PauseFilled`. pause, audio, stop, media
+- `play-circle`: `PlayCircleRegular` / `PlayCircleFilled`. play, audio, start, media
+- `play`: `PlayRegular` / `PlayFilled`. play, audio, start, media
+- `repeat`: `RepeatRegular` / `RepeatFilled`. repeat, transformation, exchange, change, swap
+- `repeat-one`: `RepeatOneRegular` / `RepeatOneFilled`. repeat, one, audio, media
+- `service`: `ServiceRegular` / `ServiceFilled`. service
+- `shuffle`: `ShuffleRegular` / `ShuffleFilled`. shuffle, random, audio, media
+- `skip-forward`: `SkipForwardRegular` / `SkipForwardFilled`. skip-forward, audio, next, media
+- `skip-previous`: `SkipPreviousRegular` / `SkipPreviousFilled`. skip-previous, audio, back, media
+- `stop-circle`: `StopCircleRegular` / `StopCircleFilled`. stop, audio, media
+- `stop`: `StopRegular` / `StopFilled`. stop, audio, media
+- `video`: `VideoRegular` / `VideoFilled`. video, film, play
+- `volume`: `VolumeRegular` / `VolumeFilled`. volume, music, sound, alarm, notification
+- `mic-off`: `MicOffRegular` / `MicOffFilled`. mic, off
+- `notification-off`: `NotificationOffRegular` / `NotificationOffFilled`. notification, off, alarm, bell
+- `notification-newdot`: `NotificationNewdotRegular` / `NotificationNewdotFilled`. reddot, notification, alarm, reminder
+- `volume-mute`: `VolumeMuteRegular` / `VolumeMuteFilled`. volume, mute, off
+- `volume-off`: `VolumeOffRegular` / `VolumeOffFilled`. volume, mute, off
+- `horn`: `HornRegular` / `HornFilled`. horn, alarm, sound, notification
+- `live-photo`: `LivePhotoRegular` / `LivePhotoFilled`. live, photo
+- `music-3`: `Music3Regular` / `Music3Filled`. music, sound, album, melody
+- `voice`: `VoiceRegular` / `VoiceFilled`. voice, sound, wave, acoustic
+- `mic-2`: `Mic2Regular` / `Mic2Filled`. mic, microphone, audio, podcast
+- `announcement`: `AnnouncementRegular` / `AnnouncementFilled`. volume, music, sound, alarm, notification
+- `airpods`: `AirpodsRegular` / `AirpodsFilled`. airpods, headphone, headset, music, audio
+- `audio-tape`: `AudioTapeRegular` / `AudioTapeFilled`. tape, audio, record, cassette
+- `camera-rotate`: `CameraRotateRegular` / `CameraRotateFilled`. camera, rotate, selfie
+- `expand-player`: `ExpandPlayerRegular` / `ExpandPlayerFilled`. expand, maximize, full
+- `miniplayer`: `MiniplayerRegular` / `MiniplayerFilled`. minimize, resize, miniplayer
+- `record-mail`: `RecordMailRegular` / `RecordMailFilled`. record, mail, voicemail
+- `rotate-to-horizontal`: `RotateToHorizontalRegular` / `RotateToHorizontalFilled`. rotate, horizontal, screen
+- `rotate-to-vertical`: `RotateToVerticalRegular` / `RotateToVerticalFilled`. rotate, vertical, screen
+- `bell-ringing`: `BellRingingRegular` / `BellRingingFilled`. bell, ringing, alarm, notification
+- `playlist-2`: `Playlist2Regular` / `Playlist2Filled`. playlist, music, list
+- `playlist`: `PlaylistRegular` / `PlaylistFilled`. playlist, music, list
+- `shuffle-2`: `Shuffle2Regular` / `Shuffle2Filled`. shuffle, random, audio, media
+- `voice-2`: `Voice2Regular` / `Voice2Filled`. voice, sound, wave, acoustic
+- `camcorder-3`: `Camcorder3Regular` / `Camcorder3Filled`. camera, camcorder, record
+- `horn-2`: `Horn2Regular` / `Horn2Filled`. horn, alarm, sound, notification
+- `camcorder-off`: `CamcorderOffRegular` / `CamcorderOffFilled`. camera, camcorder, record, off, shut
+- `camera-2-off`: `Camera2OffRegular` / `Camera2OffFilled`. camera, off, shut
+- `danmaku`: `DanmakuRegular` / `DanmakuFilled`. danmaku, bullet, screen, barrage, comment
+- `danmaku-on`: `DanmakuOnRegular` / `DanmakuOnFilled`. danmaku, bullet, screen, barrage, comment, on, open
+- `danmaku-off`: `DanmakuOffRegular` / `DanmakuOffFilled`. danmaku, bullet, screen, barrage, comment, off, shut
+- `live`: `LiveRegular` / `LiveFilled`. tv, display, watch, live
+- `sound-line`: `SoundLineRegular` / `SoundLineFilled`. voice, sound, wave, acoustic
+- `video-camera`: `VideoCameraRegular` / `VideoCameraFilled`. camera, camcorder, record
+- `video-camera-2`: `VideoCamera2Regular` / `VideoCamera2Filled`. camera, camcorder, record
+- `camera-2-ai`: `Camera2AIRegular` / `Camera2AIFilled`. camera, photography, lens, magic, artificial, intelligence
+- `mic-ai`: `MicAIRegular` / `MicAIFilled`. mic, microphone, audio, podcast, magic, artificial, intelligence
+- `music-2-ai`: `Music2AIRegular` / `Music2AIFilled`. music, sound, album, melody, magic, artificial, intelligence
+- `rewind-backward-5`: `RewindBackward5Regular` / `RewindBackward5Filled`. fast, rewind, backwards, skip, 5
+- `rewind-forward-5`: `RewindForward5Regular` / `RewindForward5Filled`. fast, forward, ahead, skip, 5
+- `rewind-backward-10`: `RewindBackward10Regular` / `RewindBackward10Filled`. fast, rewind, backwards, skip, 10
+- `rewind-forward-10`: `RewindForward10Regular` / `RewindForward10Filled`. fast, forward, ahead, skip, 10
+- `rewind-backward-15`: `RewindBackward15Regular` / `RewindBackward15Filled`. fast, rewind, backwards, skip, 15
+- `rewind-forward-15`: `RewindForward15Regular` / `RewindForward15Filled`. fast, forward, ahead, skip, 15
+- `rewind-backward-30`: `RewindBackward30Regular` / `RewindBackward30Filled`. fast, rewind, backwards, skip, 30
+- `rewind-forward-30`: `RewindForward30Regular` / `RewindForward30Filled`. fast, forward, ahead, skip, 30
+- `rewind-backward-square-5`: `RewindBackwardSquare5Regular` / `RewindBackwardSquare5Filled`. fast, rewind, backwards, skip, 5
+- `rewind-forward-square-5`: `RewindForwardSquare5Regular` / `RewindForwardSquare5Filled`. fast, forward, ahead, skip, 5
+- `rewind-backward-square-10`: `RewindBackwardSquare10Regular` / `RewindBackwardSquare10Filled`. fast, rewind, backwards, skip, 10
+- `rewind-forward-square-10`: `RewindForwardSquare10Regular` / `RewindForwardSquare10Filled`. fast, forward, ahead, skip, 10
+- `rewind-backward-square-15`: `RewindBackwardSquare15Regular` / `RewindBackwardSquare15Filled`. fast, rewind, backwards, skip, 15
+- `rewind-forward-square-15`: `RewindForwardSquare15Regular` / `RewindForwardSquare15Filled`. fast, forward, ahead, skip, 15
+- `rewind-backward-square-30`: `RewindBackwardSquare30Regular` / `RewindBackwardSquare30Filled`. fast, rewind, backwards, skip, 30
+- `rewind-forward-square-30`: `RewindForwardSquare30Regular` / `RewindForwardSquare30Filled`. fast, forward, ahead, skip, 30
+- `camcorder-ai`: `CamcorderAIRegular` / `CamcorderAIFilled`. camera, camcorder, record, ai, artificial, intelligence
+- `video-ai`: `VideoAIRegular` / `VideoAIFilled`. video, film, play, ai, artificial, intelligence
+- `audio-waveform`: `AudioWaveformRegular` / `AudioWaveformFilled`. audio, waveform, media, sound, noise, listen, hearing, hertz, frequency, wavelength, vibrate, sine, synthesizer, synthesiser, levels, track, music, playback, radio, broadcast, airwaves, voice, vocals, singer, song
+- `bell-minus`: `BellMinusRegular` / `BellMinusFilled`. bell, minus, media, alarm, notification, silent, reminder, delete, remove, erase
+- `bell-plus`: `BellPlusRegular` / `BellPlusFilled`. bell, plus, media, notification, silent, reminder, add, create, new
+- `captions`: `CaptionsRegular` / `CaptionsFilled`. captions, media, closed captions, subtitles, subhead, transcription, transcribe, dialogue, accessibility
+- `captions-off`: `CaptionsOffRegular` / `CaptionsOffFilled`. captions, off, media, closed captions, subtitles, subhead, transcription, transcribe, dialogue, accessibility
+- `disc-album`: `DiscAlbumRegular` / `DiscAlbumFilled`. disc, album, media, music, songs, format, cd, dvd, vinyl, sleeve, cover, platinum, compilation, ep, recording, playback, spin, rotate, rpm, dj
+- `hd`: `HDRegular` / `HDFilled`. HD, media, tv, resolution, video, high definition, 720p, 1080p
+- `headphone-off`: `HeadphoneOffRegular` / `HeadphoneOffFilled`. headphone, off, media, music, audio, sound, mute
+- `movie-2`: `Movie2Regular` / `Movie2Filled`. movie, media
+- `volume-low`: `VolumeLowRegular` / `VolumeLowFilled`. volume, low, media
+
+### miscellaneous (69)
+
+- `drawer-2`: `Drawer2Regular` / `Drawer2Filled`. drawer, cabinet, furniture
+- `drawer`: `DrawerRegular` / `DrawerFilled`. drawer, cabinet, furniture
+- `face-mask`: `FaceMaskRegular` / `FaceMaskFilled`. face, mask, medical, virus
+- `wardrobe-2`: `Wardrobe2Regular` / `Wardrobe2Filled`. wardrobe, cabinet, furniture
+- `wardrobe`: `WardrobeRegular` / `WardrobeFilled`. wardrobe, cabinet, furniture
+- `yinyang`: `YinyangRegular` / `YinyangFilled`. yinyang, taichi
+- `axe`: `AxeRegular` / `AxeFilled`. axe, tool, hatchet
+- `hammer`: `HammerRegular` / `HammerFilled`. hammer, tool, construction
+- `hand-card`: `HandCardRegular` / `HandCardFilled`. hand, card, swipe
+- `hand-heart`: `HandHeartRegular` / `HandHeartFilled`. hand, heart, love
+- `hoe`: `HoeRegular` / `HoeFilled`. hoe, dig, farm, cultivate
+- `pickax`: `PickaxRegular` / `PickaxFilled`. pickax, dig, farm, cultivate
+- `pot`: `PotRegular` / `PotFilled`. pot, water, kettle
+- `rake`: `RakeRegular` / `RakeFilled`. rake, farm, cultivate
+- `shovel`: `ShovelRegular` / `ShovelFilled`. shovel, dig, farm
+- `bomb`: `BombRegular` / `BombFilled`. bomb, explosion, weapon
+- `boom`: `BoomRegular` / `BoomFilled`. boom, explosion, spark
+- `capsule`: `CapsuleRegular` / `CapsuleFilled`. capsule, drug, medicine
+- `star-2`: `Star2Regular` / `Star2Filled`. star, favorites
+- `cross-2`: `Cross2Regular` / `Cross2Filled`. cross, church, prayer
+- `curtain`: `CurtainRegular` / `CurtainFilled`. curtain, window
+- `kite`: `KiteRegular` / `KiteFilled`. kite, fly
+- `thought`: `ThoughtRegular` / `ThoughtFilled`. thought, bubble, idea
+- `virus`: `VirusRegular` / `VirusFilled`. virus, illness, infection
+- `first-aid-kit`: `FirstAidKitRegular` / `FirstAidKitFilled`. first, emergency, medical, kit
+- `injection`: `InjectionRegular` / `InjectionFilled`. injection, vaccine, syringe, immunization
+- `nurse`: `NurseRegular` / `NurseFilled`. nurse, healthcare, caregiver
+- `prescription`: `PrescriptionRegular` / `PrescriptionFilled`. prescription, medication, order, drug
+- `stethoscope`: `StethoscopeRegular` / `StethoscopeFilled`. stethoscope, instrument, auscultation, doctor
+- `bedside-table`: `BedsideTableRegular` / `BedsideTableFilled`. bedside, table, cabinet, furniture
+- `bedside-table-2`: `BedsideTable2Regular` / `BedsideTable2Filled`. bedside, table, cabinet, furniture
+- `bottle`: `BottleRegular` / `BottleFilled`. bottle, flask, medicine, furniture
+- `crystal-ball`: `CrystalBallRegular` / `CrystalBallFilled`. crystal, ball, magic, toy, AI, artificial, intelligence
+- `random`: `RandomRegular` / `RandomFilled`. random, dice, gambling, 5
+- `screwdriver`: `ScrewdriverRegular` / `ScrewdriverFilled`. screwdriver, fix, tool
+- `shower-gel`: `ShowerGelRegular` / `ShowerGelFilled`. shower, gel, shampoo, clean
+- `star-topper`: `StarTopperRegular` / `StarTopperFilled`. star, topper, christmas, tree
+- `lipstick`: `LipstickRegular` / `LipstickFilled`. lipstick, beauty, cosmetics, lippy
+- `parfum`: `ParfumRegular` / `ParfumFilled`. perfume, parfum, spray, cosmetics
+- `watering-can`: `WateringCanRegular` / `WateringCanFilled`. spray, bottle, water, nozzle
+- `toilet-paper`: `ToiletPaperRegular` / `ToiletPaperFilled`. toilet, paper, roll
+- `bath`: `BathRegular` / `BathFilled`. shower, bath, bathroom, tub
+- `blessing`: `BlessingRegular` / `BlessingFilled`. blessing, best, wishes, fu, festival
+- `firecracker`: `FirecrackerRegular` / `FirecrackerFilled`. firecracker, marroon, cracker
+- `firework`: `FireworkRegular` / `FireworkFilled`. firework, cracker, celebrate
+- `coathanger`: `CoathangerRegular` / `CoathangerFilled`. coat, hanger, clothes
+- `balloon-2`: `Balloon2Regular` / `Balloon2Filled`. balloon, decoration, birthday
+- `anvil`: `AnvilRegular` / `AnvilFilled`. anvil, miscellaneous, metal, iron, alloy, materials, heavy, weight, blacksmith, forge, acme
+- `bandage`: `BandageRegular` / `BandageFilled`. bandage, miscellaneous, plaster, band-aid, first aid, medical, health, wound, injury, care, treatment, healing, protection, emergency, aid, safety, patch
+- `barrel-2`: `Barrel2Regular` / `Barrel2Filled`. barrel, miscellaneous
+- `biohazard`: `BiohazardRegular` / `BiohazardFilled`. biohazard, miscellaneous, fallout, waste, biology, chemistry, chemical, element
+- `cigarette`: `CigaretteRegular` / `CigaretteFilled`. cigarette, miscellaneous, smoking
+- `cigarette-off`: `CigaretteOffRegular` / `CigaretteOffFilled`. cigarette, off, miscellaneous, smoking, no-smoking
+- `dice-1`: `Dice1Regular` / `Dice1Filled`. dice, die, dice roll, game, board game, random, number, one, 1, dice face, tabletop, board
+- `dice-2`: `Dice2Regular` / `Dice2Filled`. dice, die, dice roll, game, board game, random, number, two, 2, dice face, tabletop, board
+- `dice-3`: `Dice3Regular` / `Dice3Filled`. dice, die, dice roll, game, board game, random, number, three, 3, dice face, tabletop, board
+- `dice-4`: `Dice4Regular` / `Dice4Filled`. dice, die, dice roll, game, board game, random, number, four, 4, dice face, tabletop, board
+- `dice-6`: `Dice6Regular` / `Dice6Filled`. dice, die, dice roll, game, board game, random, number, six, 6, dice face, tabletop, board
+- `dices`: `DicesRegular` / `DicesFilled`. dice, miscellaneous, random, tabletop, board, game
+- `dna`: `DnaRegular` / `DnaFilled`. DNA, miscellaneous, gene, gmo, helix, heredity, chromosome, nucleic acid
+- `dna-off`: `DnaOffRegular` / `DnaOffFilled`. DNA, off, miscellaneous, gene, gmo free, helix, heredity, chromosome, nucleic acid
+- `drama`: `DramaRegular` / `DramaFilled`. drama, miscellaneous, masks, theater, theatre, entertainment, show
+- `fence`: `FenceRegular` / `FenceFilled`. fence, miscellaneous, picket, panels, woodwork, diy, materials, suburban, garden, property, territory
+- `fire-extinguisher`: `FireExtinguisherRegular` / `FireExtinguisherFilled`. fire, extinguisher, miscellaneous, flames, smoke, foam, water, spray, hose, firefighter, fireman, department, brigade, station, emergency, suppress, compressed, tank, cylinder, safety, equipment, amenities
+- `hammer-2`: `Hammer2Regular` / `Hammer2Filled`. hammer, miscellaneous
+- `hand-coins`: `HandCoinsRegular` / `HandCoinsFilled`. hand, coins, miscellaneous, savings, banking, money, finance, offers, mortgage, payment, received, wage, payroll, allowance, pocket money, handout, pennies
+- `hand-platter`: `HandPlatterRegular` / `HandPlatterFilled`. hand, platter, miscellaneous, waiter, waitress, restaurant, table service, served, dinner, dining, meal, course, luxury
+- `mat`: `MatRegular` / `MatFilled`. mat, miscellaneous
+- `vase`: `VaseRegular` / `VaseFilled`. vase, miscellaneous
+
+### nature (58)
+
+- `cactus-2`: `Cactus2Regular` / `Cactus2Filled`. cactus, desert
+- `cactus`: `CactusRegular` / `CactusFilled`. cactus, desert
+- `dandelion`: `DandelionRegular` / `DandelionFilled`. dandelion, plant
+- `flowerpot`: `FlowerpotRegular` / `FlowerpotFilled`. flowerpot, plant, green
+- `grass`: `GrassRegular` / `GrassFilled`. grass, plant
+- `leaf-2`: `Leaf2Regular` / `Leaf2Filled`. leaf, greenery, plant, clover
+- `leaf-3`: `Leaf3Regular` / `Leaf3Filled`. leaf, greenery, love, clover
+- `leaf`: `LeafRegular` / `LeafFilled`. leaf, greenery, plant
+- `lotus`: `LotusRegular` / `LotusFilled`. lotus, flower, plant
+- `maple-leaf`: `MapleLeafRegular` / `MapleLeafFilled`. maple, leaf, tree
+- `pumpkin`: `PumpkinRegular` / `PumpkinFilled`. pumpkin, food, plant
+- `tree`: `TreeRegular` / `TreeFilled`. tree, christmas, pine, decorate
+- `tree-2`: `Tree2Regular` / `Tree2Filled`. tree, greenery, forest, trunk
+- `tree-3`: `Tree3Regular` / `Tree3Filled`. tree, greenery, forest, trunk
+- `tree-4`: `Tree4Regular` / `Tree4Filled`. tree, greenery, forest, trunk
+- `pig`: `PigRegular` / `PigFilled`. pig, animal, pork, piggy
+- `bird`: `BirdRegular` / `BirdFilled`. bird, birdie, dickey
+- `butterfly`: `ButterflyRegular` / `ButterflyFilled`. butterfly, fly, wings
+- `cat`: `CatRegular` / `CatFilled`. cat, pet, animal
+- `dog`: `DogRegular` / `DogFilled`. dog, pet, puppy
+- `dragonfly`: `DragonflyRegular` / `DragonflyFilled`. dragonfly, fly, wings
+- `flower`: `FlowerRegular` / `FlowerFilled`. flower, botany, garden, rose
+- `flower-2`: `Flower2Regular` / `Flower2Filled`. flower, botany, garden, rose
+- `flower-3`: `Flower3Regular` / `Flower3Filled`. flower, botany, garden, rose
+- `flower-4`: `Flower4Regular` / `Flower4Filled`. flower, botany, garden, rose
+- `mushroom`: `MushroomRegular` / `MushroomFilled`. mushroom, food, fungus, plant
+- `paw`: `PawRegular` / `PawFilled`. paw, animal, pets, foot
+- `rabbit`: `RabbitRegular` / `RabbitFilled`. rabbit, animal
+- `butterfly-2`: `Butterfly2Regular` / `Butterfly2Filled`. butterfly, fly, wings
+- `campfire`: `CampfireRegular` / `CampfireFilled`. campfire, bonfire, pit
+- `mountain`: `MountainRegular` / `MountainFilled`. mountain, peak, summit, snow, fujiyama
+- `mountain-2`: `Mountain2Regular` / `Mountain2Filled`. mountain, peak, summit, hiking
+- `sunflower`: `SunflowerRegular` / `SunflowerFilled`. flower, sunflower, botany, garden, rose
+- `mickeymouse`: `MickeymouseRegular` / `MickeymouseFilled`. mickey, mouse, kids, cartoon
+- `bear`: `BearRegular` / `BearFilled`. bear, teddy, kids, toy
+- `chess`: `ChessRegular` / `ChessFilled`. chess, knight, game, sports
+- `toy-horse`: `ToyHorseRegular` / `ToyHorseFilled`. horse, toy, child, rocking
+- `wreath`: `WreathRegular` / `WreathFilled`. wreath, garland, decorate, christmas
+- `apple-fruit`: `AppleFruitRegular` / `AppleFruitFilled`. apple fruit, Apple, fruit icon, food illustration, healthy snack
+- `rose`: `RoseRegular` / `RoseFilled`. rose, Rose, flower icon, love symbol, floral design
+- `flower-5`: `Flower5Regular` / `Flower5Filled`. flower, botany, garden, rose
+- `banana`: `BananaRegular` / `BananaFilled`. banana, nature, fruit, food
+- `bean`: `BeanRegular` / `BeanFilled`. bean, nature, legume, soy, food, seed
+- `bean-off`: `BeanOffRegular` / `BeanOffFilled`. bean, off, nature, soy free, legume, soy, food, seed, allergy, intolerance, diet
+- `cannabis-off`: `CannabisOffRegular` / `CannabisOffFilled`. cannabis, off, nature, weed, leaf
+- `cherry`: `CherryRegular` / `CherryFilled`. cherry, nature, fruit, food
+- `chess-bishop`: `ChessBishopRegular` / `ChessBishopFilled`. chess, bishop, nature, mitre, miter, piece, board game, religion
+- `chess-king`: `ChessKingRegular` / `ChessKingFilled`. chess, king, nature, ruler, crown, piece, board game, stalemate
+- `chess-pawn`: `ChessPawnRegular` / `ChessPawnFilled`. chess, pawn, nature, piece, board game
+- `chess-queen`: `ChessQueenRegular` / `ChessQueenFilled`. chess, queen, nature, ruler, crown, piece, board game, stalemate
+- `chess-rook`: `ChessRookRegular` / `ChessRookFilled`. chess, rook, nature, castle, piece, board game
+- `citrus`: `CitrusRegular` / `CitrusFilled`. citrus, nature, lemon, orange, grapefruit, fruit
+- `citrus-2`: `Citrus2Regular` / `Citrus2Filled`. citrus, nature
+- `grape`: `GrapeRegular` / `GrapeFilled`. grape, nature, fruit, wine, food
+- `hop-2`: `Hop2Regular` / `Hop2Filled`. hop, nature
+- `hop-2-off`: `Hop2OffRegular` / `Hop2OffFilled`. hop, off, nature
+- `leafy-green`: `LeafyGreenRegular` / `LeafyGreenFilled`. leafy, green, nature, salad, lettuce, vegetable, chard, cabbage, bok choy
+- `orange`: `OrangeRegular` / `OrangeFilled`. orange, nature
+
+### shapes (37)
+
+- `pentagon`: `PentagonRegular` / `PentagonFilled`. pentagon, home, house, dashboard
+- `heart`: `HeartRegular` / `HeartFilled`. heart, love
+- `hexagon`: `HexagonRegular` / `HexagonFilled`. hexagon, polygons, shapes
+- `round`: `RoundRegular` / `RoundFilled`. round, shapes
+- `shield-shape`: `ShieldShapeRegular` / `ShieldShapeFilled`. shield, security, safe, protect
+- `square`: `SquareRegular` / `SquareFilled`. square, window
+- `star`: `StarRegular` / `StarFilled`. star, favorites
+- `triangle`: `TriangleRegular` / `TriangleFilled`. triangle, polygons, shapes
+- `diamond`: `DiamondRegular` / `DiamondFilled`. diamond, rectangle, polygons
+- `octagon`: `OctagonRegular` / `OctagonFilled`. octagon, polygons, shapes
+- `clubs`: `ClubsRegular` / `ClubsFilled`. clubs, poker, gamble
+- `heart-half`: `HeartHalfRegular` / `HeartHalfFilled`. heart, half, love
+- `spade`: `SpadeRegular` / `SpadeFilled`. spade, poker, gamble
+- `star-half`: `StarHalfRegular` / `StarHalfFilled`. star, half, favorites
+- `heart-crack`: `HeartCrackRegular` / `HeartCrackFilled`. heart, crack, broken
+- `diamond-square`: `DiamondSquareRegular` / `DiamondSquareFilled`. diamond, square, poker, gambling
+- `sector`: `SectorRegular` / `SectorFilled`. circular, sector, pie, radian
+- `cylinder`: `CylinderRegular` / `CylinderFilled`. cylinder, geometry, tube
+- `line`: `LineRegular` / `LineFilled`. line, geometry, straight
+- `rectangle`: `RectangleRegular` / `RectangleFilled`. rectangle, geometry, shape
+- `rectangle-vertical`: `RectangleVerticalRegular` / `RectangleVerticalFilled`. rectangle, geometry, shape, vertical
+- `cylinder-2`: `Cylinder2Regular` / `Cylinder2Filled`. cylinder, geometry, tube
+- `hemisphere`: `HemisphereRegular` / `HemisphereFilled`. hemisphere, geometry, shape, 3d
+- `hemisphere-2`: `Hemisphere2Regular` / `Hemisphere2Filled`. hemisphere, geometry, shape, 3d
+- `badge-octagram`: `BadgeOctagramRegular` / `BadgeOctagramFilled`. badge, octagram, shape, status, label, indicator
+- `circle-off`: `CircleOffRegular` / `CircleOffFilled`. circle, off, shape, diameter, zero, Ø, nothing, null, void, cancel, ban, no, stop, forbidden, prohibited, error, incorrect, mistake, wrong, failure
+- `circle-slash-2`: `CircleSlash2Regular` / `CircleSlash2Filled`. circle, slash, shape, diameter, zero, ø, nothing, null, void, ban, math, divide, division, half, split, /, average, avg, mean, median, normal
+- `circle-small`: `CircleSmallRegular` / `CircleSmallFilled`. circle, small, shape, bullet, gender, genderless
+- `cone`: `ConeRegular` / `ConeFilled`. cone, shape, conical, triangle, triangular, geometry, filter, funnel, hopper, spotlight, searchlight
+- `cuboid`: `CuboidRegular` / `CuboidFilled`. cuboid, shape, brick, block, box, 3d, solid, volume, container, storage, shipping, carton, geometry, rectangular, hexahedron, butter, tofu, soap, cheese, package, parcel, crate
+- `dot`: `DotRegular` / `DotFilled`. dot, shape, interpunct, interpoint, middot, step, punctuation, period, full stop, end, finish, final, characters, font, typography, type, center, .
+- `ellipse`: `EllipseRegular` / `EllipseFilled`. ellipse, shape, geometry, rounded, smooth, outline, form, boundary, curve, shapes, oval
+- `heart-check`: `HeartCheckRegular` / `HeartCheckFilled`. heart, check, shape
+- `heart-minus`: `HeartMinusRegular` / `HeartMinusFilled`. heart, minus, shape, unlike, unfavorite, remove, delete, damage
+- `heart-off`: `HeartOffRegular` / `HeartOffFilled`. heart, off, shape, unlike, dislike, hate, emotion
+- `heart-plus`: `HeartPlusRegular` / `HeartPlusFilled`. heart, plus, shape, like, favorite, add, health, support
+- `heart-x`: `HeartXRegular` / `HeartXFilled`. heart, x, shape, unlike, unfavorite, remove, reject, dismiss, delete, clear
+
+### sports (53)
+
+- `barbell`: `BarbellRegular` / `BarbellFilled`. barbell, fitness, gym, powerlift
+- `air-balloon`: `AirBalloonRegular` / `AirBalloonFilled`. air, balloon, fire, travel, fly
+- `american-football`: `AmericanFootballRegular` / `AmericanFootballFilled`. american, football, soccer
+- `backboard`: `BackboardRegular` / `BackboardFilled`. backboard, basketball
+- `badminton`: `BadmintonRegular` / `BadmintonFilled`. badminton, feather, sport
+- `baseball`: `BaseballRegular` / `BaseballFilled`. baseball, sport
+- `basketball`: `BasketballRegular` / `BasketballFilled`. basketball, sport, nba
+- `fitness`: `FitnessRegular` / `FitnessFilled`. fitness, arm, power
+- `football`: `FootballRegular` / `FootballFilled`. football, soccer, sport
+- `parachute`: `ParachuteRegular` / `ParachuteFilled`. parachute, aircraft, land
+- `pingpong`: `PingpongRegular` / `PingpongFilled`. pingpong, table, tennis, racket
+- `playground`: `PlaygroundRegular` / `PlaygroundFilled`. playground, field, ground
+- `skateboard`: `SkateboardRegular` / `SkateboardFilled`. skateboard, adventure, sport
+- `surfboard`: `SurfboardRegular` / `SurfboardFilled`. surfboard, longboard, sport
+- `swimming-pool`: `SwimmingPoolRegular` / `SwimmingPoolFilled`. swimming, pool, vacation
+- `toxophily`: `ToxophilyRegular` / `ToxophilyFilled`. toxophily, bow, arrow
+- `volleyball`: `VolleyballRegular` / `VolleyballFilled`. volleyball, sport
+- `sword`: `SwordRegular` / `SwordFilled`. sword, weapon, war, game
+- `baseball-2`: `Baseball2Regular` / `Baseball2Filled`. baseball, sport
+- `beachball`: `BeachballRegular` / `BeachballFilled`. beachball, colorful, ball, cursor
+- `whistle`: `WhistleRegular` / `WhistleFilled`. whistle, sport, referee
+- `disabled`: `DisabledRegular` / `DisabledFilled`. disabled, wheelchair, accessible, handicapped
+- `disabled-2`: `Disabled2Regular` / `Disabled2Filled`. disabled, wheelchair, accessible, handicapped
+- `wheelchair`: `WheelchairRegular` / `WheelchairFilled`. disabled, wheelchair, accessible, handicapped
+- `cooldown`: `CooldownRegular` / `CooldownFilled`. cooldown, post-workout, stretching, recovery
+- `figure`: `FigureRegular` / `FigureFilled`. figure, body shape, physique, sculpting
+- `flexibility`: `FlexibilityRegular` / `FlexibilityFilled`. flexibility, stretching, range of motion, mobility exercises
+- `high-knees`: `HighKneesRegular` / `HighKneesFilled`. high knees, cardio drill, running warm-up, plyometrics
+- `hiking`: `HikingRegular` / `HikingFilled`. hiking, trekking, outdoor sports, trail walking
+- `hop`: `HopRegular` / `HopFilled`. hop, single leg jump, plyometric training, agility drill
+- `indoor-rowing`: `IndoorRowingRegular` / `IndoorRowingFilled`. indoor rowing, rowing machine, ergometer, cardio equipment
+- `jump`: `JumpRegular` / `JumpFilled`. jump, plyometrics, vertical jump, explosive power
+- `lie-down`: `LieDownRegular` / `LieDownFilled`. lie-down, reclining pose, rest position, supine
+- `play-football`: `PlayFootballRegular` / `PlayFootballFilled`. play football, soccer, football game, team sport
+- `run-treadmill`: `RunTreadmillRegular` / `RunTreadmillFilled`. run treadmill, treadmill running, indoor cardio, gym equipment
+- `skateboarding`: `SkateboardingRegular` / `SkateboardingFilled`. skateboarding, skateboard, action sports, street skating
+- `snowboarding`: `SnowboardingRegular` / `SnowboardingFilled`. snowboarding, snowboard, winter sports, slope riding
+- `squats`: `SquatsRegular` / `SquatsFilled`. squats, strength training, leg workout, bodyweight exercise
+- `stair-stepper`: `StairStepperRegular` / `StairStepperFilled`. stair stepper, stepper machine, stair climber, cardio workout
+- `swimming`: `SwimmingRegular` / `SwimmingFilled`. swimming, aquatic sports, pool workout, freestyle
+- `warm-up`: `WarmUpRegular` / `WarmUpFilled`. warm up, pre-workout, stretching, exercise prep
+- `warm-up-2`: `WarmUp2Regular` / `WarmUp2Filled`. warm up, dynamic warm-up, pre-exercise routine, joint mobilization
+- `warm-up-3`: `WarmUp3Regular` / `WarmUp3Filled`. warm up, static stretching, muscle activation, pre-game prep
+- `weightlifting`: `WeightliftingRegular` / `WeightliftingFilled`. weightlifting, powerlifting, strength training, gym workout
+- `yoga`: `YogaRegular` / `YogaFilled`. yoga, meditation, yoga pose, mindfulness
+- `zazen`: `ZazenRegular` / `ZazenFilled`. zazen, Zen meditation, sitting practice, mindfulness
+- `riding`: `RidingRegular` / `RidingFilled`. bike, cycling
+- `run`: `RunRegular` / `RunFilled`. run, motion, sprint
+- `walk`: `WalkRegular` / `WalkFilled`. walk, step, ambulation
+- `fishing-hook`: `FishingHookRegular` / `FishingHookFilled`. fishing, hook, sports, sea, boating, angler, bait, reel, tackle, marine, outdoors, fish, travel
+- `fishing-rod`: `FishingRodRegular` / `FishingRodFilled`. fishing, rod, sports, hobby, equipment, reel
+- `kayak`: `KayakRegular` / `KayakFilled`. kayak, sports, boat, paddle, water, sport, recreation, adventure, outdoors, equipment, lake, ocean
+- `run-2`: `Run2Regular` / `Run2Filled`. run, sports
+
+### system (213)
+
+- `check-circle`: `CheckCircleRegular` / `CheckCircleFilled`. checks, tick, success, confirm, √
+- `add-circle`: `AddCircleRegular` / `AddCircleFilled`. add-circle, plus, new, +
+- `alert`: `AlertRegular` / `AlertFilled`. alert, warning, danger, caution
+- `brush`: `BrushRegular` / `BrushFilled`. brush, painter, color, picker
+- `check`: `CheckRegular` / `CheckFilled`. checks, tick, success, confirm, √
+- `close-circle`: `CloseCircleRegular` / `CloseCircleFilled`. close, error, fault, delete, x
+- `close`: `CloseRegular` / `CloseFilled`. close, error, fault, delete, x
+- `delete`: `DeleteRegular` / `DeleteFilled`. delete, garbage, remove, uninstall
+- `eye-close`: `EyeCloseRegular` / `EyeCloseFilled`. hide, closed, eye, invisible
+- `eye`: `EyeRegular` / `EyeFilled`. eye, watch, view
+- `fire`: `FireRegular` / `FireFilled`. flame, fire, bonfire
+- `forbid-circle`: `ForbidCircleRegular` / `ForbidCircleFilled`. forbid, circle, cancelled, prevent, stop
+- `grid`: `GridRegular` / `GridFilled`. grid, more, classify
+- `history`: `HistoryRegular` / `HistoryFilled`. history, past, recovery
+- `information`: `InformationRegular` / `InformationFilled`. information, info, support, help
+- `key-1`: `Key1Regular` / `Key1Filled`. key, authentication, login, encrypted
+- `key-2`: `Key2Regular` / `Key2Filled`. key, authentication, login, encrypted
+- `lock`: `LockRegular` / `LockFilled`. lock, security, password
+- `minus-circle`: `MinusCircleRegular` / `MinusCircleFilled`. minus, subtraction, difference, arithmetic
+- `power`: `PowerRegular` / `PowerFilled`. power, charged, on, off, switch
+- `question`: `QuestionRegular` / `QuestionFilled`. question, ask, help, info, support
+- `refresh-1`: `Refresh1Regular` / `Refresh1Filled`. refresh, synchronization, reload, restart
+- `refresh-2`: `Refresh2Regular` / `Refresh2Filled`. refresh, synchronization, reload, restart
+- `settings-1`: `Settings1Regular` / `Settings1Filled`. adjustments, settings, gear, control
+- `settings-2`: `Settings2Regular` / `Settings2Filled`. adjustments, settings, control
+- `settings-3`: `Settings3Regular` / `Settings3Filled`. adjustments, settings, gear, control
+- `share-forward`: `ShareForwardRegular` / `ShareForwardFilled`. share, forward, export
+- `shield`: `ShieldRegular` / `ShieldFilled`. shield, security, safe, protect
+- `t-shirt`: `TShirtRegular` / `TShirtFilled`. t, shirt, skin, clothes
+- `thumb-down`: `ThumbDownRegular` / `ThumbDownFilled`. thumb-down, dislike, bad
+- `thumb-up`: `ThumbUpRegular` / `ThumbUpFilled`. thumb-up, like, good
+- `time`: `TimeRegular` / `TimeFilled`. time, clock, timer, alarm, watch
+- `version`: `VersionRegular` / `VersionFilled`. version, app, variant
+- `warning`: `WarningRegular` / `WarningFilled`. alert, warning, danger, caution
+- `door`: `DoorRegular` / `DoorFilled`. door, entrance, exit
+- `entrance`: `EntranceRegular` / `EntranceFilled`. enter, door, entrance
+- `exit`: `ExitRegular` / `ExitFilled`. exit, door
+- `grid-2`: `Grid2Regular` / `Grid2Filled`. grid, more, classify
+- `open-door`: `OpenDoorRegular` / `OpenDoorFilled`. open, door, entrance, exit
+- `settings-4`: `Settings4Regular` / `Settings4Filled`. adjustments, settings, gear, control
+- `share-2`: `Share2Regular` / `Share2Filled`. share, forward, export
+- `share-3`: `Share3Regular` / `Share3Filled`. share, forward, export
+- `tool`: `ToolRegular` / `ToolFilled`. tool, fix
+- `minimize`: `MinimizeRegular` / `MinimizeFilled`. minimize, minus
+- `restore`: `RestoreRegular` / `RestoreFilled`. restore, window
+- `alert-octagon`: `AlertOctagonRegular` / `AlertOctagonFilled`. alert, octagon, warning, danger, caution
+- `certificate`: `CertificateRegular` / `CertificateFilled`. certificate, official, qualification
+- `delete-back`: `DeleteBackRegular` / `DeleteBackFilled`. delete, back, backspace, remove
+- `unlock`: `UnlockRegular` / `UnlockFilled`. unlock, open
+- `safety-certificate`: `SafetyCertificateRegular` / `SafetyCertificateFilled`. safety, certificate, security, qualification, protect
+- `filter-2`: `Filter2Regular` / `Filter2Filled`. filter, funnel, hopper, filtration
+- `delete-2`: `Delete2Regular` / `Delete2Filled`. delete, garbage, remove, uninstall
+- `wastebasket`: `WastebasketRegular` / `WastebasketFilled`. delete, garbage, remove, wastebasket
+- `ghost`: `GhostRegular` / `GhostFilled`. ghost, spirit, horror
+- `settings-5`: `Settings5Regular` / `Settings5Filled`. adjustments, settings, gear, control
+- `enter-door`: `EnterDoorRegular` / `EnterDoorFilled`. enter, door, entrance
+- `exit-door`: `ExitDoorRegular` / `ExitDoorFilled`. exit, door
+- `faceid`: `FaceidRegular` / `FaceidFilled`. faceid, scan
+- `fingerprint`: `FingerprintRegular` / `FingerprintFilled`. fingerprint, identify, security
+- `fingerprint-2`: `Fingerprint2Regular` / `Fingerprint2Filled`. fingerprint, identify, security
+- `more-1`: `More1Regular` / `More1Filled`. more, dots, ellipsis
+- `more-2`: `More2Regular` / `More2Filled`. more, dots, ellipsis
+- `more-3`: `More3Regular` / `More3Filled`. more, dots, ellipsis
+- `more-4`: `More4Regular` / `More4Filled`. more, dots, ellipsis
+- `safe-alert`: `SafeAlertRegular` / `SafeAlertFilled`. safe, alert, warning, danger, caution
+- `safe-flash`: `SafeFlashRegular` / `SafeFlashFilled`. safe, flash, shield
+- `safe-lock`: `SafeLockRegular` / `SafeLockFilled`. safe, lock, shield
+- `safe-shield`: `SafeShieldRegular` / `SafeShieldFilled`. safe, shield, protect
+- `safe-shield-2`: `SafeShield2Regular` / `SafeShield2Filled`. safe, shield, protect
+- `dot-grid`: `DotGridRegular` / `DotGridFilled`. dot, grid, layout, more, classify
+- `switch`: `SwitchRegular` / `SwitchFilled`. toggle, switch, settings
+- `toggle-left-2`: `ToggleLeft2Regular` / `ToggleLeft2Filled`. toggle, left, switch, settings
+- `toggle-left`: `ToggleLeftRegular` / `ToggleLeftFilled`. toggle, left, switch, settings
+- `toggle-right-2`: `ToggleRight2Regular` / `ToggleRight2Filled`. toggle, right, switch, settings
+- `toggle-right`: `ToggleRightRegular` / `ToggleRightFilled`. toggle, right, switch, settings
+- `history-2`: `History2Regular` / `History2Filled`. history, past, recovery
+- `newdot`: `NewdotRegular` / `NewdotFilled`. reddot, notification, alarm, reminder
+- `classify`: `ClassifyRegular` / `ClassifyFilled`. classify, dot, more
+- `thumb-down-2`: `ThumbDown2Regular` / `ThumbDown2Filled`. thumb-down, dislike, bad
+- `thumb-up-2`: `ThumbUp2Regular` / `ThumbUp2Filled`. thumb-up, like, good
+- `add`: `AddRegular` / `AddFilled`. add, plus, new, +
+- `loading`: `LoadingRegular` / `LoadingFilled`. loader, process, rotate, loading
+- `loading-2`: `Loading2Regular` / `Loading2Filled`. loader, process, rotate, loading
+- `loading-3`: `Loading3Regular` / `Loading3Filled`. loader, process, rotate, loading
+- `loading-4`: `Loading4Regular` / `Loading4Filled`. loader, process, rotate, loading
+- `crutch`: `CrutchRegular` / `CrutchFilled`. crutch, cane, christmas
+- `broom`: `BroomRegular` / `BroomFilled`. broom, clean, sweep
+- `classify-2`: `Classify2Regular` / `Classify2Filled`. classify, dot, more
+- `gesture-unlock`: `GestureUnlockRegular` / `GestureUnlockFilled`. gesture, unlock, password
+- `refresh-3`: `Refresh3Regular` / `Refresh3Filled`. refresh, synchronization, reload, restart
+- `refresh-4`: `Refresh4Regular` / `Refresh4Filled`. refresh, synchronization, reload, restart
+- `polygon`: `PolygonRegular` / `PolygonFilled`. triangle, square, circle, geometry
+- `recycle`: `RecycleRegular` / `RecycleFilled`. recycle, trash, waste
+- `report`: `ReportRegular` / `ReportFilled`. report, police, alarm, emergency
+- `settings-6`: `Settings6Regular` / `Settings6Filled`. adjustments, settings, control
+- `check-2`: `Check2Regular` / `Check2Filled`. checks, tick, success, confirm, √
+- `heartbeat`: `HeartbeatRegular` / `HeartbeatFilled`. heartbeat, pulse, lifeline, heartrate
+- `keyhole`: `KeyholeRegular` / `KeyholeFilled`. keyhole, key, lock, security, password
+- `sleep`: `SleepRegular` / `SleepFilled`. sleep, zz, dream, rest, snooze
+- `checks`: `ChecksRegular` / `ChecksFilled`. checks, tick, success, confirm, √
+- `flame`: `FlameRegular` / `FlameFilled`. flame, fire, bonfire
+- `alert-diamond`: `AlertDiamondRegular` / `AlertDiamondFilled`. alert, warning, danger, caution
+- `brush-3`: `Brush3Regular` / `Brush3Filled`. brush, painter, color, picker
+- `history-anticlockwise`: `HistoryAnticlockwiseRegular` / `HistoryAnticlockwiseFilled`. history, past, recovery, anticlockwise
+- `refresh-anticlockwise-1`: `RefreshAnticlockwise1Regular` / `RefreshAnticlockwise1Filled`. refresh, synchronization, reload, restart, anticlockwise
+- `settings-7`: `Settings7Regular` / `Settings7Filled`. adjustments, settings, gear, control
+- `checkbox`: `CheckboxRegular` / `CheckboxFilled`. checkbox, check, select, choice
+- `choice`: `ChoiceRegular` / `ChoiceFilled`. checkbox, check, select, choice
+- `classify-3`: `Classify3Regular` / `Classify3Filled`. classify, dot, more
+- `classify-add-2`: `ClassifyAdd2Regular` / `ClassifyAdd2Filled`. classify, dot, add
+- `classify-add`: `ClassifyAddRegular` / `ClassifyAddFilled`. classify, dot, add
+- `cross`: `CrossRegular` / `CrossFilled`. cross, red, rescue
+- `delete-3`: `Delete3Regular` / `Delete3Filled`. delete, garbage, remove, uninstall
+- `direction-dot`: `DirectionDotRegular` / `DirectionDotFilled`. direction, dot, move
+- `dots`: `DotsRegular` / `DotsFilled`. more, dots, ellipsis, vertical
+- `dots-horizontal`: `DotsHorizontalRegular` / `DotsHorizontalFilled`. more, dots, ellipsis, horizontal
+- `multiselect`: `MultiselectRegular` / `MultiselectFilled`. multi, select, check
+- `plus`: `PlusRegular` / `PlusFilled`. plus, cross, add, +
+- `process`: `ProcessRegular` / `ProcessFilled`. process, square, frame
+- `bubble`: `BubbleRegular` / `BubbleFilled`. thought, bubble, idea
+- `cube`: `CubeRegular` / `CubeFilled`. cube, square, box
+- `radiobox`: `RadioboxRegular` / `RadioboxFilled`. radiobox, radio, checkbox, selection
+- `three-circles`: `ThreeCirclesRegular` / `ThreeCirclesFilled`. circles, classify, dot, more
+- `mind-map`: `MindMapRegular` / `MindMapFilled`. mind, map, branch, thought
+- `transformation`: `TransformationRegular` / `TransformationFilled`. repeat, transformation, exchange, change, swap
+- `add-square`: `AddSquareRegular` / `AddSquareFilled`. add, square, plus, new, +
+- `close-square`: `CloseSquareRegular` / `CloseSquareFilled`. close, error, fault, delete, x
+- `fault`: `FaultRegular` / `FaultFilled`. close, error, fault, delete, x
+- `hexagons`: `HexagonsRegular` / `HexagonsFilled`. hexagon, polygons, shapes, three, puzzle, honeycomb
+- `hexagons-2`: `Hexagons2Regular` / `Hexagons2Filled`. hexagon, polygons, shapes, three, puzzle, honeycomb
+- `minus-square`: `MinusSquareRegular` / `MinusSquareFilled`. minus, subtraction, difference, arithmetic
+- `refresh-4-ai`: `Refresh4AIRegular` / `Refresh4AIFilled`. refresh, synchronization, reload, restart, ai, artificial, intelligence
+- `time-duration`: `TimeDurationRegular` / `TimeDurationFilled`. time, clock, timer, duration, watch
+- `timeline`: `TimelineRegular` / `TimelineFilled`. time, line, progress, duration, project
+- `webhook`: `WebhookRegular` / `WebhookFilled`. webhook, interaction, communication
+- `add-circle-dash`: `AddCircleDashRegular` / `AddCircleDashFilled`. add circle dash, add icon, dashed circle, new entry, UI action
+- `brush-3-ai`: `Brush3AIRegular` / `Brush3AIFilled`. brush, painter, color, picker, ai, artificial, intelligence
+- `button`: `ButtonRegular` / `ButtonFilled`. button, UI component, clickable element, interaction design
+- `check-circle-dash`: `CheckCircleDashRegular` / `CheckCircleDashFilled`. check circle dash, check icon, complete action, dashed circle, status indicator
+- `circle-dash`: `CircleDashRegular` / `CircleDashFilled`. circle dash, dashed circle, loading state, circular border, UI shape
+- `classify-ai`: `ClassifyAIRegular` / `ClassifyAIFilled`. classify, dot, more, ai, artificial, intelligence
+- `classify-2-ai`: `Classify2AIRegular` / `Classify2AIFilled`. classify, dot, more, ai, artificial, intelligence
+- `classify-3-ai`: `Classify3AIRegular` / `Classify3AIFilled`. classify, dot, more, ai, artificial, intelligence
+- `close-circle-dash`: `CloseCircleDashRegular` / `CloseCircleDashFilled`. close circle dash, close icon, cancel button, dashed circle
+- `close-medium`: `CloseMediumRegular` / `CloseMediumFilled`. close medium, close icon, exit button, medium size
+- `close-small`: `CloseSmallRegular` / `CloseSmallFilled`. close small, close icon, exit button, small size
+- `dot-circle`: `DotCircleRegular` / `DotCircleFilled`. dot circle, radio button, dot indicator, selection control
+- `dropdown`: `DropdownRegular` / `DropdownFilled`. dropdown, dropdown menu, select list, UI control
+- `key-3`: `Key3Regular` / `Key3Filled`. key, authentication, login, encrypted
+- `key-4`: `Key4Regular` / `Key4Filled`. key, authentication, login, encrypted
+- `minus-circle-dash`: `MinusCircleDashRegular` / `MinusCircleDashFilled`. minus circle dash, minus icon, delete action, dashed circle
+- `quarter-circle-dash`: `QuarterCircleDashRegular` / `QuarterCircleDashFilled`. quarter circle dash, quarter circle, 25 percent, dashed progress, loading indicator
+- `question-2`: `Question2Regular` / `Question2Filled`. question, ask, help, info, support
+- `scrollable-list`: `ScrollableListRegular` / `ScrollableListFilled`. scrollable list, scroll list, long content, UI container
+- `semicircle-dash`: `SemicircleDashRegular` / `SemicircleDashFilled`. semicircle dash, semicircle, half circle, 50 percent, dashed progress
+- `three-quarters-circle-dash`: `ThreeQuartersCircleDashRegular` / `ThreeQuartersCircleDashFilled`. three quarters circle dash, three quarter circle, 75 percent, dashed progress
+- `badge-alert`: `BadgeAlertRegular` / `BadgeAlertFilled`. badge, alert, system, utility, status, label, indicator, check, verified, unverified, security, safety, issue
+- `badge-info`: `BadgeInfoRegular` / `BadgeInfoFilled`. badge, info, system, utility, status, label, indicator, verified, unverified, help
+- `badge-minus`: `BadgeMinusRegular` / `BadgeMinusFilled`. badge, minus, system, utility, status, label, indicator, verified, unverified, delete, remove, erase
+- `badge-plus`: `BadgePlusRegular` / `BadgePlusFilled`. badge, plus, system, utility, status, label, indicator, verified, unverified, add, create, new
+- `badge-question-mark`: `BadgeQuestionMarkRegular` / `BadgeQuestionMarkFilled`. badge, question, mark, system, utility, status, label, indicator, verified, unverified, help
+- `badge-x`: `BadgeXRegular` / `BadgeXFilled`. badge, x, system, utility, status, label, indicator, verified, unverified, lost, delete, remove
+- `ban`: `BanRegular` / `BanFilled`. ban, system, utility, cancel, no, stop, forbidden, prohibited, error, incorrect, mistake, wrong, failure, circle, slash, null, void
+- `circle-check-big`: `CircleCheckBigRegular` / `CircleCheckBigFilled`. circle, check, large, system, utility, done, todo, tick, complete, task
+- `circle-dot`: `CircleDotRegular` / `CircleDotFilled`. circle, dot, system, utility, pending, progress, issue, code, coding, version control, choices, multiple choice, choose, album, music, songs, format, cd, dvd, vinyl, sleeve, cover, platinum, compilation, ep, recording, playback, spin, rotate, rpm, dj
+- `circle-dot-dashed`: `CircleDotDashedRegular` / `CircleDotDashedFilled`. circle, dot, dashed, system, utility, pending, progress, issue, draft, code, coding, version control
+- `circle-fading-plus`: `CircleFadingPlusRegular` / `CircleFadingPlusFilled`. circle, fading, plus, system, utility, stories, social media, sharing, content
+- `circle-pile`: `CirclePileRegular` / `CirclePileFilled`. circle, pile, system, utility, off, zero, record, shape, circle-pile, stack, layer, structure, form, group, collection, stock, inventory, materials, warehouse
+- `circle-power`: `CirclePowerRegular` / `CirclePowerFilled`. circle, power, system, utility, on, off, device, switch, toggle, binary, boolean, reboot, restart, button, keyboard, troubleshoot
+- `circle-star`: `CircleStarRegular` / `CircleStarFilled`. circle, star, system, utility, badge, medal, honour, decoration, order, pin, laurel, trophy, medallion, insignia, bronze, silver, gold
+- `clock-1`: `Clock1Regular` / `Clock1Filled`. clock, time, hour, one, 1 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-10`: `Clock10Regular` / `Clock10Filled`. clock, time, hour, ten, 10 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-11`: `Clock11Regular` / `Clock11Filled`. clock, time, hour, eleven, 11 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-12`: `Clock12Regular` / `Clock12Filled`. clock, time, hour, twelve, 12 oclock, time picker, schedule, appointment, watch, alarm, noon, midnight
+- `clock-2`: `Clock2Regular` / `Clock2Filled`. clock, time, hour, two, 2 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-3`: `Clock3Regular` / `Clock3Filled`. clock, time, hour, three, 3 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-4`: `Clock4Regular` / `Clock4Filled`. clock, time, hour, four, 4 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-5`: `Clock5Regular` / `Clock5Filled`. clock, time, hour, five, 5 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-6`: `Clock6Regular` / `Clock6Filled`. clock, time, hour, six, 6 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-7`: `Clock7Regular` / `Clock7Filled`. clock, time, hour, seven, 7 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-8`: `Clock8Regular` / `Clock8Filled`. clock, time, hour, eight, 8 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-9`: `Clock9Regular` / `Clock9Filled`. clock, time, hour, nine, 9 oclock, time picker, schedule, appointment, watch, alarm
+- `clock-alert`: `ClockAlertRegular` / `ClockAlertFilled`. clock, time, alert, reminder, notification, deadline, time warning, watch, alarm, warning, wrong
+- `clock-arrow-down`: `ClockArrowDownRegular` / `ClockArrowDownFilled`. clock, time, arrow down, reschedule, delay, postpone, watch, alarm, sort, order, ascending, descending, increasing, decreasing, rising, falling
+- `clock-arrow-up`: `ClockArrowUpRegular` / `ClockArrowUpFilled`. clock, time, arrow up, reschedule, advance, bring forward, watch, alarm, sort, order, ascending, descending, increasing, decreasing, rising, falling
+- `clock-check`: `ClockCheckRegular` / `ClockCheckFilled`. clock, time, check, scheduled, confirmed, completed, watch, alarm
+- `clock-minus`: `ClockMinusRegular` / `ClockMinusFilled`. clock, time, minus, remove time, reduce schedule
+- `clock-plus`: `ClockPlusRegular` / `ClockPlusFilled`. clock, time, plus, add time, create schedule, watch, alarm, add, create, new
+- `clock-x`: `ClockXRegular` / `ClockXFilled`. clock, time, cancel, delete schedule, time unavailable
+- `diamond-minus`: `DiamondMinusRegular` / `DiamondMinusFilled`. diamond, minus, system, utility, keyframe, subtract, remove, decrease, reduce, calculator, button, keyboard, line, divider, separator, horizontal rule, hr, html, markup, markdown, ---, toolbar, operator, code, coding, minimum, downgrade
+- `diamond-percent`: `DiamondPercentRegular` / `DiamondPercentFilled`. diamond, percent, system, utility, verified, unverified, sale, discount, offer, marketing, sticker, price tag
+- `diamond-plus`: `DiamondPlusRegular` / `DiamondPlusFilled`. diamond, plus, system, utility, keyframe, add, new, increase, increment, positive, calculate, toolbar, crosshair, aim, target, scope, sight, reticule, maximum, upgrade, extra, +
+- `door-closed-locked`: `DoorClosedLockedRegular` / `DoorClosedLockedFilled`. door, closed, locked, system, utility, entrance, entry, exit, ingress, egress, gate, gateway, emergency exit, lock
+- `eye-off`: `EyeOffRegular` / `EyeOffFilled`. eye, off, system, utility, view, watch, see, hide, conceal, mask, hidden, visibility, vision
+- `focus`: `FocusRegular` / `FocusFilled`. focus, system, utility, camera, lens, photo, dashed
+- `focus-group`: `FocusGroupRegular` / `FocusGroupFilled`. focus, group, system, utility
+- `focus-square`: `FocusSquareRegular` / `FocusSquareFilled`. focus, square, system, utility
+- `key-square`: `KeySquareRegular` / `KeySquareFilled`. key, square, system, utility, password, login, authentication, secure, unlock, car key
+- `layers-2`: `Layers2Regular` / `Layers2Filled`. layers, system, utility, stack, pile, pages, sheets, paperwork, copies, copy, duplicate, double, shortcuts
+- `layers-minus`: `LayersMinusRegular` / `LayersMinusFilled`. layers, minus, system, utility, stack, pile, pages, sheets, paperwork, copies, copy, remove, delete
+- `layers-plus`: `LayersPlusRegular` / `LayersPlusFilled`. layers, plus, system, utility, stack, add, new, increase, create, positive, copy, upgrade
+- `line-dot-right-horizontal`: `LineDotRightHorizontalRegular` / `LineDotRightHorizontalFilled`. line, dot, right, horizontal, system, utility, code, version control, waypoint, stop, station, last, end
+- `list-filter-plus`: `ListFilterPlusRegular` / `ListFilterPlusFilled`. list, filter, plus, system, utility, list management, checklist, task, options, add
+- `lock-2`: `Lock2Regular` / `Lock2Filled`. lock, system, utility
+- `lock-open`: `LockOpenRegular` / `LockOpenFilled`. lock, open, system, utility, security
+- `progress-100`: `Progress100Regular` / `Progress100Filled`. progress, 100 percent, 100%, complete, completed, finished, success, task status, progress indicator
+- `progress-25`: `Progress25Regular` / `Progress25Filled`. progress, 25 percent, 25%, quarter complete, completion, loading, task status, progress indicator
+- `progress-50`: `Progress50Regular` / `Progress50Filled`. progress, 50 percent, 50%, half complete, completion, loading, task status, progress indicator, dark, light, theme
+- `progress-75`: `Progress75Regular` / `Progress75Filled`. progress, 75 percent, 75%, three quarters complete, completion, loading, task status, progress indicator
+- `progress-arc`: `ProgressArcRegular` / `ProgressArcFilled`. progress, circular progress, arc, loading, spinner, completion, progress indicator
+- `settings-horizontal`: `SettingsHorizontalRegular` / `SettingsHorizontalFilled`. settings, horizontal, system, utility, preferences, configuration, controls
+- `settings-vertical`: `SettingsVerticalRegular` / `SettingsVerticalFilled`. settings, vertical, system, utility, preferences, configuration, controls
+- `webhook-2`: `Webhook2Regular` / `Webhook2Filled`. webhook, system, utility
+
+### transportation (68)
+
+- `bus`: `BusRegular` / `BusFilled`. bus, vehicles, public transit
+- `airplane`: `AirplaneRegular` / `AirplaneFilled`. airplane, flight, fly, airport
+- `bike`: `BikeRegular` / `BikeFilled`. bike, cyclists, fitness
+- `bus-2`: `Bus2Regular` / `Bus2Filled`. bus, vehicles, public transit
+- `car-2`: `Car2Regular` / `Car2Filled`. car, vehicle, auto
+- `car`: `CarRegular` / `CarFilled`. car, vehicle, auto
+- `ebike`: `EbikeRegular` / `EbikeFilled`. ebike, bike, cyclists
+- `ship`: `ShipRegular` / `ShipFilled`. ship, ferry, boat, sailing
+- `train`: `TrainRegular` / `TrainFilled`. train, subway, railway, metro
+- `truck`: `TruckRegular` / `TruckFilled`. truck, vehicles, shipping, delivery
+- `baby-carriage`: `BabyCarriageRegular` / `BabyCarriageFilled`. baby, carriage, stroller, infant
+- `charging-pile`: `ChargingPileRegular` / `ChargingPileFilled`. charging, electric, pile
+- `flight-land`: `FlightLandRegular` / `FlightLandFilled`. flight, plane, arrival
+- `flight-takeoff`: `FlightTakeoffRegular` / `FlightTakeoffFilled`. flight, plane, departure
+- `gas-station`: `GasStationRegular` / `GasStationFilled`. fuel, gas, station
+- `scooter`: `ScooterRegular` / `ScooterFilled`. scooter, motor
+- `train-2`: `Train2Regular` / `Train2Filled`. train, subway, railway, metro
+- `rocket`: `RocketRegular` / `RocketFilled`. rocket, universe, space, spaceship, discover
+- `rocket-2`: `Rocket2Regular` / `Rocket2Filled`. rocket, universe, space, spaceship, discover
+- `ufo`: `UfoRegular` / `UfoFilled`. UFO, extraterrestrial, universe
+- `four-wheel-drive`: `FourWheelDriveRegular` / `FourWheelDriveFilled`. 4wd, wheel, drive, chassis, auto
+- `abs`: `ABSRegular` / `ABSFilled`. ABS, braking, auto
+- `aerial-lift`: `AerialLiftRegular` / `AerialLiftFilled`. aerial, tramway, lift
+- `auto-hold`: `AutoHoldRegular` / `AutoHoldFilled`. auto, hold
+- `brake`: `BrakeRegular` / `BrakeFilled`. brake, auto
+- `car-3`: `Car3Regular` / `Car3Filled`. car, vehicle, auto
+- `emergency-flashers`: `EmergencyFlashersRegular` / `EmergencyFlashersFilled`. emergency, flashers, triangle, warning, auto
+- `engine`: `EngineRegular` / `EngineFilled`. engine, motor, auto
+- `fan-2`: `Fan2Regular` / `Fan2Filled`. fan, air, wind, propeller
+- `fan-direction-down`: `FanDirectionDownRegular` / `FanDirectionDownFilled`. fan, direction, down, auto
+- `fan-direction-front`: `FanDirectionFrontRegular` / `FanDirectionFrontFilled`. fan, direction, front, auto
+- `fan-direction-up`: `FanDirectionUpRegular` / `FanDirectionUpFilled`. fan, direction, up, auto
+- `fan`: `FanRegular` / `FanFilled`. fan, air, wind
+- `flight-inflight`: `FlightInflightRegular` / `FlightInflightFilled`. flight, plane, inflight
+- `front-fog-lights`: `FrontFogLightsRegular` / `FrontFogLightsFilled`. front, fog, lights, auto
+- `front-windshield-defroster`: `FrontWindshieldDefrosterRegular` / `FrontWindshieldDefrosterFilled`. front, windshield, defroster, auto
+- `hight-beam-headlights`: `HightBeamHeadlightsRegular` / `HightBeamHeadlightsFilled`. hight, beam, headlights, auto
+- `jeep`: `JeepRegular` / `JeepFilled`. jeep, car, auto
+- `low-beam-headlights`: `LowBeamHeadlightsRegular` / `LowBeamHeadlightsFilled`. low, beam, headlights, auto
+- `oil`: `OilRegular` / `OilFilled`. oil, engine, lube, auto
+- `park`: `ParkRegular` / `ParkFilled`. park, light, auto
+- `parking-lights`: `ParkingLightsRegular` / `ParkingLightsFilled`. parking, light, auto
+- `rare-fog-lights`: `RareFogLightsRegular` / `RareFogLightsFilled`. rare, fog, lights, auto
+- `rear-windshield-defroster`: `RearWindshieldDefrosterRegular` / `RearWindshieldDefrosterFilled`. rear, windshield, defroster, auto
+- `seat`: `SeatRegular` / `SeatFilled`. seat, auto, chair
+- `seat-heated`: `SeatHeatedRegular` / `SeatHeatedFilled`. seat, auto, chair, heated
+- `steering-wheel`: `SteeringWheelRegular` / `SteeringWheelFilled`. steering, wheel, drive, auto
+- `traffic-lights`: `TrafficLightsRegular` / `TrafficLightsFilled`. traffic, light, crossing
+- `train-3`: `Train3Regular` / `Train3Filled`. train, subway, railway, metro
+- `tyre`: `TyreRegular` / `TyreFilled`. tyre, wheel, auto
+- `wheel`: `WheelRegular` / `WheelFilled`. tyre, wheel, auto
+- `wiper`: `WiperRegular` / `WiperFilled`. wiper, dashboard
+- `car-door`: `CarDoorRegular` / `CarDoorFilled`. car, door, auto
+- `car-window`: `CarWindowRegular` / `CarWindowFilled`. car, window, auto
+- `hood`: `HoodRegular` / `HoodFilled`. hood, car, auto
+- `pinwheel`: `PinwheelRegular` / `PinwheelFilled`. fan, air, wind, pinwheel
+- `pinwheel-2`: `Pinwheel2Regular` / `Pinwheel2Filled`. fan, air, wind, pinwheel
+- `sleigh`: `SleighRegular` / `SleighFilled`. sleigh, christmas, santa, snow
+- `trunk`: `TrunkRegular` / `TrunkFilled`. trunk, car, auto
+- `rudder`: `RudderRegular` / `RudderFilled`. rudder, steering, drive
+- `sailboat`: `SailboatRegular` / `SailboatFilled`. sailboat, boat, journey
+- `train-4`: `Train4Regular` / `Train4Filled`. train, subway, railway, metro
+- `tank`: `TankRegular` / `TankFilled`. tank, battle, attack
+- `ufo-2`: `Ufo2Regular` / `Ufo2Filled`. UFO, extraterrestrial, universe
+- `ambulance`: `AmbulanceRegular` / `AmbulanceFilled`. ambulance, transportation, vehicle, emergency, medical, siren, healthcare, rescue, urgent, first aid
+- `caravan`: `CaravanRegular` / `CaravanFilled`. caravan, transportation, vehicle, trailer, tow, camping, campsite, mobile home, holiday, nomadic, wilderness, outdoors
+- `forklift`: `ForkliftRegular` / `ForkliftFilled`. forklift, transportation, vehicle, machinery, industrial, warehouse, lifting, storage, equipment, heavy-duty, moving, transport, logistics
+- `helicopter`: `HelicopterRegular` / `HelicopterFilled`. helicopter, transportation, vehicle, transport, flying, rotor, aviation, helipad, gear, flyer, technology, aircraft
+
+### users (42)
+
+- `user-1`: `User1Regular` / `User1Filled`. user, person, profile, account, login
+- `female`: `FemaleRegular` / `FemaleFilled`. female, woman, gender, feminine, venus
+- `male`: `MaleRegular` / `MaleFilled`. male, man, gender
+- `user-2`: `User2Regular` / `User2Filled`. user, person, profile, account, login
+- `user-3`: `User3Regular` / `User3Filled`. user, person, profile, account, login
+- `user-4`: `User4Regular` / `User4Filled`. user, person, profile, account, login
+- `user-5`: `User5Regular` / `User5Filled`. user, person, profile, account, login
+- `user-add`: `UserAddRegular` / `UserAddFilled`. user, add, plus, new, +
+- `user-follow`: `UserFollowRegular` / `UserFollowFilled`. user, follow, checks, success, confirm
+- `user-remove`: `UserRemoveRegular` / `UserRemoveFilled`. user, remove, minus, delete
+- `group`: `GroupRegular` / `GroupFilled`. group, users, team, organization
+- `contacts`: `ContactsRegular` / `ContactsFilled`. contacts, address, phonebook
+- `badge`: `BadgeRegular` / `BadgeFilled`. badge, profile, card
+- `idcard`: `IdcardRegular` / `IdcardFilled`. card, profile, ID
+- `user-add-2`: `UserAdd2Regular` / `UserAdd2Filled`. user, add, plus, new, +
+- `user-edit`: `UserEditRegular` / `UserEditFilled`. user, edit, pencil, write
+- `user-follow-2`: `UserFollow2Regular` / `UserFollow2Filled`. user, follow, checks, success, confirm
+- `user-forbid`: `UserForbidRegular` / `UserForbidFilled`. user, forbid, off
+- `user-heart`: `UserHeartRegular` / `UserHeartFilled`. heart, user, love, follow
+- `user-hide`: `UserHideRegular` / `UserHideFilled`. user, hide, closed, eye, invisible
+- `user-info`: `UserInfoRegular` / `UserInfoFilled`. user, info, attribute
+- `user-lock`: `UserLockRegular` / `UserLockFilled`. user, encryption, lock, security
+- `user-security`: `UserSecurityRegular` / `UserSecurityFilled`. user, security, safe, protect
+- `user-pin`: `UserPinRegular` / `UserPinFilled`. user, pin, location
+- `user-question`: `UserQuestionRegular` / `UserQuestionFilled`. user, question, ask
+- `user-remove-2`: `UserRemove2Regular` / `UserRemove2Filled`. user, remove, minus, delete
+- `user-search`: `UserSearchRegular` / `UserSearchFilled`. user, search, find
+- `user-setting`: `UserSettingRegular` / `UserSettingFilled`. user, adjustments, settings, control
+- `user-star`: `UserStarRegular` / `UserStarFilled`. user, star, favorites
+- `user-visible`: `UserVisibleRegular` / `UserVisibleFilled`. user, visible, eye, watch, view
+- `user-warning`: `UserWarningRegular` / `UserWarningFilled`. user, warning, alert
+- `user-x`: `UserXRegular` / `UserXFilled`. user, remove, minus, delete
+- `contacts-2`: `Contacts2Regular` / `Contacts2Filled`. contacts, address, phonebook
+- `contacts-3`: `Contacts3Regular` / `Contacts3Filled`. contacts, address, phonebook
+- `contacts-4`: `Contacts4Regular` / `Contacts4Filled`. contacts, address, phonebook
+- `group-2`: `Group2Regular` / `Group2Filled`. group, users, team, organization
+- `group-3`: `Group3Regular` / `Group3Filled`. group, users, team, organization
+- `circle-user`: `CircleUserRegular` / `CircleUserFilled`. circle, user, profile, person, account, contact
+- `keying`: `KeyingRegular` / `KeyingFilled`. keying, user, profile
+- `mars-stroke`: `MarsStrokeRegular` / `MarsStrokeFilled`. Mars, stroke, user, profile, gender, androgyne, transgender
+- `profile-2`: `Profile2Regular` / `Profile2Filled`. profile, user
+- `venus-and-mars`: `VenusAndMarsRegular` / `VenusAndMarsFilled`. Venus, and, Mars, user, profile, gender, sex, intersex, androgynous, hermaphrodite
+
+### weather (70)
+
+- `cloud-lightning`: `CloudLightningRegular` / `CloudLightningFilled`. cloud, thunderstorm, lightning
+- `cloud`: `CloudRegular` / `CloudFilled`. cloud, cloudy, wind, weather
+- `cloud-snow`: `CloudSnowRegular` / `CloudSnowFilled`. cloud, snowstorm, snow
+- `lightning`: `LightningRegular` / `LightningFilled`. lightning, thunderbolt, electricity, flash
+- `moon`: `MoonRegular` / `MoonFilled`. moon, full, night, dark
+- `rain`: `RainRegular` / `RainFilled`. rain, rainstorm, meteorology
+- `snow`: `SnowRegular` / `SnowFilled`. snow, winter, snowflake, christmas
+- `sun`: `SunRegular` / `SunFilled`. sun, light, brightness, sunny, daytime
+- `typhoon`: `TyphoonRegular` / `TyphoonFilled`. typhoon, storm
+- `wind`: `WindRegular` / `WindFilled`. wind, stormy, air
+- `moon-cloudy`: `MoonCloudyRegular` / `MoonCloudyFilled`. moon, cloudy, night, evening
+- `sun-cloudy`: `SunCloudyRegular` / `SunCloudyFilled`. sun, cloudy, cloud, sunny, partly
+- `moon-stars`: `MoonStarsRegular` / `MoonStarsFilled`. moon, stars, night, evening, dark, sleep
+- `thermometer`: `ThermometerRegular` / `ThermometerFilled`. thermometer, degrees, celcius, fahrenheit
+- `umbrella`: `UmbrellaRegular` / `UmbrellaFilled`. umbrella, rain
+- `sunrise`: `SunriseRegular` / `SunriseFilled`. sunrise, morning
+- `sunset`: `SunsetRegular` / `SunsetFilled`. sunset, evening
+- `sparkles`: `SparklesRegular` / `SparklesFilled`. sparkles, star, light, ai
+- `snowman`: `SnowmanRegular` / `SnowmanFilled`. snowman, winter, christmas, snow
+- `wave`: `WaveRegular` / `WaveFilled`. wave, sea, water
+- `hail`: `HailRegular` / `HailFilled`. hail, ice, tation
+- `celsius`: `CelsiusRegular` / `CelsiusFilled`. celsius, temperature, centigrade, ℃
+- `cloud-windy`: `CloudWindyRegular` / `CloudWindyFilled`. cloud, windy, breeze
+- `drizzle`: `DrizzleRegular` / `DrizzleFilled`. drizzle, rain, breeze
+- `fahrenheit`: `FahrenheitRegular` / `FahrenheitFilled`. fahrenheit, temperature, °F
+- `floating-dust`: `FloatingDustRegular` / `FloatingDustFilled`. floating, dust, mist
+- `fog`: `FogRegular` / `FogFilled`. fog, mist, brume
+- `haze`: `HazeRegular` / `HazeFilled`. dust, mist, haze
+- `heavy-rain`: `HeavyRainRegular` / `HeavyRainFilled`. heavy, rain, rainfall
+- `heavy-snow`: `HeavySnowRegular` / `HeavySnowFilled`. heavy, snow, major
+- `light-snow`: `LightSnowRegular` / `LightSnowFilled`. light, snow, spit, minor
+- `moderate-snow`: `ModerateSnowRegular` / `ModerateSnowFilled`. moderate, snow
+- `moon-fog`: `MoonFogRegular` / `MoonFogFilled`. fog, mist, brume, moon
+- `na`: `NaRegular` / `NaFilled`. n\a, no, data
+- `rainbow`: `RainbowRegular` / `RainbowFilled`. rainbow, colorful, color
+- `sandstorm`: `SandstormRegular` / `SandstormFilled`. sandstorm, dust, wind
+- `showers`: `ShowersRegular` / `ShowersFilled`. showers, moderate, rain
+- `snowstorm`: `SnowstormRegular` / `SnowstormFilled`. snowstorm, blizzard, rain
+- `sparkles-2`: `Sparkles2Regular` / `Sparkles2Filled`. sparkles, star, light, ai
+- `sun-fog`: `SunFogRegular` / `SunFogFilled`. fog, mist, brume, sun
+- `thunderstorm`: `ThunderstormRegular` / `ThunderstormFilled`. thunderstorm, thunder, rain
+- `tornado-2`: `Tornado2Regular` / `Tornado2Filled`. tornado, storm, wind, rotate
+- `tornado`: `TornadoRegular` / `TornadoFilled`. tornado, storm, wind, rotate
+- `clouds`: `CloudsRegular` / `CloudsFilled`. cloud, cloudy, wind, weather
+- `dry`: `DryRegular` / `DryFilled`. dry, drought, climate
+- `full-moon`: `FullMoonRegular` / `FullMoonFilled`. moon, full, night, dark
+- `heavy-rainstorm`: `HeavyRainstormRegular` / `HeavyRainstormFilled`. heavy, storm, rain
+- `heavy-snowstorm`: `HeavySnowstormRegular` / `HeavySnowstormFilled`. heavy, storm, snow
+- `high-temperature`: `HighTemperatureRegular` / `HighTemperatureFilled`. high, temperature, hot
+- `low-temperature`: `LowTemperatureRegular` / `LowTemperatureFilled`. low, temperature, cold
+- `moonlight`: `MoonlightRegular` / `MoonlightFilled`. moonlight, full, night, dark
+- `rainstorm`: `RainstormRegular` / `RainstormFilled`. heavy, storm, rain
+- `snowflake`: `SnowflakeRegular` / `SnowflakeFilled`. snow, winter, snowflake, christmas
+- `snowstorm-2`: `Snowstorm2Regular` / `Snowstorm2Filled`. snowstorm, blizzard, rain
+- `sun-2`: `Sun2Regular` / `Sun2Filled`. sun, light, brightness, sunny, daytime
+- `wet`: `WetRegular` / `WetFilled`. wet, flood, climate
+- `cloud-2`: `Cloud2Regular` / `Cloud2Filled`. cloud, cloudy, wind, weather
+- `partly-cloud-daytime`: `PartlyCloudDaytimeRegular` / `PartlyCloudDaytimeFilled`. cloud, cloudy, partly, daytime, weather
+- `partly-cloud-night`: `PartlyCloudNightRegular` / `PartlyCloudNightFilled`. cloud, cloudy, partly, daytime, night, weather
+- `sparkles-3`: `Sparkles3Regular` / `Sparkles3Filled`. sparkles, star, light, ai
+- `cloud-alert`: `CloudAlertRegular` / `CloudAlertFilled`. cloud, alert, weather, cloud service, sync, storage, danger, warning, error, network, exclamation
+- `cloud-backup`: `CloudBackupRegular` / `CloudBackupFilled`. cloud, backup, weather, cloud service, sync, storage, memory, bytes, servers, timemachine, rotate, synchronize, synchronise, refresh, reconnect, transfer, data, security, upload, save, remote, safety
+- `cloud-check`: `CloudCheckRegular` / `CloudCheckFilled`. cloud, check, weather, cloud service, sync, storage, network, success, done, completed, saved, persisted
+- `cloud-cog`: `CloudCogRegular` / `CloudCogFilled`. cloud, settings, weather, cloud service, sync, storage, computing, ai, cluster, network
+- `cloud-moon-rain`: `CloudMoonRainRegular` / `CloudMoonRainFilled`. cloud, moon, rain, weather, cloud service, sync, storage, partly, night, rainfall
+- `cloud-off`: `CloudOffRegular` / `CloudOffFilled`. cloud, off, weather, cloud service, sync, storage, disconnect
+- `cloud-sun-rain`: `CloudSunRainRegular` / `CloudSunRainFilled`. cloud, sun, rain, weather, cloud service, sync, storage, partly, rainfall
+- `cloud-sync`: `CloudSyncRegular` / `CloudSyncFilled`. cloud, sync, weather, cloud service, storage, synchronize, synchronise, refresh, reconnect, transfer, backup, upload, download, connection, network, data
+- `eclipse`: `EclipseRegular` / `EclipseFilled`. eclipse, weather, lunar, solar, crescent moon, sun, earth, day, night, planet, space, mode, dark, light, toggle, switch, color, css, styles, display, accessibility, contrast, brightness, blend, shade
+- `moon-sleep`: `MoonSleepRegular` / `MoonSleepFilled`. moon, sleep, weather
+
+### zodiac (12)
+
+- `aries`: `AriesRegular` / `AriesFilled`. zodiac, horoscope, constellation, ram
+- `taurus`: `TaurusRegular` / `TaurusFilled`. zodiac, horoscope, constellation, bull
+- `gemini`: `GeminiRegular` / `GeminiFilled`. zodiac, horoscope, constellation, twins
+- `cancer`: `CancerRegular` / `CancerFilled`. zodiac, horoscope, constellation, crab
+- `leo`: `LeoRegular` / `LeoFilled`. zodiac, horoscope, constellation, lion
+- `virgo`: `VirgoRegular` / `VirgoFilled`. zodiac, horoscope, constellation, virgin
+- `libra`: `LibraRegular` / `LibraFilled`. zodiac, horoscope, constellation, scales
+- `scorpio`: `ScorpioRegular` / `ScorpioFilled`. zodiac, horoscope, constellation, scorpion
+- `sagittarius`: `SagittariusRegular` / `SagittariusFilled`. zodiac, horoscope, constellation, archer
+- `capricorn`: `CapricornRegular` / `CapricornFilled`. zodiac, horoscope, constellation, goat
+- `aquarius`: `AquariusRegular` / `AquariusFilled`. zodiac, horoscope, constellation, bearer
+- `pisces`: `PiscesRegular` / `PiscesFilled`. zodiac, horoscope, constellation, fish

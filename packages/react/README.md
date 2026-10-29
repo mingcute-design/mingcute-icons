@@ -1,30 +1,30 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/react</h1>
 
-<h3 align="center">Typed, tree-shakeable Mingcute icons for React</h3>
+<h3 align="center">Typed, tree-shakeable MingCute icons for React</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/react"><img src="https://img.shields.io/npm/v/%40mingcute%2Freact?color=007AFF&label=version" alt="@mingcute/react npm version" /></a>&nbsp;
   <a href="https://bundlephobia.com/package/@mingcute/react"><img src="https://img.shields.io/bundlephobia/minzip/@mingcute/react?color=007AFF&label=gzip" alt="@mingcute/react minified and gzipped size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/react"><img src="https://img.shields.io/npm/dm/%40mingcute%2Freact?color=23AF5F&label=downloads" alt="@mingcute/react monthly npm downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
 
 ## Overview
 
-`@mingcute/react` provides typed React components for the public Mingcute Core Regular and Core Filled styles.
+`@mingcute/react` provides typed React components for the public MingCute Core Regular and Core Filled styles.
 
 Canonical icon geometry comes from `@mingcute/icons`. The adapter focuses on React rendering, accessibility, prop precedence, refs, framework lifecycle behavior, and stable SVG resource identifiers.
 
 ## Highlights
 
-- **3,326 styled definitions:** 1,663 icons in Core Regular and Core Filled.
+- **4,526 styled definitions:** 2,263 icons in Core Regular and Core Filled.
 - **Typed React components:** generated declarations and framework-native props.
 - **Tree-shakeable imports:** style entry points and direct icon subpaths.
 - **Accessible defaults:** unlabeled icons remain decorative.
@@ -32,7 +32,7 @@ Canonical icon geometry comes from `@mingcute/icons`. The adapter focuses on Rea
 - **Shared geometry:** the adapter does not duplicate the icon catalogue.
 
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="Mingcute icons used in product interfaces" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="MingCute icons used in product interfaces" width="100%" />
 </a>
 
 ## Installation
@@ -123,17 +123,30 @@ For reliable hydration, render the same component tree with the same package ver
 
 | Import subpath | Style | Icons |
 |---|---|---:|
-| `core-regular` | Core Regular | 1,663 |
-| `core-filled` | Core Filled | 1,663 |
-| **Total** | **All public styles** | **3,326** |
+| `core-regular` | Core Regular | 2,263 |
+| `core-filled` | Core Filled | 2,263 |
+| **Total** | **All public styles** | **4,526** |
 
-Additional Core, Cute, and Sharp styles are available in Mingcute Pro.
+Additional Core, Cute, and Sharp styles are available in [MingCute Pro](https://mgc.mingcute.com/).
+
+## Free and Pro
+
+| Capability          | MingCute Icons               | MingCute Pro                                 |
+| ------------------- | ---------------------------- | -------------------------------------------- |
+| Families and styles | Core Regular and Core Filled | 12 Core, Cute, and Sharp style combinations  |
+| Styled definitions  | 4,526                        | 27,360                                       |
+| Package names       | `@mingcute/*`                | `@mingcute/*-pro`                            |
+| Distribution        | Public npm registry          | Private MingCute registry                    |
+| Access              | No account or CLI required   | Active Pro entitlement and CLI configuration |
+| License             | Apache-2.0                   | MingCute Pro Commercial License              |
+
+The public and Pro packages use the same framework conventions and import structure. This makes migration straightforward while keeping the source repositories and licensing boundaries separate.
 
 ## Production Guidance
 
 - The package is ESM-only and side-effect free.
 - Prefer direct icon subpaths in shared libraries and bundle-sensitive entry points.
-- Keep framework and Mingcute package versions aligned across server and client environments where applicable.
+- Keep framework and MingCute package versions aligned across server and client environments where applicable.
 - Use framework components or standalone SVG when gradients, masks, patterns, or original colors must be preserved exactly.
 - Style icons with `color`, `className`, or `style`.
 
@@ -163,7 +176,7 @@ Use direct icon subpaths and confirm that the bundler tree-shakes ESM. Avoid nam
 
 ### A hydration warning appears
 
-Confirm that the server and client render the same icon tree with the same React and Mingcute package versions.
+Confirm that the server and client render the same icon tree with the same React and MingCute package versions.
 
 ### An icon has the wrong color
 
@@ -177,7 +190,7 @@ This package is generated from canonical SVG sources. Do not edit generated outp
 pnpm --filter @mingcute/react check
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -185,7 +198,9 @@ Licensed under the [Apache License 2.0](../../LICENSE).
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
-- [Mingcute Icons packages](../../README.md#packages)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
+- [MingCute Icons packages](../../README.md#packages)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

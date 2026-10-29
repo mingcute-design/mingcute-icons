@@ -1,17 +1,17 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/vanilla</h1>
 
-<h3 align="center">Mingcute SVG strings and DOM helpers without a framework runtime</h3>
+<h3 align="center">MingCute SVG strings and DOM helpers without a framework runtime</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/vanilla"><img src="https://img.shields.io/npm/v/@mingcute/vanilla?color=007AFF&label=version" alt="@mingcute/vanilla npm version" /></a>&nbsp;
   <a href="https://bundlephobia.com/package/@mingcute/vanilla"><img src="https://img.shields.io/bundlephobia/minzip/@mingcute/vanilla?color=007AFF&label=gzip" alt="@mingcute/vanilla minified and gzipped size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/vanilla"><img src="https://img.shields.io/npm/dm/@mingcute/vanilla?color=23AF5F&label=downloads" alt="@mingcute/vanilla monthly npm downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
@@ -38,7 +38,7 @@ Use it for:
 - **Shared geometry:** generated assets come from `@mingcute/icons`.
 
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="Mingcute icons used in product interfaces" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="MingCute icons used in product interfaces" width="100%" />
 </a>
 
 ## Installation
@@ -176,7 +176,7 @@ Put the accessible name on the control rather than duplicating it on the SVG.
 
 ## Security
 
-The package serializes generated Mingcute icon data and validates caller-provided attribute names.
+The package serializes generated MingCute icon data and validates caller-provided attribute names.
 
 It:
 
@@ -191,9 +191,9 @@ The safety guarantee does not extend to arbitrary untrusted markup concatenated 
 
 | Import subpath | Style | Icons |
 |---|---|---:|
-| `core-regular` | Core Regular | 1,663 |
-| `core-filled` | Core Filled | 1,663 |
-| **Total** | **All public styles** | **3,326** |
+| `core-regular` | Core Regular | 2,263 |
+| `core-filled` | Core Filled | 2,263 |
+| **Total** | **All public styles** | **4,526** |
 
 ## Production Guidance
 
@@ -242,7 +242,7 @@ This package is generated from canonical SVG sources. Do not edit generated outp
 pnpm --filter @mingcute/vanilla check
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -250,7 +250,9 @@ Licensed under the [Apache License 2.0](../../LICENSE).
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
-- [Mingcute Icons packages](../../README.md#packages)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
+- [MingCute Icons packages](../../README.md#packages)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

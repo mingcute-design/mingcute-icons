@@ -13,15 +13,15 @@ const ledger = JSON.parse(ledgerSource);
 
 test('checked-in ledger is complete, unique, and copied byte-for-byte to the package', async () => {
   validateCodepointLedger(ledger);
-  assert.equal(Object.keys(ledger.assignments).length, 1663);
-  assert.equal(new Set(Object.values(ledger.assignments)).size, 1663);
+  assert.equal(Object.keys(ledger.assignments).length, 2263);
+  assert.equal(new Set(Object.values(ledger.assignments)).size, 2263);
   assert.equal(Math.min(...Object.values(ledger.assignments).map(hex)), 0xE001);
   assert.equal(await readFile(path.join(packageRoot, 'dist/metadata/codepoints.json'), 'utf8'), ledgerSource);
 });
 
 test('generated metadata and every style CSS consume the shared codepoint ledger', async () => {
   const metadata = JSON.parse(await readFile(path.join(packageRoot, 'dist/metadata/icons.json'), 'utf8'));
-  assert.equal(metadata.icons.length, 1663);
+  assert.equal(metadata.icons.length, 2263);
   const cssByStyle = new Map();
   for (const icon of metadata.icons) {
     assert.equal(icon.codepoint, ledger.assignments[icon.name]);

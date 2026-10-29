@@ -21,11 +21,21 @@ test('keeps metadata in the shared package', async () => {
 });
 
 test('serializes angular-gradient XHTML safely for HTML parsing', async () => {
-  const [{ default: loading }, { renderIconSource }] = await Promise.all([
-    import(path.join(packageRoot, 'dist/styles/core-filled/loading-2.js')),
-    import(path.join(packageRoot, 'dist/index.js')),
-  ]);
-  const source = renderIconSource(loading);
+  const { renderIconSource } = await import(path.join(packageRoot, 'dist/index.js'));
+  const source = renderIconSource({
+    name: 'loading_2',
+    componentName: 'Loading2Filled',
+    style: 'core-filled',
+    viewBox: '0 0 24 24',
+    elements: [{ tag: 'path', attributes: { d: 'M0 0h1v1z', fill: 'url(#mgc-angular-0)' } }],
+    gradients: [{
+      id: 'mgc-angular-0',
+      type: 'angular',
+      attributes: { opacity: 1 },
+      stops: [{ offset: 0, color: 'rgb(255 0 0)' }, { offset: 1, color: 'rgb(0 0 255)' }],
+    }],
+    metadata: {},
+  });
   assert.match(source, /<foreignObject\b/);
   assert.match(source, /<div xmlns="http:\/\/www\.w3\.org\/1999\/xhtml"[^>]*><\/div>/);
   assert.match(source, /id="mgc-core-filled-loading_2-mgc-angular-0-clip-0"/);

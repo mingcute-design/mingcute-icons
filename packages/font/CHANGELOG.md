@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [3.1.0] - 2026-10-29
+
+### Added
+
+- 4,526 styled glyphs across Core Regular and Filled,
+  including 607 new glyphs per style.
+- Appended codepoints for new icons without reusing published values.
+
+### Changed
+
+- Renamed `barcode-sca` to `barcode-scan`, `computer-camer` to `computer-camera`,
+  `currency-rubel` to `currency-ruble`, `currency-rubel-2` to `currency-ruble-2`,
+  `docment` to `document`, and `rada` to `radar`.
+- Removed `dots-vertical` without a direct replacement.
+
 ## [3.0.2] - 2026-07-31
 
 ### Fixed

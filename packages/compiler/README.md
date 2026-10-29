@@ -1,22 +1,22 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/compiler</h1>
 
-<h3 align="center">Private SVG compilation and validation for Mingcute packages</h3>
+<h3 align="center">Private SVG compilation and validation for MingCute packages</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <img src="https://img.shields.io/badge/workspace-private-007AFF" alt="Private workspace package" />&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
 
 ## Overview
 
-`@mingcute/compiler` is the private, framework-neutral build pipeline that converts canonical Mingcute SVG artwork into the shared `IconDefinition` model.
+`@mingcute/compiler` is the private, framework-neutral build pipeline that converts canonical MingCute SVG artwork into the shared `IconDefinition` model.
 
 It is used only during repository builds. Consumer packages have no runtime dependency on it.
 
@@ -104,7 +104,7 @@ XML must be parsed structurally.
 
 ## Artwork Fidelity
 
-The compiler supports structured SVG features required by the Mingcute catalogue, including:
+The compiler supports structured SVG features required by the MingCute catalogue, including:
 
 - paths and basic geometry;
 - groups and transforms;
@@ -177,7 +177,7 @@ pnpm release:check
 pnpm pack:dry
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -185,7 +185,9 @@ This private workspace package is covered by the [Apache License 2.0](../../LICE
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
 - [Repository architecture](../../README.md#repository-structure)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

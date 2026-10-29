@@ -15,6 +15,6 @@ try {
   const maps = files.filter((file) => file.endsWith('.map'));
   console.table({ package: `${report.name}@${report.version}`, files: files.length, iconModules: icons.length,
     styleIndexes: indexes.length, sourceFiles: sources.length, sourceMaps: maps.length, unpackedBytes: report.unpackedSize });
-  if (icons.length !== 3_326 || indexes.length !== 2 || sources.length || maps.length) throw new Error('Vanilla packed-artifact audit failed.');
+  if (icons.length !== 4_526 || indexes.length !== 2 || sources.length || maps.length) throw new Error('Vanilla packed-artifact audit failed.');
   console.log('Vanilla packed-artifact audit passed.');
 } finally { await rm(cache, { recursive: true, force: true }); }

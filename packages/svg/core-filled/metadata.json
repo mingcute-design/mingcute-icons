@@ -1,5 +1,26 @@
 [
   {
+    "name": "a_arrow_down",
+    "componentName": "AArrowDownFilled",
+    "style": "core-filled",
+    "file": "a-arrow-down.svg",
+    "category": "editing"
+  },
+  {
+    "name": "a_arrow_up",
+    "componentName": "AArrowUpFilled",
+    "style": "core-filled",
+    "file": "a-arrow-up.svg",
+    "category": "editing"
+  },
+  {
+    "name": "a_large_small",
+    "componentName": "ALargeSmallFilled",
+    "style": "core-filled",
+    "file": "a-large-small.svg",
+    "category": "editing"
+  },
+  {
     "name": "abs",
     "componentName": "ABSFilled",
     "style": "core-filled",
@@ -168,10 +189,45 @@
     "category": "devices"
   },
   {
+    "name": "alarm_clock_check",
+    "componentName": "AlarmClockCheckFilled",
+    "style": "core-filled",
+    "file": "alarm-clock-check.svg",
+    "category": "devices"
+  },
+  {
+    "name": "alarm_clock_minus",
+    "componentName": "AlarmClockMinusFilled",
+    "style": "core-filled",
+    "file": "alarm-clock-minus.svg",
+    "category": "devices"
+  },
+  {
+    "name": "alarm_clock_plus",
+    "componentName": "AlarmClockPlusFilled",
+    "style": "core-filled",
+    "file": "alarm-clock-plus.svg",
+    "category": "devices"
+  },
+  {
+    "name": "alarm_smoke",
+    "componentName": "AlarmSmokeFilled",
+    "style": "core-filled",
+    "file": "alarm-smoke.svg",
+    "category": "devices"
+  },
+  {
     "name": "album_2",
     "componentName": "Album2Filled",
     "style": "core-filled",
     "file": "album-2.svg",
+    "category": "files"
+  },
+  {
+    "name": "album_3",
+    "componentName": "Album3Filled",
+    "style": "core-filled",
+    "file": "album-3.svg",
     "category": "files"
   },
   {
@@ -238,6 +294,20 @@
     "category": "design"
   },
   {
+    "name": "align_center_horizontal",
+    "componentName": "AlignCenterHorizontalFilled",
+    "style": "core-filled",
+    "file": "align-center-horizontal.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_center_vertical",
+    "componentName": "AlignCenterVerticalFilled",
+    "style": "core-filled",
+    "file": "align-center-vertical.svg",
+    "category": "design"
+  },
+  {
     "name": "align_center",
     "componentName": "AlignCenterFilled",
     "style": "core-filled",
@@ -245,10 +315,73 @@
     "category": "editing"
   },
   {
+    "name": "align_end_horizontal",
+    "componentName": "AlignEndHorizontalFilled",
+    "style": "core-filled",
+    "file": "align-end-horizontal.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_end_vertical",
+    "componentName": "AlignEndVerticalFilled",
+    "style": "core-filled",
+    "file": "align-end-vertical.svg",
+    "category": "design"
+  },
+  {
     "name": "align_horizontal_center",
     "componentName": "AlignHorizontalCenterFilled",
     "style": "core-filled",
     "file": "align-horizontal-center.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_distribute_center",
+    "componentName": "AlignHorizontalDistributeCenterFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-distribute-center.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_distribute_end",
+    "componentName": "AlignHorizontalDistributeEndFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-distribute-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_distribute_start",
+    "componentName": "AlignHorizontalDistributeStartFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-distribute-start.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_justify_center",
+    "componentName": "AlignHorizontalJustifyCenterFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-justify-center.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_justify_end",
+    "componentName": "AlignHorizontalJustifyEndFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-justify-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_justify_start",
+    "componentName": "AlignHorizontalJustifyStartFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-justify-start.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_horizontal_space_between",
+    "componentName": "AlignHorizontalSpaceBetweenFilled",
+    "style": "core-filled",
+    "file": "align-horizontal-space-between.svg",
     "category": "design"
   },
   {
@@ -287,6 +420,20 @@
     "category": "editing"
   },
   {
+    "name": "align_start_horizontal",
+    "componentName": "AlignStartHorizontalFilled",
+    "style": "core-filled",
+    "file": "align-start-horizontal.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_start_vertical",
+    "componentName": "AlignStartVerticalFilled",
+    "style": "core-filled",
+    "file": "align-start-vertical.svg",
+    "category": "design"
+  },
+  {
     "name": "align_top",
     "componentName": "AlignTopFilled",
     "style": "core-filled",
@@ -301,10 +448,80 @@
     "category": "design"
   },
   {
+    "name": "align_vertical_distribute_center",
+    "componentName": "AlignVerticalDistributeCenterFilled",
+    "style": "core-filled",
+    "file": "align-vertical-distribute-center.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_vertical_distribute_end",
+    "componentName": "AlignVerticalDistributeEndFilled",
+    "style": "core-filled",
+    "file": "align-vertical-distribute-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_vertical_distribute_start",
+    "componentName": "AlignVerticalDistributeStartFilled",
+    "style": "core-filled",
+    "file": "align-vertical-distribute-start.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_vertical_justify_center",
+    "componentName": "AlignVerticalJustifyCenterFilled",
+    "style": "core-filled",
+    "file": "align-vertical-justify-center.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_vertical_justify_end",
+    "componentName": "AlignVerticalJustifyEndFilled",
+    "style": "core-filled",
+    "file": "align-vertical-justify-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_vertical_justify_start",
+    "componentName": "AlignVerticalJustifyStartFilled",
+    "style": "core-filled",
+    "file": "align-vertical-justify-start.svg",
+    "category": "design"
+  },
+  {
+    "name": "align_vertical_space_between",
+    "componentName": "AlignVerticalSpaceBetweenFilled",
+    "style": "core-filled",
+    "file": "align-vertical-space-between.svg",
+    "category": "design"
+  },
+  {
     "name": "alipay",
     "componentName": "AlipayFilled",
     "style": "core-filled",
     "file": "alipay.svg",
+    "category": "brands"
+  },
+  {
+    "name": "amazon_pay",
+    "componentName": "AmazonPayFilled",
+    "style": "core-filled",
+    "file": "amazon-pay.svg",
+    "category": "brands"
+  },
+  {
+    "name": "ambulance",
+    "componentName": "AmbulanceFilled",
+    "style": "core-filled",
+    "file": "ambulance.svg",
+    "category": "transportation"
+  },
+  {
+    "name": "american_express",
+    "componentName": "AmericanExpressFilled",
+    "style": "core-filled",
+    "file": "american-express.svg",
     "category": "brands"
   },
   {
@@ -313,6 +530,13 @@
     "style": "core-filled",
     "file": "american-football.svg",
     "category": "sports"
+  },
+  {
+    "name": "ampersands",
+    "componentName": "AmpersandsFilled",
+    "style": "core-filled",
+    "file": "ampersands.svg",
+    "category": "editing"
   },
   {
     "name": "anchor",
@@ -371,6 +595,20 @@
     "category": "media"
   },
   {
+    "name": "annoyed",
+    "componentName": "AnnoyedFilled",
+    "style": "core-filled",
+    "file": "annoyed.svg",
+    "category": "emoji"
+  },
+  {
+    "name": "antenna",
+    "componentName": "AntennaFilled",
+    "style": "core-filled",
+    "file": "antenna.svg",
+    "category": "devices"
+  },
+  {
     "name": "anticlockwise_alt",
     "componentName": "AnticlockwiseAltFilled",
     "style": "core-filled",
@@ -383,6 +621,20 @@
     "style": "core-filled",
     "file": "anticlockwise.svg",
     "category": "design"
+  },
+  {
+    "name": "anvil",
+    "componentName": "AnvilFilled",
+    "style": "core-filled",
+    "file": "anvil.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "app_window",
+    "componentName": "AppWindowFilled",
+    "style": "core-filled",
+    "file": "app-window.svg",
+    "category": "development"
   },
   {
     "name": "apple_fruit",
@@ -434,6 +686,20 @@
     "category": "brands"
   },
   {
+    "name": "archive_restore",
+    "componentName": "ArchiveRestoreFilled",
+    "style": "core-filled",
+    "file": "archive-restore.svg",
+    "category": "files"
+  },
+  {
+    "name": "archive_x",
+    "componentName": "ArchiveXFilled",
+    "style": "core-filled",
+    "file": "archive-x.svg",
+    "category": "files"
+  },
+  {
     "name": "archive",
     "componentName": "ArchiveFilled",
     "style": "core-filled",
@@ -448,10 +714,59 @@
     "category": "zodiac"
   },
   {
+    "name": "arrow_big_down_dash",
+    "componentName": "ArrowBigDownDashFilled",
+    "style": "core-filled",
+    "file": "arrow-big-down-dash.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_big_left_dash",
+    "componentName": "ArrowBigLeftDashFilled",
+    "style": "core-filled",
+    "file": "arrow-big-left-dash.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_big_right_dash",
+    "componentName": "ArrowBigRightDashFilled",
+    "style": "core-filled",
+    "file": "arrow-big-right-dash.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_big_up_dash",
+    "componentName": "ArrowBigUpDashFilled",
+    "style": "core-filled",
+    "file": "arrow-big-up-dash.svg",
+    "category": "arrow"
+  },
+  {
     "name": "arrow_down_circle",
     "componentName": "ArrowDownCircleFilled",
     "style": "core-filled",
     "file": "arrow-down-circle.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_down_narrow_wide",
+    "componentName": "ArrowDownNarrowWideFilled",
+    "style": "core-filled",
+    "file": "arrow-down-narrow-wide.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_down_to_dot",
+    "componentName": "ArrowDownToDotFilled",
+    "style": "core-filled",
+    "file": "arrow-down-to-dot.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_down_wide_narrow",
+    "componentName": "ArrowDownWideNarrowFilled",
+    "style": "core-filled",
+    "file": "arrow-down-wide-narrow.svg",
     "category": "arrow"
   },
   {
@@ -581,6 +896,27 @@
     "category": "arrow"
   },
   {
+    "name": "arrow_up_from_dot",
+    "componentName": "ArrowUpFromDotFilled",
+    "style": "core-filled",
+    "file": "arrow-up-from-dot.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_up_narrow_wide",
+    "componentName": "ArrowUpNarrowWideFilled",
+    "style": "core-filled",
+    "file": "arrow-up-narrow-wide.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrow_up_wide_narrow",
+    "componentName": "ArrowUpWideNarrowFilled",
+    "style": "core-filled",
+    "file": "arrow-up-wide-narrow.svg",
+    "category": "arrow"
+  },
+  {
     "name": "arrow_up",
     "componentName": "ArrowUpFilled",
     "style": "core-filled",
@@ -606,6 +942,13 @@
     "componentName": "ArrowsRightFilled",
     "style": "core-filled",
     "file": "arrows-right.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "arrows_up_from_line",
+    "componentName": "ArrowsUpFromLineFilled",
+    "style": "core-filled",
+    "file": "arrows-up-from-line.svg",
     "category": "arrow"
   },
   {
@@ -686,6 +1029,13 @@
     "category": "media"
   },
   {
+    "name": "audio_waveform",
+    "componentName": "AudioWaveformFilled",
+    "style": "core-filled",
+    "file": "audio-waveform.svg",
+    "category": "media"
+  },
+  {
     "name": "auto_hold",
     "componentName": "AutoHoldFilled",
     "style": "core-filled",
@@ -712,6 +1062,13 @@
     "style": "core-filled",
     "file": "axe.svg",
     "category": "miscellaneous"
+  },
+  {
+    "name": "axis_3d",
+    "componentName": "Axis3DFilled",
+    "style": "core-filled",
+    "file": "axis-3d.svg",
+    "category": "business"
   },
   {
     "name": "az_sort_ascending_letters",
@@ -784,6 +1141,118 @@
     "category": "education"
   },
   {
+    "name": "badge_alert",
+    "componentName": "BadgeAlertFilled",
+    "style": "core-filled",
+    "file": "badge-alert.svg",
+    "category": "system"
+  },
+  {
+    "name": "badge_cent",
+    "componentName": "BadgeCentFilled",
+    "style": "core-filled",
+    "file": "badge-cent.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_cny",
+    "componentName": "BadgeCnyFilled",
+    "style": "core-filled",
+    "file": "badge-cny.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_dollar_sign",
+    "componentName": "BadgeDollarSignFilled",
+    "style": "core-filled",
+    "file": "badge-dollar-sign.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_euro",
+    "componentName": "BadgeEuroFilled",
+    "style": "core-filled",
+    "file": "badge-euro.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_indian_rupee",
+    "componentName": "BadgeIndianRupeeFilled",
+    "style": "core-filled",
+    "file": "badge-indian-rupee.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_info",
+    "componentName": "BadgeInfoFilled",
+    "style": "core-filled",
+    "file": "badge-info.svg",
+    "category": "system"
+  },
+  {
+    "name": "badge_minus",
+    "componentName": "BadgeMinusFilled",
+    "style": "core-filled",
+    "file": "badge-minus.svg",
+    "category": "system"
+  },
+  {
+    "name": "badge_octagram",
+    "componentName": "BadgeOctagramFilled",
+    "style": "core-filled",
+    "file": "badge-octagram.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "badge_plus",
+    "componentName": "BadgePlusFilled",
+    "style": "core-filled",
+    "file": "badge-plus.svg",
+    "category": "system"
+  },
+  {
+    "name": "badge_pound_sterling",
+    "componentName": "BadgePoundSterlingFilled",
+    "style": "core-filled",
+    "file": "badge-pound-sterling.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_question_mark",
+    "componentName": "BadgeQuestionMarkFilled",
+    "style": "core-filled",
+    "file": "badge-question-mark.svg",
+    "category": "system"
+  },
+  {
+    "name": "badge_russian_ruble",
+    "componentName": "BadgeRussianRubleFilled",
+    "style": "core-filled",
+    "file": "badge-russian-ruble.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_swiss_franc",
+    "componentName": "BadgeSwissFrancFilled",
+    "style": "core-filled",
+    "file": "badge-swiss-franc.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_turkish_lira",
+    "componentName": "BadgeTurkishLiraFilled",
+    "style": "core-filled",
+    "file": "badge-turkish-lira.svg",
+    "category": "business"
+  },
+  {
+    "name": "badge_x",
+    "componentName": "BadgeXFilled",
+    "style": "core-filled",
+    "file": "badge-x.svg",
+    "category": "system"
+  },
+  {
     "name": "badge",
     "componentName": "BadgeFilled",
     "style": "core-filled",
@@ -798,6 +1267,13 @@
     "category": "sports"
   },
   {
+    "name": "baggage_claim",
+    "componentName": "BaggageClaimFilled",
+    "style": "core-filled",
+    "file": "baggage-claim.svg",
+    "category": "business"
+  },
+  {
     "name": "balance",
     "componentName": "BalanceFilled",
     "style": "core-filled",
@@ -809,6 +1285,27 @@
     "componentName": "Balloon2Filled",
     "style": "core-filled",
     "file": "balloon-2.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "ban",
+    "componentName": "BanFilled",
+    "style": "core-filled",
+    "file": "ban.svg",
+    "category": "system"
+  },
+  {
+    "name": "banana",
+    "componentName": "BananaFilled",
+    "style": "core-filled",
+    "file": "banana.svg",
+    "category": "nature"
+  },
+  {
+    "name": "bandage",
+    "componentName": "BandageFilled",
+    "style": "core-filled",
+    "file": "bandage.svg",
     "category": "miscellaneous"
   },
   {
@@ -833,6 +1330,27 @@
     "category": "buildings"
   },
   {
+    "name": "banknote_arrow_down",
+    "componentName": "BanknoteArrowDownFilled",
+    "style": "core-filled",
+    "file": "banknote-arrow-down.svg",
+    "category": "business"
+  },
+  {
+    "name": "banknote_arrow_up",
+    "componentName": "BanknoteArrowUpFilled",
+    "style": "core-filled",
+    "file": "banknote-arrow-up.svg",
+    "category": "business"
+  },
+  {
+    "name": "banknote_x",
+    "componentName": "BanknoteXFilled",
+    "style": "core-filled",
+    "file": "banknote-x.svg",
+    "category": "business"
+  },
+  {
     "name": "barbell",
     "componentName": "BarbellFilled",
     "style": "core-filled",
@@ -840,10 +1358,10 @@
     "category": "sports"
   },
   {
-    "name": "barcode_sca",
-    "componentName": "BarcodeScaFilled",
+    "name": "barcode_scan",
+    "componentName": "BarcodeScanFilled",
     "style": "core-filled",
-    "file": "barcode-sca.svg",
+    "file": "barcode-scan.svg",
     "category": "devices"
   },
   {
@@ -852,6 +1370,13 @@
     "style": "core-filled",
     "file": "barcode.svg",
     "category": "devices"
+  },
+  {
+    "name": "barrel_2",
+    "componentName": "Barrel2Filled",
+    "style": "core-filled",
+    "file": "barrel-2.svg",
+    "category": "miscellaneous"
   },
   {
     "name": "base_station_2",
@@ -952,6 +1477,20 @@
     "category": "devices"
   },
   {
+    "name": "battery_plus",
+    "componentName": "BatteryPlusFilled",
+    "style": "core-filled",
+    "file": "battery-plus.svg",
+    "category": "devices"
+  },
+  {
+    "name": "battery_warning",
+    "componentName": "BatteryWarningFilled",
+    "style": "core-filled",
+    "file": "battery-warning.svg",
+    "category": "devices"
+  },
+  {
     "name": "battery",
     "componentName": "BatteryFilled",
     "style": "core-filled",
@@ -964,6 +1503,20 @@
     "style": "core-filled",
     "file": "beachball.svg",
     "category": "sports"
+  },
+  {
+    "name": "bean_off",
+    "componentName": "BeanOffFilled",
+    "style": "core-filled",
+    "file": "bean-off.svg",
+    "category": "nature"
+  },
+  {
+    "name": "bean",
+    "componentName": "BeanFilled",
+    "style": "core-filled",
+    "file": "bean.svg",
+    "category": "nature"
   },
   {
     "name": "bear",
@@ -984,6 +1537,13 @@
     "componentName": "Bed2Filled",
     "style": "core-filled",
     "file": "bed-2.svg",
+    "category": "locations"
+  },
+  {
+    "name": "bed_single",
+    "componentName": "BedSingleFilled",
+    "style": "core-filled",
+    "file": "bed-single.svg",
     "category": "locations"
   },
   {
@@ -1008,6 +1568,34 @@
     "category": "miscellaneous"
   },
   {
+    "name": "beef_off",
+    "componentName": "BeefOffFilled",
+    "style": "core-filled",
+    "file": "beef-off.svg",
+    "category": "food"
+  },
+  {
+    "name": "beef",
+    "componentName": "BeefFilled",
+    "style": "core-filled",
+    "file": "beef.svg",
+    "category": "food"
+  },
+  {
+    "name": "beer_off",
+    "componentName": "BeerOffFilled",
+    "style": "core-filled",
+    "file": "beer-off.svg",
+    "category": "food"
+  },
+  {
+    "name": "beer",
+    "componentName": "BeerFilled",
+    "style": "core-filled",
+    "file": "beer.svg",
+    "category": "food"
+  },
+  {
     "name": "behance",
     "componentName": "BehanceFilled",
     "style": "core-filled",
@@ -1015,11 +1603,60 @@
     "category": "brands"
   },
   {
+    "name": "bell_electric",
+    "componentName": "BellElectricFilled",
+    "style": "core-filled",
+    "file": "bell-electric.svg",
+    "category": "devices"
+  },
+  {
+    "name": "bell_minus",
+    "componentName": "BellMinusFilled",
+    "style": "core-filled",
+    "file": "bell-minus.svg",
+    "category": "media"
+  },
+  {
+    "name": "bell_plus",
+    "componentName": "BellPlusFilled",
+    "style": "core-filled",
+    "file": "bell-plus.svg",
+    "category": "media"
+  },
+  {
     "name": "bell_ringing",
     "componentName": "BellRingingFilled",
     "style": "core-filled",
     "file": "bell-ringing.svg",
     "category": "media"
+  },
+  {
+    "name": "between_horizontal_end",
+    "componentName": "BetweenHorizontalEndFilled",
+    "style": "core-filled",
+    "file": "between-horizontal-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "between_horizontal_start",
+    "componentName": "BetweenHorizontalStartFilled",
+    "style": "core-filled",
+    "file": "between-horizontal-start.svg",
+    "category": "design"
+  },
+  {
+    "name": "between_vertical_end",
+    "componentName": "BetweenVerticalEndFilled",
+    "style": "core-filled",
+    "file": "between-vertical-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "between_vertical_start",
+    "componentName": "BetweenVerticalStartFilled",
+    "style": "core-filled",
+    "file": "between-vertical-start.svg",
+    "category": "design"
   },
   {
     "name": "big_ben",
@@ -1071,6 +1708,20 @@
     "category": "cryptocurrency"
   },
   {
+    "name": "binary",
+    "componentName": "BinaryFilled",
+    "style": "core-filled",
+    "file": "binary.svg",
+    "category": "development"
+  },
+  {
+    "name": "biohazard",
+    "componentName": "BiohazardFilled",
+    "style": "core-filled",
+    "file": "biohazard.svg",
+    "category": "miscellaneous"
+  },
+  {
     "name": "bird",
     "componentName": "BirdFilled",
     "style": "core-filled",
@@ -1097,6 +1748,13 @@
     "style": "core-filled",
     "file": "black-board.svg",
     "category": "education"
+  },
+  {
+    "name": "blender",
+    "componentName": "BlenderFilled",
+    "style": "core-filled",
+    "file": "blender.svg",
+    "category": "food"
   },
   {
     "name": "blessing",
@@ -1127,10 +1785,24 @@
     "category": "brands"
   },
   {
+    "name": "bluetooth_connected",
+    "componentName": "BluetoothConnectedFilled",
+    "style": "core-filled",
+    "file": "bluetooth-connected.svg",
+    "category": "devices"
+  },
+  {
     "name": "bluetooth_off",
     "componentName": "BluetoothOffFilled",
     "style": "core-filled",
     "file": "bluetooth-off.svg",
+    "category": "devices"
+  },
+  {
+    "name": "bluetooth_searching",
+    "componentName": "BluetoothSearchingFilled",
+    "style": "core-filled",
+    "file": "bluetooth-searching.svg",
     "category": "devices"
   },
   {
@@ -1239,6 +1911,167 @@
     "category": "education"
   },
   {
+    "name": "book_alert",
+    "componentName": "BookAlertFilled",
+    "style": "core-filled",
+    "file": "book-alert.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_audio",
+    "componentName": "BookAudioFilled",
+    "style": "core-filled",
+    "file": "book-audio.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_check",
+    "componentName": "BookCheckFilled",
+    "style": "core-filled",
+    "file": "book-check.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_copy",
+    "componentName": "BookCopyFilled",
+    "style": "core-filled",
+    "file": "book-copy.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_dashed",
+    "componentName": "BookDashedFilled",
+    "style": "core-filled",
+    "file": "book-dashed.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_down",
+    "componentName": "BookDownFilled",
+    "style": "core-filled",
+    "file": "book-down.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_headphones",
+    "componentName": "BookHeadphonesFilled",
+    "style": "core-filled",
+    "file": "book-headphones.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_heart",
+    "componentName": "BookHeartFilled",
+    "style": "core-filled",
+    "file": "book-heart.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_image",
+    "componentName": "BookImageFilled",
+    "style": "core-filled",
+    "file": "book-image.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_key",
+    "componentName": "BookKeyFilled",
+    "style": "core-filled",
+    "file": "book-key.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_lock",
+    "componentName": "BookLockFilled",
+    "style": "core-filled",
+    "file": "book-lock.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_marked",
+    "componentName": "BookMarkedFilled",
+    "style": "core-filled",
+    "file": "book-marked.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_minus",
+    "componentName": "BookMinusFilled",
+    "style": "core-filled",
+    "file": "book-minus.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_open_check",
+    "componentName": "BookOpenCheckFilled",
+    "style": "core-filled",
+    "file": "book-open-check.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_open_text",
+    "componentName": "BookOpenTextFilled",
+    "style": "core-filled",
+    "file": "book-open-text.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_plus",
+    "componentName": "BookPlusFilled",
+    "style": "core-filled",
+    "file": "book-plus.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_search",
+    "componentName": "BookSearchFilled",
+    "style": "core-filled",
+    "file": "book-search.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_text",
+    "componentName": "BookTextFilled",
+    "style": "core-filled",
+    "file": "book-text.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_type",
+    "componentName": "BookTypeFilled",
+    "style": "core-filled",
+    "file": "book-type.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_up_2",
+    "componentName": "BookUp2Filled",
+    "style": "core-filled",
+    "file": "book-up-2.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_up",
+    "componentName": "BookUpFilled",
+    "style": "core-filled",
+    "file": "book-up.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_user",
+    "componentName": "BookUserFilled",
+    "style": "core-filled",
+    "file": "book-user.svg",
+    "category": "education"
+  },
+  {
+    "name": "book_x",
+    "componentName": "BookXFilled",
+    "style": "core-filled",
+    "file": "book-x.svg",
+    "category": "education"
+  },
+  {
     "name": "book",
     "componentName": "BookFilled",
     "style": "core-filled",
@@ -1253,6 +2086,13 @@
     "category": "education"
   },
   {
+    "name": "bookmark_check",
+    "componentName": "BookmarkCheckFilled",
+    "style": "core-filled",
+    "file": "bookmark-check.svg",
+    "category": "education"
+  },
+  {
     "name": "bookmark_edit",
     "componentName": "BookmarkEditFilled",
     "style": "core-filled",
@@ -1260,10 +2100,24 @@
     "category": "education"
   },
   {
+    "name": "bookmark_off",
+    "componentName": "BookmarkOffFilled",
+    "style": "core-filled",
+    "file": "bookmark-off.svg",
+    "category": "education"
+  },
+  {
     "name": "bookmark_remove",
     "componentName": "BookmarkRemoveFilled",
     "style": "core-filled",
     "file": "bookmark-remove.svg",
+    "category": "education"
+  },
+  {
+    "name": "bookmark_x",
+    "componentName": "BookmarkXFilled",
+    "style": "core-filled",
+    "file": "bookmark-x.svg",
     "category": "education"
   },
   {
@@ -1279,6 +2133,13 @@
     "style": "core-filled",
     "file": "bookmarks.svg",
     "category": "education"
+  },
+  {
+    "name": "boom_box",
+    "componentName": "BoomBoxFilled",
+    "style": "core-filled",
+    "file": "boom-box.svg",
+    "category": "devices"
   },
   {
     "name": "boom",
@@ -1356,6 +2217,20 @@
     "style": "core-filled",
     "file": "border-vertical.svg",
     "category": "design"
+  },
+  {
+    "name": "bot_message_square",
+    "componentName": "BotMessageSquareFilled",
+    "style": "core-filled",
+    "file": "bot-message-square.svg",
+    "category": "communication"
+  },
+  {
+    "name": "bot_off",
+    "componentName": "BotOffFilled",
+    "style": "core-filled",
+    "file": "bot-off.svg",
+    "category": "development"
   },
   {
     "name": "bottle_glass",
@@ -1449,6 +2324,20 @@
     "category": "development"
   },
   {
+    "name": "brain_circuit",
+    "componentName": "BrainCircuitFilled",
+    "style": "core-filled",
+    "file": "brain-circuit.svg",
+    "category": "body"
+  },
+  {
+    "name": "brain_cog",
+    "componentName": "BrainCogFilled",
+    "style": "core-filled",
+    "file": "brain-cog.svg",
+    "category": "body"
+  },
+  {
     "name": "brain",
     "componentName": "BrainFilled",
     "style": "core-filled",
@@ -1468,6 +2357,27 @@
     "style": "core-filled",
     "file": "bread.svg",
     "category": "food"
+  },
+  {
+    "name": "brick_wall_fire",
+    "componentName": "BrickWallFireFilled",
+    "style": "core-filled",
+    "file": "brick-wall-fire.svg",
+    "category": "buildings"
+  },
+  {
+    "name": "brick_wall_shield",
+    "componentName": "BrickWallShieldFilled",
+    "style": "core-filled",
+    "file": "brick-wall-shield.svg",
+    "category": "buildings"
+  },
+  {
+    "name": "bricks",
+    "componentName": "BricksFilled",
+    "style": "core-filled",
+    "file": "bricks.svg",
+    "category": "buildings"
   },
   {
     "name": "bridge_2",
@@ -1498,6 +2408,13 @@
     "category": "business"
   },
   {
+    "name": "briefcase_conveyor_belt",
+    "componentName": "BriefcaseConveyorBeltFilled",
+    "style": "core-filled",
+    "file": "briefcase-conveyor-belt.svg",
+    "category": "business"
+  },
+  {
     "name": "briefcase",
     "componentName": "BriefcaseFilled",
     "style": "core-filled",
@@ -1510,6 +2427,20 @@
     "style": "core-filled",
     "file": "brightness.svg",
     "category": "design"
+  },
+  {
+    "name": "bring_to_front",
+    "componentName": "BringToFrontFilled",
+    "style": "core-filled",
+    "file": "bring-to-front.svg",
+    "category": "design"
+  },
+  {
+    "name": "broccoli",
+    "componentName": "BroccoliFilled",
+    "style": "core-filled",
+    "file": "broccoli.svg",
+    "category": "food"
   },
   {
     "name": "broom",
@@ -1559,6 +2490,20 @@
     "style": "core-filled",
     "file": "bubble.svg",
     "category": "system"
+  },
+  {
+    "name": "bug_off",
+    "componentName": "BugOffFilled",
+    "style": "core-filled",
+    "file": "bug-off.svg",
+    "category": "development"
+  },
+  {
+    "name": "bug_play",
+    "componentName": "BugPlayFilled",
+    "style": "core-filled",
+    "file": "bug-play.svg",
+    "category": "development"
   },
   {
     "name": "bug",
@@ -1687,6 +2632,13 @@
     "category": "system"
   },
   {
+    "name": "cable",
+    "componentName": "CableFilled",
+    "style": "core-filled",
+    "file": "cable.svg",
+    "category": "devices"
+  },
+  {
     "name": "cactus_2",
     "componentName": "Cactus2Filled",
     "style": "core-filled",
@@ -1701,11 +2653,25 @@
     "category": "nature"
   },
   {
+    "name": "cake_slice",
+    "componentName": "CakeSliceFilled",
+    "style": "core-filled",
+    "file": "cake-slice.svg",
+    "category": "food"
+  },
+  {
     "name": "cake",
     "componentName": "CakeFilled",
     "style": "core-filled",
     "file": "cake.svg",
     "category": "food"
+  },
+  {
+    "name": "calendar_1",
+    "componentName": "Calendar1Filled",
+    "style": "core-filled",
+    "file": "calendar-1.svg",
+    "category": "business"
   },
   {
     "name": "calendar_2",
@@ -1729,6 +2695,34 @@
     "category": "business"
   },
   {
+    "name": "calendar_arrow_down",
+    "componentName": "CalendarArrowDownFilled",
+    "style": "core-filled",
+    "file": "calendar-arrow-down.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_arrow_up",
+    "componentName": "CalendarArrowUpFilled",
+    "style": "core-filled",
+    "file": "calendar-arrow-up.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_check_2",
+    "componentName": "CalendarCheck2Filled",
+    "style": "core-filled",
+    "file": "calendar-check-2.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_cog",
+    "componentName": "CalendarCogFilled",
+    "style": "core-filled",
+    "file": "calendar-cog.svg",
+    "category": "business"
+  },
+  {
     "name": "calendar_day",
     "componentName": "CalendarDayFilled",
     "style": "core-filled",
@@ -1736,10 +2730,73 @@
     "category": "business"
   },
   {
+    "name": "calendar_fold",
+    "componentName": "CalendarFoldFilled",
+    "style": "core-filled",
+    "file": "calendar-fold.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_heart",
+    "componentName": "CalendarHeartFilled",
+    "style": "core-filled",
+    "file": "calendar-heart.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_minus_2",
+    "componentName": "CalendarMinus2Filled",
+    "style": "core-filled",
+    "file": "calendar-minus-2.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_minus",
+    "componentName": "CalendarMinusFilled",
+    "style": "core-filled",
+    "file": "calendar-minus.svg",
+    "category": "business"
+  },
+  {
     "name": "calendar_month",
     "componentName": "CalendarMonthFilled",
     "style": "core-filled",
     "file": "calendar-month.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_off",
+    "componentName": "CalendarOffFilled",
+    "style": "core-filled",
+    "file": "calendar-off.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_plus_2",
+    "componentName": "CalendarPlus2Filled",
+    "style": "core-filled",
+    "file": "calendar-plus-2.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_range",
+    "componentName": "CalendarRangeFilled",
+    "style": "core-filled",
+    "file": "calendar-range.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_search",
+    "componentName": "CalendarSearchFilled",
+    "style": "core-filled",
+    "file": "calendar-search.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendar_sync",
+    "componentName": "CalendarSyncFilled",
+    "style": "core-filled",
+    "file": "calendar-sync.svg",
     "category": "business"
   },
   {
@@ -1757,6 +2814,13 @@
     "category": "business"
   },
   {
+    "name": "calendar_x_2",
+    "componentName": "CalendarX2Filled",
+    "style": "core-filled",
+    "file": "calendar-x-2.svg",
+    "category": "business"
+  },
+  {
     "name": "calendar_x",
     "componentName": "CalendarXFilled",
     "style": "core-filled",
@@ -1768,6 +2832,13 @@
     "componentName": "CalendarFilled",
     "style": "core-filled",
     "file": "calendar.svg",
+    "category": "business"
+  },
+  {
+    "name": "calendars",
+    "componentName": "CalendarsFilled",
+    "style": "core-filled",
+    "file": "calendars.svg",
     "category": "business"
   },
   {
@@ -1883,11 +2954,25 @@
     "category": "food"
   },
   {
+    "name": "candy_off",
+    "componentName": "CandyOffFilled",
+    "style": "core-filled",
+    "file": "candy-off.svg",
+    "category": "food"
+  },
+  {
     "name": "candy",
     "componentName": "CandyFilled",
     "style": "core-filled",
     "file": "candy.svg",
     "category": "food"
+  },
+  {
+    "name": "cannabis_off",
+    "componentName": "CannabisOffFilled",
+    "style": "core-filled",
+    "file": "cannabis-off.svg",
+    "category": "nature"
   },
   {
     "name": "canton_tower",
@@ -1909,6 +2994,20 @@
     "style": "core-filled",
     "file": "capsule.svg",
     "category": "miscellaneous"
+  },
+  {
+    "name": "captions_off",
+    "componentName": "CaptionsOffFilled",
+    "style": "core-filled",
+    "file": "captions-off.svg",
+    "category": "media"
+  },
+  {
+    "name": "captions",
+    "componentName": "CaptionsFilled",
+    "style": "core-filled",
+    "file": "captions.svg",
+    "category": "media"
   },
   {
     "name": "car_2",
@@ -1946,6 +3045,13 @@
     "category": "transportation"
   },
   {
+    "name": "caravan",
+    "componentName": "CaravanFilled",
+    "style": "core-filled",
+    "file": "caravan.svg",
+    "category": "transportation"
+  },
+  {
     "name": "card_pay",
     "componentName": "CardPayFilled",
     "style": "core-filled",
@@ -1958,6 +3064,13 @@
     "style": "core-filled",
     "file": "card-refund.svg",
     "category": "business"
+  },
+  {
+    "name": "card_sim",
+    "componentName": "CardSimFilled",
+    "style": "core-filled",
+    "file": "card-sim.svg",
+    "category": "devices"
   },
   {
     "name": "cardano_ada",
@@ -1988,6 +3101,20 @@
     "category": "food"
   },
   {
+    "name": "case_lower",
+    "componentName": "CaseLowerFilled",
+    "style": "core-filled",
+    "file": "case-lower.svg",
+    "category": "editing"
+  },
+  {
+    "name": "case_upper",
+    "componentName": "CaseUpperFilled",
+    "style": "core-filled",
+    "file": "case-upper.svg",
+    "category": "editing"
+  },
+  {
     "name": "cash_2",
     "componentName": "Cash2Filled",
     "style": "core-filled",
@@ -2002,11 +3129,32 @@
     "category": "business"
   },
   {
+    "name": "cast",
+    "componentName": "CastFilled",
+    "style": "core-filled",
+    "file": "cast.svg",
+    "category": "devices"
+  },
+  {
+    "name": "castle",
+    "componentName": "CastleFilled",
+    "style": "core-filled",
+    "file": "castle.svg",
+    "category": "buildings"
+  },
+  {
     "name": "cat",
     "componentName": "CatFilled",
     "style": "core-filled",
     "file": "cat.svg",
     "category": "nature"
+  },
+  {
+    "name": "cctv_off",
+    "componentName": "CctvOffFilled",
+    "style": "core-filled",
+    "file": "cctv-off.svg",
+    "category": "devices"
   },
   {
     "name": "ceiling_lamp",
@@ -2093,10 +3241,45 @@
     "category": "transportation"
   },
   {
+    "name": "chart_area",
+    "componentName": "ChartAreaFilled",
+    "style": "core-filled",
+    "file": "chart-area.svg",
+    "category": "business"
+  },
+  {
     "name": "chart_bar_2",
     "componentName": "ChartBar2Filled",
     "style": "core-filled",
     "file": "chart-bar-2.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_bar_big",
+    "componentName": "ChartBarBigFilled",
+    "style": "core-filled",
+    "file": "chart-bar-big.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_bar_decreasing",
+    "componentName": "ChartBarDecreasingFilled",
+    "style": "core-filled",
+    "file": "chart-bar-decreasing.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_bar_increasing",
+    "componentName": "ChartBarIncreasingFilled",
+    "style": "core-filled",
+    "file": "chart-bar-increasing.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_bar_stacked",
+    "componentName": "ChartBarStackedFilled",
+    "style": "core-filled",
+    "file": "chart-bar-stacked.svg",
     "category": "business"
   },
   {
@@ -2107,10 +3290,52 @@
     "category": "business"
   },
   {
+    "name": "chart_candlestick",
+    "componentName": "ChartCandlestickFilled",
+    "style": "core-filled",
+    "file": "chart-candlestick.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_column_big",
+    "componentName": "ChartColumnBigFilled",
+    "style": "core-filled",
+    "file": "chart-column-big.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_column_decreasing",
+    "componentName": "ChartColumnDecreasingFilled",
+    "style": "core-filled",
+    "file": "chart-column-decreasing.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_column_increasing",
+    "componentName": "ChartColumnIncreasingFilled",
+    "style": "core-filled",
+    "file": "chart-column-increasing.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_column_stacked",
+    "componentName": "ChartColumnStackedFilled",
+    "style": "core-filled",
+    "file": "chart-column-stacked.svg",
+    "category": "business"
+  },
+  {
     "name": "chart_decrease",
     "componentName": "ChartDecreaseFilled",
     "style": "core-filled",
     "file": "chart-decrease.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_gantt",
+    "componentName": "ChartGanttFilled",
+    "style": "core-filled",
+    "file": "chart-gantt.svg",
     "category": "business"
   },
   {
@@ -2135,6 +3360,41 @@
     "category": "business"
   },
   {
+    "name": "chart_network",
+    "componentName": "ChartNetworkFilled",
+    "style": "core-filled",
+    "file": "chart-network.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_no_axes_column_decreasing",
+    "componentName": "ChartNoAxesColumnDecreasingFilled",
+    "style": "core-filled",
+    "file": "chart-no-axes-column-decreasing.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_no_axes_column_increasing",
+    "componentName": "ChartNoAxesColumnIncreasingFilled",
+    "style": "core-filled",
+    "file": "chart-no-axes-column-increasing.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_no_axes_combined",
+    "componentName": "ChartNoAxesCombinedFilled",
+    "style": "core-filled",
+    "file": "chart-no-axes-combined.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_no_axes_gantt",
+    "componentName": "ChartNoAxesGanttFilled",
+    "style": "core-filled",
+    "file": "chart-no-axes-gantt.svg",
+    "category": "business"
+  },
+  {
     "name": "chart_pie_2",
     "componentName": "ChartPie2Filled",
     "style": "core-filled",
@@ -2153,6 +3413,20 @@
     "componentName": "ChartPieFilled",
     "style": "core-filled",
     "file": "chart-pie.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_scatter",
+    "componentName": "ChartScatterFilled",
+    "style": "core-filled",
+    "file": "chart-scatter.svg",
+    "category": "business"
+  },
+  {
+    "name": "chart_spline",
+    "componentName": "ChartSplineFilled",
+    "style": "core-filled",
+    "file": "chart-spline.svg",
     "category": "business"
   },
   {
@@ -2247,6 +3521,13 @@
     "category": "system"
   },
   {
+    "name": "check_line",
+    "componentName": "CheckLineFilled",
+    "style": "core-filled",
+    "file": "check-line.svg",
+    "category": "business"
+  },
+  {
     "name": "check",
     "componentName": "CheckFilled",
     "style": "core-filled",
@@ -2275,11 +3556,102 @@
     "category": "body"
   },
   {
+    "name": "cherry",
+    "componentName": "CherryFilled",
+    "style": "core-filled",
+    "file": "cherry.svg",
+    "category": "nature"
+  },
+  {
+    "name": "chess_bishop",
+    "componentName": "ChessBishopFilled",
+    "style": "core-filled",
+    "file": "chess-bishop.svg",
+    "category": "nature"
+  },
+  {
+    "name": "chess_king",
+    "componentName": "ChessKingFilled",
+    "style": "core-filled",
+    "file": "chess-king.svg",
+    "category": "nature"
+  },
+  {
+    "name": "chess_pawn",
+    "componentName": "ChessPawnFilled",
+    "style": "core-filled",
+    "file": "chess-pawn.svg",
+    "category": "nature"
+  },
+  {
+    "name": "chess_queen",
+    "componentName": "ChessQueenFilled",
+    "style": "core-filled",
+    "file": "chess-queen.svg",
+    "category": "nature"
+  },
+  {
+    "name": "chess_rook",
+    "componentName": "ChessRookFilled",
+    "style": "core-filled",
+    "file": "chess-rook.svg",
+    "category": "nature"
+  },
+  {
     "name": "chess",
     "componentName": "ChessFilled",
     "style": "core-filled",
     "file": "chess.svg",
     "category": "nature"
+  },
+  {
+    "name": "chevron_first",
+    "componentName": "ChevronFirstFilled",
+    "style": "core-filled",
+    "file": "chevron-first.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "chevron_last",
+    "componentName": "ChevronLastFilled",
+    "style": "core-filled",
+    "file": "chevron-last.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "chevrons_down_up",
+    "componentName": "ChevronsDownUpFilled",
+    "style": "core-filled",
+    "file": "chevrons-down-up.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "chevrons_left_right_ellipsis",
+    "componentName": "ChevronsLeftRightEllipsisFilled",
+    "style": "core-filled",
+    "file": "chevrons-left-right-ellipsis.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "chevrons_left_right",
+    "componentName": "ChevronsLeftRightFilled",
+    "style": "core-filled",
+    "file": "chevrons-left-right.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "chevrons_right_left",
+    "componentName": "ChevronsRightLeftFilled",
+    "style": "core-filled",
+    "file": "chevrons-right-left.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "chevrons_up_down",
+    "componentName": "ChevronsUpDownFilled",
+    "style": "core-filled",
+    "file": "chevrons-up-down.svg",
+    "category": "arrow"
   },
   {
     "name": "chicken",
@@ -2352,11 +3724,214 @@
     "category": "buildings"
   },
   {
+    "name": "cigarette_off",
+    "componentName": "CigaretteOffFilled",
+    "style": "core-filled",
+    "file": "cigarette-off.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "cigarette",
+    "componentName": "CigaretteFilled",
+    "style": "core-filled",
+    "file": "cigarette.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "circle_arrow_out_down_left",
+    "componentName": "CircleArrowOutDownLeftFilled",
+    "style": "core-filled",
+    "file": "circle-arrow-out-down-left.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_arrow_out_down_right",
+    "componentName": "CircleArrowOutDownRightFilled",
+    "style": "core-filled",
+    "file": "circle-arrow-out-down-right.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_arrow_out_up_left",
+    "componentName": "CircleArrowOutUpLeftFilled",
+    "style": "core-filled",
+    "file": "circle-arrow-out-up-left.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_arrow_out_up_right",
+    "componentName": "CircleArrowOutUpRightFilled",
+    "style": "core-filled",
+    "file": "circle-arrow-out-up-right.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_check_big",
+    "componentName": "CircleCheckBigFilled",
+    "style": "core-filled",
+    "file": "circle-check-big.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_chevron_down",
+    "componentName": "CircleChevronDownFilled",
+    "style": "core-filled",
+    "file": "circle-chevron-down.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_chevron_left",
+    "componentName": "CircleChevronLeftFilled",
+    "style": "core-filled",
+    "file": "circle-chevron-left.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_chevron_right",
+    "componentName": "CircleChevronRightFilled",
+    "style": "core-filled",
+    "file": "circle-chevron-right.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_chevron_up",
+    "componentName": "CircleChevronUpFilled",
+    "style": "core-filled",
+    "file": "circle-chevron-up.svg",
+    "category": "arrow"
+  },
+  {
     "name": "circle_dash",
     "componentName": "CircleDashFilled",
     "style": "core-filled",
     "file": "circle-dash.svg",
     "category": "system"
+  },
+  {
+    "name": "circle_divide",
+    "componentName": "CircleDivideFilled",
+    "style": "core-filled",
+    "file": "circle-divide.svg",
+    "category": "education"
+  },
+  {
+    "name": "circle_dot_dashed",
+    "componentName": "CircleDotDashedFilled",
+    "style": "core-filled",
+    "file": "circle-dot-dashed.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_dot",
+    "componentName": "CircleDotFilled",
+    "style": "core-filled",
+    "file": "circle-dot.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_equal",
+    "componentName": "CircleEqualFilled",
+    "style": "core-filled",
+    "file": "circle-equal.svg",
+    "category": "education"
+  },
+  {
+    "name": "circle_fading_arrow_up",
+    "componentName": "CircleFadingArrowUpFilled",
+    "style": "core-filled",
+    "file": "circle-fading-arrow-up.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "circle_fading_plus",
+    "componentName": "CircleFadingPlusFilled",
+    "style": "core-filled",
+    "file": "circle-fading-plus.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_off",
+    "componentName": "CircleOffFilled",
+    "style": "core-filled",
+    "file": "circle-off.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "circle_parking_off",
+    "componentName": "CircleParkingOffFilled",
+    "style": "core-filled",
+    "file": "circle-parking-off.svg",
+    "category": "locations"
+  },
+  {
+    "name": "circle_percent",
+    "componentName": "CirclePercentFilled",
+    "style": "core-filled",
+    "file": "circle-percent.svg",
+    "category": "education"
+  },
+  {
+    "name": "circle_pile",
+    "componentName": "CirclePileFilled",
+    "style": "core-filled",
+    "file": "circle-pile.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_power",
+    "componentName": "CirclePowerFilled",
+    "style": "core-filled",
+    "file": "circle-power.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_slash_2",
+    "componentName": "CircleSlash2Filled",
+    "style": "core-filled",
+    "file": "circle-slash-2.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "circle_small",
+    "componentName": "CircleSmallFilled",
+    "style": "core-filled",
+    "file": "circle-small.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "circle_star",
+    "componentName": "CircleStarFilled",
+    "style": "core-filled",
+    "file": "circle-star.svg",
+    "category": "system"
+  },
+  {
+    "name": "circle_user",
+    "componentName": "CircleUserFilled",
+    "style": "core-filled",
+    "file": "circle-user.svg",
+    "category": "users"
+  },
+  {
+    "name": "circuit_board",
+    "componentName": "CircuitBoardFilled",
+    "style": "core-filled",
+    "file": "circuit-board.svg",
+    "category": "devices"
+  },
+  {
+    "name": "citrus_2",
+    "componentName": "Citrus2Filled",
+    "style": "core-filled",
+    "file": "citrus-2.svg",
+    "category": "nature"
+  },
+  {
+    "name": "citrus",
+    "componentName": "CitrusFilled",
+    "style": "core-filled",
+    "file": "citrus.svg",
+    "category": "nature"
   },
   {
     "name": "clapperboard",
@@ -2429,6 +4004,69 @@
     "category": "brands"
   },
   {
+    "name": "clipboard_clock",
+    "componentName": "ClipboardClockFilled",
+    "style": "core-filled",
+    "file": "clipboard-clock.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_copy",
+    "componentName": "ClipboardCopyFilled",
+    "style": "core-filled",
+    "file": "clipboard-copy.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_minus",
+    "componentName": "ClipboardMinusFilled",
+    "style": "core-filled",
+    "file": "clipboard-minus.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_paste",
+    "componentName": "ClipboardPasteFilled",
+    "style": "core-filled",
+    "file": "clipboard-paste.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_pen_line",
+    "componentName": "ClipboardPenLineFilled",
+    "style": "core-filled",
+    "file": "clipboard-pen-line.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_pen",
+    "componentName": "ClipboardPenFilled",
+    "style": "core-filled",
+    "file": "clipboard-pen.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_plus",
+    "componentName": "ClipboardPlusFilled",
+    "style": "core-filled",
+    "file": "clipboard-plus.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_type",
+    "componentName": "ClipboardTypeFilled",
+    "style": "core-filled",
+    "file": "clipboard-type.svg",
+    "category": "files"
+  },
+  {
+    "name": "clipboard_x",
+    "componentName": "ClipboardXFilled",
+    "style": "core-filled",
+    "file": "clipboard-x.svg",
+    "category": "files"
+  },
+  {
     "name": "clipboard",
     "componentName": "ClipboardFilled",
     "style": "core-filled",
@@ -2436,11 +4074,144 @@
     "category": "files"
   },
   {
+    "name": "clock_1",
+    "componentName": "Clock1Filled",
+    "style": "core-filled",
+    "file": "clock-1.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_10",
+    "componentName": "Clock10Filled",
+    "style": "core-filled",
+    "file": "clock-10.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_11",
+    "componentName": "Clock11Filled",
+    "style": "core-filled",
+    "file": "clock-11.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_12",
+    "componentName": "Clock12Filled",
+    "style": "core-filled",
+    "file": "clock-12.svg",
+    "category": "system"
+  },
+  {
     "name": "clock_2",
     "componentName": "Clock2Filled",
     "style": "core-filled",
     "file": "clock-2.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_3",
+    "componentName": "Clock3Filled",
+    "style": "core-filled",
+    "file": "clock-3.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_4",
+    "componentName": "Clock4Filled",
+    "style": "core-filled",
+    "file": "clock-4.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_5",
+    "componentName": "Clock5Filled",
+    "style": "core-filled",
+    "file": "clock-5.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_6",
+    "componentName": "Clock6Filled",
+    "style": "core-filled",
+    "file": "clock-6.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_7",
+    "componentName": "Clock7Filled",
+    "style": "core-filled",
+    "file": "clock-7.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_8",
+    "componentName": "Clock8Filled",
+    "style": "core-filled",
+    "file": "clock-8.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_9",
+    "componentName": "Clock9Filled",
+    "style": "core-filled",
+    "file": "clock-9.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_alert",
+    "componentName": "ClockAlertFilled",
+    "style": "core-filled",
+    "file": "clock-alert.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_arrow_down",
+    "componentName": "ClockArrowDownFilled",
+    "style": "core-filled",
+    "file": "clock-arrow-down.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_arrow_up",
+    "componentName": "ClockArrowUpFilled",
+    "style": "core-filled",
+    "file": "clock-arrow-up.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_check",
+    "componentName": "ClockCheckFilled",
+    "style": "core-filled",
+    "file": "clock-check.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_minus",
+    "componentName": "ClockMinusFilled",
+    "style": "core-filled",
+    "file": "clock-minus.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_plus",
+    "componentName": "ClockPlusFilled",
+    "style": "core-filled",
+    "file": "clock-plus.svg",
+    "category": "system"
+  },
+  {
+    "name": "clock_time",
+    "componentName": "ClockTimeFilled",
+    "style": "core-filled",
+    "file": "clock-time.svg",
     "category": "locations"
+  },
+  {
+    "name": "clock_x",
+    "componentName": "ClockXFilled",
+    "style": "core-filled",
+    "file": "clock-x.svg",
+    "category": "system"
   },
   {
     "name": "clock",
@@ -2513,6 +4284,34 @@
     "category": "weather"
   },
   {
+    "name": "cloud_alert",
+    "componentName": "CloudAlertFilled",
+    "style": "core-filled",
+    "file": "cloud-alert.svg",
+    "category": "weather"
+  },
+  {
+    "name": "cloud_backup",
+    "componentName": "CloudBackupFilled",
+    "style": "core-filled",
+    "file": "cloud-backup.svg",
+    "category": "weather"
+  },
+  {
+    "name": "cloud_check",
+    "componentName": "CloudCheckFilled",
+    "style": "core-filled",
+    "file": "cloud-check.svg",
+    "category": "weather"
+  },
+  {
+    "name": "cloud_cog",
+    "componentName": "CloudCogFilled",
+    "style": "core-filled",
+    "file": "cloud-cog.svg",
+    "category": "weather"
+  },
+  {
     "name": "cloud_lightning",
     "componentName": "CloudLightningFilled",
     "style": "core-filled",
@@ -2520,10 +4319,38 @@
     "category": "weather"
   },
   {
+    "name": "cloud_moon_rain",
+    "componentName": "CloudMoonRainFilled",
+    "style": "core-filled",
+    "file": "cloud-moon-rain.svg",
+    "category": "weather"
+  },
+  {
+    "name": "cloud_off",
+    "componentName": "CloudOffFilled",
+    "style": "core-filled",
+    "file": "cloud-off.svg",
+    "category": "weather"
+  },
+  {
     "name": "cloud_snow",
     "componentName": "CloudSnowFilled",
     "style": "core-filled",
     "file": "cloud-snow.svg",
+    "category": "weather"
+  },
+  {
+    "name": "cloud_sun_rain",
+    "componentName": "CloudSunRainFilled",
+    "style": "core-filled",
+    "file": "cloud-sun-rain.svg",
+    "category": "weather"
+  },
+  {
+    "name": "cloud_sync",
+    "componentName": "CloudSyncFilled",
+    "style": "core-filled",
+    "file": "cloud-sync.svg",
     "category": "weather"
   },
   {
@@ -2632,10 +4459,31 @@
     "category": "design"
   },
   {
+    "name": "columns_3_cog",
+    "componentName": "Columns3CogFilled",
+    "style": "core-filled",
+    "file": "columns-3-cog.svg",
+    "category": "editing"
+  },
+  {
     "name": "columns_3",
     "componentName": "Columns3Filled",
     "style": "core-filled",
     "file": "columns-3.svg",
+    "category": "design"
+  },
+  {
+    "name": "columns_4",
+    "componentName": "Columns4Filled",
+    "style": "core-filled",
+    "file": "columns-4.svg",
+    "category": "editing"
+  },
+  {
+    "name": "combine_2",
+    "componentName": "Combine2Filled",
+    "style": "core-filled",
+    "file": "combine-2.svg",
     "category": "design"
   },
   {
@@ -2695,17 +4543,17 @@
     "category": "design"
   },
   {
-    "name": "computer_camer",
-    "componentName": "ComputerCamerFilled",
-    "style": "core-filled",
-    "file": "computer-camer.svg",
-    "category": "devices"
-  },
-  {
     "name": "computer_camera_off",
     "componentName": "ComputerCameraOffFilled",
     "style": "core-filled",
     "file": "computer-camera-off.svg",
+    "category": "devices"
+  },
+  {
+    "name": "computer_camera",
+    "componentName": "ComputerCameraFilled",
+    "style": "core-filled",
+    "file": "computer-camera.svg",
     "category": "devices"
   },
   {
@@ -2716,11 +4564,25 @@
     "category": "devices"
   },
   {
+    "name": "cone",
+    "componentName": "ConeFilled",
+    "style": "core-filled",
+    "file": "cone.svg",
+    "category": "shapes"
+  },
+  {
     "name": "confused",
     "componentName": "ConfusedFilled",
     "style": "core-filled",
     "file": "confused.svg",
     "category": "emoji"
+  },
+  {
+    "name": "construction",
+    "componentName": "ConstructionFilled",
+    "style": "core-filled",
+    "file": "construction.svg",
+    "category": "buildings"
   },
   {
     "name": "contacts_2",
@@ -2751,11 +4613,25 @@
     "category": "users"
   },
   {
+    "name": "container",
+    "componentName": "ContainerFilled",
+    "style": "core-filled",
+    "file": "container.svg",
+    "category": "files"
+  },
+  {
     "name": "content_ai",
     "componentName": "ContentAIFilled",
     "style": "core-filled",
     "file": "content-ai.svg",
     "category": "editing"
+  },
+  {
+    "name": "contrast",
+    "componentName": "ContrastFilled",
+    "style": "core-filled",
+    "file": "contrast.svg",
+    "category": "design"
   },
   {
     "name": "cookie_man",
@@ -2807,11 +4683,53 @@
     "category": "files"
   },
   {
+    "name": "copy_check",
+    "componentName": "CopyCheckFilled",
+    "style": "core-filled",
+    "file": "copy-check.svg",
+    "category": "files"
+  },
+  {
+    "name": "copy_minus",
+    "componentName": "CopyMinusFilled",
+    "style": "core-filled",
+    "file": "copy-minus.svg",
+    "category": "files"
+  },
+  {
+    "name": "copy_plus",
+    "componentName": "CopyPlusFilled",
+    "style": "core-filled",
+    "file": "copy-plus.svg",
+    "category": "files"
+  },
+  {
+    "name": "copy_slash",
+    "componentName": "CopySlashFilled",
+    "style": "core-filled",
+    "file": "copy-slash.svg",
+    "category": "files"
+  },
+  {
+    "name": "copy_x",
+    "componentName": "CopyXFilled",
+    "style": "core-filled",
+    "file": "copy-x.svg",
+    "category": "files"
+  },
+  {
     "name": "copy",
     "componentName": "CopyFilled",
     "style": "core-filled",
     "file": "copy.svg",
     "category": "files"
+  },
+  {
+    "name": "copyleft",
+    "componentName": "CopyleftFilled",
+    "style": "core-filled",
+    "file": "copyleft.svg",
+    "category": "business"
   },
   {
     "name": "copyright",
@@ -2832,6 +4750,34 @@
     "componentName": "CornerDownRightFilled",
     "style": "core-filled",
     "file": "corner-down-right.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "corner_left_down",
+    "componentName": "CornerLeftDownFilled",
+    "style": "core-filled",
+    "file": "corner-left-down.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "corner_left_up",
+    "componentName": "CornerLeftUpFilled",
+    "style": "core-filled",
+    "file": "corner-left-up.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "corner_right_down",
+    "componentName": "CornerRightDownFilled",
+    "style": "core-filled",
+    "file": "corner-right-down.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "corner_right_up",
+    "componentName": "CornerRightUpFilled",
+    "style": "core-filled",
+    "file": "corner-right-up.svg",
     "category": "arrow"
   },
   {
@@ -2868,6 +4814,20 @@
     "style": "core-filled",
     "file": "coupon.svg",
     "category": "business"
+  },
+  {
+    "name": "creative_commons",
+    "componentName": "CreativeCommonsFilled",
+    "style": "core-filled",
+    "file": "creative-commons.svg",
+    "category": "business"
+  },
+  {
+    "name": "croissant",
+    "componentName": "CroissantFilled",
+    "style": "core-filled",
+    "file": "croissant.svg",
+    "category": "food"
   },
   {
     "name": "cross_2",
@@ -2910,6 +4870,13 @@
     "style": "core-filled",
     "file": "cube.svg",
     "category": "system"
+  },
+  {
+    "name": "cuboid",
+    "componentName": "CuboidFilled",
+    "style": "core-filled",
+    "file": "cuboid.svg",
+    "category": "shapes"
   },
   {
     "name": "cupcake",
@@ -3031,17 +4998,17 @@
     "category": "business"
   },
   {
-    "name": "currency_rubel_2",
-    "componentName": "CurrencyRubel2Filled",
+    "name": "currency_ruble_2",
+    "componentName": "CurrencyRuble2Filled",
     "style": "core-filled",
-    "file": "currency-rubel-2.svg",
+    "file": "currency-ruble-2.svg",
     "category": "business"
   },
   {
-    "name": "currency_rubel",
-    "componentName": "CurrencyRubelFilled",
+    "name": "currency_ruble",
+    "componentName": "CurrencyRubleFilled",
     "style": "core-filled",
-    "file": "currency-rubel.svg",
+    "file": "currency-ruble.svg",
     "category": "business"
   },
   {
@@ -3084,6 +5051,13 @@
     "componentName": "CurrencyWonFilled",
     "style": "core-filled",
     "file": "currency-won.svg",
+    "category": "business"
+  },
+  {
+    "name": "currency",
+    "componentName": "CurrencyFilled",
+    "style": "core-filled",
+    "file": "currency.svg",
     "category": "business"
   },
   {
@@ -3134,6 +5108,13 @@
     "style": "core-filled",
     "file": "cylinder.svg",
     "category": "shapes"
+  },
+  {
+    "name": "dam",
+    "componentName": "DamFilled",
+    "style": "core-filled",
+    "file": "dam.svg",
+    "category": "buildings"
   },
   {
     "name": "dandelion",
@@ -3190,6 +5171,41 @@
     "style": "core-filled",
     "file": "dashboard.svg",
     "category": "devices"
+  },
+  {
+    "name": "database_backup",
+    "componentName": "DatabaseBackupFilled",
+    "style": "core-filled",
+    "file": "database-backup.svg",
+    "category": "devices"
+  },
+  {
+    "name": "database_search",
+    "componentName": "DatabaseSearchFilled",
+    "style": "core-filled",
+    "file": "database-search.svg",
+    "category": "devices"
+  },
+  {
+    "name": "database_zap",
+    "componentName": "DatabaseZapFilled",
+    "style": "core-filled",
+    "file": "database-zap.svg",
+    "category": "devices"
+  },
+  {
+    "name": "decimals_arrow_left",
+    "componentName": "DecimalsArrowLeftFilled",
+    "style": "core-filled",
+    "file": "decimals-arrow-left.svg",
+    "category": "education"
+  },
+  {
+    "name": "decimals_arrow_right",
+    "componentName": "DecimalsArrowRightFilled",
+    "style": "core-filled",
+    "file": "decimals-arrow-right.svg",
+    "category": "education"
   },
   {
     "name": "deepseek",
@@ -3276,11 +5292,46 @@
     "category": "devices"
   },
   {
+    "name": "diagonal",
+    "componentName": "DiagonalFilled",
+    "style": "core-filled",
+    "file": "diagonal.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "diameter",
+    "componentName": "DiameterFilled",
+    "style": "core-filled",
+    "file": "diameter.svg",
+    "category": "design"
+  },
+  {
     "name": "diamond_2",
     "componentName": "Diamond2Filled",
     "style": "core-filled",
     "file": "diamond-2.svg",
     "category": "business"
+  },
+  {
+    "name": "diamond_minus",
+    "componentName": "DiamondMinusFilled",
+    "style": "core-filled",
+    "file": "diamond-minus.svg",
+    "category": "system"
+  },
+  {
+    "name": "diamond_percent",
+    "componentName": "DiamondPercentFilled",
+    "style": "core-filled",
+    "file": "diamond-percent.svg",
+    "category": "system"
+  },
+  {
+    "name": "diamond_plus",
+    "componentName": "DiamondPlusFilled",
+    "style": "core-filled",
+    "file": "diamond-plus.svg",
+    "category": "system"
   },
   {
     "name": "diamond_square",
@@ -3302,6 +5353,62 @@
     "style": "core-filled",
     "file": "diary.svg",
     "category": "education"
+  },
+  {
+    "name": "dice_1",
+    "componentName": "Dice1Filled",
+    "style": "core-filled",
+    "file": "dice-1.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "dice_2",
+    "componentName": "Dice2Filled",
+    "style": "core-filled",
+    "file": "dice-2.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "dice_3",
+    "componentName": "Dice3Filled",
+    "style": "core-filled",
+    "file": "dice-3.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "dice_4",
+    "componentName": "Dice4Filled",
+    "style": "core-filled",
+    "file": "dice-4.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "dice_6",
+    "componentName": "Dice6Filled",
+    "style": "core-filled",
+    "file": "dice-6.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "dices",
+    "componentName": "DicesFilled",
+    "style": "core-filled",
+    "file": "dices.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "diff",
+    "componentName": "DiffFilled",
+    "style": "core-filled",
+    "file": "diff.svg",
+    "category": "education"
+  },
+  {
+    "name": "diners_club",
+    "componentName": "DinersClubFilled",
+    "style": "core-filled",
+    "file": "diners-club.svg",
+    "category": "brands"
   },
   {
     "name": "dingtalk",
@@ -3367,6 +5474,13 @@
     "category": "sports"
   },
   {
+    "name": "disc_album",
+    "componentName": "DiscAlbumFilled",
+    "style": "core-filled",
+    "file": "disc-album.svg",
+    "category": "media"
+  },
+  {
     "name": "disc",
     "componentName": "DiscFilled",
     "style": "core-filled",
@@ -3409,6 +5523,13 @@
     "category": "design"
   },
   {
+    "name": "divide",
+    "componentName": "DivideFilled",
+    "style": "core-filled",
+    "file": "divide.svg",
+    "category": "education"
+  },
+  {
     "name": "dividing_line",
     "componentName": "DividingLineFilled",
     "style": "core-filled",
@@ -3416,17 +5537,24 @@
     "category": "editing"
   },
   {
+    "name": "dna_off",
+    "componentName": "DnaOffFilled",
+    "style": "core-filled",
+    "file": "dna-off.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "dna",
+    "componentName": "DnaFilled",
+    "style": "core-filled",
+    "file": "dna.svg",
+    "category": "miscellaneous"
+  },
+  {
     "name": "doc",
     "componentName": "DocFilled",
     "style": "core-filled",
     "file": "doc.svg",
-    "category": "files"
-  },
-  {
-    "name": "docment",
-    "componentName": "DocmentFilled",
-    "style": "core-filled",
-    "file": "docment.svg",
     "category": "files"
   },
   {
@@ -3441,6 +5569,13 @@
     "componentName": "Document3Filled",
     "style": "core-filled",
     "file": "document-3.svg",
+    "category": "files"
+  },
+  {
+    "name": "document",
+    "componentName": "DocumentFilled",
+    "style": "core-filled",
+    "file": "document.svg",
     "category": "files"
   },
   {
@@ -3472,6 +5607,13 @@
     "category": "food"
   },
   {
+    "name": "door_closed_locked",
+    "componentName": "DoorClosedLockedFilled",
+    "style": "core-filled",
+    "file": "door-closed-locked.svg",
+    "category": "system"
+  },
+  {
     "name": "door",
     "componentName": "DoorFilled",
     "style": "core-filled",
@@ -3493,10 +5635,17 @@
     "category": "system"
   },
   {
-    "name": "dots_vertical",
-    "componentName": "DotsVerticalFilled",
+    "name": "dot",
+    "componentName": "DotFilled",
     "style": "core-filled",
-    "file": "dots-vertical.svg",
+    "file": "dot.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "dots_horizontal",
+    "componentName": "DotsHorizontalFilled",
+    "style": "core-filled",
+    "file": "dots-horizontal.svg",
     "category": "system"
   },
   {
@@ -3549,6 +5698,13 @@
     "category": "nature"
   },
   {
+    "name": "drama",
+    "componentName": "DramaFilled",
+    "style": "core-filled",
+    "file": "drama.svg",
+    "category": "miscellaneous"
+  },
+  {
     "name": "drawer_2",
     "componentName": "Drawer2Filled",
     "style": "core-filled",
@@ -3584,6 +5740,20 @@
     "category": "brands"
   },
   {
+    "name": "drill",
+    "componentName": "DrillFilled",
+    "style": "core-filled",
+    "file": "drill.svg",
+    "category": "devices"
+  },
+  {
+    "name": "drink_2",
+    "componentName": "Drink2Filled",
+    "style": "core-filled",
+    "file": "drink-2.svg",
+    "category": "food"
+  },
+  {
     "name": "drink",
     "componentName": "DrinkFilled",
     "style": "core-filled",
@@ -3612,6 +5782,13 @@
     "category": "devices"
   },
   {
+    "name": "drop_2",
+    "componentName": "Drop2Filled",
+    "style": "core-filled",
+    "file": "drop-2.svg",
+    "category": "design"
+  },
+  {
     "name": "drop",
     "componentName": "DropFilled",
     "style": "core-filled",
@@ -3633,6 +5810,20 @@
     "category": "system"
   },
   {
+    "name": "droplet_off",
+    "componentName": "DropletOffFilled",
+    "style": "core-filled",
+    "file": "droplet-off.svg",
+    "category": "design"
+  },
+  {
+    "name": "droplets",
+    "componentName": "DropletsFilled",
+    "style": "core-filled",
+    "file": "droplets.svg",
+    "category": "design"
+  },
+  {
     "name": "drum",
     "componentName": "DrumFilled",
     "style": "core-filled",
@@ -3652,6 +5843,13 @@
     "style": "core-filled",
     "file": "dutch-windmill.svg",
     "category": "buildings"
+  },
+  {
+    "name": "ear_off",
+    "componentName": "EarOffFilled",
+    "style": "core-filled",
+    "file": "ear-off.svg",
+    "category": "body"
   },
   {
     "name": "ear",
@@ -3686,6 +5884,13 @@
     "componentName": "EarthLatitudeFilled",
     "style": "core-filled",
     "file": "earth-latitude.svg",
+    "category": "locations"
+  },
+  {
+    "name": "earth_lock",
+    "componentName": "EarthLockFilled",
+    "style": "core-filled",
+    "file": "earth-lock.svg",
     "category": "locations"
   },
   {
@@ -3752,6 +5957,13 @@
     "category": "transportation"
   },
   {
+    "name": "eclipse",
+    "componentName": "EclipseFilled",
+    "style": "core-filled",
+    "file": "eclipse.svg",
+    "category": "weather"
+  },
+  {
     "name": "edge",
     "componentName": "EdgeFilled",
     "style": "core-filled",
@@ -3794,6 +6006,13 @@
     "category": "editing"
   },
   {
+    "name": "edit_5",
+    "componentName": "Edit5Filled",
+    "style": "core-filled",
+    "file": "edit-5.svg",
+    "category": "editing"
+  },
+  {
     "name": "edit",
     "componentName": "EditFilled",
     "style": "core-filled",
@@ -3805,6 +6024,13 @@
     "componentName": "EggCrackFilled",
     "style": "core-filled",
     "file": "egg-crack.svg",
+    "category": "food"
+  },
+  {
+    "name": "egg_off",
+    "componentName": "EggOffFilled",
+    "style": "core-filled",
+    "file": "egg-off.svg",
     "category": "food"
   },
   {
@@ -3834,6 +6060,13 @@
     "style": "core-filled",
     "file": "electric-cooker.svg",
     "category": "food"
+  },
+  {
+    "name": "ellipse",
+    "componentName": "EllipseFilled",
+    "style": "core-filled",
+    "file": "ellipse.svg",
+    "category": "shapes"
   },
   {
     "name": "emergency_flashers",
@@ -3885,6 +6118,27 @@
     "category": "system"
   },
   {
+    "name": "equal_approximately",
+    "componentName": "EqualApproximatelyFilled",
+    "style": "core-filled",
+    "file": "equal-approximately.svg",
+    "category": "education"
+  },
+  {
+    "name": "equal_not",
+    "componentName": "EqualNotFilled",
+    "style": "core-filled",
+    "file": "equal-not.svg",
+    "category": "education"
+  },
+  {
+    "name": "equal",
+    "componentName": "EqualFilled",
+    "style": "core-filled",
+    "file": "equal.svg",
+    "category": "education"
+  },
+  {
     "name": "eraser_ai",
     "componentName": "EraserAIFilled",
     "style": "core-filled",
@@ -3918,6 +6172,13 @@
     "style": "core-filled",
     "file": "ethereum.svg",
     "category": "cryptocurrency"
+  },
+  {
+    "name": "ethernet_port",
+    "componentName": "EthernetPortFilled",
+    "style": "core-filled",
+    "file": "ethernet-port.svg",
+    "category": "devices"
   },
   {
     "name": "exchange_baht",
@@ -3997,6 +6258,13 @@
     "category": "files"
   },
   {
+    "name": "eye_2_off",
+    "componentName": "Eye2OffFilled",
+    "style": "core-filled",
+    "file": "eye-2-off.svg",
+    "category": "body"
+  },
+  {
     "name": "eye_2",
     "componentName": "Eye2Filled",
     "style": "core-filled",
@@ -4008,6 +6276,13 @@
     "componentName": "EyeCloseFilled",
     "style": "core-filled",
     "file": "eye-close.svg",
+    "category": "system"
+  },
+  {
+    "name": "eye_off",
+    "componentName": "EyeOffFilled",
+    "style": "core-filled",
+    "file": "eye-off.svg",
     "category": "system"
   },
   {
@@ -4165,6 +6440,13 @@
     "category": "users"
   },
   {
+    "name": "fence",
+    "componentName": "FenceFilled",
+    "style": "core-filled",
+    "file": "fence.svg",
+    "category": "miscellaneous"
+  },
+  {
     "name": "ferris_wheel",
     "componentName": "FerrisWheelFilled",
     "style": "core-filled",
@@ -4193,10 +6475,59 @@
     "category": "files"
   },
   {
+    "name": "file_axis_3d",
+    "componentName": "FileAxis3DFilled",
+    "style": "core-filled",
+    "file": "file-axis-3d.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_box",
+    "componentName": "FileBoxFilled",
+    "style": "core-filled",
+    "file": "file-box.svg",
+    "category": "files"
+  },
+  {
     "name": "file_certificate",
     "componentName": "FileCertificateFilled",
     "style": "core-filled",
     "file": "file-certificate.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_chart_column_increasing",
+    "componentName": "FileChartColumnIncreasingFilled",
+    "style": "core-filled",
+    "file": "file-chart-column-increasing.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_chart_column",
+    "componentName": "FileChartColumnFilled",
+    "style": "core-filled",
+    "file": "file-chart-column.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_chart_line",
+    "componentName": "FileChartLineFilled",
+    "style": "core-filled",
+    "file": "file-chart-line.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_chart_pie",
+    "componentName": "FileChartPieFilled",
+    "style": "core-filled",
+    "file": "file-chart-pie.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_check_corner",
+    "componentName": "FileCheckCornerFilled",
+    "style": "core-filled",
+    "file": "file-check-corner.svg",
     "category": "files"
   },
   {
@@ -4207,10 +6538,45 @@
     "category": "files"
   },
   {
+    "name": "file_clock",
+    "componentName": "FileClockFilled",
+    "style": "core-filled",
+    "file": "file-clock.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_code_corner",
+    "componentName": "FileCodeCornerFilled",
+    "style": "core-filled",
+    "file": "file-code-corner.svg",
+    "category": "files"
+  },
+  {
     "name": "file_code",
     "componentName": "FileCodeFilled",
     "style": "core-filled",
     "file": "file-code.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_cog",
+    "componentName": "FileCogFilled",
+    "style": "core-filled",
+    "file": "file-cog.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_diff",
+    "componentName": "FileDiffFilled",
+    "style": "core-filled",
+    "file": "file-diff.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_digit",
+    "componentName": "FileDigitFilled",
+    "style": "core-filled",
+    "file": "file-digit.svg",
     "category": "files"
   },
   {
@@ -4235,6 +6601,27 @@
     "category": "files"
   },
   {
+    "name": "file_headphone",
+    "componentName": "FileHeadphoneFilled",
+    "style": "core-filled",
+    "file": "file-headphone.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_heart",
+    "componentName": "FileHeartFilled",
+    "style": "core-filled",
+    "file": "file-heart.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_image",
+    "componentName": "FileImageFilled",
+    "style": "core-filled",
+    "file": "file-image.svg",
+    "category": "files"
+  },
+  {
     "name": "file_import",
     "componentName": "FileImportFilled",
     "style": "core-filled",
@@ -4249,10 +6636,31 @@
     "category": "files"
   },
   {
+    "name": "file_key",
+    "componentName": "FileKeyFilled",
+    "style": "core-filled",
+    "file": "file-key.svg",
+    "category": "files"
+  },
+  {
     "name": "file_locked",
     "componentName": "FileLockedFilled",
     "style": "core-filled",
     "file": "file-locked.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_minus_corner",
+    "componentName": "FileMinusCornerFilled",
+    "style": "core-filled",
+    "file": "file-minus-corner.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_minus",
+    "componentName": "FileMinusFilled",
+    "style": "core-filled",
+    "file": "file-minus.svg",
     "category": "files"
   },
   {
@@ -4277,6 +6685,41 @@
     "category": "files"
   },
   {
+    "name": "file_pen_line",
+    "componentName": "FilePenLineFilled",
+    "style": "core-filled",
+    "file": "file-pen-line.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_pen",
+    "componentName": "FilePenFilled",
+    "style": "core-filled",
+    "file": "file-pen.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_play",
+    "componentName": "FilePlayFilled",
+    "style": "core-filled",
+    "file": "file-play.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_scan",
+    "componentName": "FileScanFilled",
+    "style": "core-filled",
+    "file": "file-scan.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_search_corner",
+    "componentName": "FileSearchCornerFilled",
+    "style": "core-filled",
+    "file": "file-search-corner.svg",
+    "category": "files"
+  },
+  {
     "name": "file_search",
     "componentName": "FileSearchFilled",
     "style": "core-filled",
@@ -4291,10 +6734,59 @@
     "category": "files"
   },
   {
+    "name": "file_signal",
+    "componentName": "FileSignalFilled",
+    "style": "core-filled",
+    "file": "file-signal.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_sliders",
+    "componentName": "FileSlidersFilled",
+    "style": "core-filled",
+    "file": "file-sliders.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_spreadsheet",
+    "componentName": "FileSpreadsheetFilled",
+    "style": "core-filled",
+    "file": "file-spreadsheet.svg",
+    "category": "files"
+  },
+  {
     "name": "file_star",
     "componentName": "FileStarFilled",
     "style": "core-filled",
     "file": "file-star.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_symlink",
+    "componentName": "FileSymlinkFilled",
+    "style": "core-filled",
+    "file": "file-symlink.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_terminal",
+    "componentName": "FileTerminalFilled",
+    "style": "core-filled",
+    "file": "file-terminal.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_type_corner",
+    "componentName": "FileTypeCornerFilled",
+    "style": "core-filled",
+    "file": "file-type-corner.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_type",
+    "componentName": "FileTypeFilled",
+    "style": "core-filled",
+    "file": "file-type.svg",
     "category": "files"
   },
   {
@@ -4312,10 +6804,38 @@
     "category": "files"
   },
   {
+    "name": "file_user",
+    "componentName": "FileUserFilled",
+    "style": "core-filled",
+    "file": "file-user.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_video_camera",
+    "componentName": "FileVideoCameraFilled",
+    "style": "core-filled",
+    "file": "file-video-camera.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_volume",
+    "componentName": "FileVolumeFilled",
+    "style": "core-filled",
+    "file": "file-volume.svg",
+    "category": "files"
+  },
+  {
     "name": "file_warning",
     "componentName": "FileWarningFilled",
     "style": "core-filled",
     "file": "file-warning.svg",
+    "category": "files"
+  },
+  {
+    "name": "file_x_corner",
+    "componentName": "FileXCornerFilled",
+    "style": "core-filled",
+    "file": "file-x-corner.svg",
     "category": "files"
   },
   {
@@ -4417,6 +6937,13 @@
     "category": "system"
   },
   {
+    "name": "fire_extinguisher",
+    "componentName": "FireExtinguisherFilled",
+    "style": "core-filled",
+    "file": "fire-extinguisher.svg",
+    "category": "miscellaneous"
+  },
+  {
     "name": "fire",
     "componentName": "FireFilled",
     "style": "core-filled",
@@ -4452,6 +6979,20 @@
     "category": "miscellaneous"
   },
   {
+    "name": "fish_off",
+    "componentName": "FishOffFilled",
+    "style": "core-filled",
+    "file": "fish-off.svg",
+    "category": "food"
+  },
+  {
+    "name": "fish_symbol",
+    "componentName": "FishSymbolFilled",
+    "style": "core-filled",
+    "file": "fish-symbol.svg",
+    "category": "food"
+  },
+  {
     "name": "fish",
     "componentName": "FishFilled",
     "style": "core-filled",
@@ -4459,11 +7000,32 @@
     "category": "food"
   },
   {
+    "name": "fishing_hook",
+    "componentName": "FishingHookFilled",
+    "style": "core-filled",
+    "file": "fishing-hook.svg",
+    "category": "sports"
+  },
+  {
+    "name": "fishing_rod",
+    "componentName": "FishingRodFilled",
+    "style": "core-filled",
+    "file": "fishing-rod.svg",
+    "category": "sports"
+  },
+  {
     "name": "fitness",
     "componentName": "FitnessFilled",
     "style": "core-filled",
     "file": "fitness.svg",
     "category": "sports"
+  },
+  {
+    "name": "flag_1_off",
+    "componentName": "Flag1OffFilled",
+    "style": "core-filled",
+    "file": "flag-1-off.svg",
+    "category": "business"
   },
   {
     "name": "flag_1",
@@ -4487,10 +7049,24 @@
     "category": "business"
   },
   {
+    "name": "flag_4_off",
+    "componentName": "Flag4OffFilled",
+    "style": "core-filled",
+    "file": "flag-4-off.svg",
+    "category": "business"
+  },
+  {
     "name": "flag_4",
     "componentName": "Flag4Filled",
     "style": "core-filled",
     "file": "flag-4.svg",
+    "category": "business"
+  },
+  {
+    "name": "flag_triangle_left",
+    "componentName": "FlagTriangleLeftFilled",
+    "style": "core-filled",
+    "file": "flag-triangle-left.svg",
     "category": "business"
   },
   {
@@ -4515,6 +7091,13 @@
     "category": "devices"
   },
   {
+    "name": "flashlight_off",
+    "componentName": "FlashlightOffFilled",
+    "style": "core-filled",
+    "file": "flashlight-off.svg",
+    "category": "devices"
+  },
+  {
     "name": "flashlight",
     "componentName": "FlashlightFilled",
     "style": "core-filled",
@@ -4533,6 +7116,13 @@
     "componentName": "Flask3Filled",
     "style": "core-filled",
     "file": "flask-3.svg",
+    "category": "education"
+  },
+  {
+    "name": "flask_conical_off",
+    "componentName": "FlaskConicalOffFilled",
+    "style": "core-filled",
+    "file": "flask-conical-off.svg",
     "category": "education"
   },
   {
@@ -4634,6 +7224,27 @@
     "category": "nature"
   },
   {
+    "name": "focus_group",
+    "componentName": "FocusGroupFilled",
+    "style": "core-filled",
+    "file": "focus-group.svg",
+    "category": "system"
+  },
+  {
+    "name": "focus_square",
+    "componentName": "FocusSquareFilled",
+    "style": "core-filled",
+    "file": "focus-square.svg",
+    "category": "system"
+  },
+  {
+    "name": "focus",
+    "componentName": "FocusFilled",
+    "style": "core-filled",
+    "file": "focus.svg",
+    "category": "system"
+  },
+  {
     "name": "fog",
     "componentName": "FogFilled",
     "style": "core-filled",
@@ -4676,6 +7287,27 @@
     "category": "files"
   },
   {
+    "name": "folder_clock",
+    "componentName": "FolderClockFilled",
+    "style": "core-filled",
+    "file": "folder-clock.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_code",
+    "componentName": "FolderCodeFilled",
+    "style": "core-filled",
+    "file": "folder-code.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_cog",
+    "componentName": "FolderCogFilled",
+    "style": "core-filled",
+    "file": "folder-cog.svg",
+    "category": "files"
+  },
+  {
     "name": "folder_delete",
     "componentName": "FolderDeleteFilled",
     "style": "core-filled",
@@ -4697,10 +7329,52 @@
     "category": "files"
   },
   {
+    "name": "folder_git_2",
+    "componentName": "FolderGit2Filled",
+    "style": "core-filled",
+    "file": "folder-git-2.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_git",
+    "componentName": "FolderGitFilled",
+    "style": "core-filled",
+    "file": "folder-git.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_heart",
+    "componentName": "FolderHeartFilled",
+    "style": "core-filled",
+    "file": "folder-heart.svg",
+    "category": "files"
+  },
+  {
     "name": "folder_info",
     "componentName": "FolderInfoFilled",
     "style": "core-filled",
     "file": "folder-info.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_input",
+    "componentName": "FolderInputFilled",
+    "style": "core-filled",
+    "file": "folder-input.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_kanban",
+    "componentName": "FolderKanbanFilled",
+    "style": "core-filled",
+    "file": "folder-kanban.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_key",
+    "componentName": "FolderKeyFilled",
+    "style": "core-filled",
+    "file": "folder-key.svg",
     "category": "files"
   },
   {
@@ -4739,10 +7413,52 @@
     "category": "files"
   },
   {
+    "name": "folder_open_dot",
+    "componentName": "FolderOpenDotFilled",
+    "style": "core-filled",
+    "file": "folder-open-dot.svg",
+    "category": "files"
+  },
+  {
     "name": "folder_open",
     "componentName": "FolderOpenFilled",
     "style": "core-filled",
     "file": "folder-open.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_output",
+    "componentName": "FolderOutputFilled",
+    "style": "core-filled",
+    "file": "folder-output.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_pen",
+    "componentName": "FolderPenFilled",
+    "style": "core-filled",
+    "file": "folder-pen.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_root",
+    "componentName": "FolderRootFilled",
+    "style": "core-filled",
+    "file": "folder-root.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_search_2",
+    "componentName": "FolderSearch2Filled",
+    "style": "core-filled",
+    "file": "folder-search-2.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_search",
+    "componentName": "FolderSearchFilled",
+    "style": "core-filled",
+    "file": "folder-search.svg",
     "category": "files"
   },
   {
@@ -4757,6 +7473,27 @@
     "componentName": "FolderStarFilled",
     "style": "core-filled",
     "file": "folder-star.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_symlink",
+    "componentName": "FolderSymlinkFilled",
+    "style": "core-filled",
+    "file": "folder-symlink.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_sync",
+    "componentName": "FolderSyncFilled",
+    "style": "core-filled",
+    "file": "folder-sync.svg",
+    "category": "files"
+  },
+  {
+    "name": "folder_tree",
+    "componentName": "FolderTreeFilled",
+    "style": "core-filled",
+    "file": "folder-tree.svg",
     "category": "files"
   },
   {
@@ -4865,6 +7602,13 @@
     "category": "food"
   },
   {
+    "name": "forklift",
+    "componentName": "ForkliftFilled",
+    "style": "core-filled",
+    "file": "forklift.svg",
+    "category": "transportation"
+  },
+  {
     "name": "formula",
     "componentName": "FormulaFilled",
     "style": "core-filled",
@@ -4970,6 +7714,62 @@
     "category": "media"
   },
   {
+    "name": "funnel_plus",
+    "componentName": "FunnelPlusFilled",
+    "style": "core-filled",
+    "file": "funnel-plus.svg",
+    "category": "business"
+  },
+  {
+    "name": "funnel_x",
+    "componentName": "FunnelXFilled",
+    "style": "core-filled",
+    "file": "funnel-x.svg",
+    "category": "business"
+  },
+  {
+    "name": "gallery_horizontal_end",
+    "componentName": "GalleryHorizontalEndFilled",
+    "style": "core-filled",
+    "file": "gallery-horizontal-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "gallery_horizontal",
+    "componentName": "GalleryHorizontalFilled",
+    "style": "core-filled",
+    "file": "gallery-horizontal.svg",
+    "category": "design"
+  },
+  {
+    "name": "gallery_thumbnails",
+    "componentName": "GalleryThumbnailsFilled",
+    "style": "core-filled",
+    "file": "gallery-thumbnails.svg",
+    "category": "design"
+  },
+  {
+    "name": "gallery_vertical_end",
+    "componentName": "GalleryVerticalEndFilled",
+    "style": "core-filled",
+    "file": "gallery-vertical-end.svg",
+    "category": "design"
+  },
+  {
+    "name": "gallery_vertical",
+    "componentName": "GalleryVerticalFilled",
+    "style": "core-filled",
+    "file": "gallery-vertical.svg",
+    "category": "design"
+  },
+  {
+    "name": "gallery",
+    "componentName": "GalleryFilled",
+    "style": "core-filled",
+    "file": "gallery.svg",
+    "category": "design"
+  },
+  {
     "name": "game_1",
     "componentName": "Game1Filled",
     "style": "core-filled",
@@ -4981,6 +7781,13 @@
     "componentName": "Game2Filled",
     "style": "core-filled",
     "file": "game-2.svg",
+    "category": "devices"
+  },
+  {
+    "name": "gamepad_directional",
+    "componentName": "GamepadDirectionalFilled",
+    "style": "core-filled",
+    "file": "gamepad-directional.svg",
     "category": "devices"
   },
   {
@@ -4996,6 +7803,13 @@
     "style": "core-filled",
     "file": "gemini.svg",
     "category": "zodiac"
+  },
+  {
+    "name": "georgian_lari",
+    "componentName": "GeorgianLariFilled",
+    "style": "core-filled",
+    "file": "georgian-lari.svg",
+    "category": "business"
   },
   {
     "name": "gesture_unlock",
@@ -5040,10 +7854,31 @@
     "category": "development"
   },
   {
+    "name": "git_branch_minus",
+    "componentName": "GitBranchMinusFilled",
+    "style": "core-filled",
+    "file": "git-branch-minus.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_branch_plus",
+    "componentName": "GitBranchPlusFilled",
+    "style": "core-filled",
+    "file": "git-branch-plus.svg",
+    "category": "development"
+  },
+  {
     "name": "git_branch",
     "componentName": "GitBranchFilled",
     "style": "core-filled",
     "file": "git-branch.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_commit_horizontal",
+    "componentName": "GitCommitHorizontalFilled",
+    "style": "core-filled",
+    "file": "git-commit-horizontal.svg",
     "category": "development"
   },
   {
@@ -5054,10 +7889,31 @@
     "category": "development"
   },
   {
+    "name": "git_compare_2",
+    "componentName": "GitCompare2Filled",
+    "style": "core-filled",
+    "file": "git-compare-2.svg",
+    "category": "development"
+  },
+  {
     "name": "git_compare",
     "componentName": "GitCompareFilled",
     "style": "core-filled",
     "file": "git-compare.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_fork",
+    "componentName": "GitForkFilled",
+    "style": "core-filled",
+    "file": "git-fork.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_graph",
+    "componentName": "GitGraphFilled",
+    "style": "core-filled",
+    "file": "git-graph.svg",
     "category": "development"
   },
   {
@@ -5075,6 +7931,13 @@
     "category": "development"
   },
   {
+    "name": "git_merge_conflict",
+    "componentName": "GitMergeConflictFilled",
+    "style": "core-filled",
+    "file": "git-merge-conflict.svg",
+    "category": "development"
+  },
+  {
     "name": "git_merge",
     "componentName": "GitMergeFilled",
     "style": "core-filled",
@@ -5082,10 +7945,38 @@
     "category": "development"
   },
   {
+    "name": "git_pull_request_2",
+    "componentName": "GitPullRequest2Filled",
+    "style": "core-filled",
+    "file": "git-pull-request-2.svg",
+    "category": "development"
+  },
+  {
     "name": "git_pull_request_close",
     "componentName": "GitPullRequestCloseFilled",
     "style": "core-filled",
     "file": "git-pull-request-close.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_pull_request_create_arrow",
+    "componentName": "GitPullRequestCreateArrowFilled",
+    "style": "core-filled",
+    "file": "git-pull-request-create-arrow.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_pull_request_create",
+    "componentName": "GitPullRequestCreateFilled",
+    "style": "core-filled",
+    "file": "git-pull-request-create.svg",
+    "category": "development"
+  },
+  {
+    "name": "git_pull_request_draft",
+    "componentName": "GitPullRequestDraftFilled",
+    "style": "core-filled",
+    "file": "git-pull-request-draft.svg",
     "category": "development"
   },
   {
@@ -5121,6 +8012,34 @@
     "componentName": "Globe2Filled",
     "style": "core-filled",
     "file": "globe-2.svg",
+    "category": "locations"
+  },
+  {
+    "name": "globe_check",
+    "componentName": "GlobeCheckFilled",
+    "style": "core-filled",
+    "file": "globe-check.svg",
+    "category": "locations"
+  },
+  {
+    "name": "globe_lock",
+    "componentName": "GlobeLockFilled",
+    "style": "core-filled",
+    "file": "globe-lock.svg",
+    "category": "locations"
+  },
+  {
+    "name": "globe_off",
+    "componentName": "GlobeOffFilled",
+    "style": "core-filled",
+    "file": "globe-off.svg",
+    "category": "locations"
+  },
+  {
+    "name": "globe_x",
+    "componentName": "GlobeXFilled",
+    "style": "core-filled",
+    "file": "globe-x.svg",
     "category": "locations"
   },
   {
@@ -5166,11 +8085,25 @@
     "category": "buildings"
   },
   {
+    "name": "gpu",
+    "componentName": "GpuFilled",
+    "style": "core-filled",
+    "file": "gpu.svg",
+    "category": "devices"
+  },
+  {
     "name": "gradienter",
     "componentName": "GradienterFilled",
     "style": "core-filled",
     "file": "gradienter.svg",
     "category": "devices"
+  },
+  {
+    "name": "grape",
+    "componentName": "GrapeFilled",
+    "style": "core-filled",
+    "file": "grape.svg",
+    "category": "nature"
   },
   {
     "name": "grass",
@@ -5192,6 +8125,34 @@
     "style": "core-filled",
     "file": "grid-2.svg",
     "category": "system"
+  },
+  {
+    "name": "grid_2x2_check",
+    "componentName": "Grid2x2CheckFilled",
+    "style": "core-filled",
+    "file": "grid-2x2-check.svg",
+    "category": "design"
+  },
+  {
+    "name": "grid_2x2_plus",
+    "componentName": "Grid2x2PlusFilled",
+    "style": "core-filled",
+    "file": "grid-2x2-plus.svg",
+    "category": "design"
+  },
+  {
+    "name": "grid_2x2_x",
+    "componentName": "Grid2x2XFilled",
+    "style": "core-filled",
+    "file": "grid-2x2-x.svg",
+    "category": "design"
+  },
+  {
+    "name": "grid_3x3",
+    "componentName": "Grid3x3Filled",
+    "style": "core-filled",
+    "file": "grid-3x3.svg",
+    "category": "design"
   },
   {
     "name": "grid",
@@ -5271,11 +8232,25 @@
     "category": "body"
   },
   {
+    "name": "ham",
+    "componentName": "HamFilled",
+    "style": "core-filled",
+    "file": "ham.svg",
+    "category": "food"
+  },
+  {
     "name": "hamburger",
     "componentName": "HamburgerFilled",
     "style": "core-filled",
     "file": "hamburger.svg",
     "category": "food"
+  },
+  {
+    "name": "hammer_2",
+    "componentName": "Hammer2Filled",
+    "style": "core-filled",
+    "file": "hammer-2.svg",
+    "category": "miscellaneous"
   },
   {
     "name": "hammer",
@@ -5289,6 +8264,13 @@
     "componentName": "HandCardFilled",
     "style": "core-filled",
     "file": "hand-card.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "hand_coins",
+    "componentName": "HandCoinsFilled",
+    "style": "core-filled",
+    "file": "hand-coins.svg",
     "category": "miscellaneous"
   },
   {
@@ -5306,6 +8288,13 @@
     "category": "body"
   },
   {
+    "name": "hand_fist",
+    "componentName": "HandFistFilled",
+    "style": "core-filled",
+    "file": "hand-fist.svg",
+    "category": "body"
+  },
+  {
     "name": "hand_grab",
     "componentName": "HandGrabFilled",
     "style": "core-filled",
@@ -5317,6 +8306,20 @@
     "componentName": "HandHeartFilled",
     "style": "core-filled",
     "file": "hand-heart.svg",
+    "category": "miscellaneous"
+  },
+  {
+    "name": "hand_helping",
+    "componentName": "HandHelpingFilled",
+    "style": "core-filled",
+    "file": "hand-helping.svg",
+    "category": "body"
+  },
+  {
+    "name": "hand_platter",
+    "componentName": "HandPlatterFilled",
+    "style": "core-filled",
+    "file": "hand-platter.svg",
     "category": "miscellaneous"
   },
   {
@@ -5341,11 +8344,32 @@
     "category": "body"
   },
   {
+    "name": "handshake",
+    "componentName": "HandshakeFilled",
+    "style": "core-filled",
+    "file": "handshake.svg",
+    "category": "body"
+  },
+  {
     "name": "happy",
     "componentName": "HappyFilled",
     "style": "core-filled",
     "file": "happy.svg",
     "category": "emoji"
+  },
+  {
+    "name": "hard_drive_download",
+    "componentName": "HardDriveDownloadFilled",
+    "style": "core-filled",
+    "file": "hard-drive-download.svg",
+    "category": "devices"
+  },
+  {
+    "name": "hard_drive_upload",
+    "componentName": "HardDriveUploadFilled",
+    "style": "core-filled",
+    "file": "hard-drive-upload.svg",
+    "category": "devices"
   },
   {
     "name": "hashtag",
@@ -5374,6 +8398,20 @@
     "style": "core-filled",
     "file": "haze.svg",
     "category": "weather"
+  },
+  {
+    "name": "hd",
+    "componentName": "HDFilled",
+    "style": "core-filled",
+    "file": "hd.svg",
+    "category": "media"
+  },
+  {
+    "name": "hdmi_port",
+    "componentName": "HdmiPortFilled",
+    "style": "core-filled",
+    "file": "hdmi-port.svg",
+    "category": "devices"
   },
   {
     "name": "head_ai",
@@ -5411,10 +8449,45 @@
     "category": "editing"
   },
   {
+    "name": "heading_4",
+    "componentName": "Heading4Filled",
+    "style": "core-filled",
+    "file": "heading-4.svg",
+    "category": "editing"
+  },
+  {
+    "name": "heading_5",
+    "componentName": "Heading5Filled",
+    "style": "core-filled",
+    "file": "heading-5.svg",
+    "category": "editing"
+  },
+  {
+    "name": "heading_6",
+    "componentName": "Heading6Filled",
+    "style": "core-filled",
+    "file": "heading-6.svg",
+    "category": "editing"
+  },
+  {
+    "name": "heading",
+    "componentName": "HeadingFilled",
+    "style": "core-filled",
+    "file": "heading.svg",
+    "category": "editing"
+  },
+  {
     "name": "headphone_2",
     "componentName": "Headphone2Filled",
     "style": "core-filled",
     "file": "headphone-2.svg",
+    "category": "media"
+  },
+  {
+    "name": "headphone_off",
+    "componentName": "HeadphoneOffFilled",
+    "style": "core-filled",
+    "file": "headphone-off.svg",
     "category": "media"
   },
   {
@@ -5423,6 +8496,13 @@
     "style": "core-filled",
     "file": "headphone.svg",
     "category": "media"
+  },
+  {
+    "name": "heart_check",
+    "componentName": "HeartCheckFilled",
+    "style": "core-filled",
+    "file": "heart-check.svg",
+    "category": "shapes"
   },
   {
     "name": "heart_crack",
@@ -5446,6 +8526,34 @@
     "category": "body"
   },
   {
+    "name": "heart_minus",
+    "componentName": "HeartMinusFilled",
+    "style": "core-filled",
+    "file": "heart-minus.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "heart_off",
+    "componentName": "HeartOffFilled",
+    "style": "core-filled",
+    "file": "heart-off.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "heart_plus",
+    "componentName": "HeartPlusFilled",
+    "style": "core-filled",
+    "file": "heart-plus.svg",
+    "category": "shapes"
+  },
+  {
+    "name": "heart_x",
+    "componentName": "HeartXFilled",
+    "style": "core-filled",
+    "file": "heart-x.svg",
+    "category": "shapes"
+  },
+  {
     "name": "heart",
     "componentName": "HeartFilled",
     "style": "core-filled",
@@ -5465,6 +8573,13 @@
     "style": "core-filled",
     "file": "heartbeat.svg",
     "category": "system"
+  },
+  {
+    "name": "heater",
+    "componentName": "HeaterFilled",
+    "style": "core-filled",
+    "file": "heater.svg",
+    "category": "devices"
   },
   {
     "name": "heavy_rain",
@@ -5493,6 +8608,13 @@
     "style": "core-filled",
     "file": "heavy-snowstorm.svg",
     "category": "weather"
+  },
+  {
+    "name": "helicopter",
+    "componentName": "HelicopterFilled",
+    "style": "core-filled",
+    "file": "helicopter.svg",
+    "category": "transportation"
   },
   {
     "name": "hemisphere_2",
@@ -5670,6 +8792,20 @@
     "category": "transportation"
   },
   {
+    "name": "hop_2_off",
+    "componentName": "Hop2OffFilled",
+    "style": "core-filled",
+    "file": "hop-2-off.svg",
+    "category": "nature"
+  },
+  {
+    "name": "hop_2",
+    "componentName": "Hop2Filled",
+    "style": "core-filled",
+    "file": "hop-2.svg",
+    "category": "nature"
+  },
+  {
     "name": "hop",
     "componentName": "HopFilled",
     "style": "core-filled",
@@ -5726,6 +8862,27 @@
     "category": "buildings"
   },
   {
+    "name": "house_heart",
+    "componentName": "HouseHeartFilled",
+    "style": "core-filled",
+    "file": "house-heart.svg",
+    "category": "buildings"
+  },
+  {
+    "name": "house_plug",
+    "componentName": "HousePlugFilled",
+    "style": "core-filled",
+    "file": "house-plug.svg",
+    "category": "buildings"
+  },
+  {
+    "name": "house_plus",
+    "componentName": "HousePlusFilled",
+    "style": "core-filled",
+    "file": "house-plus.svg",
+    "category": "buildings"
+  },
+  {
     "name": "house",
     "componentName": "HouseFilled",
     "style": "core-filled",
@@ -5737,6 +8894,13 @@
     "componentName": "IceCream2Filled",
     "style": "core-filled",
     "file": "ice-cream-2.svg",
+    "category": "food"
+  },
+  {
+    "name": "ice_cream_bowl",
+    "componentName": "IceCreamBowlFilled",
+    "style": "core-filled",
+    "file": "ice-cream-bowl.svg",
     "category": "food"
   },
   {
@@ -5759,6 +8923,62 @@
     "style": "core-filled",
     "file": "imac.svg",
     "category": "devices"
+  },
+  {
+    "name": "image_down",
+    "componentName": "ImageDownFilled",
+    "style": "core-filled",
+    "file": "image-down.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_edit",
+    "componentName": "ImageEditFilled",
+    "style": "core-filled",
+    "file": "image-edit.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_minus",
+    "componentName": "ImageMinusFilled",
+    "style": "core-filled",
+    "file": "image-minus.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_off",
+    "componentName": "ImageOffFilled",
+    "style": "core-filled",
+    "file": "image-off.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_play",
+    "componentName": "ImagePlayFilled",
+    "style": "core-filled",
+    "file": "image-play.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_plus",
+    "componentName": "ImagePlusFilled",
+    "style": "core-filled",
+    "file": "image-plus.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_up",
+    "componentName": "ImageUpFilled",
+    "style": "core-filled",
+    "file": "image-up.svg",
+    "category": "files"
+  },
+  {
+    "name": "image_upscale",
+    "componentName": "ImageUpscaleFilled",
+    "style": "core-filled",
+    "file": "image-upscale.svg",
+    "category": "files"
   },
   {
     "name": "inbox_2",
@@ -5803,6 +9023,20 @@
     "category": "sports"
   },
   {
+    "name": "infinity_2",
+    "componentName": "Infinity2Filled",
+    "style": "core-filled",
+    "file": "infinity-2.svg",
+    "category": "education"
+  },
+  {
+    "name": "infinity",
+    "componentName": "InfinityFilled",
+    "style": "core-filled",
+    "file": "infinity.svg",
+    "category": "education"
+  },
+  {
     "name": "information",
     "componentName": "InformationFilled",
     "style": "core-filled",
@@ -5822,6 +9056,13 @@
     "style": "core-filled",
     "file": "inspect.svg",
     "category": "development"
+  },
+  {
+    "name": "inspection_panel",
+    "componentName": "InspectionPanelFilled",
+    "style": "core-filled",
+    "file": "inspection-panel.svg",
+    "category": "devices"
   },
   {
     "name": "instagram",
@@ -5873,11 +9114,39 @@
     "category": "editing"
   },
   {
+    "name": "iteration_ccw",
+    "componentName": "IterationCcwFilled",
+    "style": "core-filled",
+    "file": "iteration-ccw.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "iteration_cw",
+    "componentName": "IterationCwFilled",
+    "style": "core-filled",
+    "file": "iteration-cw.svg",
+    "category": "arrow"
+  },
+  {
+    "name": "jcb_japan_credit_bureau",
+    "componentName": "JcbJapanCreditBureauFilled",
+    "style": "core-filled",
+    "file": "jcb-japan-credit-bureau.svg",
+    "category": "brands"
+  },
+  {
     "name": "jeep",
     "componentName": "JeepFilled",
     "style": "core-filled",
     "file": "jeep.svg",
     "category": "transportation"
+  },
+  {
+    "name": "joystick",
+    "componentName": "JoystickFilled",
+    "style": "core-filled",
+    "file": "joystick.svg",
+    "category": "devices"
   },
   {
     "name": "jump",
@@ -5892,6 +9161,13 @@
     "style": "core-filled",
     "file": "kakao-talk.svg",
     "category": "brands"
+  },
+  {
+    "name": "kayak",
+    "componentName": "KayakFilled",
+    "style": "core-filled",
+    "file": "kayak.svg",
+    "category": "sports"
   },
   {
     "name": "key_1",
@@ -5922,10 +9198,24 @@
     "category": "system"
   },
   {
+    "name": "key_square",
+    "componentName": "KeySquareFilled",
+    "style": "core-filled",
+    "file": "key-square.svg",
+    "category": "system"
+  },
+  {
     "name": "keyboard_2",
     "componentName": "Keyboard2Filled",
     "style": "core-filled",
     "file": "keyboard-2.svg",
+    "category": "devices"
+  },
+  {
+    "name": "keyboard_off",
+    "componentName": "KeyboardOffFilled",
+    "style": "core-filled",
+    "file": "keyboard-off.svg",
     "category": "devices"
   },
   {
@@ -5941,6 +9231,13 @@
     "style": "core-filled",
     "file": "keyhole.svg",
     "category": "system"
+  },
+  {
+    "name": "keying",
+    "componentName": "KeyingFilled",
+    "style": "core-filled",
+    "file": "keying.svg",
+    "category": "users"
   },
   {
     "name": "kingkey_100_tower",
@@ -5971,6 +9268,34 @@
     "category": "business"
   },
   {
+    "name": "lamp_floor",
+    "componentName": "LampFloorFilled",
+    "style": "core-filled",
+    "file": "lamp-floor.svg",
+    "category": "devices"
+  },
+  {
+    "name": "lamp_wall_down",
+    "componentName": "LampWallDownFilled",
+    "style": "core-filled",
+    "file": "lamp-wall-down.svg",
+    "category": "devices"
+  },
+  {
+    "name": "lamp_wall_up",
+    "componentName": "LampWallUpFilled",
+    "style": "core-filled",
+    "file": "lamp-wall-up.svg",
+    "category": "devices"
+  },
+  {
+    "name": "land_plot",
+    "componentName": "LandPlotFilled",
+    "style": "core-filled",
+    "file": "land-plot.svg",
+    "category": "locations"
+  },
+  {
     "name": "lantern_2",
     "componentName": "Lantern2Filled",
     "style": "core-filled",
@@ -5989,6 +9314,13 @@
     "componentName": "Laptop2Filled",
     "style": "core-filled",
     "file": "laptop-2.svg",
+    "category": "devices"
+  },
+  {
+    "name": "laptop_minimal_check",
+    "componentName": "LaptopMinimalCheckFilled",
+    "style": "core-filled",
+    "file": "laptop-minimal-check.svg",
     "category": "devices"
   },
   {
@@ -6027,6 +9359,27 @@
     "category": "arrow"
   },
   {
+    "name": "lasso_2",
+    "componentName": "Lasso2Filled",
+    "style": "core-filled",
+    "file": "lasso-2.svg",
+    "category": "design"
+  },
+  {
+    "name": "lasso_select",
+    "componentName": "LassoSelectFilled",
+    "style": "core-filled",
+    "file": "lasso-select.svg",
+    "category": "design"
+  },
+  {
+    "name": "lasso",
+    "componentName": "LassoFilled",
+    "style": "core-filled",
+    "file": "lasso.svg",
+    "category": "design"
+  },
+  {
     "name": "laugh",
     "componentName": "LaughFilled",
     "style": "core-filled",
@@ -6046,6 +9399,27 @@
     "style": "core-filled",
     "file": "layer.svg",
     "category": "design"
+  },
+  {
+    "name": "layers_2",
+    "componentName": "Layers2Filled",
+    "style": "core-filled",
+    "file": "layers-2.svg",
+    "category": "system"
+  },
+  {
+    "name": "layers_minus",
+    "componentName": "LayersMinusFilled",
+    "style": "core-filled",
+    "file": "layers-minus.svg",
+    "category": "system"
+  },
+  {
+    "name": "layers_plus",
+    "componentName": "LayersPlusFilled",
+    "style": "core-filled",
+    "file": "layers-plus.svg",
+    "category": "system"
   },
   {
     "name": "layers",
@@ -6125,6 +9499,20 @@
     "category": "design"
   },
   {
+    "name": "layout_align_left",
+    "componentName": "LayoutAlignLeftFilled",
+    "style": "core-filled",
+    "file": "layout-align-left.svg",
+    "category": "design"
+  },
+  {
+    "name": "layout_align_right",
+    "componentName": "LayoutAlignRightFilled",
+    "style": "core-filled",
+    "file": "layout-align-right.svg",
+    "category": "design"
+  },
+  {
     "name": "layout_bottom_close",
     "componentName": "LayoutBottomCloseFilled",
     "style": "core-filled",
@@ -6171,6 +9559,20 @@
     "componentName": "LayoutLeftbarOpenFilled",
     "style": "core-filled",
     "file": "layout-leftbar-open.svg",
+    "category": "design"
+  },
+  {
+    "name": "layout_panel_left",
+    "componentName": "LayoutPanelLeftFilled",
+    "style": "core-filled",
+    "file": "layout-panel-left.svg",
+    "category": "design"
+  },
+  {
+    "name": "layout_panel_top",
+    "componentName": "LayoutPanelTopFilled",
+    "style": "core-filled",
+    "file": "layout-panel-top.svg",
     "category": "design"
   },
   {
@@ -6244,6 +9646,20 @@
     "category": "nature"
   },
   {
+    "name": "leafy_green",
+    "componentName": "LeafyGreenFilled",
+    "style": "core-filled",
+    "file": "leafy-green.svg",
+    "category": "nature"
+  },
+  {
+    "name": "lectern",
+    "componentName": "LecternFilled",
+    "style": "core-filled",
+    "file": "lectern.svg",
+    "category": "education"
+  },
+  {
     "name": "left_small",
     "componentName": "LeftSmallFilled",
     "style": "core-filled",
@@ -6263,6 +9679,20 @@
     "style": "core-filled",
     "file": "lemon-squeezy.svg",
     "category": "brands"
+  },
+  {
+    "name": "lens_concave",
+    "componentName": "LensConcaveFilled",
+    "style": "core-filled",
+    "file": "lens-concave.svg",
+    "category": "education"
+  },
+  {
+    "name": "lens_convex",
+    "componentName": "LensConvexFilled",
+    "style": "core-filled",
+    "file": "lens-convex.svg",
+    "category": "education"
   },
   {
     "name": "leo",
@@ -6286,6 +9716,13 @@
     "category": "zodiac"
   },
   {
+    "name": "library",
+    "componentName": "LibraryFilled",
+    "style": "core-filled",
+    "file": "library.svg",
+    "category": "education"
+  },
+  {
     "name": "lie_down",
     "componentName": "LieDownFilled",
     "style": "core-filled",
@@ -6300,6 +9737,13 @@
     "category": "locations"
   },
   {
+    "name": "ligature",
+    "componentName": "LigatureFilled",
+    "style": "core-filled",
+    "file": "ligature.svg",
+    "category": "editing"
+  },
+  {
     "name": "light_snow",
     "componentName": "LightSnowFilled",
     "style": "core-filled",
@@ -6311,6 +9755,13 @@
     "componentName": "LightFilled",
     "style": "core-filled",
     "file": "light.svg",
+    "category": "devices"
+  },
+  {
+    "name": "lightbulb_off",
+    "componentName": "LightbulbOffFilled",
+    "style": "core-filled",
+    "file": "lightbulb-off.svg",
     "category": "devices"
   },
   {
@@ -6335,10 +9786,24 @@
     "category": "brands"
   },
   {
+    "name": "line_dot_right_horizontal",
+    "componentName": "LineDotRightHorizontalFilled",
+    "style": "core-filled",
+    "file": "line-dot-right-horizontal.svg",
+    "category": "system"
+  },
+  {
     "name": "line_height",
     "componentName": "LineHeightFilled",
     "style": "core-filled",
     "file": "line-height.svg",
+    "category": "editing"
+  },
+  {
+    "name": "line_squiggle",
+    "componentName": "LineSquiggleFilled",
+    "style": "core-filled",
+    "file": "line-squiggle.svg",
     "category": "editing"
   },
   {
@@ -6412,10 +9877,38 @@
     "category": "editing"
   },
   {
+    "name": "list_check_4",
+    "componentName": "ListCheck4Filled",
+    "style": "core-filled",
+    "file": "list-check-4.svg",
+    "category": "editing"
+  },
+  {
     "name": "list_check",
     "componentName": "ListCheckFilled",
     "style": "core-filled",
     "file": "list-check.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_chevrons_down_up",
+    "componentName": "ListChevronsDownUpFilled",
+    "style": "core-filled",
+    "file": "list-chevrons-down-up.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_chevrons_up_down",
+    "componentName": "ListChevronsUpDownFilled",
+    "style": "core-filled",
+    "file": "list-chevrons-up-down.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_collapse_2",
+    "componentName": "ListCollapse2Filled",
+    "style": "core-filled",
+    "file": "list-collapse-2.svg",
     "category": "editing"
   },
   {
@@ -6426,10 +9919,45 @@
     "category": "editing"
   },
   {
+    "name": "list_end",
+    "componentName": "ListEndFilled",
+    "style": "core-filled",
+    "file": "list-end.svg",
+    "category": "editing"
+  },
+  {
     "name": "list_expansion",
     "componentName": "ListExpansionFilled",
     "style": "core-filled",
     "file": "list-expansion.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_filter_plus",
+    "componentName": "ListFilterPlusFilled",
+    "style": "core-filled",
+    "file": "list-filter-plus.svg",
+    "category": "system"
+  },
+  {
+    "name": "list_indent_decrease",
+    "componentName": "ListIndentDecreaseFilled",
+    "style": "core-filled",
+    "file": "list-indent-decrease.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_indent_increase",
+    "componentName": "ListIndentIncreaseFilled",
+    "style": "core-filled",
+    "file": "list-indent-increase.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_minus",
+    "componentName": "ListMinusFilled",
+    "style": "core-filled",
+    "file": "list-minus.svg",
     "category": "editing"
   },
   {
@@ -6440,10 +9968,45 @@
     "category": "editing"
   },
   {
+    "name": "list_plus",
+    "componentName": "ListPlusFilled",
+    "style": "core-filled",
+    "file": "list-plus.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_restart",
+    "componentName": "ListRestartFilled",
+    "style": "core-filled",
+    "file": "list-restart.svg",
+    "category": "editing"
+  },
+  {
     "name": "list_search",
     "componentName": "ListSearchFilled",
     "style": "core-filled",
     "file": "list-search.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_start",
+    "componentName": "ListStartFilled",
+    "style": "core-filled",
+    "file": "list-start.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_todo",
+    "componentName": "ListTodoFilled",
+    "style": "core-filled",
+    "file": "list-todo.svg",
+    "category": "editing"
+  },
+  {
+    "name": "list_x",
+    "componentName": "ListXFilled",
+    "style": "core-filled",
+    "file": "list-x.svg",
     "category": "editing"
   },
   {
@@ -6496,6 +10059,20 @@
     "category": "system"
   },
   {
+    "name": "locate_off",
+    "componentName": "LocateOffFilled",
+    "style": "core-filled",
+    "file": "locate-off.svg",
+    "category": "locations"
+  },
+  {
+    "name": "locate",
+    "componentName": "LocateFilled",
+    "style": "core-filled",
+    "file": "locate.svg",
+    "category": "locations"
+  },
+  {
     "name": "location_2",
     "componentName": "Location2Filled",
     "style": "core-filled",
@@ -6517,11 +10094,32 @@
     "category": "locations"
   },
   {
+    "name": "lock_2",
+    "componentName": "Lock2Filled",
+    "style": "core-filled",
+    "file": "lock-2.svg",
+    "category": "system"
+  },
+  {
+    "name": "lock_open",
+    "componentName": "LockOpenFilled",
+    "style": "core-filled",
+    "file": "lock-open.svg",
+    "category": "system"
+  },
+  {
     "name": "lock",
     "componentName": "LockFilled",
     "style": "core-filled",
     "file": "lock.svg",
     "category": "system"
+  },
+  {
+    "name": "logs",
+    "componentName": "LogsFilled",
+    "style": "core-filled",
+    "file": "logs.svg",
+    "category": "editing"
   },
   {
     "name": "lollipop",
@@ -6650,6 +10248,34 @@
     "category": "communication"
   },
   {
+    "name": "mail_badge",
+    "componentName": "MailBadgeFilled",
+    "style": "core-filled",
+    "file": "mail-badge.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_check",
+    "componentName": "MailCheckFilled",
+    "style": "core-filled",
+    "file": "mail-check.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_clock",
+    "componentName": "MailClockFilled",
+    "style": "core-filled",
+    "file": "mail-clock.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_minus",
+    "componentName": "MailMinusFilled",
+    "style": "core-filled",
+    "file": "mail-minus.svg",
+    "category": "communication"
+  },
+  {
     "name": "mail_open",
     "componentName": "MailOpenFilled",
     "style": "core-filled",
@@ -6657,10 +10283,52 @@
     "category": "communication"
   },
   {
+    "name": "mail_pen",
+    "componentName": "MailPenFilled",
+    "style": "core-filled",
+    "file": "mail-pen.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_plus",
+    "componentName": "MailPlusFilled",
+    "style": "core-filled",
+    "file": "mail-plus.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_question_mark",
+    "componentName": "MailQuestionMarkFilled",
+    "style": "core-filled",
+    "file": "mail-question-mark.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_search",
+    "componentName": "MailSearchFilled",
+    "style": "core-filled",
+    "file": "mail-search.svg",
+    "category": "communication"
+  },
+  {
     "name": "mail_send",
     "componentName": "MailSendFilled",
     "style": "core-filled",
     "file": "mail-send.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_warning",
+    "componentName": "MailWarningFilled",
+    "style": "core-filled",
+    "file": "mail-warning.svg",
+    "category": "communication"
+  },
+  {
+    "name": "mail_x",
+    "componentName": "MailXFilled",
+    "style": "core-filled",
+    "file": "mail-x.svg",
     "category": "communication"
   },
   {
@@ -6678,6 +10346,13 @@
     "category": "communication"
   },
   {
+    "name": "mails",
+    "componentName": "MailsFilled",
+    "style": "core-filled",
+    "file": "mails.svg",
+    "category": "communication"
+  },
+  {
     "name": "male",
     "componentName": "MaleFilled",
     "style": "core-filled",
@@ -6692,10 +10367,101 @@
     "category": "locations"
   },
   {
+    "name": "map_minus",
+    "componentName": "MapMinusFilled",
+    "style": "core-filled",
+    "file": "map-minus.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_check",
+    "componentName": "MapPinCheckFilled",
+    "style": "core-filled",
+    "file": "map-pin-check.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_house",
+    "componentName": "MapPinHouseFilled",
+    "style": "core-filled",
+    "file": "map-pin-house.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_minus_inside",
+    "componentName": "MapPinMinusInsideFilled",
+    "style": "core-filled",
+    "file": "map-pin-minus-inside.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_minus",
+    "componentName": "MapPinMinusFilled",
+    "style": "core-filled",
+    "file": "map-pin-minus.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_off",
+    "componentName": "MapPinOffFilled",
+    "style": "core-filled",
+    "file": "map-pin-off.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_pen",
+    "componentName": "MapPinPenFilled",
+    "style": "core-filled",
+    "file": "map-pin-pen.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_plus_inside",
+    "componentName": "MapPinPlusInsideFilled",
+    "style": "core-filled",
+    "file": "map-pin-plus-inside.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_plus",
+    "componentName": "MapPinPlusFilled",
+    "style": "core-filled",
+    "file": "map-pin-plus.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_search",
+    "componentName": "MapPinSearchFilled",
+    "style": "core-filled",
+    "file": "map-pin-search.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_x_inside",
+    "componentName": "MapPinXInsideFilled",
+    "style": "core-filled",
+    "file": "map-pin-x-inside.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_pin_x",
+    "componentName": "MapPinXFilled",
+    "style": "core-filled",
+    "file": "map-pin-x.svg",
+    "category": "locations"
+  },
+  {
     "name": "map_pin",
     "componentName": "MapPinFilled",
     "style": "core-filled",
     "file": "map-pin.svg",
+    "category": "locations"
+  },
+  {
+    "name": "map_plus",
+    "componentName": "MapPlusFilled",
+    "style": "core-filled",
+    "file": "map-plus.svg",
     "category": "locations"
   },
   {
@@ -6741,6 +10507,13 @@
     "category": "design"
   },
   {
+    "name": "mars_stroke",
+    "componentName": "MarsStrokeFilled",
+    "style": "core-filled",
+    "file": "mars-stroke.svg",
+    "category": "users"
+  },
+  {
     "name": "mastercard",
     "componentName": "MastercardFilled",
     "style": "core-filled",
@@ -6753,6 +10526,13 @@
     "style": "core-filled",
     "file": "mastodon.svg",
     "category": "brands"
+  },
+  {
+    "name": "mat",
+    "componentName": "MatFilled",
+    "style": "core-filled",
+    "file": "mat.svg",
+    "category": "miscellaneous"
   },
   {
     "name": "maya_pyramids",
@@ -6790,11 +10570,25 @@
     "category": "emoji"
   },
   {
+    "name": "memory_stick",
+    "componentName": "MemoryStickFilled",
+    "style": "core-filled",
+    "file": "memory-stick.svg",
+    "category": "devices"
+  },
+  {
     "name": "menu",
     "componentName": "MenuFilled",
     "style": "core-filled",
     "file": "menu.svg",
     "category": "editing"
+  },
+  {
+    "name": "merge",
+    "componentName": "MergeFilled",
+    "style": "core-filled",
+    "file": "merge.svg",
+    "category": "development"
   },
   {
     "name": "message_1_ai",
@@ -6850,6 +10644,195 @@
     "componentName": "Message4Filled",
     "style": "core-filled",
     "file": "message-4.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_check",
+    "componentName": "MessageCircleCheckFilled",
+    "style": "core-filled",
+    "file": "message-circle-check.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_code",
+    "componentName": "MessageCircleCodeFilled",
+    "style": "core-filled",
+    "file": "message-circle-code.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_dashed",
+    "componentName": "MessageCircleDashedFilled",
+    "style": "core-filled",
+    "file": "message-circle-dashed.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_heart",
+    "componentName": "MessageCircleHeartFilled",
+    "style": "core-filled",
+    "file": "message-circle-heart.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_off",
+    "componentName": "MessageCircleOffFilled",
+    "style": "core-filled",
+    "file": "message-circle-off.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_plus",
+    "componentName": "MessageCirclePlusFilled",
+    "style": "core-filled",
+    "file": "message-circle-plus.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_question_mark",
+    "componentName": "MessageCircleQuestionMarkFilled",
+    "style": "core-filled",
+    "file": "message-circle-question-mark.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_reply",
+    "componentName": "MessageCircleReplyFilled",
+    "style": "core-filled",
+    "file": "message-circle-reply.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_warning",
+    "componentName": "MessageCircleWarningFilled",
+    "style": "core-filled",
+    "file": "message-circle-warning.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_circle_x",
+    "componentName": "MessageCircleXFilled",
+    "style": "core-filled",
+    "file": "message-circle-x.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_check",
+    "componentName": "MessageSquareCheckFilled",
+    "style": "core-filled",
+    "file": "message-square-check.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_code",
+    "componentName": "MessageSquareCodeFilled",
+    "style": "core-filled",
+    "file": "message-square-code.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_dashed",
+    "componentName": "MessageSquareDashedFilled",
+    "style": "core-filled",
+    "file": "message-square-dashed.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_diff",
+    "componentName": "MessageSquareDiffFilled",
+    "style": "core-filled",
+    "file": "message-square-diff.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_dot",
+    "componentName": "MessageSquareDotFilled",
+    "style": "core-filled",
+    "file": "message-square-dot.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_heart",
+    "componentName": "MessageSquareHeartFilled",
+    "style": "core-filled",
+    "file": "message-square-heart.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_lock",
+    "componentName": "MessageSquareLockFilled",
+    "style": "core-filled",
+    "file": "message-square-lock.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_more",
+    "componentName": "MessageSquareMoreFilled",
+    "style": "core-filled",
+    "file": "message-square-more.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_off",
+    "componentName": "MessageSquareOffFilled",
+    "style": "core-filled",
+    "file": "message-square-off.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_plus",
+    "componentName": "MessageSquarePlusFilled",
+    "style": "core-filled",
+    "file": "message-square-plus.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_quote",
+    "componentName": "MessageSquareQuoteFilled",
+    "style": "core-filled",
+    "file": "message-square-quote.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_reply",
+    "componentName": "MessageSquareReplyFilled",
+    "style": "core-filled",
+    "file": "message-square-reply.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_share",
+    "componentName": "MessageSquareShareFilled",
+    "style": "core-filled",
+    "file": "message-square-share.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_text",
+    "componentName": "MessageSquareTextFilled",
+    "style": "core-filled",
+    "file": "message-square-text.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_warning",
+    "componentName": "MessageSquareWarningFilled",
+    "style": "core-filled",
+    "file": "message-square-warning.svg",
+    "category": "communication"
+  },
+  {
+    "name": "message_square_x",
+    "componentName": "MessageSquareXFilled",
+    "style": "core-filled",
+    "file": "message-square-x.svg",
+    "category": "communication"
+  },
+  {
+    "name": "messages_square",
+    "componentName": "MessagesSquareFilled",
+    "style": "core-filled",
+    "file": "messages-square.svg",
     "category": "communication"
   },
   {
@@ -6928,6 +10911,13 @@
     "style": "core-filled",
     "file": "midi.svg",
     "category": "devices"
+  },
+  {
+    "name": "milk",
+    "componentName": "MilkFilled",
+    "style": "core-filled",
+    "file": "milk.svg",
+    "category": "food"
   },
   {
     "name": "mind_map",
@@ -7056,6 +11046,13 @@
     "category": "weather"
   },
   {
+    "name": "moon_sleep",
+    "componentName": "MoonSleepFilled",
+    "style": "core-filled",
+    "file": "moon-sleep.svg",
+    "category": "weather"
+  },
+  {
     "name": "moon_stars",
     "componentName": "MoonStarsFilled",
     "style": "core-filled",
@@ -7152,6 +11149,13 @@
     "style": "core-filled",
     "file": "move.svg",
     "category": "arrow"
+  },
+  {
+    "name": "movie_2",
+    "componentName": "Movie2Filled",
+    "style": "core-filled",
+    "file": "movie-2.svg",
+    "category": "media"
   },
   {
     "name": "movie",
@@ -7404,6 +11408,13 @@
     "style": "core-filled",
     "file": "openai.svg",
     "category": "brands"
+  },
+  {
+    "name": "orange",
+    "componentName": "OrangeFilled",
+    "style": "core-filled",
+    "file": "orange.svg",
+    "category": "nature"
   },
   {
     "name": "package_2",
@@ -8064,11 +12075,53 @@
     "category": "system"
   },
   {
+    "name": "profile_2",
+    "componentName": "Profile2Filled",
+    "style": "core-filled",
+    "file": "profile-2.svg",
+    "category": "users"
+  },
+  {
     "name": "profile",
     "componentName": "ProfileFilled",
     "style": "core-filled",
     "file": "profile.svg",
     "category": "files"
+  },
+  {
+    "name": "progress_100",
+    "componentName": "Progress100Filled",
+    "style": "core-filled",
+    "file": "progress-100.svg",
+    "category": "system"
+  },
+  {
+    "name": "progress_25",
+    "componentName": "Progress25Filled",
+    "style": "core-filled",
+    "file": "progress-25.svg",
+    "category": "system"
+  },
+  {
+    "name": "progress_50",
+    "componentName": "Progress50Filled",
+    "style": "core-filled",
+    "file": "progress-50.svg",
+    "category": "system"
+  },
+  {
+    "name": "progress_75",
+    "componentName": "Progress75Filled",
+    "style": "core-filled",
+    "file": "progress-75.svg",
+    "category": "system"
+  },
+  {
+    "name": "progress_arc",
+    "componentName": "ProgressArcFilled",
+    "style": "core-filled",
+    "file": "progress-arc.svg",
+    "category": "system"
   },
   {
     "name": "projector_screen",
@@ -8183,17 +12236,17 @@
     "category": "nature"
   },
   {
-    "name": "rada",
-    "componentName": "RadaFilled",
-    "style": "core-filled",
-    "file": "rada.svg",
-    "category": "devices"
-  },
-  {
     "name": "radar_2",
     "componentName": "Radar2Filled",
     "style": "core-filled",
     "file": "radar-2.svg",
+    "category": "devices"
+  },
+  {
+    "name": "radar",
+    "componentName": "RadarFilled",
+    "style": "core-filled",
+    "file": "radar.svg",
     "category": "devices"
   },
   {
@@ -8715,6 +12768,13 @@
     "category": "design"
   },
   {
+    "name": "run_2",
+    "componentName": "Run2Filled",
+    "style": "core-filled",
+    "file": "run-2.svg",
+    "category": "sports"
+  },
+  {
     "name": "run_treadmill",
     "componentName": "RunTreadmillFilled",
     "style": "core-filled",
@@ -9149,6 +13209,20 @@
     "category": "system"
   },
   {
+    "name": "settings_horizontal",
+    "componentName": "SettingsHorizontalFilled",
+    "style": "core-filled",
+    "file": "settings-horizontal.svg",
+    "category": "system"
+  },
+  {
+    "name": "settings_vertical",
+    "componentName": "SettingsVerticalFilled",
+    "style": "core-filled",
+    "file": "settings-vertical.svg",
+    "category": "system"
+  },
+  {
     "name": "shadow",
     "componentName": "ShadowFilled",
     "style": "core-filled",
@@ -9315,6 +13389,62 @@
     "style": "core-filled",
     "file": "sick.svg",
     "category": "emoji"
+  },
+  {
+    "name": "sidebar_left_close",
+    "componentName": "SidebarLeftCloseFilled",
+    "style": "core-filled",
+    "file": "sidebar-left-close.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_left_collapse",
+    "componentName": "SidebarLeftCollapseFilled",
+    "style": "core-filled",
+    "file": "sidebar-left-collapse.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_left_open",
+    "componentName": "SidebarLeftOpenFilled",
+    "style": "core-filled",
+    "file": "sidebar-left-open.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_left",
+    "componentName": "SidebarLeftFilled",
+    "style": "core-filled",
+    "file": "sidebar-left.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_right_close",
+    "componentName": "SidebarRightCloseFilled",
+    "style": "core-filled",
+    "file": "sidebar-right-close.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_right_collapse",
+    "componentName": "SidebarRightCollapseFilled",
+    "style": "core-filled",
+    "file": "sidebar-right-collapse.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_right_open",
+    "componentName": "SidebarRightOpenFilled",
+    "style": "core-filled",
+    "file": "sidebar-right-open.svg",
+    "category": "design"
+  },
+  {
+    "name": "sidebar_right",
+    "componentName": "SidebarRightFilled",
+    "style": "core-filled",
+    "file": "sidebar-right.svg",
+    "category": "design"
   },
   {
     "name": "signal",
@@ -10178,6 +14308,34 @@
     "category": "editing"
   },
   {
+    "name": "text_align_center",
+    "componentName": "TextAlignCenterFilled",
+    "style": "core-filled",
+    "file": "text-align-center.svg",
+    "category": "editing"
+  },
+  {
+    "name": "text_align_end",
+    "componentName": "TextAlignEndFilled",
+    "style": "core-filled",
+    "file": "text-align-end.svg",
+    "category": "editing"
+  },
+  {
+    "name": "text_align_justify",
+    "componentName": "TextAlignJustifyFilled",
+    "style": "core-filled",
+    "file": "text-align-justify.svg",
+    "category": "editing"
+  },
+  {
+    "name": "text_align_start",
+    "componentName": "TextAlignStartFilled",
+    "style": "core-filled",
+    "file": "text-align-start.svg",
+    "category": "editing"
+  },
+  {
     "name": "text_area",
     "componentName": "TextAreaFilled",
     "style": "core-filled",
@@ -10682,6 +14840,13 @@
     "category": "weather"
   },
   {
+    "name": "typography",
+    "componentName": "TypographyFilled",
+    "style": "core-filled",
+    "file": "typography.svg",
+    "category": "editing"
+  },
+  {
     "name": "tyre",
     "componentName": "TyreFilled",
     "style": "core-filled",
@@ -11032,6 +15197,20 @@
     "category": "users"
   },
   {
+    "name": "utensils",
+    "componentName": "UtensilsFilled",
+    "style": "core-filled",
+    "file": "utensils.svg",
+    "category": "food"
+  },
+  {
+    "name": "vase",
+    "componentName": "VaseFilled",
+    "style": "core-filled",
+    "file": "vase.svg",
+    "category": "miscellaneous"
+  },
+  {
     "name": "vector_bezier_2",
     "componentName": "VectorBezier2Filled",
     "style": "core-filled",
@@ -11058,6 +15237,13 @@
     "style": "core-filled",
     "file": "vector-group.svg",
     "category": "design"
+  },
+  {
+    "name": "venus_and_mars",
+    "componentName": "VenusAndMarsFilled",
+    "style": "core-filled",
+    "file": "venus-and-mars.svg",
+    "category": "users"
   },
   {
     "name": "version",
@@ -11198,6 +15384,13 @@
     "style": "core-filled",
     "file": "volleyball.svg",
     "category": "sports"
+  },
+  {
+    "name": "volume_low",
+    "componentName": "VolumeLowFilled",
+    "style": "core-filled",
+    "file": "volume-low.svg",
+    "category": "media"
   },
   {
     "name": "volume_mute",
@@ -11373,6 +15566,13 @@
     "style": "core-filled",
     "file": "web.svg",
     "category": "development"
+  },
+  {
+    "name": "webhook_2",
+    "componentName": "Webhook2Filled",
+    "style": "core-filled",
+    "file": "webhook-2.svg",
+    "category": "system"
   },
   {
     "name": "webhook",

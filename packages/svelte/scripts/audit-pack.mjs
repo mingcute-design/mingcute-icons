@@ -22,7 +22,7 @@ try {
   console.table({ package: `${report.name}@${report.version}`, files: files.length,
     iconComponents: icons.length, styleIndexes: indexes.length, sourceFiles: sources.length,
     sourceMaps: maps.length, unpackedBytes: report.unpackedSize });
-  if (icons.length !== 3_326 || indexes.length !== 2 || sources.length || maps.length) {
+  if (icons.length !== 4_526 || indexes.length !== 2 || sources.length || maps.length) {
     throw new Error('Svelte packed-artifact audit failed.');
   }
   console.log('Svelte packed-artifact audit passed.');

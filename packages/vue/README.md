@@ -1,30 +1,30 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/vue</h1>
 
-<h3 align="center">Typed, tree-shakeable Mingcute icons for Vue</h3>
+<h3 align="center">Typed, tree-shakeable MingCute icons for Vue</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/vue"><img src="https://img.shields.io/npm/v/@mingcute/vue?color=007AFF&label=version" alt="@mingcute/vue npm version" /></a>&nbsp;
   <a href="https://bundlephobia.com/package/@mingcute/vue"><img src="https://img.shields.io/bundlephobia/minzip/@mingcute/vue?color=007AFF&label=gzip" alt="@mingcute/vue minified and gzipped size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/vue"><img src="https://img.shields.io/npm/dm/@mingcute/vue?color=23AF5F&label=downloads" alt="@mingcute/vue monthly npm downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
 
 ## Overview
 
-`@mingcute/vue` provides typed Vue components for the public Mingcute Core Regular and Core Filled icon styles.
+`@mingcute/vue` provides typed Vue components for the public MingCute Core Regular and Core Filled icon styles.
 
 The package focuses on Vue rendering, accessibility, prop precedence, attribute forwarding, and server-rendered hydration. Canonical icon geometry comes from `@mingcute/icons`, so the Vue adapter does not duplicate the icon catalogue.
 
 ## Highlights
 
-- **3,326 styled definitions:** 1,663 icons in Core Regular and Core Filled.
+- **4,526 styled definitions:** 2,263 icons in Core Regular and Core Filled.
 - **Typed Vue components:** generated TypeScript declarations and SVG-compatible props.
 - **Tree-shakeable imports:** style entry points and direct icon subpaths.
 - **Accessible defaults:** icons remain decorative unless given an accessible title or label.
@@ -32,7 +32,7 @@ The package focuses on Vue rendering, accessibility, prop precedence, attribute 
 - **Shared geometry:** all icon data comes from `@mingcute/icons`.
 
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="Mingcute icons used in product interfaces" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="MingCute icons used in product interfaces" width="100%" />
 </a>
 
 ## Installation
@@ -144,7 +144,7 @@ The renderer uses stable Vue IDs to scope SVG resources and title associations.
 
 For reliable hydration:
 
-- use the same Mingcute package version on the server and client;
+- use the same MingCute package version on the server and client;
 - render the same component tree on both sides;
 - avoid changing icon order during hydration; and
 - preserve stable keys when rendering icon lists.
@@ -153,11 +153,24 @@ For reliable hydration:
 
 | Import subpath | Style | Icons |
 |---|---|---:|
-| `core-regular` | Core Regular | 1,663 |
-| `core-filled` | Core Filled | 1,663 |
-| **Total** | **All public styles** | **3,326** |
+| `core-regular` | Core Regular | 2,263 |
+| `core-filled` | Core Filled | 2,263 |
+| **Total** | **All public styles** | **4,526** |
 
-Additional Core, Cute, and Sharp styles are available in Mingcute Pro.
+Additional Core, Cute, and Sharp styles are available in [MingCute Pro](https://mgc.mingcute.com/).
+
+## Free and Pro
+
+| Capability          | MingCute Icons               | MingCute Pro                                 |
+| ------------------- | ---------------------------- | -------------------------------------------- |
+| Families and styles | Core Regular and Core Filled | 12 Core, Cute, and Sharp style combinations  |
+| Styled definitions  | 4,526                        | 27,360                                       |
+| Package names       | `@mingcute/*`                | `@mingcute/*-pro`                            |
+| Distribution        | Public npm registry          | Private MingCute registry                    |
+| Access              | No account or CLI required   | Active Pro entitlement and CLI configuration |
+| License             | Apache-2.0                   | MingCute Pro Commercial License              |
+
+The public and Pro packages use the same framework conventions and import structure. This makes migration straightforward while keeping the source repositories and licensing boundaries separate.
 
 ## Production Guidance
 
@@ -203,7 +216,7 @@ Pass attributes to the icon component itself. Supported Vue SVG attributes, clas
 
 ### An SSR hydration warning appears
 
-Confirm that the server and client use the same Mingcute version and render the same icon tree in the same order.
+Confirm that the server and client use the same MingCute version and render the same icon tree in the same order.
 
 ### The production bundle is larger than expected
 
@@ -217,7 +230,7 @@ This package is generated from canonical SVG sources. Do not edit generated outp
 pnpm --filter @mingcute/vue check
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -225,7 +238,9 @@ Licensed under the [Apache License 2.0](../../LICENSE).
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
-- [Mingcute Icons packages](../../README.md#packages)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
+- [MingCute Icons packages](../../README.md#packages)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

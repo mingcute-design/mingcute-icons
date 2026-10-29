@@ -1,30 +1,30 @@
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="Mingcute Icon System" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner1.png" alt="MingCute Icon System" width="100%" />
 </a>
 
 <h1 align="center">@mingcute/font</h1>
 
-<h3 align="center">Mingcute WOFF2 fonts, CSS classes, and stable codepoints</h3>
+<h3 align="center">MingCute WOFF2 fonts, CSS classes, and stable codepoints</h3>
 
 <p align="center">
-  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="Mingcute website" /></a>&nbsp;
+  <a href="https://www.mingcute.com/"><img src="https://img.shields.io/badge/mingcute.com-website-007AFF" alt="MingCute website" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/font"><img src="https://img.shields.io/npm/v/@mingcute/font?color=007AFF&label=version" alt="@mingcute/font npm version" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/font"><img src="https://img.shields.io/npm/unpacked-size/%40mingcute%2Ffont?color=007AFF&label=size" alt="@mingcute/font unpacked package size" /></a>&nbsp;
   <a href="https://www.npmjs.com/package/@mingcute/font"><img src="https://img.shields.io/npm/dm/@mingcute/font?color=23AF5F&label=downloads" alt="@mingcute/font monthly npm downloads" /></a>&nbsp;
-  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="Mingcute GitHub stars" /></a>
+  <a href="https://github.com/mingcute-design/mingcute-icons/stargazers"><img src="https://img.shields.io/github/stars/mingcute-design/mingcute-icons?color=007AFF&style=flat" alt="MingCute GitHub stars" /></a>
 </p>
 
 ---
 
 ## Overview
 
-`@mingcute/font` provides Mingcute icons as WOFF2 fonts with generated CSS classes and stable codepoint metadata.
+`@mingcute/font` provides MingCute icons as WOFF2 fonts with generated CSS classes and stable codepoint metadata.
 
 It is designed for stylesheet-based applications, server-rendered templates, legacy interfaces, and environments where framework components are not practical.
 
 ## Highlights
 
-- **3,326 styled glyphs:** 1,663 icons in Core Regular and Core Filled.
+- **4,526 styled glyphs:** 2,263 icons in Core Regular and Core Filled.
 - **WOFF2 output:** optimized for modern browsers.
 - **Generated CSS classes:** predictable names with explicit style suffixes.
 - **Stable codepoints:** one append-only ledger shared across styles.
@@ -32,7 +32,7 @@ It is designed for stylesheet-based applications, server-rendered templates, leg
 - **Bundler-safe CSS:** stylesheet imports are preserved as side effects.
 
 <a href="https://www.mingcute.com/">
-  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="Mingcute icons used in product interfaces" width="100%" />
+  <img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner2.png" alt="MingCute icons used in product interfaces" width="100%" />
 </a>
 
 ## Installation
@@ -127,9 +127,9 @@ Do not rely on the private-use glyph as accessible text. Screen readers cannot i
 
 | Import subpath | Style | Icons |
 |---|---|---:|
-| `core-regular` | Core Regular | 1,663 |
-| `core-filled` | Core Filled | 1,663 |
-| **Total** | **All public styles** | **3,326** |
+| `core-regular` | Core Regular | 2,263 |
+| `core-filled` | Core Filled | 2,263 |
+| **Total** | **All public styles** | **4,526** |
 
 ## Production Guidance
 
@@ -185,7 +185,7 @@ This package is generated from canonical SVG sources and the checked-in codepoin
 pnpm --filter @mingcute/font check
 ```
 
-<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable Mingcute vector construction" width="100%" />
+<img src="https://raw.githubusercontent.com/mingcute-design/mingcute-icons/main/images/banner3.png" alt="Editable MingCute vector construction" width="100%" />
 
 ## License
 
@@ -193,7 +193,9 @@ Licensed under the [Apache License 2.0](../../LICENSE).
 
 ## Links
 
-- [Mingcute website](https://www.mingcute.com/)
+- [MingCute website](https://www.mingcute.com/)
 - [Package changelog](./CHANGELOG.md)
-- [Mingcute Icons packages](../../README.md#packages)
+- [Icon keywords](../../doc/Keywords.md)
+- [Icon mapping](../../doc/Mapping.md)
+- [MingCute Icons packages](../../README.md#packages)
 - [Repository](https://github.com/mingcute-design/mingcute-icons)

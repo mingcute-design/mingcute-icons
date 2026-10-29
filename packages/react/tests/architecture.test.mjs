@@ -28,7 +28,7 @@ test('package root exports utilities only and style modules remain isolated', as
 test('every generated icon is an independent pure module', async () => {
   const iconDirectory = path.join(packageRoot, 'dist/styles/core-regular');
   const iconFiles = (await readdir(iconDirectory)).filter((name) => name.endsWith('.js'));
-  assert.equal(iconFiles.length, 1663);
+  assert.equal(iconFiles.length, 2263);
   const home = await readFile(path.join(iconDirectory, 'home-1.js'), 'utf8');
   assert.match(home, /\/\* @__PURE__ \*\/ createIcon/);
   assert.doesNotMatch(home, /User1Regular|\.\/regular\.js/);
@@ -57,7 +57,7 @@ test('public package subpaths resolve while the root remains utility-only', asyn
   const style = await import('@mingcute/react/core-regular');
   const direct = await import('@mingcute/react/core-regular/home-1');
   assert.deepEqual(Object.keys(root), ['Icon']);
-  assert.equal(Object.keys(style).length, 1663);
+  assert.equal(Object.keys(style).length, 2263);
   assert.equal(typeof style.Home1Regular, 'object');
   assert.deepEqual(Object.keys(direct), ['Home1Regular', 'default']);
 });
