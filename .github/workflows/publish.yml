@@ -26,7 +26,6 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version-file: .node-version
-          registry-url: https://registry.npmjs.org
 
       - name: Use npm trusted publishing CLI
         run: npm install -g npm@11.5.1
@@ -41,4 +40,9 @@ jobs:
         run: pnpm build
 
       - name: Publish public packages
-        run: pnpm -r publish --access public --no-git-checks --provenance
+        env:
+          NPM_CONFIG_PROVENANCE: "true"
+        run: |
+          unset NODE_AUTH_TOKEN
+          rm -f "$RUNNER_TEMP/.npmrc"
+          pnpm -r publish --access public --no-git-checks --provenance

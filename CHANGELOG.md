@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Restored tag-triggered npm publishing in `.github/workflows/publish.yml`.
+- Publish through npm OIDC without an empty registry auth token.
 
 ## [3.1.0] - 2026-10-29
 
