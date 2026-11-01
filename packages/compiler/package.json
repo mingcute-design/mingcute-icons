@@ -39,7 +39,7 @@
   "dependencies": {
     "@mingcute/core": "workspace:*",
     "saxes": "^6.0.0",
-    "svgo": "^3.3.4"
+    "svgo": "^3.3.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

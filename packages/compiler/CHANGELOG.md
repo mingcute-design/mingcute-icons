@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Security
+
+- Updated SVGO from 3.3.4 to 3.3.5.
+- Resolved source-map-js 1.2.2 through the SVGO dependency tree.
+
 ## [3.0.1] - 2026-07-30
 
 ### Documentation
