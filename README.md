@@ -585,6 +585,8 @@ Bug reports should include:
 
 All 10 public packages use the coordinated version defined in `release.json`.
 
+Pushes to `main` only run validation. Pushing a `v*` tag runs `.github/workflows/publish.yml`, which builds the workspace and publishes the 10 public packages to npm. Private packages are skipped.
+
 A release is complete only when every package passes:
 
 * build checks;

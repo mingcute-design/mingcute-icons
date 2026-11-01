@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Updated SVGO to 3.3.5 and source-map-js to 1.2.2 so the production dependency audit no longer reports high-severity advisories.
 
+### Changed
+
+- Restored tag-triggered npm publishing in `.github/workflows/publish.yml`.
+
 ## [3.1.0] - 2026-10-29
 
 ### Added
