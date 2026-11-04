@@ -1,8 +1,8 @@
 # Changelog - @mingcute/web-components
 
-## [4.0.0] - 2026-11-04
+## [3.2.0] - 2026-11-04
 
-### Breaking changes
+### Artwork and naming updates
 
 - Use the current designer v1.60 icon names without legacy name aliases.
 - Use the canonical `assets/stroke` collection and generated package subpaths.
