@@ -5,7 +5,7 @@ import { iconStyles, toKebabCase } from '@mingcute/core';
 
 const packageRoot = path.resolve(import.meta.dirname, '..');
 const workspaceRoot = path.resolve(packageRoot, '../..');
-const sourceRoot = path.join(workspaceRoot, 'assets/stroke');
+const sourceRoot = path.join(workspaceRoot, 'assets/svg');
 const fixturePath = path.join(packageRoot, 'tests/render-fixtures.html');
 const angular = [];
 const masked = [];

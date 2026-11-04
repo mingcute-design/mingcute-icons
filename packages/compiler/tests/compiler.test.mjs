@@ -223,7 +223,7 @@ test('derives names, category, and component names from a source file', async ()
 
 test('compiles representative real sources with leaf, gradient, and Figma paint forms', async () => {
   const workspace = path.resolve(import.meta.dirname, '../../..');
-  const sourceRoot = path.join(workspace, 'assets/stroke');
+  const sourceRoot = path.join(workspace, 'assets/svg');
   const sources = await discoverIconSources(sourceRoot, 'core-regular');
   for (const name of ['camera', 'loading']) {
     const source = sources.find((candidate) => candidate.name === name);

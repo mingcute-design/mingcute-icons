@@ -4,7 +4,7 @@ import { compileIconSource, discoverIconSources } from '@mingcute/compiler';
 import { iconStyles } from '@mingcute/core';
 import { vanillaAdapter } from '../.tooling/adapter.js';
 const packageRoot = path.resolve(import.meta.dirname, '..');
-const sourceRoot = path.resolve(packageRoot, '../../assets/stroke');
+const sourceRoot = path.resolve(packageRoot, '../../assets/svg');
 const manifest = JSON.parse(await readFile(path.join(packageRoot, 'package.json'), 'utf8'));
 let total = 0;
 for (const style of iconStyles) {

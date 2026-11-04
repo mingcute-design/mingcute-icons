@@ -27,12 +27,12 @@ test('internal build packages cannot be published', async () => {
 });
 
 test('the public asset corpus contains only Core Regular and Filled', async () => {
-  const manifest = JSON.parse(await readFile(path.join(rootDir, 'assets/stroke/manifest.json'), 'utf8'));
+  const manifest = JSON.parse(await readFile(path.join(rootDir, 'assets/svg/manifest.json'), 'utf8'));
   assert.equal(manifest.count, 4526);
   assert.equal(manifest.entries.length, 4526);
   assert.deepEqual([...new Set(manifest.entries.map(({ packageStyle }) => packageStyle))].sort(), ['core-filled', 'core-regular']);
   assert.equal(manifest.entries.every(({ path: sourcePath }) => /^core\/(?:regular|filled)\//.test(sourcePath)), true);
-  assert.deepEqual((await readdir(path.join(rootDir, 'assets/stroke/core'))).sort(), ['filled', 'regular']);
+  assert.deepEqual((await readdir(path.join(rootDir, 'assets/svg/core'))).sort(), ['filled', 'regular']);
 });
 
 test('the public repository contains no private delivery infrastructure', async () => {

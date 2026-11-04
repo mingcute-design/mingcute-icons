@@ -5,7 +5,7 @@ import { iconStyles, toKebabCase, toPascalCase } from '@mingcute/core';
 
 const packageRoot = path.resolve(import.meta.dirname, '..');
 const workspaceRoot = path.resolve(packageRoot, '../..');
-const sourceRoot = path.join(workspaceRoot, 'assets/stroke');
+const sourceRoot = path.join(workspaceRoot, 'assets/svg');
 let total = 0;
 const styles = [];
 

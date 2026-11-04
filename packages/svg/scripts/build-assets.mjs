@@ -6,7 +6,7 @@ import { svgAdapter } from '../dist/index.js';
 
 const packageRoot = path.resolve(import.meta.dirname, '..');
 const workspaceRoot = path.resolve(packageRoot, '../..');
-const sourceRoot = path.join(workspaceRoot, 'assets/stroke');
+const sourceRoot = path.join(workspaceRoot, 'assets/svg');
 const manifest = JSON.parse(await readFile(path.join(packageRoot, 'package.json'), 'utf8'));
 let total = 0;
 

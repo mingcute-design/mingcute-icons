@@ -3,7 +3,7 @@ import { iconStyles } from '@mingcute/core';
 import { compileIconSource, discoverIconSources } from '../dist/index.js';
 
 const workspaceRoot = path.resolve(import.meta.dirname, '../../..');
-const svgRoot = path.join(workspaceRoot, 'assets/stroke');
+const svgRoot = path.join(workspaceRoot, 'assets/svg');
 let total = 0;
 const diagnostics = new Map();
 

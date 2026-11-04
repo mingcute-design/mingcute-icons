@@ -4,25 +4,25 @@ import { compileIconSource, discoverIconSources } from '../packages/compiler/dis
 import { definitionToOutlineDefinition } from '../packages/font/.tooling/glyph.js';
 
 const root = path.resolve(import.meta.dirname, '..');
-const strokeRoot = path.join(root, 'assets/stroke');
+const svgRoot = path.join(root, 'assets/svg');
 const outlineRoot = path.join(root, 'assets/outline');
-const manifest = JSON.parse(await readFile(path.join(strokeRoot, 'manifest.json'), 'utf8'));
+const manifest = JSON.parse(await readFile(path.join(svgRoot, 'manifest.json'), 'utf8'));
 const styles = ['core-regular', 'core-filled'];
 
 await rm(outlineRoot, { recursive: true, force: true, maxRetries: 8, retryDelay: 100 });
 await mkdir(outlineRoot, { recursive: true });
 let generated = 0;
 for (const style of styles) {
-  for (const source of await discoverIconSources(strokeRoot, style)) {
+  for (const source of await discoverIconSources(svgRoot, style)) {
     const { definition } = await compileIconSource(source);
     const outline = definitionToOutlineDefinition(definition);
-    const destination = path.join(outlineRoot, path.relative(strokeRoot, source.sourcePath));
+    const destination = path.join(outlineRoot, path.relative(svgRoot, source.sourcePath));
     await mkdir(path.dirname(destination), { recursive: true });
     await writeFile(destination, serialize(outline));
     generated += 1;
   }
 }
-await writeFile(path.join(outlineRoot, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
+await writeFile(path.join(outlineRoot, 'manifest.json'), `${JSON.stringify({ ...manifest, outputDir: 'assets/outline' }, null, 2)}\n`);
 console.log(`Generated outline assets: ${generated}`);
 
 function serialize(definition) {

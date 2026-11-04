@@ -5,7 +5,7 @@
 ### Artwork and naming updates
 
 - Use the current designer v1.60 icon names without legacy name aliases.
-- Use the canonical `assets/stroke` collection and generated package subpaths.
+- Use the canonical `assets/svg` collection and generated package subpaths.
 - Preserve upstream font codepoints for matching canonical names; retire removed names and allocate new names without reusing codepoints.
 
 ### Rendering
