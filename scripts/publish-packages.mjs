@@ -6,6 +6,9 @@ import { discoverReleasePackages, loadReleasePolicy, validateRelease } from './r
 
 const rootDir = path.resolve(import.meta.dirname, '..');
 const dryRun = process.argv.includes('--dry-run');
+const accountIndex = process.argv.indexOf('--account');
+const account = accountIndex === -1 ? undefined : process.argv[accountIndex + 1];
+if (accountIndex !== -1 && (!account || account.startsWith('--'))) throw new Error('--account requires an npm username.');
 const policy = await loadReleasePolicy(rootDir);
 const packages = await discoverReleasePackages(rootDir);
 validateRelease(policy, packages);
@@ -20,7 +23,10 @@ function requireSuccess(result, label) {
 }
 
 const npmVersion = requireSuccess(run('npm', ['--version']), 'Read npm version').trim();
-if (!dryRun) {
+if (!dryRun && account) {
+  const identity = requireSuccess(run('npm', ['whoami', '--registry=https://registry.npmjs.org/']), 'Verify npm publishing identity').trim();
+  if (identity !== account) throw new Error(`Expected npm account ${account}; found ${identity}.`);
+} else if (!dryRun) {
   const [major, minor, patch] = npmVersion.split('.').map(Number);
   if (major < 11 || (major === 11 && (minor < 5 || (minor === 5 && patch < 1)))) {
     throw new Error(`Trusted publishing requires npm >=11.5.1; found ${npmVersion}.`);
@@ -29,7 +35,7 @@ if (!dryRun) {
     throw new Error('Publish from the GitHub workflow with id-token: write. Use --dry-run for local validation.');
   }
 }
-console.log(`Using npm ${npmVersion}; ${dryRun ? 'dry-run' : 'GitHub OIDC publish'} for ${packages.length} allowlisted packages.`);
+console.log(`Using npm ${npmVersion}; ${dryRun ? 'dry-run' : account ? `publish as ${account}` : 'GitHub OIDC publish'} for ${packages.length} allowlisted packages.`);
 const temporary = await mkdtemp(path.join(os.tmpdir(), 'mingcute-public-release-'));
 try {
   for (const { directory, manifest } of packages) {
@@ -48,7 +54,8 @@ try {
       throw new Error(`Packed manifest is not installable or differs from policy: ${manifest.name}`);
     }
     const args = ['publish', archive, '--access=public', '--registry=https://registry.npmjs.org/', '--loglevel=warn'];
-    args.push(dryRun ? '--dry-run' : '--provenance');
+    if (dryRun) args.push('--dry-run');
+    else if (!account) args.push('--provenance');
     requireSuccess(run('npm', args), `Publish ${manifest.name}`);
     console.log(`${dryRun ? 'Validated archive' : 'Published'}: ${manifest.name}@${manifest.version}`);
   }
