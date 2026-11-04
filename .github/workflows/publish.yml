@@ -45,4 +45,4 @@ jobs:
         run: |
           unset NODE_AUTH_TOKEN
           rm -f "$RUNNER_TEMP/.npmrc"
-          pnpm -r publish --access public --no-git-checks --provenance
+          node scripts/publish-packages.mjs
