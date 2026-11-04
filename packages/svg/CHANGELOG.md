@@ -1,6 +1,6 @@
 # Changelog - @mingcute/svg
 
-## [3.2.0] - 2026-11-04
+## [3.1.0] - 2026-11-04
 
 ### Artwork and naming updates
 
@@ -13,7 +13,7 @@
 - Preserve outer mask compositing and fixed Original brand colors in SVG/framework output.
 - Build 4,526 Core Regular/Filled definitions, SVGs, and font glyphs from the current artwork.
 
-## [3.1.0] - 2026-10-29
+### Previously prepared artwork expansion
 
 ### Added
 

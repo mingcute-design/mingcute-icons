@@ -1,6 +1,6 @@
 # Changelog - MingCute Icons
 
-## [3.2.0] - 2026-11-04
+## [3.1.0] - 2026-11-04
 
 ### Artwork and naming updates
 
@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Restored tag-triggered npm publishing in `.github/workflows/publish.yml`.
 - Publish through npm OIDC without an empty registry auth token.
 
-## [3.1.0] - 2026-10-29
+### Previously prepared artwork expansion
 
 ### Added
 
