@@ -56,7 +56,10 @@ try {
     const args = ['publish', archive, '--access=public', '--registry=https://registry.npmjs.org/', '--loglevel=warn'];
     if (dryRun) args.push('--dry-run');
     else if (!account) args.push('--provenance');
-    requireSuccess(run('npm', args), `Publish ${manifest.name}`);
+    const published = account && !dryRun
+      ? spawnSync('npm', args, { cwd: rootDir, stdio: 'inherit' })
+      : run('npm', args);
+    requireSuccess(published, `Publish ${manifest.name}`);
     console.log(`${dryRun ? 'Validated archive' : 'Published'}: ${manifest.name}@${manifest.version}`);
   }
 } finally {
