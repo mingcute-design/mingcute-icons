@@ -67,6 +67,12 @@ export function validateIconDefinition(definition: IconDefinition): IconDefiniti
     }
     resourceIds.add(pattern.id);
   }
+  if (definition.groupMask) {
+    const match = definition.groupMask.match(/^url\(#([A-Za-z_][A-Za-z0-9_.:-]*)\)$/);
+    if (!match || !(definition.masks ?? []).some((mask) => mask.id === match[1])) {
+      throw new IconValidationError('Icon body references a missing or invalid group mask.');
+    }
+  }
   const referencedElements = [
     ...definition.elements,
     ...(definition.masks ?? []).flatMap(({ elements }) => elements),

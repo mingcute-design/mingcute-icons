@@ -54,6 +54,9 @@ export function createFontAdapter(ledger: CodepointLedger, version = '0.1.0'): F
       return [
         {
           path: `dist/fonts/${style}.woff2`,
+          // Preserve every visible contour. A monochrome font cannot retain
+          // per-contour opacity, but dropping low-opacity geometry entirely
+          // produces incomplete glyphs such as loading-3.
           contents: buildWoff2Font(familyName, glyphs, 'all', version),
           kind: 'asset',
         },
@@ -105,7 +108,7 @@ function styleCss(
   const face = `@font-face{font-family:"${familyName}";src:url("../fonts/${style}.woff2") format("woff2");font-style:normal;font-weight:normal;font-display:block}`;
   const base = '.mgc{display:inline-block;font-style:normal;font-weight:normal;line-height:1;speak:never;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}';
   const mappings = glyphs.map(({ identity, codepoint }) =>
-    `.mgc-${identity}-${style}::before{font-family:"${familyName}"!important;content:"\\${codepoint.toString(16)}"}`).join('');
+    `.mgc-${identity}-${style}::before{font-family:"${familyName}"!important;font-style:normal;font-weight:normal;content:"\\${codepoint.toString(16)}"}`).join('');
   return `${face}${base}${mappings}\n`;
 }
 

@@ -486,7 +486,7 @@ Icon fonts cannot reproduce every gradient, mask, pattern, or original-color ass
 Canonical SVG artwork is stored using the following structure:
 
 ```text
-assets/svg/core/{regular,filled}/{category}/{icon}.svg
+assets/stroke/core/{regular,filled}/{category}/{icon}.svg
 ```
 
 The source directories organize canonical artwork. Consumer packages flatten each style into stable package subpaths:

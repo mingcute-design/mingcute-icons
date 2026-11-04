@@ -35,7 +35,10 @@ export function renderIconBody(
       ? renderAngularElement(angular.element, angular.gradient, angular.index, definition.viewBox, idPrefix)
       : renderElement(element, idPrefix);
   }).join('');
-  return `${definitions}${body}`;
+  const compositedBody = definition.groupMask
+    ? `<g mask="${escapeXml(String(scopeReferences({ mask: definition.groupMask }, idPrefix).mask))}">${body}</g>`
+    : body;
+  return `${definitions}${compositedBody}`;
 }
 
 export function renderIconSource(definition: IconDefinition, idPrefix = defaultIdPrefix(definition)): string {
@@ -81,11 +84,20 @@ function renderAngularElement(
   viewBox: string,
   prefix: string,
 ): string {
-  const stops = gradient.stops.map((stop) => `${stop.color} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
-  const style = `background:conic-gradient(from 90deg,${stops});height:100%;width:100%;opacity:${escapeXml(String(gradient.attributes.opacity ?? 1))}`;
+  const stops = gradient.stops.map((stop) => `${angularCssColor(stop.color, stop.opacity)} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
+  const style = `color:inherit;background:conic-gradient(from 90deg,${stops});height:100%;width:100%;opacity:${escapeXml(String(gradient.attributes.opacity ?? 1))}`;
   return `<g clip-path="url(#${scopedId(prefix, angularClipId(gradient.id, index))})" data-mingcute-angular-gradient="${escapeXml(gradient.id)}"${renderAttributes(scopeReferences(effectAttributes(element.attributes), prefix))}>` +
     `<foreignObject width="${ANGULAR_CANVAS_SIZE}" height="${ANGULAR_CANVAS_SIZE}" x="-${ANGULAR_CANVAS_SIZE / 2}" y="-${ANGULAR_CANVAS_SIZE / 2}" transform="${angularTransform(gradient, viewBox)}">` +
     `<div xmlns="${XHTML_NAMESPACE}" style="${style}"></div></foreignObject></g>`;
+}
+
+function angularCssColor(color: string, opacity: string | number | undefined): string {
+  const canonical = color.match(/^rgb\(\s*16\s+22\s+31(?:\s*\/\s*([\d.]+))?\s*\)$/i);
+  if (!canonical) return color;
+  const alpha = Number(canonical[1] ?? opacity ?? 1);
+  if (alpha >= 1) return 'currentColor';
+  if (alpha <= 0) return 'transparent';
+  return `color-mix(in srgb,currentColor ${formatNumber(alpha * 100)}%,transparent)`;
 }
 
 function angularTransform(gradient: IconGradient, viewBox: string): string {

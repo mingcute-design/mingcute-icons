@@ -98,7 +98,7 @@ test('renders angular gradients as clipped conic-gradient paint', () => {
   assert.match(output, /<clipPath id="spin-clip-0"><path d="M12 2a10 10 0 1 0 10 10"\/><\/clipPath>/);
   assert.match(output, /data-mingcute-angular-gradient="spin"/);
   assert.match(output, /<foreignObject/);
-  assert.match(output, /conic-gradient\(from 90deg,rgb\(16 22 31\) 0deg,rgb\(16 22 31 \/ 0\) 360deg\)/);
+  assert.match(output, /conic-gradient\(from 90deg,currentColor 0deg,transparent 360deg\)/);
   assert.doesNotMatch(output, /fill="url\(#spin\)"/);
 });
 

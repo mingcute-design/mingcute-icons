@@ -1,5 +1,18 @@
 # Changelog - MingCute Icons
 
+## [4.0.0] - 2026-11-04
+
+### Breaking changes
+
+- Use the current designer v1.60 icon names without legacy name aliases.
+- Use the canonical `assets/stroke` collection and generated package subpaths.
+- Preserve upstream font codepoints for matching canonical names; retire removed names and allocate new names without reusing codepoints.
+
+### Rendering
+
+- Preserve outer mask compositing and fixed Original brand colors in SVG/framework output.
+- Build 4,526 Core Regular/Filled definitions, SVGs, and font glyphs from the current artwork.
+
 All notable changes to this repository are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),

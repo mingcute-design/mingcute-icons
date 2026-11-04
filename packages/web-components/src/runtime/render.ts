@@ -16,7 +16,8 @@ export function renderIconBody(definition: IconDefinitionData): string {
     ...angularElements.map(({ element, gradient, index }) => `<clipPath id="${angularClipId(gradient.id, index)}">${renderClipElement(element)}</clipPath>`),
   ];
   const definitions = resources.length ? `<defs>${resources.join('')}</defs>` : '';
-  return `${definitions}${definition.elements.map((element, index) => { const angular = angularElementsByIndex.get(index); return angular ? renderAngularElement(angular.element, angular.gradient, angular.index, definition.viewBox) : renderElement(element); }).join('')}`;
+  const body = definition.elements.map((element, index) => { const angular = angularElementsByIndex.get(index); return angular ? renderAngularElement(angular.element, angular.gradient, angular.index, definition.viewBox) : renderElement(element); }).join('');
+  return `${definitions}${definition.groupMask ? `<g mask="${escapeXml(definition.groupMask)}">${body}</g>` : body}`;
 }
 function renderMask(mask: NonNullable<IconDefinitionData['masks']>[number]): string {
   const attributes = { ...mask.attributes }; const maskType = attributes['mask-type']; delete attributes['mask-type'];
@@ -33,9 +34,17 @@ function renderPattern(pattern: IconPatternData): string {
   return `<pattern id="${escapeXml(pattern.id)}"${renderAttributes(pattern.attributes)}><image${renderAttributes(attributes)}/></pattern>`;
 }
 function renderAngularElement(element: IconElementData, gradient: IconGradientData, index: number, viewBox: string): string {
-  const stops = gradient.stops.map((stop) => `${stop.color} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
-  const style = `background:conic-gradient(from 90deg,${stops});height:100%;width:100%;opacity:${escapeXml(String(gradient.attributes.opacity ?? 1))}`;
+  const stops = gradient.stops.map((stop) => `${angularCssColor(stop.color, stop.opacity)} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
+  const style = `color:inherit;background:conic-gradient(from 90deg,${stops});height:100%;width:100%;opacity:${escapeXml(String(gradient.attributes.opacity ?? 1))}`;
   return `<g clip-path="url(#${angularClipId(gradient.id, index)})" data-mingcute-angular-gradient="${escapeXml(gradient.id)}"${renderAttributes(effectAttributes(element.attributes))}><foreignObject width="${ANGULAR_CANVAS_SIZE}" height="${ANGULAR_CANVAS_SIZE}" x="-${ANGULAR_CANVAS_SIZE / 2}" y="-${ANGULAR_CANVAS_SIZE / 2}" transform="${angularTransform(gradient, viewBox)}"><div xmlns="${XHTML_NAMESPACE}" style="${style}"></div></foreignObject></g>`;
+}
+function angularCssColor(color: string, opacity: string | number | undefined): string {
+  const canonical = color.match(/^rgb\(\s*16\s+22\s+31(?:\s*\/\s*([\d.]+))?\s*\)$/i);
+  if (!canonical) return color;
+  const alpha = Number(canonical[1] ?? opacity ?? 1);
+  if (alpha >= 1) return 'currentColor';
+  if (alpha <= 0) return 'transparent';
+  return `color-mix(in srgb,currentColor ${formatNumber(alpha * 100)}%,transparent)`;
 }
 function angularTransform(gradient: IconGradientData, viewBox: string): string {
   const value = (name: string) => Number(gradient.attributes[`transform-${name}`]); const [minX, minY, width, height] = viewBox.split(/\s+/).map(Number); const [m00,m01,m02,m10,m11,m12] = ['m00','m01','m02','m10','m11','m12'].map(value);

@@ -11,7 +11,7 @@ import { validateIconDefinition } from './validator/index.js';
 /** Parses, sanitizes, optimizes, and normalizes one SVG into the stable icon-definition contract. */
 export function compileSvg(source: string, options: CompileOptions): CompileResult {
   parseSvg(source);
-  const optimizedSvg = optimiseSvg(source, options.sourcePath);
+  const optimizedSvg = optimiseSvg(source, options.sourcePath, options.name.endsWith('_original'));
   const normalized = normalizeSvg(parseSvg(optimizedSvg));
   const definition: IconDefinition = validateIconDefinition({
     name: options.name,
@@ -19,6 +19,7 @@ export function compileSvg(source: string, options: CompileOptions): CompileResu
     style: options.style,
     viewBox: normalized.viewBox,
     elements: normalized.elements,
+    ...(normalized.groupMask ? { groupMask: normalized.groupMask } : {}),
     ...(normalized.gradients ? { gradients: normalized.gradients } : {}),
     ...(normalized.masks ? { masks: normalized.masks } : {}),
     ...(normalized.clipPaths ? { clipPaths: normalized.clipPaths } : {}),

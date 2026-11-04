@@ -3,7 +3,7 @@ import { optimize } from 'svgo';
 const canonicalColors = /#(?:09244b|10161f)\b/gi;
 
 /** Optimizes SVG markup and maps canonical line colours to `currentColor`. */
-export function optimiseSvg(source: string, sourcePath?: string): string {
+export function optimiseSvg(source: string, sourcePath?: string, preserveColors = false): string {
   const result = optimize(source, {
     path: sourcePath,
     multipass: true,
@@ -13,7 +13,7 @@ export function optimiseSvg(source: string, sourcePath?: string): string {
       'removeXMLNS',
     ],
   });
-  return result.data.replace(canonicalColors, 'currentColor');
+  return preserveColors ? result.data : result.data.replace(canonicalColors, 'currentColor');
 }
 
 /** Returns the renderable contents of an optimized SVG root. */

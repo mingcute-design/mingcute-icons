@@ -25,6 +25,7 @@ presentationStyleKeys.add('mask-type');
 export interface NormalizedSvg {
   viewBox: string;
   elements: IconElement[];
+  groupMask?: string;
   gradients?: IconGradient[];
   masks?: IconMask[];
   clipPaths?: IconClipPath[];
@@ -33,6 +34,7 @@ export interface NormalizedSvg {
 }
 
 export function normalizeSvg(parsed: ParsedSvg): NormalizedSvg {
+  parsed = expandGeometryUses(parsed);
   const diagnostics: CompileDiagnostic[] = [];
   const rootAttributes = sanitizeAttributes(parsed.attributes);
   const inheritedRoot = inheritedAttributes(rootAttributes);
@@ -48,7 +50,17 @@ export function normalizeSvg(parsed: ParsedSvg): NormalizedSvg {
     visit(child, inheritedRoot, undefined, elements, diagnostics, figmaGradients);
   }
 
+  // A mask on the sole outer group must composite its children before masking.
+  // Repeating it on each paint layer changes antialiased edge opacity.
+  const bodyNodes = parsed.children.filter((node) => elementTags.has(node.name) || containers.has(node.name));
+  const outerMask = bodyNodes.length === 1 && bodyNodes[0].name === 'g'
+    ? bodyNodes[0].attributes.mask : undefined;
+  const groupMask = outerMask && elements.every((element) => element.attributes.mask === outerMask)
+    ? outerMask : undefined;
+  if (groupMask) for (const element of elements) delete element.attributes.mask;
+
   return {
+    ...(groupMask ? { groupMask } : {}),
     viewBox: resolveViewBox(parsed.attributes),
     elements,
     ...(gradients.length ? { gradients } : {}),
@@ -57,6 +69,38 @@ export function normalizeSvg(parsed: ParsedSvg): NormalizedSvg {
     ...(patterns.length ? { patterns } : {}),
     diagnostics,
   };
+}
+
+
+/** Inline local leaf geometry reused by optimized designer exports. */
+function expandGeometryUses(parsed: ParsedSvg): ParsedSvg {
+  const references = new Map<string, SvgNode>();
+  const index = (node: SvgNode): void => {
+    if (node.attributes.id) references.set(node.attributes.id, node);
+    node.children.forEach(index);
+  };
+  parsed.children.forEach(index);
+  const expand = (node: SvgNode): SvgNode => {
+    if (node.name === 'use') {
+      const reference = node.attributes.href ?? node.attributes['xlink:href'];
+      const target = reference?.startsWith('#') ? references.get(reference.slice(1)) : undefined;
+      // Embedded image patterns have their own resource model below.
+      if (target && elementTags.has(target.name)) {
+        const attributes = { ...node.attributes };
+        delete attributes.href;
+        delete attributes['xlink:href'];
+        const translation = `translate(${attributes.x ?? '0'} ${attributes.y ?? '0'})`;
+        if (attributes.x || attributes.y) attributes.transform = combineTransforms(attributes.transform, translation)!;
+        delete attributes.x;
+        delete attributes.y;
+        const geometryAttributes = { ...target.attributes };
+        delete geometryAttributes.id;
+        return { name: 'g', attributes, children: [{ ...target, attributes: geometryAttributes }] };
+      }
+    }
+    return { ...node, children: node.children.map(expand) };
+  };
+  return { ...parsed, children: parsed.children.map(expand) };
 }
 
 function visit(
@@ -335,7 +379,7 @@ function sanitizeAttributes(attributes: Record<string, string>): Record<string, 
       continue;
     }
     if (name.startsWith('data-')) continue;
-    result[name] = normalizeColor(rawValue);
+    result[name] = rawValue;
   }
   return result;
 }
@@ -348,17 +392,13 @@ function parseStyle(value: string | undefined): Record<string, string> {
     if (separator < 0) continue;
     const name = declaration.slice(0, separator).trim().toLowerCase();
     const styleValue = declaration.slice(separator + 1).trim();
-    if (presentationStyleKeys.has(name) && styleValue) result[name] = normalizeColor(styleValue);
+    if (presentationStyleKeys.has(name) && styleValue) result[name] = styleValue;
   }
   return result;
 }
 
 function inheritedAttributes(attributes: Record<string, string>): Record<string, string> {
   return Object.fromEntries(Object.entries(attributes).filter(([name]) => inherited.has(name)));
-}
-
-function normalizeColor(value: string): string {
-  return value.replace(/#(?:09244b|10161f)\b/gi, 'currentColor');
 }
 
 function combineTransforms(parent: string | undefined, own: string | undefined): string | undefined {

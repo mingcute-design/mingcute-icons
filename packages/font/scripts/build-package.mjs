@@ -7,7 +7,7 @@ import { iconIdentity, validateCodepointLedger, validateCorpusCoverage } from '.
 import { glyphBuildStats } from '../.tooling/glyph.js';
 
 const packageRoot = path.resolve(import.meta.dirname, '..');
-const sourceRoot = path.resolve(packageRoot, '../../assets/svg');
+const sourceRoot = path.resolve(packageRoot, '../../assets/outline');
 const manifest = JSON.parse(await readFile(path.join(packageRoot, 'package.json'), 'utf8'));
 const ledgerSource = await readFile(path.join(packageRoot, 'metadata/codepoints.json'), 'utf8');
 const ledger = JSON.parse(ledgerSource);

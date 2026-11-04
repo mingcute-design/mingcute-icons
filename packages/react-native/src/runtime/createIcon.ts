@@ -16,13 +16,14 @@ const elements: Record<IconElement['tag'], ElementType> = {
   path: Path, circle: Circle, rect: Rect, line: Line, polyline: Polyline, polygon: Polygon, ellipse: Ellipse,
 };
 
-interface PaintOptions { primary: string; secondary: string; secondaryOpacity: number; }
+interface PaintOptions { preserveColors: boolean; primary: string; secondary: string; secondaryOpacity: number; }
 
 export function createIcon(definition: IconDefinition, displayName: string) {
   const Component = forwardRef<Svg, IconProps>(function MingcuteNativeIcon(props, ref) {
     const instanceId = useId().replace(/[^a-zA-Z0-9_-]/g, '');
     const primary = props.primaryColor ?? props.color ?? 'currentColor';
     const paint: PaintOptions = {
+      preserveColors: definition.name.endsWith('_original'),
       primary,
       secondary: props.secondaryColor ?? primary,
       secondaryOpacity: props.secondaryOpacity ?? 0.3,
@@ -58,12 +59,13 @@ function renderDefinition(definition: IconDefinition, prefix: string, paint: Pai
   ];
   const rendered: ReactNode[] = [];
   if (resources.length) rendered.push(createElement(Defs, { key: 'defs' }, ...resources));
-  rendered.push(...definition.elements.map((element, index) => {
+  const body: ReactNode[] = definition.elements.map((element, index) => {
     const angular = angularElementsByIndex.get(index);
     return angular
       ? renderAngular(angular.element, angular.gradient, angular.index, prefix, paint)
       : renderElement(element, prefix, paint, `element-${index}`);
-  }));
+  });
+  rendered.push(...(definition.groupMask ? [createElement(G, { key: 'masked-body', mask: String(scopeReferences(definition.groupMask, prefix)) }, ...body)] : body));
   return rendered;
 }
 
@@ -72,7 +74,7 @@ function renderGradient(gradient: IconGradient, prefix: string, paint: PaintOpti
   return createElement(Component,
     { key: `gradient-${gradient.id}`, id: scopedId(prefix, gradient.id), ...nativeAttributes(gradient.attributes, prefix, paint) },
     ...gradient.stops.map((stop, index) => createElement(Stop, {
-      key: `stop-${index}`, offset: stop.offset, stopColor: themedGradientColor(stop.color, paint.primary),
+      key: `stop-${index}`, offset: stop.offset, stopColor: paint.preserveColors ? stop.color : themedGradientColor(stop.color, paint.primary),
       ...(stop.opacity === undefined ? {} : { stopOpacity: stop.opacity }),
     })));
 }
@@ -120,7 +122,7 @@ function nativeAttributes(attributes: Record<string, string | number>, prefix: s
   for (const [name, rawValue] of Object.entries(attributes)) {
     if (name === 'mask-type') continue;
     let value: string | number = scopeReferences(rawValue, prefix);
-    if ((name === 'fill' || name === 'stroke') && typeof value === 'string' && isThemePaint(value)) {
+    if ((name === 'fill' || name === 'stroke') && typeof value === 'string' && !paint.preserveColors && isThemePaint(value)) {
       value = secondary ? paint.secondary : paint.primary;
     }
     if (name === 'opacity' && secondary) value = paint.secondaryOpacity;

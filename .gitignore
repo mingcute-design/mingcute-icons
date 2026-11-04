@@ -50,3 +50,6 @@ temp/
 .LSOverride
 Thumbs.db
 Desktop.ini
+
+# Font outline intermediates are regenerated from canonical SVG sources.
+assets/outline/

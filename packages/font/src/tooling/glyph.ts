@@ -30,19 +30,35 @@ export const glyphBuildStats = { expandedStrokes: 0, sampledStrokeFallbacks: 0 }
 
 export type GlyphLayer = 'all' | 'primary' | 'secondary';
 
+export function definitionToOutlineDefinition(definition: IconDefinition): IconDefinition {
+  const elements: IconElement[] = [];
+  for (const element of definition.elements) {
+    const pathData = elementToPath(element);
+    const fillOpacity = paintedOpacity(element.attributes.fill, element.attributes['fill-opacity'], element.attributes.opacity);
+    if (fillOpacity > 0) {
+      elements.push({ tag: 'path', attributes: {
+        ...outlineAttributes(element.attributes), fill: 'currentColor',
+        d: element.attributes['fill-rule'] === 'evenodd' ? normalizeFillPath(pathData, element.attributes['fill-rule']) : pathData,
+      } });
+    }
+    const strokeOpacity = paintedOpacity(element.attributes.stroke, element.attributes['stroke-opacity'], element.attributes.opacity);
+    if (strokeOpacity > 0) {
+      elements.push({ tag: 'path', attributes: { ...outlineAttributes(element.attributes), fill: 'currentColor', d: expandStroke(pathData, element) } });
+    }
+  }
+  return { ...definition, elements, gradients: undefined, masks: undefined, clipPaths: undefined, patterns: undefined };
+}
+
 export function definitionToGlyphPath(definition: IconDefinition, layer: GlyphLayer = 'all'): string {
   const paths: string[] = [];
+  const outlined = definitionToOutlineDefinition(definition);
   try {
-    for (const element of definition.elements) {
+    for (const element of outlined.elements) {
       try {
-        const pathData = elementToPath(element);
+        const pathData = String(element.attributes.d);
         const fillOpacity = paintedOpacity(element.attributes.fill, element.attributes['fill-opacity'], element.attributes.opacity);
         if (belongsToLayer(fillOpacity, layer)) {
-          paths.push(normalizeFillPath(pathData, element.attributes['fill-rule']));
-        }
-        const strokeOpacity = paintedOpacity(element.attributes.stroke, element.attributes['stroke-opacity'], element.attributes.opacity);
-        if (belongsToLayer(strokeOpacity, layer)) {
-          paths.push(expandStroke(pathData, element));
+          paths.push(pathData);
         }
       } catch (cause) {
         const reason = cause instanceof Error ? cause.message : String(cause);
@@ -59,6 +75,14 @@ export function definitionToGlyphPath(definition: IconDefinition, layer: GlyphLa
   } finally {
     paper.project.activeLayer.removeChildren();
   }
+}
+
+function outlineAttributes(attributes: IconElement['attributes']): Record<string, string | number> {
+  const output: Record<string, string | number> = {};
+  for (const key of ['opacity', 'fill-opacity', 'stroke-opacity', 'fill-rule', 'clip-rule']) {
+    if (attributes[key] !== undefined) output[key] = attributes[key];
+  }
+  return output;
 }
 
 function paintedOpacity(
@@ -82,7 +106,8 @@ function normalizeFillPath(pathData: string, fillRule: string | number | undefin
   if (fillRule !== 'evenodd') return pathData;
   const item = paper.PathItem.create(pathData);
   try {
-    item.reorient(true, true);
+    // Interpret the source as even-odd before assigning nonzero font winding.
+    item.reorient(false, true);
     return item.pathData;
   } finally {
     item.remove();
@@ -109,6 +134,7 @@ function expandStroke(pathData: string, element: IconElement): string {
       try {
         outline = PaperOffset.offsetStroke(path, width / 2, options);
         if (!outline?.pathData) throw new Error('Stroke expansion returned empty geometry.');
+        if (hasDegenerateSegments(outline)) throw new Error('Stroke expansion returned degenerate geometry.');
         glyphBuildStats.expandedStrokes += 1;
         return outline.pathData;
       } catch {
@@ -122,6 +148,12 @@ function expandStroke(pathData: string, element: IconElement): string {
   } finally {
     item.remove();
   }
+}
+
+function hasDegenerateSegments(item: paper.Path | paper.CompoundPath): boolean {
+  const paths: paper.Path[] = item instanceof paper.CompoundPath ? [...item.children] as paper.Path[] : [item];
+  return paths.some((path) => path.segments.some((segment, index) =>
+    index > 0 && segment.point.getDistance(path.segments[index - 1].point) < 1e-8));
 }
 
 function sampleStroke(path: paper.Path, width: number): string {

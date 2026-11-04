@@ -76,6 +76,8 @@ export interface IconDefinition {
   style: IconStyle;
   viewBox: string;
   elements: IconElement[];
+  /** A mask applied once to the composited icon body. */
+  groupMask?: string;
   gradients?: IconGradient[];
   masks?: IconMask[];
   clipPaths?: IconClipPath[];

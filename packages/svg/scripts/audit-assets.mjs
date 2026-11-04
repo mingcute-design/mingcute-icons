@@ -5,7 +5,7 @@ import { iconStyles, toKebabCase } from '@mingcute/core';
 
 const packageRoot = path.resolve(import.meta.dirname, '..');
 const workspaceRoot = path.resolve(packageRoot, '../..');
-const sourceRoot = path.join(workspaceRoot, 'assets/svg');
+const sourceRoot = path.join(workspaceRoot, 'assets/stroke');
 const totals = {
   files: 0,
   angularFiles: 0,
@@ -85,7 +85,10 @@ for (const style of iconStyles) {
     }
 
     const masks = definition.masks?.length ?? 0;
-    const maskReferences = definition.elements.filter(({ attributes }) => String(attributes.mask ?? '').startsWith('url(#')).length;
+    const maskReferences = definition.elements.filter(({ attributes }) => String(attributes.mask ?? '').startsWith('url(#')).length + (definition.groupMask ? 1 : 0);
+    if (definition.groupMask && !nodes.some((node) => node.name === 'g' && node.attributes.mask === definition.groupMask)) {
+      throw new Error(`${outputPath}: composited body mask is missing.`);
+    }
     if (nodes.filter(({ name }) => name === 'mask').length !== masks) throw new Error(`${outputPath}: mask count mismatch.`);
     totals.masks += masks;
     totals.maskReferences += maskReferences;

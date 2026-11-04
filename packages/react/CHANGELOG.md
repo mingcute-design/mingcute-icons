@@ -1,11 +1,17 @@
 # Changelog - @mingcute/react
 
-All notable changes to this package are documented in this file.
+## [4.0.0] - 2026-11-04
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### Breaking changes
 
----
+- Use the current designer v1.60 icon names without legacy name aliases.
+- Use the canonical `assets/stroke` collection and generated package subpaths.
+- Preserve upstream font codepoints for matching canonical names; retire removed names and allocate new names without reusing codepoints.
+
+### Rendering
+
+- Preserve outer mask compositing and fixed Original brand colors in SVG/framework output.
+- Build 4,526 Core Regular/Filled definitions, SVGs, and font glyphs from the current artwork.
 
 ## [3.1.0] - 2026-10-29
 

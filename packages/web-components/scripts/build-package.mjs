@@ -3,7 +3,7 @@ import path from 'node:path';
 import { compileIconSource, discoverIconSources } from '@mingcute/compiler';
 import { iconStyles } from '@mingcute/core';
 import { webComponentsAdapter } from '../.tooling/adapter.js';
-const packageRoot = path.resolve(import.meta.dirname, '..'); const sourceRoot = path.resolve(packageRoot, '../../assets/svg');
+const packageRoot = path.resolve(import.meta.dirname, '..'); const sourceRoot = path.resolve(packageRoot, '../../assets/stroke');
 const manifest = JSON.parse(await readFile(path.join(packageRoot, 'package.json'), 'utf8')); let total = 0;
 for (const style of iconStyles) {
   const definitions = await mapLimit(await discoverIconSources(sourceRoot, style), 32, async (source) => {

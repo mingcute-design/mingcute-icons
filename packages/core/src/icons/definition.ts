@@ -62,6 +62,8 @@ export interface IconDefinition {
   style: IconStyle;
   viewBox: string;
   elements: IconElement[];
+  /** A mask applied once to the composited icon body. */
+  groupMask?: string;
   /** Structured SVG paint servers referenced by element attributes such as fill="url(#id)". */
   gradients?: IconGradient[];
   /** Structured masks referenced by element attributes such as mask="url(#id)". */

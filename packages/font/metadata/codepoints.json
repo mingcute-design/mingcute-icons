@@ -823,8 +823,6 @@
     "hours": "E37D",
     "house": "E37E",
     "house-2": "E37F",
-    "imac": "E380",
-    "ios": "E381",
     "ice-cream": "E384",
     "ice-cream-2": "E385",
     "idcard": "E386",
@@ -2267,17 +2265,14 @@
     "vase": "E999",
     "venus-and-mars": "E99A",
     "volume-low": "E99B",
-    "webhook-2": "E99C"
+    "webhook-2": "E99C",
+    "i-mac": "E99D",
+    "i-os": "E99E"
   },
-  "aliases": {
-    "barcode-sca": "barcode-scan",
-    "computer-camer": "computer-camera",
-    "currency-rubel": "currency-ruble",
-    "currency-rubel-2": "currency-ruble-2",
-    "docment": "document",
-    "rada": "radar"
-  },
+  "aliases": {},
   "retired": {
-    "dots-vertical": "E21F"
+    "dots-vertical": "E21F",
+    "imac": "E380",
+    "ios": "E381"
   }
 }

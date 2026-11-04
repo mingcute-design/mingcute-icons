@@ -91,7 +91,8 @@ export function renderSvg(definition: IconDefinition): string {
     const angular = angularElementsByIndex.get(index);
     return angular ? renderAngularElement(angular.element, angular.gradient, angular.index, definition.viewBox) : renderElement(element);
   }).join('');
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${escapeXml(definition.viewBox)}">${definitions}${body}</svg>\n`;
+  const compositedBody = definition.groupMask ? `<g mask="${escapeXml(definition.groupMask)}">${body}</g>` : body;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${escapeXml(definition.viewBox)}">${definitions}${compositedBody}</svg>\n`;
 }
 
 function renderDefinitions(
@@ -149,14 +150,23 @@ function renderAngularElement(
 ): string {
   const transform = angularTransform(gradient, viewBox);
   const cssStops = gradient.stops.map((stop) =>
-    `${stop.color} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
+    `${angularCssColor(stop.color, stop.opacity)} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
   const opacity = gradient.attributes.opacity ?? 1;
   const wrapperAttributes = effectAttributes(element.attributes);
-  const style = `background:conic-gradient(from 90deg,${cssStops});height:100%;width:100%;opacity:${escapeXml(String(opacity))}`;
+  const style = `color:inherit;background:conic-gradient(from 90deg,${cssStops});height:100%;width:100%;opacity:${escapeXml(String(opacity))}`;
   return `<g clip-path="url(#${angularClipId(gradient.id, index)})" data-mingcute-angular-gradient="${escapeXml(gradient.id)}"${renderAttributes(wrapperAttributes)}>` +
     `<foreignObject width="${ANGULAR_CANVAS_SIZE}" height="${ANGULAR_CANVAS_SIZE}" x="-${ANGULAR_CANVAS_SIZE / 2}" y="-${ANGULAR_CANVAS_SIZE / 2}" transform="${transform}">` +
     `<div xmlns="${XHTML_NAMESPACE}" style="${style}"/>` +
     '</foreignObject></g>';
+}
+
+function angularCssColor(color: string, opacity: string | number | undefined): string {
+  const canonical = color.match(/^rgb\(\s*16\s+22\s+31(?:\s*\/\s*([\d.]+))?\s*\)$/i);
+  if (!canonical) return color;
+  const alpha = Number(canonical[1] ?? opacity ?? 1);
+  if (alpha >= 1) return 'currentColor';
+  if (alpha <= 0) return 'transparent';
+  return `color-mix(in srgb,currentColor ${formatNumber(alpha * 100)}%,transparent)`;
 }
 
 function angularTransform(gradient: IconGradient, viewBox: string): string {

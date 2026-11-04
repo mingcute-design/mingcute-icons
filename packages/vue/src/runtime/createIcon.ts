@@ -54,12 +54,13 @@ function renderDefinition(definition: IconDefinition, prefix: string): VNodeChil
 
   const rendered: VNodeChild[] = [];
   if (resources.length) rendered.push(h('defs', null, resources));
-  rendered.push(...definition.elements.map((element, index) => {
+  const body: VNodeChild[] = definition.elements.map((element, index) => {
     const angular = angularElementsByIndex.get(index);
     return angular
       ? renderAngularElement(angular.element, angular.gradient, angular.index, definition.viewBox, prefix)
       : renderElement(element, prefix, `element-${index}`);
-  }));
+  });
+  rendered.push(...(definition.groupMask ? [h('g', { key: 'masked-body', mask: vueAttributes({ mask: definition.groupMask }, prefix).mask }, body)] : body));
   return rendered;
 }
 
@@ -92,7 +93,7 @@ function renderAngularElement(
   prefix: string,
 ): VNodeChild {
   const cssStops = gradient.stops.map((stop) =>
-    `${stop.color} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
+    `${angularCssColor(stop.color, stop.opacity)} ${formatNumber(Number(stop.offset) * 360)}deg`).join(',');
   const clipId = scopedId(prefix, angularClipId(gradient.id, index));
   return h('g', {
     'clip-path': `url(#${clipId})`,
@@ -109,6 +110,7 @@ function renderAngularElement(
       h('div', {
         xmlns: 'http://www.w3.org/1999/xhtml',
         style: {
+          color: 'inherit',
           background: `conic-gradient(from 90deg,${cssStops})`,
           height: '100%',
           width: '100%',
@@ -117,6 +119,15 @@ function renderAngularElement(
       }),
     ]),
   ]);
+}
+
+function angularCssColor(color: string, opacity: string | number | undefined): string {
+  const canonical = color.match(/^rgb\(\s*16\s+22\s+31(?:\s*\/\s*([\d.]+))?\s*\)$/i);
+  if (!canonical) return color;
+  const alpha = Number(canonical[1] ?? opacity ?? 1);
+  if (alpha >= 1) return 'currentColor';
+  if (alpha <= 0) return 'transparent';
+  return `color-mix(in srgb,currentColor ${formatNumber(alpha * 100)}%,transparent)`;
 }
 
 function renderElement(element: IconElement, prefix: string, key: string): VNodeChild {

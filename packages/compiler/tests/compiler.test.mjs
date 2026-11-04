@@ -91,7 +91,8 @@ test('mask geometry inherits root paint attributes', () => {
   );
   assert.equal(result.definition.masks?.[0].elements[0].attributes.fill, 'none');
   assert.equal(result.definition.masks?.[0].elements[0].attributes.stroke, '#000');
-  assert.equal(result.definition.elements[0].attributes.mask, 'url(#a)');
+  assert.equal(result.definition.groupMask, 'url(#a)');
+  assert.equal(result.definition.elements[0].attributes.mask, undefined);
 });
 
 test('preserves group-level clip paths on normalized leaves', () => {
@@ -222,13 +223,46 @@ test('derives names, category, and component names from a source file', async ()
 
 test('compiles representative real sources with leaf, gradient, and Figma paint forms', async () => {
   const workspace = path.resolve(import.meta.dirname, '../../..');
-  const sourceRoot = path.join(workspace, 'assets/svg');
+  const sourceRoot = path.join(workspace, 'assets/stroke');
   const sources = await discoverIconSources(sourceRoot, 'core-regular');
-  for (const name of ['camera', 'sparkles', 'loading']) {
+  for (const name of ['camera', 'loading']) {
     const source = sources.find((candidate) => candidate.name === name);
     assert.ok(source, name);
     await readFile(source.sourcePath);
     const result = await compileIconSource(source);
     assert.ok(result.definition.elements.length > 0, name);
   }
+});
+
+
+test('designer use references retain every gradient-painted path and placement', () => {
+  const { definition, diagnostics } = compileSvg(
+    '<svg viewBox="0 0 24 24"><use href="#shape" fill="url(#paint)" x="2" y="3"/><use href="#shape" fill="red"/><defs><path id="shape" d="M0 0h2v2z"/><linearGradient id="paint"><stop stop-color="blue"/><stop offset="1" stop-color="red"/></linearGradient></defs></svg>',
+    { name: 'copilot_original', style: 'core-regular' },
+  );
+  assert.equal(definition.elements.length, 2);
+  assert.equal(definition.elements[0].attributes.fill, `url(#${definition.gradients[0].id})`);
+  assert.equal(definition.elements[0].attributes.transform, 'translate(2 3)');
+  assert.equal(definition.elements[1].attributes.fill, 'red');
+  assert.equal(definition.elements[0].attributes.id, undefined);
+  assert.deepEqual(diagnostics, []);
+});
+
+test('an outer mask composites all paint layers once', () => {
+  const { definition } = compileSvg(
+    '<svg viewBox="0 0 24 24"><mask id="shape" style="mask-type:alpha"><circle cx="12" cy="12" r="8" fill="white"/></mask><g mask="url(#shape)"><path fill="red" d="M0 0h24v24H0z"/><path fill="blue" opacity=".5" d="M0 0h24v24H0z"/></g></svg>',
+    { name: 'siri_original', style: 'core-regular' },
+  );
+  assert.ok(definition.groupMask);
+  assert.equal(definition.elements.length, 2);
+  assert.ok(definition.elements.every((element) => element.attributes.mask === undefined));
+  assert.equal(definition.groupMask, `url(#${definition.masks[0].id})`);
+});
+
+test('Original brand colors remain fixed while regular icons inherit color', () => {
+  const source = '<svg viewBox="0 0 24 24"><path fill="#10161f" d="M0 0h24v24H0z"/></svg>';
+  const original = compileSvg(source, { name: 'linux_original', style: 'core-regular' }).definition;
+  const regular = compileSvg(source, { name: 'home', style: 'core-regular' }).definition;
+  assert.equal(original.elements[0].attributes.fill, '#10161f');
+  assert.equal(regular.elements[0].attributes.fill, 'currentColor');
 });

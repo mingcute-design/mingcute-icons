@@ -5,7 +5,7 @@ import { iconStyles } from '@mingcute/core';
 import { svelteAdapter } from '../.tooling/adapter.js';
 
 const packageRoot = path.resolve(import.meta.dirname, '..');
-const sourceRoot = path.resolve(packageRoot, '../../assets/svg');
+const sourceRoot = path.resolve(packageRoot, '../../assets/stroke');
 const manifest = JSON.parse(await readFile(path.join(packageRoot, 'package.json'), 'utf8'));
 let total = 0;
 

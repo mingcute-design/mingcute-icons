@@ -21,7 +21,7 @@
     "category": "editing"
   },
   {
-    "name": "abs",
+    "name": "ABS",
     "componentName": "ABSRegular",
     "style": "core-regular",
     "file": "abs.svg",
@@ -672,7 +672,7 @@
     "category": "brands"
   },
   {
-    "name": "aquarius",
+    "name": "Aquarius",
     "componentName": "AquariusRegular",
     "style": "core-regular",
     "file": "aquarius.svg",
@@ -707,7 +707,7 @@
     "category": "files"
   },
   {
-    "name": "aries",
+    "name": "Aries",
     "componentName": "AriesRegular",
     "style": "core-regular",
     "file": "aries.svg",
@@ -1043,7 +1043,7 @@
     "category": "transportation"
   },
   {
-    "name": "avalanche_avax",
+    "name": "avalanche_AVAX",
     "componentName": "AvalancheAvaxRegular",
     "style": "core-regular",
     "file": "avalanche-avax.svg",
@@ -1071,14 +1071,14 @@
     "category": "business"
   },
   {
-    "name": "az_sort_ascending_letters",
+    "name": "AZ_sort_ascending_letters",
     "componentName": "AzSortAscendingLettersRegular",
     "style": "core-regular",
     "file": "az-sort-ascending-letters.svg",
     "category": "editing"
   },
   {
-    "name": "az_sort_descending_letters",
+    "name": "AZ_sort_descending_letters",
     "componentName": "AzSortDescendingLettersRegular",
     "style": "core-regular",
     "file": "az-sort-descending-letters.svg",
@@ -1694,14 +1694,14 @@
     "category": "files"
   },
   {
-    "name": "binance_coin_bnb",
+    "name": "binance_coin_BNB",
     "componentName": "BinanceCoinBnbRegular",
     "style": "core-regular",
     "file": "binance-coin-bnb.svg",
     "category": "cryptocurrency"
   },
   {
-    "name": "binance_usd_busd",
+    "name": "binance_USD_BUSD",
     "componentName": "BinanceUsdBusdRegular",
     "style": "core-regular",
     "file": "binance-usd-busd.svg",
@@ -1813,7 +1813,7 @@
     "category": "devices"
   },
   {
-    "name": "bnb",
+    "name": "BNB",
     "componentName": "BnbRegular",
     "style": "core-regular",
     "file": "bnb.svg",
@@ -2926,7 +2926,7 @@
     "category": "buildings"
   },
   {
-    "name": "cancer",
+    "name": "Cancer",
     "componentName": "CancerRegular",
     "style": "core-regular",
     "file": "cancer.svg",
@@ -2982,7 +2982,7 @@
     "category": "buildings"
   },
   {
-    "name": "capricorn",
+    "name": "Capricorn",
     "componentName": "CapricornRegular",
     "style": "core-regular",
     "file": "capricorn.svg",
@@ -3073,7 +3073,7 @@
     "category": "devices"
   },
   {
-    "name": "cardano_ada",
+    "name": "cardano_ADA",
     "componentName": "CardanoAdaRegular",
     "style": "core-regular",
     "file": "cardano-ada.svg",
@@ -5593,7 +5593,7 @@
     "category": "nature"
   },
   {
-    "name": "dogecoin_doge",
+    "name": "dogecoin_DOGE",
     "componentName": "DogecoinDogeRegular",
     "style": "core-regular",
     "file": "dogecoin-doge.svg",
@@ -7798,7 +7798,7 @@
     "category": "transportation"
   },
   {
-    "name": "gemini",
+    "name": "Gemini",
     "componentName": "GeminiRegular",
     "style": "core-regular",
     "file": "gemini.svg",
@@ -8890,6 +8890,20 @@
     "category": "buildings"
   },
   {
+    "name": "iMac",
+    "componentName": "ImacRegular",
+    "style": "core-regular",
+    "file": "i-mac.svg",
+    "category": "devices"
+  },
+  {
+    "name": "iOS",
+    "componentName": "IOSRegular",
+    "style": "core-regular",
+    "file": "i-os.svg",
+    "category": "brands"
+  },
+  {
     "name": "ice_cream_2",
     "componentName": "IceCream2Regular",
     "style": "core-regular",
@@ -8911,18 +8925,11 @@
     "category": "food"
   },
   {
-    "name": "idcard",
+    "name": "IDcard",
     "componentName": "IdcardRegular",
     "style": "core-regular",
     "file": "idcard.svg",
     "category": "users"
-  },
-  {
-    "name": "imac",
-    "componentName": "ImacRegular",
-    "style": "core-regular",
-    "file": "imac.svg",
-    "category": "devices"
   },
   {
     "name": "image_down",
@@ -9098,13 +9105,6 @@
     "style": "core-regular",
     "file": "invite.svg",
     "category": "communication"
-  },
-  {
-    "name": "ios",
-    "componentName": "IOSRegular",
-    "style": "core-regular",
-    "file": "ios.svg",
-    "category": "brands"
   },
   {
     "name": "italic",
@@ -9695,7 +9695,7 @@
     "category": "education"
   },
   {
-    "name": "leo",
+    "name": "Leo",
     "componentName": "LeoRegular",
     "style": "core-regular",
     "file": "leo.svg",
@@ -9709,7 +9709,7 @@
     "category": "editing"
   },
   {
-    "name": "libra",
+    "name": "Libra",
     "componentName": "LibraRegular",
     "style": "core-regular",
     "file": "libra.svg",
@@ -11907,7 +11907,7 @@
     "category": "buildings"
   },
   {
-    "name": "pisces",
+    "name": "Pisces",
     "componentName": "PiscesRegular",
     "style": "core-regular",
     "file": "pisces.svg",
@@ -11991,7 +11991,7 @@
     "category": "system"
   },
   {
-    "name": "polkadot_dot",
+    "name": "polkadot_DOT",
     "componentName": "PolkadotDotRegular",
     "style": "core-regular",
     "file": "polkadot-dot.svg",
@@ -12852,7 +12852,7 @@
     "category": "system"
   },
   {
-    "name": "sagittarius",
+    "name": "Sagittarius",
     "componentName": "SagittariusRegular",
     "style": "core-regular",
     "file": "sagittarius.svg",
@@ -12985,7 +12985,7 @@
     "category": "transportation"
   },
   {
-    "name": "scorpio",
+    "name": "Scorpio",
     "componentName": "ScorpioRegular",
     "style": "core-regular",
     "file": "scorpio.svg",
@@ -13636,7 +13636,7 @@
     "category": "business"
   },
   {
-    "name": "solana_sol",
+    "name": "solana_SOL",
     "componentName": "SolanaSolRegular",
     "style": "core-regular",
     "file": "solana-sol.svg",
@@ -14203,7 +14203,7 @@
     "category": "files"
   },
   {
-    "name": "taurus",
+    "name": "Taurus",
     "componentName": "TaurusRegular",
     "style": "core-regular",
     "file": "taurus.svg",
@@ -14294,7 +14294,7 @@
     "category": "education"
   },
   {
-    "name": "tether_usdt",
+    "name": "tether_USDT",
     "componentName": "TetherUsdtRegular",
     "style": "core-regular",
     "file": "tether-usdt.svg",
@@ -14861,14 +14861,14 @@
     "category": "brands"
   },
   {
-    "name": "ufo_2",
+    "name": "UFO_2",
     "componentName": "Ufo2Regular",
     "style": "core-regular",
     "file": "ufo-2.svg",
     "category": "transportation"
   },
   {
-    "name": "ufo",
+    "name": "UFO",
     "componentName": "UfoRegular",
     "style": "core-regular",
     "file": "ufo.svg",
@@ -15008,7 +15008,7 @@
     "category": "devices"
   },
   {
-    "name": "usd_coin_usdc",
+    "name": "usd_coin_USDC",
     "componentName": "UsdCoinUsdcRegular",
     "style": "core-regular",
     "file": "usd-coin-usdc.svg",
@@ -15302,35 +15302,35 @@
     "category": "media"
   },
   {
-    "name": "vip_1",
+    "name": "VIP_1",
     "componentName": "VIP1Regular",
     "style": "core-regular",
     "file": "vip-1.svg",
     "category": "business"
   },
   {
-    "name": "vip_2",
+    "name": "VIP_2",
     "componentName": "VIP2Regular",
     "style": "core-regular",
     "file": "vip-2.svg",
     "category": "business"
   },
   {
-    "name": "vip_3",
+    "name": "VIP_3",
     "componentName": "VIP3Regular",
     "style": "core-regular",
     "file": "vip-3.svg",
     "category": "business"
   },
   {
-    "name": "vip_4",
+    "name": "VIP_4",
     "componentName": "VIP4Regular",
     "style": "core-regular",
     "file": "vip-4.svg",
     "category": "business"
   },
   {
-    "name": "virgo",
+    "name": "Virgo",
     "componentName": "VirgoRegular",
     "style": "core-regular",
     "file": "virgo.svg",
@@ -15757,7 +15757,7 @@
     "category": "files"
   },
   {
-    "name": "xrp",
+    "name": "XRP",
     "componentName": "XrpRegular",
     "style": "core-regular",
     "file": "xrp.svg",
@@ -15806,14 +15806,14 @@
     "category": "business"
   },
   {
-    "name": "za_sort_ascending_letters",
+    "name": "ZA_sort_ascending_letters",
     "componentName": "ZaSortAscendingLettersRegular",
     "style": "core-regular",
     "file": "za-sort-ascending-letters.svg",
     "category": "editing"
   },
   {
-    "name": "za_sort_descending_letters",
+    "name": "ZA_sort_descending_letters",
     "componentName": "ZaSortDescendingLettersRegular",
     "style": "core-regular",
     "file": "za-sort-descending-letters.svg",

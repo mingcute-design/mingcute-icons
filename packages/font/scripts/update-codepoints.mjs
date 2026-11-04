@@ -11,7 +11,7 @@ const ledger = await readLedger();
 validateCodepointLedger(ledger);
 
 const rawNamesByIdentity = new Map();
-const sourceRoot = path.resolve(packageRoot, '../../assets/svg');
+const sourceRoot = path.resolve(packageRoot, '../../assets/stroke');
 for (const style of iconStyles) {
   const definitions = await mapLimit(await discoverIconSources(sourceRoot, style), 32, async (source) =>
     (await compileIconSource(source)).definition);
