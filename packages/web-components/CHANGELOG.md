@@ -13,8 +13,6 @@
 - Preserve outer mask compositing and fixed Original brand colors in SVG/framework output.
 - Build 4,526 Core Regular/Filled definitions, SVGs, and font glyphs from the current artwork.
 
-### Previously prepared artwork expansion
-
 ### Added
 
 - Custom elements for the expanded Core Regular and Filled corpus,

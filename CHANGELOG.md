@@ -1,5 +1,12 @@
 # Changelog - MingCute Icons
 
+All notable changes to this repository are documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
 ## [3.1.0] - 2026-11-04
 
 ### Artwork and naming updates
@@ -13,15 +20,6 @@
 - Preserve outer mask compositing and fixed Original brand colors in SVG/framework output.
 - Build 4,526 Core Regular/Filled definitions, SVGs, and font glyphs from the current artwork.
 
-All notable changes to this repository are documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
----
-
-## [Unreleased]
-
 ### Security
 
 - Updated SVGO to 3.3.5 and source-map-js to 1.2.2 so the production dependency audit no longer reports high-severity advisories.
@@ -30,8 +28,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Restored tag-triggered npm publishing in `.github/workflows/publish.yml`.
 - Publish through npm OIDC without an empty registry auth token.
-
-### Previously prepared artwork expansion
 
 ### Added
 
