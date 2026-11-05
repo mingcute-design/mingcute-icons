@@ -267,7 +267,7 @@ import '@mingcute/font/core-regular.min.css';
 Use the generated class:
 
 ```html
-<i class="mgc mgc-home-1-regular" aria-hidden="true"></i>
+<i class="mgc mgc-home-1-core-regular" aria-hidden="true"></i>
 ```
 
 ### Framework-Neutral Definitions
@@ -586,6 +586,16 @@ Bug reports should include:
 All 10 public packages use the coordinated version defined in `release.json`.
 
 Pushes to `main` only run validation. Pushing a `v*` tag runs `.github/workflows/publish.yml`, which builds the workspace and publishes the 10 public packages to npm. Private packages are skipped.
+
+To publish through your own npm account, log in and verify the username before running the account release command:
+
+```bash
+npm login --registry=https://registry.npmjs.org/
+npm whoami --registry=https://registry.npmjs.org/
+node scripts/publish-packages.mjs --account <npm-username>
+```
+
+The command verifies the account, packs the ten public packages with installable dependency versions, and skips versions already published. npm may prompt for two-factor authentication. Accepted uploads can take time to become available; verify every package's version, publisher, and download before marking the release complete.
 
 A release is complete only when every package passes:
 

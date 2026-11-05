@@ -62,7 +62,7 @@ import '@mingcute/font/core-regular.min.css';
 Use a generated class:
 
 ```html
-<i class="mgc mgc-home-1-regular" aria-hidden="true"></i>
+<i class="mgc mgc-home-1-core-regular" aria-hidden="true"></i>
 ```
 
 ## Stylesheets
@@ -106,7 +106,7 @@ Keep the icon hidden when visible text labels the action:
 
 ```html
 <button type="button">
-  <i class="mgc mgc-home-1-regular" aria-hidden="true"></i>
+  <i class="mgc mgc-home-1-core-regular" aria-hidden="true"></i>
   <span>Home</span>
 </button>
 ```
@@ -117,7 +117,7 @@ Put the accessible name on the control:
 
 ```html
 <button type="button" aria-label="Open navigation">
-  <i class="mgc mgc-menu-regular" aria-hidden="true"></i>
+  <i class="mgc mgc-menu-core-regular" aria-hidden="true"></i>
 </button>
 ```
 
